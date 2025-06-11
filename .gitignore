@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-wandb/
+**/wandb/
+opus-100/
 
 # C extensions
 *.so
