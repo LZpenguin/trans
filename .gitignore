@@ -3,6 +3,7 @@
 opus-100/
 data/
 models/
+*.ckpt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
