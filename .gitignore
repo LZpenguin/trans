@@ -3,6 +3,9 @@
 opus-100/
 data/
 models/
+output/cache/
+output/cache_dev/
+coscli
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
