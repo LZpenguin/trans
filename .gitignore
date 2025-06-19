@@ -1,9 +1,14 @@
+# special
+**/wandb/
+opus-100/
+data/
+models/
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-**/wandb/
-opus-100/
 
 # C extensions
 *.so

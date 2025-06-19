@@ -6,11 +6,11 @@ import os
 import hashlib
 
 class TranslationDataset:
-    def __init__(self, data_type: str = "ft", double: bool = False, cache_dir: str = None):
+    def __init__(self, data_type: str = "csv", double: bool = False, cache_dir: str = None):
         """
         初始化翻译数据集加载器
         Args:
-            data_type: 数据集类型，'ft' 或 'pt'
+            data_type: 数据集类型，'csv' 或 'parquet'
             double: 是否生成双向翻译数据
             cache_dir: 缓存目录，默认为 ~/.cache/huggingface/datasets
         """
@@ -157,7 +157,7 @@ class TranslationDataset:
             return {'samples': [result]}
         return {'samples': []}
 
-    def load_ft_data(self, data_path: str) -> Dataset:
+    def load_csv_data(self, data_path: str) -> Dataset:
         """
         加载微调数据集
         Args:
@@ -202,7 +202,7 @@ class TranslationDataset:
         result.save_to_disk(cache_path)
         return result
 
-    def load_pt_data(self, data_path: str) -> Dataset:
+    def load_parquet_data(self, data_path: str) -> Dataset:
         """
         加载预训练数据集
         Args:
@@ -261,7 +261,7 @@ class TranslationDataset:
             }
             如果double=True，会生成双向翻译数据
         """
-        if self.data_type == "ft":
-            return self.load_ft_data(data_path)
+        if self.data_type == "csv":
+            return self.load_csv_data(data_path)
         else:
-            return self.load_pt_data(data_path) 
+            return self.load_parquet_data(data_path) 
