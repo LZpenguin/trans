@@ -3,7 +3,6 @@
 opus-100/
 data/
 models/
-output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
