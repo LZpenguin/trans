@@ -1,7 +1,7 @@
 # special
 **/wandb/
 opus-100/
-data/
+data/alg_2025_audios_final/
 models/
 output/cache/
 output/cache_dev/
