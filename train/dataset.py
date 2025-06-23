@@ -6,17 +6,19 @@ import os
 import hashlib
 
 class TranslationDataset:
-    def __init__(self, data_type: str = "csv", double: bool = False, cache_dir: str = None):
+    def __init__(self, data_type: str = "csv", double: bool = False, cache_dir: str = None, target_lang: str = None):
         """
         初始化翻译数据集加载器
         Args:
-            data_type: 数据集类型，'csv' 或 'parquet'
+            data_type: 数据集类型，'csv'、'parquet' 或 'x'
             double: 是否生成双向翻译数据
             cache_dir: 缓存目录，默认为 ~/.cache/huggingface/datasets
+            target_lang: 对于x数据类型，指定目标语言 ('英语', '泰语', '马来语')
         """
         self.data_type = data_type
         self.double = double
         self.cache_dir = cache_dir
+        self.target_lang = target_lang
         self.lang_map = {
             "马来语": "Malay",
             "泰语": "Thai",
@@ -44,8 +46,8 @@ class TranslationDataset:
         Returns:
             缓存文件路径
         """
-        # 使用数据路径、数据类型和double参数生成唯一的缓存标识
-        cache_id = f"{data_path}_{self.data_type}_{self.double}"
+        # 使用数据路径、数据类型、double参数和target_lang参数生成唯一的缓存标识
+        cache_id = f"{data_path}_{self.data_type}_{self.double}_{self.target_lang}"
         # 计算哈希值作为缓存文件名
         cache_name = hashlib.md5(cache_id.encode()).hexdigest()
         
@@ -157,6 +159,81 @@ class TranslationDataset:
             return {'samples': [result]}
         return {'samples': []}
 
+    def _process_x_sample(self, example: Dict) -> Dict:
+        """
+        处理单个x数据样本
+        Args:
+            example: 原始样本
+        Returns:
+            处理后的样本
+        """
+        if not self.target_lang:
+            # 如果没有指定目标语言，生成所有可能的翻译对
+            samples = []
+            for lang_col in ['英语', '泰语', '马来语']:
+                if lang_col in example and example[lang_col] and example[lang_col].strip():
+                    result = {
+                        'source_lang': 'Chinese',
+                        'source_text': example['中文'],
+                        'target_lang': self.lang_map[lang_col],
+                        'target_text': example[lang_col]
+                    }
+                    result['prompt'] = self._create_prompt(
+                        result['source_lang'],
+                        result['target_lang'],
+                        result['source_text'],
+                        result['target_text']
+                    )
+                    samples.append(result)
+                    
+                    if self.double:
+                        reverse = {
+                            'source_lang': result['target_lang'],
+                            'source_text': result['target_text'],
+                            'target_lang': result['source_lang'],
+                            'target_text': result['source_text']
+                        }
+                        reverse['prompt'] = self._create_prompt(
+                            reverse['source_lang'],
+                            reverse['target_lang'],
+                            reverse['source_text'],
+                            reverse['target_text']
+                        )
+                        samples.append(reverse)
+            return {'samples': samples}
+        else:
+            # 如果指定了目标语言，只生成该语言的翻译对
+            if self.target_lang in example and example[self.target_lang] and example[self.target_lang].strip():
+                result = {
+                    'source_lang': 'Chinese',
+                    'source_text': example['中文'],
+                    'target_lang': self.lang_map[self.target_lang],
+                    'target_text': example[self.target_lang]
+                }
+                result['prompt'] = self._create_prompt(
+                    result['source_lang'],
+                    result['target_lang'],
+                    result['source_text'],
+                    result['target_text']
+                )
+                
+                if self.double:
+                    reverse = {
+                        'source_lang': result['target_lang'],
+                        'source_text': result['target_text'],
+                        'target_lang': result['source_lang'],
+                        'target_text': result['source_text']
+                    }
+                    reverse['prompt'] = self._create_prompt(
+                        reverse['source_lang'],
+                        reverse['target_lang'],
+                        reverse['source_text'],
+                        reverse['target_text']
+                    )
+                    return {'samples': [result, reverse]}
+                return {'samples': [result]}
+            return {'samples': []}
+
     def load_csv_data(self, data_path: str) -> Dataset:
         """
         加载微调数据集
@@ -245,6 +322,49 @@ class TranslationDataset:
         result.save_to_disk(cache_path)
         return result
 
+    def load_x_data(self, data_path: str) -> Dataset:
+        """
+        加载x数据集
+        Args:
+            data_path: 数据文件路径
+        Returns:
+            加载的数据集
+        """
+        cache_path = self._get_cache_path(data_path)
+        
+        # 检查是否存在缓存
+        if os.path.exists(cache_path):
+            print(f"发现缓存文件，从缓存加载数据: {cache_path}")
+            return Dataset.load_from_disk(cache_path)
+            
+        # 如果没有缓存，处理数据
+        print(f"未发现缓存，处理数据并创建缓存: {cache_path}")
+        
+        dataset = load_dataset("parquet", data_files=data_path)['train']
+
+        # 使用map处理数据并直接展开
+        processed = dataset.map(
+            self._process_x_sample,
+            remove_columns=dataset.column_names,
+            desc="处理x数据",
+            load_from_cache_file=False
+        ).select_columns(['samples'])
+
+        # 展平samples列表
+        all_samples = []
+        for item in tqdm(processed, desc="展平数据"):
+            if item['samples']:
+                all_samples.extend(item['samples'])
+        
+        if not all_samples:
+            raise ValueError(f"处理后没有有效的样本。请检查输入文件：{data_path}")
+            
+        result = Dataset.from_list(all_samples, features=self.features)
+        
+        # 保存缓存
+        result.save_to_disk(cache_path)
+        return result
+
     def load_data(self, data_path: str) -> Dataset:
         """
         根据数据类型加载相应的数据集
@@ -263,5 +383,7 @@ class TranslationDataset:
         """
         if self.data_type == "csv":
             return self.load_csv_data(data_path)
+        elif self.data_type == "x":
+            return self.load_x_data(data_path)
         else:
             return self.load_parquet_data(data_path) 

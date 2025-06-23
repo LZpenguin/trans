@@ -14,20 +14,6 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from functools import lru_cache
 import multiprocessing as mp
 
-# 新增COMET相关导入
-try:
-    from comet import load_from_checkpoint
-    import torch
-    # 设置PyTorch的float32矩阵乘法精度以更好地利用Tensor Cores
-    if torch.cuda.is_available():
-        torch.set_float32_matmul_precision('medium')  # 在性能和精度之间取得平衡
-        print("已设置PyTorch float32矩阵乘法精度为 'medium' 以优化Tensor Cores使用")
-    COMET_AVAILABLE = True
-    print("COMET库加载成功")
-except ImportError:
-    COMET_AVAILABLE = False
-    print("警告：未安装 comet 库，将仅使用BLEU2分数")
-
 # 多进程支持：确保在不同环境下正常工作
 def setup_multiprocessing():
     """设置多进程启动方法"""
@@ -57,11 +43,6 @@ except ImportError:
 # 全局常量，确保子进程能访问
 THAI_AVAILABLE = THAI_TOKENIZER_AVAILABLE
 
-# COMET模型全局变量和配置
-comet_model = None
-base_dir = os.getcwd()
-COMET_MODEL_PATH = f"{base_dir}/models/XCOMET-XL/checkpoints/model.ckpt"
-
 dev_mode = True
 
 # 路径配置
@@ -72,12 +53,9 @@ if dev_mode:
 else:
     input_path = os.path.join(base_dir, "output/testa_asr.csv")
 
-# 缓存配置
+# BLEU2缓存配置
 cache_dir = os.path.join(base_dir, f"output/cache{'_dev' if 'dev' in input_path else ''}")
-# 独立的缓存文件
 bleu2_cache_file = os.path.join(cache_dir, "bleu2_cache.json")
-xcomet_cache_file = os.path.join(cache_dir, "xcomet_cache.json")
-composite_cache_file = os.path.join(cache_dir, "composite_cache.json")  # 兼容性保留
 # 分词缓存文件
 tokenize_cache_file = os.path.join(cache_dir, "tokenize_cache.json")
 # 相似度排序缓存文件
@@ -113,14 +91,13 @@ DEFAULT_N_SHOT = 3  # 默认示例数量
 # 性能优化配置
 BLEU2_WORKERS = min(mp.cpu_count(), 96)  # BLEU2计算的并行工作进程数
 BATCH_SIZE = 1000  # 批量处理大小
-COMET_BATCH_SIZE = 16  # COMET批量计算的batch_size
 
 # 全局分词缓存
 _tokenize_cache = {}
 
 
-def save_similarity_ranking_cache_weighted(similarity_ranking_cache, cache_file_path):
-    """保存带权重的相似度排序缓存到指定路径"""
+def save_similarity_ranking_cache(similarity_ranking_cache):
+    """保存相似度排序缓存"""
     os.makedirs(cache_dir, exist_ok=True)
     try:
         # 转换索引为字符串以便JSON序列化
@@ -130,15 +107,11 @@ def save_similarity_ranking_cache_weighted(similarity_ranking_cache, cache_file_
             for lang, train_idx_list in lang_rankings.items():
                 cache_for_json[str(dev_idx)][lang] = [str(idx) for idx in train_idx_list]
         
-        with open(cache_file_path, 'w', encoding='utf-8') as f:
+        with open(similarity_ranking_cache_file, 'w', encoding='utf-8') as f:
             json.dump(cache_for_json, f, ensure_ascii=False, indent=2)
         print(f"已保存相似度排序缓存，包含 {len(similarity_ranking_cache)} 个开发样本的排序")
     except Exception as e:
         print(f"保存相似度排序缓存失败: {e}")
-
-def save_similarity_ranking_cache(similarity_ranking_cache):
-    """保存相似度排序缓存"""
-    save_similarity_ranking_cache_weighted(similarity_ranking_cache, similarity_ranking_cache_file)
 
 def load_similarity_ranking_cache():
     """加载相似度排序缓存"""
@@ -251,104 +224,6 @@ def calculate_bleu2_similarity(text1, text2, language="中文"):
         print(f"BLEU2计算失败: {e}")
         return 0.0
 
-def calculate_comet_similarity(source_text, reference_text, prediction_text):
-    """计算COMET相似度分数"""
-    if not COMET_AVAILABLE:
-        return 0.0
-    
-    try:
-        comet_model_instance = load_comet_model()
-        if comet_model_instance is None:
-            return 0.0
-        
-        # 准备COMET数据
-        comet_data = [{
-            "src": source_text,
-            "ref": reference_text, 
-            "mt": prediction_text
-        }]
-        
-        # 计算COMET分数
-        comet_output = comet_model_instance.predict(comet_data, batch_size=1, gpus=1)
-        comet_score = comet_output.scores[0] if comet_output.scores else 0.0
-        
-        return comet_score
-        
-    except Exception as e:
-        print(f"COMET计算失败: {e}")
-        return 0.0
-
-def calculate_comet_similarity_batch(source_texts, reference_texts, prediction_texts, batch_size=8):
-    """批量计算COMET相似度分数，提高效率"""
-    if not COMET_AVAILABLE:
-        return [0.0] * len(source_texts)
-    
-    try:
-        comet_model_instance = load_comet_model()
-        if comet_model_instance is None:
-            return [0.0] * len(source_texts)
-        
-        # 准备COMET数据
-        comet_data = []
-        for src, ref, pred in zip(source_texts, reference_texts, prediction_texts):
-            comet_data.append({
-                "src": src,
-                "ref": ref,
-                "mt": pred
-            })
-        
-        # 批量计算COMET分数
-        comet_output = comet_model_instance.predict(comet_data, batch_size=batch_size, gpus=1)
-        comet_scores = comet_output.scores if comet_output.scores else [0.0] * len(source_texts)
-        
-        return comet_scores
-        
-    except Exception as e:
-        print(f"批量COMET计算失败: {e}")
-        return [0.0] * len(source_texts)
-
-def calculate_composite_similarity(source_text, reference_text, prediction_text, language="中文"):
-    """计算复合相似度分数 (BLEU2 * 0.4 + COMET * 0.6)"""
-    try:
-        # 计算BLEU2分数
-        bleu2_score = calculate_bleu2_similarity(reference_text, prediction_text, language)
-        
-        # 计算COMET分数
-        comet_score = calculate_comet_similarity(source_text, reference_text, prediction_text)
-        
-        # 计算复合分数
-        composite_score = bleu2_score * 0.4 + comet_score * 0.6
-        
-        return composite_score, bleu2_score, comet_score
-        
-    except Exception as e:
-        print(f"复合分数计算失败: {e}")
-        return 0.0, 0.0, 0.0
-
-def calculate_composite_similarity_batch(source_texts, reference_texts, prediction_texts, language="中文", batch_size=8):
-    """批量计算复合相似度分数 (BLEU2 * 0.4 + COMET * 0.6)"""
-    try:
-        # 批量计算BLEU2分数
-        bleu2_scores = []
-        for ref, pred in zip(reference_texts, prediction_texts):
-            bleu2_score = calculate_bleu2_similarity(ref, pred, language)
-            bleu2_scores.append(bleu2_score)
-        
-        # 批量计算COMET分数
-        comet_scores = calculate_comet_similarity_batch(source_texts, reference_texts, prediction_texts, batch_size)
-        
-        # 计算复合分数
-        composite_scores = []
-        for bleu2, comet in zip(bleu2_scores, comet_scores):
-            composite_score = bleu2 * 0.4 + comet * 0.6
-            composite_scores.append(composite_score)
-        
-        return composite_scores, bleu2_scores, comet_scores
-        
-    except Exception as e:
-        print(f"批量复合分数计算失败: {e}")
-        return [0.0] * len(source_texts), [0.0] * len(source_texts), [0.0] * len(source_texts)
-
 # 独立的工作函数，避免序列化问题
 def mp_tokenize_for_bleu(text, language):
     """多进程安全的分词函数"""
@@ -385,11 +260,11 @@ def mp_calculate_bleu2_fast(tokens1, tokens2):
         return 0.0
 
 def calculate_bleu2_batch_worker(args):
-    """批量计算复合分数的工作函数（多进程版本）"""
+    """批量计算BLEU2分数的工作函数（多进程版本）"""
     import os
     import sys
     
-    dev_idx, dev_text, train_data_batch, language, source_text = args  # 增加source_text参数
+    dev_idx, dev_text, train_data_batch, language = args
     worker_pid = os.getpid()
     
     try:
@@ -402,12 +277,7 @@ def calculate_bleu2_batch_worker(args):
             train_tokens = mp_tokenize_for_bleu(train_text, language)
             # 计算BLEU2分数
             bleu_score = mp_calculate_bleu2_fast(dev_tokens, train_tokens)
-            
-            # 暂时只使用BLEU2分数，因为COMET在多进程中难以使用
-            # 复合分数将在主进程中计算
-            composite_score = bleu_score  # 临时：只使用BLEU2，后续在主进程补充COMET
-            
-            results[train_idx] = composite_score
+            results[train_idx] = bleu_score
             
             # 每处理500个样本打印一次进度（减少输出频率）
             # if i % 500 == 0 and i > 0:
@@ -432,8 +302,8 @@ def precompute_bleu2_cache_optimized():
     
     
     # 如果缓存文件已存在，询问是否重新计算
-    if os.path.exists(composite_cache_file):
-        response = input(f"BLEU2缓存文件已存在: {composite_cache_file}\n是否重新计算？(y/N): ")
+    if os.path.exists(bleu2_cache_file):
+        response = input(f"BLEU2缓存文件已存在: {bleu2_cache_file}\n是否重新计算？(y/N): ")
         if response.lower() != 'y':
             print("使用现有缓存文件")
             return
@@ -474,7 +344,7 @@ def precompute_bleu2_cache_optimized():
     print(f"有效开发数据: {len(dev_df_valid)} 条")
     
     # 初始化缓存结构
-    composite_cache = {}
+    bleu2_cache = {}
     
     # 按语言分组处理
     languages = dev_df_valid.iloc[:, 3].unique()  # 语言列
@@ -510,10 +380,10 @@ def precompute_bleu2_cache_optimized():
             if len(train_data_list) > max_train_per_task:
                 for i in range(0, len(train_data_list), max_train_per_task):
                     train_batch = train_data_list[i:i+max_train_per_task]
-                    tasks.append((f"{dev_idx}_{i//max_train_per_task}", dev_text, train_batch, "中文", dev_text))
+                    tasks.append((f"{dev_idx}_{i//max_train_per_task}", dev_text, train_batch, "中文"))
             else:
                 # 小数据量，直接处理
-                tasks.append((dev_idx, dev_text, train_data_list, "中文", dev_text))
+                tasks.append((dev_idx, dev_text, train_data_list, "中文"))
         
         print(f"  总计算任务数: {len(tasks)}")
         print(f"  使用 {BLEU2_WORKERS} 个并行工作进程")
@@ -537,7 +407,7 @@ def precompute_bleu2_cache_optimized():
                         return False
                 
                 # 测试2：BLEU2计算函数
-                test_args = (99999, "测试文本", [(1, "test"), (2, "测试")], "中文", "测试文本")
+                test_args = (99999, "测试文本", [(1, "test"), (2, "测试")], "中文")
                 with ProcessPoolExecutor(max_workers=1) as executor:
                     future = executor.submit(calculate_bleu2_batch_worker, test_args)
                     result = future.result(timeout=30)
@@ -599,11 +469,11 @@ def precompute_bleu2_cache_optimized():
                             # 普通任务
                             real_dev_idx = task_dev_idx
                         
-                        if real_dev_idx not in composite_cache:
-                            composite_cache[real_dev_idx] = {}
+                        if real_dev_idx not in bleu2_cache:
+                            bleu2_cache[real_dev_idx] = {}
                         
                         # 合并结果
-                        composite_cache[real_dev_idx].update(results)
+                        bleu2_cache[real_dev_idx].update(results)
                         completed_tasks += 1
                         total_calculations += calc_count
                         
@@ -622,8 +492,8 @@ def precompute_bleu2_cache_optimized():
                             real_dev_idx = int(str(task_dev_idx).split('_')[0])
                         else:
                             real_dev_idx = task_dev_idx
-                        if real_dev_idx not in composite_cache:
-                            composite_cache[real_dev_idx] = {}
+                        if real_dev_idx not in bleu2_cache:
+                            bleu2_cache[real_dev_idx] = {}
                     
                     pbar.update(1)
                 
@@ -633,494 +503,29 @@ def precompute_bleu2_cache_optimized():
         print(f"  语言 {lang} 处理完成，耗时: {lang_end_time - lang_start_time:.2f} 秒")
     
     # 保存缓存到文件
-    print(f"\n正在保存BLEU2缓存到: {composite_cache_file}")
+    print(f"\n正在保存BLEU2缓存到: {bleu2_cache_file}")
     
     # 转换索引为字符串以便JSON序列化
     cache_for_json = {}
-    for dev_idx, train_scores in composite_cache.items():
+    for dev_idx, train_scores in bleu2_cache.items():
         cache_for_json[str(dev_idx)] = {str(train_idx): score for train_idx, score in train_scores.items()}
     
-    with open(composite_cache_file, 'w', encoding='utf-8') as f:
+    with open(bleu2_cache_file, 'w', encoding='utf-8') as f:
         json.dump(cache_for_json, f, ensure_ascii=False, indent=2)
     
     
     total_end_time = time.time()
     total_time = total_end_time - total_start_time
     
-    print(f"复合分数缓存计算完成！")
+    print(f"BLEU2缓存计算完成！")
     print(f"总耗时: {total_time:.2f} 秒")
-    print(f"共计算了 {len(composite_cache)} 个开发样本的相似度分数")
-    print(f"缓存文件大小: {os.path.getsize(composite_cache_file) / 1024 / 1024:.2f} MB")
-    print(f"平均每个样本耗时: {total_time / len(composite_cache):.3f} 秒")
+    print(f"共计算了 {len(bleu2_cache)} 个开发样本的相似度分数")
+    print(f"缓存文件大小: {os.path.getsize(bleu2_cache_file) / 1024 / 1024:.2f} MB")
+    print(f"平均每个样本耗时: {total_time / len(bleu2_cache):.3f} 秒")
 
 def precompute_bleu2_cache_simple():
-    """简化版本：使用线程池和分词缓存，计算复合相似度分数"""
-    print("开始预计算复合相似度分数（简化版本）...")
-    
-    # 确保缓存目录存在
-    os.makedirs(cache_dir, exist_ok=True)
-    
-    # 加载分词缓存
-    load_tokenize_cache()
-    
-    # 尝试加载COMET模型
-    print("正在加载COMET模型...")
-    comet_model_instance = load_comet_model()
-    if comet_model_instance is None:
-        print("COMET模型加载失败，将仅使用BLEU2分数")
-    
-    # 如果缓存文件已存在，询问是否重新计算
-    if os.path.exists(composite_cache_file):
-        response = input(f"复合分数缓存文件已存在: {composite_cache_file}\n是否重新计算？(y/N): ")
-        if response.lower() != 'y':
-            print("使用现有缓存文件")
-            return
-    
-    # 读取数据
-    if not os.path.exists(shot_path):
-        print(f"训练数据文件不存在: {shot_path}")
-        return
-    
-    if not os.path.exists(input_path):
-        print(f"开发数据文件不存在: {input_path}")
-        return
-    
-    print("正在读取数据文件...")
-    train_df = pd.read_csv(shot_path)
-    dev_df = pd.read_csv(input_path)
-    
-    print(f"训练数据: {len(train_df)} 条")
-    print(f"开发数据: {len(dev_df)} 条")
-    
-    # 筛选有效的训练数据
-    train_df_valid = train_df[
-        (train_df['语言'].notna()) &
-        (train_df['文本'].notna()) &
-        (train_df['文本'] != "") &
-        (train_df['中文'].notna()) &
-        (train_df['中文'] != "")
-    ].copy()
-    
-    # 筛选有效的开发数据
-    dev_df_valid = dev_df[
-        (dev_df.iloc[:, 3].notna()) &  # 语言列
-        (dev_df.iloc[:, 4].notna()) &  # 中文列
-        (dev_df.iloc[:, 4] != "")
-    ].copy()
-    
-    print(f"有效训练数据: {len(train_df_valid)} 条")
-    print(f"有效开发数据: {len(dev_df_valid)} 条")
-    
-    # 初始化缓存结构
-    composite_cache = {}
-    
-    # 按语言分组处理
-    languages = dev_df_valid.iloc[:, 3].unique()  # 语言列
-    
-    total_start_time = time.time()
-    
-    for lang in languages:
-        print(f"\n处理语言: {lang}")
-        lang_start_time = time.time()
-        
-        # 获取该语言的开发数据和训练数据
-        dev_lang_data = dev_df_valid[dev_df_valid.iloc[:, 3] == lang]
-        train_lang_data = train_df_valid[train_df_valid['语言'] == lang]
-        
-        if len(train_lang_data) == 0:
-            print(f"  警告: 没有找到语言 '{lang}' 的训练数据")
-            continue
-            
-        print(f"  开发数据: {len(dev_lang_data)} 条")
-        print(f"  训练数据: {len(train_lang_data)} 条")
-        
-        # 为每个开发数据计算与所有同语言训练数据的复合分数
-        for dev_idx, dev_row in tqdm(dev_lang_data.iterrows(), 
-                                   desc=f"  计算 {lang} 复合分数", 
-                                   total=len(dev_lang_data)):
-            dev_text = dev_row.iloc[4]  # 中文列
-            dev_source = dev_row.iloc[4]  # 源文本（对于中译外，源文本就是中文）
-            
-            if dev_idx not in composite_cache:
-                composite_cache[dev_idx] = {}
-            
-            # 使用批量计算优化效率
-            if comet_model_instance is not None and len(train_lang_data) > 1:
-                # 准备批量计算数据
-                source_texts = [dev_source] * len(train_lang_data)
-                reference_texts = [train_row['中文'] for _, train_row in train_lang_data.iterrows()]
-                prediction_texts = [train_row['文本'] for _, train_row in train_lang_data.iterrows()]
-                train_indices = list(train_lang_data.index)
-                
-                try:
-                    # 批量计算复合分数（使用配置的batch_size提高效率）
-                    composite_scores, bleu2_scores, comet_scores = calculate_composite_similarity_batch(
-                        source_texts, reference_texts, prediction_texts, "中文", batch_size=COMET_BATCH_SIZE
-                    )
-                    
-                    # 保存结果
-                    for train_idx, composite_score in zip(train_indices, composite_scores):
-                        composite_cache[dev_idx][train_idx] = composite_score
-                        
-                except Exception as e:
-                    print(f"批量计算失败，回退到逐个计算: {e}")
-                    # 回退到逐个计算
-                    for train_idx, train_row in train_lang_data.iterrows():
-                        train_text = train_row['中文']
-                        train_translation = train_row['文本']
-                        composite_score = calculate_bleu2_similarity(dev_text, train_text, "中文")
-                        composite_cache[dev_idx][train_idx] = composite_score
-            else:
-                # 逐个计算（COMET不可用或数据量小时）
-                for train_idx, train_row in train_lang_data.iterrows():
-                    train_text = train_row['中文']
-                    train_translation = train_row['文本']  # 训练数据的翻译结果
-                    
-                    # 计算复合分数
-                    if comet_model_instance is not None:
-                        try:
-                            composite_score, bleu2_score, comet_score = calculate_composite_similarity(
-                                dev_source, train_text, train_translation, "中文"
-                            )
-                        except Exception as e:
-                            print(f"复合分数计算失败，回退到BLEU2: {e}")
-                            composite_score = calculate_bleu2_similarity(dev_text, train_text, "中文")
-                    else:
-                        # 如果COMET不可用，只使用BLEU2
-                        composite_score = calculate_bleu2_similarity(dev_text, train_text, "中文")
-                    
-                    composite_cache[dev_idx][train_idx] = composite_score
-        
-        lang_end_time = time.time()
-        print(f"  语言 {lang} 处理完成，耗时: {lang_end_time - lang_start_time:.2f} 秒")
-    
-    # 保存缓存到文件
-    print(f"\n正在保存复合分数缓存到: {composite_cache_file}")
-    
-    # 转换索引为字符串以便JSON序列化
-    cache_for_json = {}
-    for dev_idx, train_scores in composite_cache.items():
-        cache_for_json[str(dev_idx)] = {str(train_idx): score for train_idx, score in train_scores.items()}
-    
-    with open(composite_cache_file, 'w', encoding='utf-8') as f:
-        json.dump(cache_for_json, f, ensure_ascii=False, indent=2)
-    
-    # 保存分词缓存
-    save_tokenize_cache()
-    
-    total_end_time = time.time()
-    total_time = total_end_time - total_start_time
-    
-    print(f"复合分数缓存计算完成！")
-    print(f"总耗时: {total_time:.2f} 秒")
-    print(f"共计算了 {len(composite_cache)} 个开发样本的相似度分数")
-    print(f"缓存文件大小: {os.path.getsize(composite_cache_file) / 1024 / 1024:.2f} MB")
-    print(f"平均每个样本耗时: {total_time / len(composite_cache):.3f} 秒")
-
-def check_cache_status():
-    """检查缓存状态"""
-    print("=== 缓存状态检查 ===")
-    
-    # 检查独立的BLEU2缓存
-    if os.path.exists(bleu2_cache_file):
-        file_size = os.path.getsize(bleu2_cache_file) / 1024 / 1024
-        print(f"✓ BLEU2缓存文件存在: {bleu2_cache_file} ({file_size:.2f} MB)")
-        
-        try:
-            with open(bleu2_cache_file, 'r', encoding='utf-8') as f:
-                cache_data = json.load(f)
-            print(f"  - 包含 {len(cache_data)} 个开发样本的BLEU2分数")
-        except Exception as e:
-            print(f"  - 加载失败: {e}")
-    else:
-        print(f"✗ BLEU2缓存文件不存在: {bleu2_cache_file}")
-        print("  请运行: python script.py --precompute-bleu2-only")
-    
-    # 检查独立的XCOMET缓存
-    if os.path.exists(xcomet_cache_file):
-        file_size = os.path.getsize(xcomet_cache_file) / 1024 / 1024
-        print(f"✓ XCOMET缓存文件存在: {xcomet_cache_file} ({file_size:.2f} MB)")
-        
-        try:
-            with open(xcomet_cache_file, 'r', encoding='utf-8') as f:
-                cache_data = json.load(f)
-            print(f"  - 包含 {len(cache_data)} 个开发样本的XCOMET分数")
-        except Exception as e:
-            print(f"  - 加载失败: {e}")
-    else:
-        print(f"✗ XCOMET缓存文件不存在: {xcomet_cache_file}")
-        print("  请运行: python script.py --precompute-xcomet-only")
-    
-    # 检查复合分数缓存（兼容性）
-    if os.path.exists(composite_cache_file):
-        file_size = os.path.getsize(composite_cache_file) / 1024 / 1024
-        print(f"✓ 复合分数缓存文件存在（兼容性）: {composite_cache_file} ({file_size:.2f} MB)")
-        
-        try:
-            with open(composite_cache_file, 'r', encoding='utf-8') as f:
-                cache_data = json.load(f)
-            print(f"  - 包含 {len(cache_data)} 个开发样本的复合分数")
-        except Exception as e:
-            print(f"  - 加载失败: {e}")
-    else:
-        print(f"ℹ 复合分数缓存文件不存在（兼容性）: {composite_cache_file}")
-        print("  可运行: python script.py --precompute-composite")
-    
-    # 检查相似度排序缓存（所有带权重的文件）
-    ranking_cache_files = []
-    for file in os.listdir(cache_dir) if os.path.exists(cache_dir) else []:
-        if file.startswith("similarity_ranking_cache") and file.endswith(".json"):
-            ranking_cache_files.append(os.path.join(cache_dir, file))
-    
-    if ranking_cache_files:
-        print(f"✓ 发现 {len(ranking_cache_files)} 个相似度排序缓存文件:")
-        for cache_file in ranking_cache_files:
-            file_size = os.path.getsize(cache_file) / 1024 / 1024
-            filename = os.path.basename(cache_file)
-            print(f"  - {filename} ({file_size:.2f} MB)")
-            
-            try:
-                with open(cache_file, 'r', encoding='utf-8') as f:
-                    cache_data = json.load(f)
-                print(f"    包含 {len(cache_data)} 个开发样本的排序")
-            except Exception as e:
-                print(f"    加载失败: {e}")
-    else:
-        print(f"✗ 相似度排序缓存文件不存在")
-        print("  请运行: python script.py --generate-similarity-ranking-weighted --bleu2-weight 0.4 --xcomet-weight 0.6")
-    
-    # 检查训练数据
-    if os.path.exists(shot_path):
-        try:
-            train_df = pd.read_csv(shot_path)
-            print(f"✓ 训练数据文件存在: {shot_path} ({len(train_df)} 条)")
-        except Exception as e:
-            print(f"✗ 训练数据文件读取失败: {e}")
-    else:
-        print(f"✗ 训练数据文件不存在: {shot_path}")
-    
-    # 检查开发数据
-    if os.path.exists(input_path):
-        try:
-            dev_df = pd.read_csv(input_path)
-            print(f"✓ 开发数据文件存在: {input_path} ({len(dev_df)} 条)")
-        except Exception as e:
-            print(f"✗ 开发数据文件读取失败: {e}")
-    else:
-        print(f"✗ 开发数据文件不存在: {input_path}")
-
-def generate_similarity_ranking_cache_with_weight(bleu2_weight=0.4, xcomet_weight=0.6):
-    """基于独立的BLEU2和XCOMET缓存生成相似度排序缓存，支持自定义权重"""
-    print(f"开始生成相似度排序缓存（BLEU2权重：{bleu2_weight}, XCOMET权重：{xcomet_weight}）...")
-    
-    # 验证权重
-    if abs(bleu2_weight + xcomet_weight - 1.0) > 1e-6:
-        print(f"警告：权重之和不等于1.0（{bleu2_weight + xcomet_weight}），将自动归一化")
-        total_weight = bleu2_weight + xcomet_weight
-        bleu2_weight /= total_weight
-        xcomet_weight /= total_weight
-        print(f"归一化后权重：BLEU2={bleu2_weight:.3f}, XCOMET={xcomet_weight:.3f}")
-    
-    # 加载独立缓存
-    bleu2_cache = load_bleu2_cache_only()
-    xcomet_cache = load_xcomet_cache_only()
-    
-    # 根据权重决定加载策略
-    if bleu2_weight > 0 and xcomet_weight > 0:
-        # 需要两种缓存
-        if bleu2_cache is None or xcomet_cache is None:
-            print("混合模式需要BLEU2和XCOMET两种缓存，请先计算缺失的缓存")
-            return
-        print(f"使用混合模式：BLEU2 * {bleu2_weight:.3f} + XCOMET * {xcomet_weight:.3f}")
-    elif bleu2_weight > 0:
-        # 只使用BLEU2
-        if bleu2_cache is None:
-            print("请先运行BLEU2缓存计算")
-            return
-        print(f"仅使用BLEU2分数")
-        xcomet_cache = {}  # 设为空字典避免后续访问错误
-    elif xcomet_weight > 0:
-        # 只使用XCOMET
-        if xcomet_cache is None:
-            print("请先运行XCOMET缓存计算")
-            return
-        print(f"仅使用XCOMET分数")
-        bleu2_cache = {}  # 设为空字典避免后续访问错误
-    else:
-        print("错误：权重不能都为0")
-        return
-    
-    # 读取数据
-    if not os.path.exists(shot_path):
-        print(f"训练数据文件不存在: {shot_path}")
-        return
-    
-    if not os.path.exists(input_path):
-        print(f"开发数据文件不存在: {input_path}")
-        return
-    
-    print("正在读取数据文件...")
-    train_df = pd.read_csv(shot_path)
-    dev_df = pd.read_csv(input_path)
-    
-    # 筛选有效的训练数据
-    train_df_valid = train_df[
-        (train_df['语言'].notna()) &
-        (train_df['文本'].notna()) &
-        (train_df['文本'] != "") &
-        (train_df['中文'].notna()) &
-        (train_df['中文'] != "")
-    ].copy()
-    
-    # 筛选有效的开发数据
-    dev_df_valid = dev_df[
-        (dev_df.iloc[:, 3].notna()) &  # 语言列
-        (dev_df.iloc[:, 4].notna()) &  # 中文列
-        (dev_df.iloc[:, 4] != "")
-    ].copy()
-    
-    # 按语言分组处理
-    languages = dev_df_valid.iloc[:, 3].unique()  # 语言列
-    
-    print("正在生成相似度排序缓存...")
-    similarity_ranking_cache = {}
-    
-    # 获取所有开发数据的索引集合
-    if bleu2_weight > 0 and xcomet_weight > 0:
-        # 混合模式：取两个缓存的交集
-        dev_indices = set(bleu2_cache.keys()) & set(xcomet_cache.keys())
-    elif bleu2_weight > 0:
-        dev_indices = set(bleu2_cache.keys())
-    else:
-        dev_indices = set(xcomet_cache.keys())
-    
-    for dev_idx in tqdm(dev_indices, desc="生成排序缓存"):
-        similarity_ranking_cache[dev_idx] = {}
-        
-        # 按语言分组并排序
-        for lang in languages:
-            # 获取该语言的训练数据
-            train_lang_data = train_df_valid[train_df_valid['语言'] == lang]
-            
-            # 收集该语言下的分数
-            lang_scores = []
-            for train_idx in train_lang_data.index:
-                composite_score = 0.0
-                
-                # 计算混合分数
-                if bleu2_weight > 0 and dev_idx in bleu2_cache and train_idx in bleu2_cache[dev_idx]:
-                    composite_score += bleu2_cache[dev_idx][train_idx] * bleu2_weight
-                
-                if xcomet_weight > 0 and dev_idx in xcomet_cache and train_idx in xcomet_cache[dev_idx]:
-                    composite_score += xcomet_cache[dev_idx][train_idx] * xcomet_weight
-                
-                # 只有当至少有一个分数可用时才添加
-                if (bleu2_weight > 0 and dev_idx in bleu2_cache and train_idx in bleu2_cache[dev_idx]) or \
-                   (xcomet_weight > 0 and dev_idx in xcomet_cache and train_idx in xcomet_cache[dev_idx]):
-                    lang_scores.append((composite_score, train_idx))
-            
-            # 按混合分数降序排序
-            lang_scores.sort(key=lambda x: x[0], reverse=True)
-            # 只保存train_idx列表
-            similarity_ranking_cache[dev_idx][lang] = [train_idx for _, train_idx in lang_scores]
-    
-    # 生成带权重信息的缓存文件名
-    weight_suffix = f"_b{bleu2_weight:.1f}_x{xcomet_weight:.1f}".replace(".", "")
-    weighted_similarity_ranking_cache_file = os.path.join(cache_dir, f"similarity_ranking_cache{weight_suffix}.json")
-    
-    # 保存相似度排序缓存
-    save_similarity_ranking_cache_weighted(similarity_ranking_cache, weighted_similarity_ranking_cache_file)
-    
-    print(f"相似度排序缓存生成完成！")
-    print(f"共生成 {len(similarity_ranking_cache)} 个开发样本的排序")
-    print(f"缓存文件: {weighted_similarity_ranking_cache_file}")
-    print(f"缓存文件大小: {os.path.getsize(weighted_similarity_ranking_cache_file) / 1024 / 1024:.2f} MB")
-
-def generate_similarity_ranking_cache():
-    """基于现有的复合分数缓存生成相似度排序缓存（向后兼容）"""
-    print("开始生成相似度排序缓存（兼容模式）...")
-    
-    # 尝试使用新的权重模式
-    bleu2_cache = load_bleu2_cache_only()
-    xcomet_cache = load_xcomet_cache_only()
-    
-    if bleu2_cache is not None and xcomet_cache is not None:
-        print("检测到独立缓存，使用新的权重模式（默认权重：BLEU2=0.4, XCOMET=0.6）")
-        generate_similarity_ranking_cache_with_weight(0.4, 0.6)
-        return
-    
-    # 回退到旧的复合缓存模式
-    print("使用旧的复合缓存模式...")
-    composite_cache = load_composite_cache()
-    if composite_cache is None:
-        print("请先运行预计算生成复合分数缓存，或使用独立的BLEU2/XCOMET缓存")
-        return
-    
-    # 读取数据
-    if not os.path.exists(shot_path):
-        print(f"训练数据文件不存在: {shot_path}")
-        return
-    
-    if not os.path.exists(input_path):
-        print(f"开发数据文件不存在: {input_path}")
-        return
-    
-    print("正在读取数据文件...")
-    train_df = pd.read_csv(shot_path)
-    dev_df = pd.read_csv(input_path)
-    
-    # 筛选有效的训练数据
-    train_df_valid = train_df[
-        (train_df['语言'].notna()) &
-        (train_df['文本'].notna()) &
-        (train_df['文本'] != "") &
-        (train_df['中文'].notna()) &
-        (train_df['中文'] != "")
-    ].copy()
-    
-    # 筛选有效的开发数据
-    dev_df_valid = dev_df[
-        (dev_df.iloc[:, 3].notna()) &  # 语言列
-        (dev_df.iloc[:, 4].notna()) &  # 中文列
-        (dev_df.iloc[:, 4] != "")
-    ].copy()
-    
-    # 按语言分组处理
-    languages = dev_df_valid.iloc[:, 3].unique()  # 语言列
-    
-    print("正在生成相似度排序缓存...")
-    similarity_ranking_cache = {}
-    
-    for dev_idx, train_scores in tqdm(composite_cache.items(), desc="生成排序缓存"):
-        similarity_ranking_cache[dev_idx] = {}
-        
-        # 按语言分组并排序
-        for lang in languages:
-            # 获取该语言的训练数据
-            train_lang_data = train_df_valid[train_df_valid['语言'] == lang]
-            
-            # 收集该语言下的分数
-            lang_scores = []
-            for train_idx in train_lang_data.index:
-                if train_idx in train_scores:
-                    composite_score = train_scores[train_idx]
-                    lang_scores.append((composite_score, train_idx))
-            
-            # 按复合分数降序排序
-            lang_scores.sort(key=lambda x: x[0], reverse=True)
-            # 只保存train_idx列表
-            similarity_ranking_cache[dev_idx][lang] = [train_idx for _, train_idx in lang_scores]
-    
-    # 保存相似度排序缓存
-    save_similarity_ranking_cache(similarity_ranking_cache)
-    
-    print(f"相似度排序缓存生成完成！")
-    print(f"共生成 {len(similarity_ranking_cache)} 个开发样本的排序")
-    print(f"缓存文件大小: {os.path.getsize(similarity_ranking_cache_file) / 1024 / 1024:.2f} MB")
-
-def precompute_bleu2_cache_only():
-    """专门计算BLEU2相似度分数的函数"""
-    print("开始预计算BLEU2相似度分数...")
+    """简化版本：使用线程池和分词缓存，避免多进程复杂性"""
+    print("开始预计算BLEU2相似度分数（简化版本）...")
     
     # 确保缓存目录存在
     os.makedirs(cache_dir, exist_ok=True)
@@ -1202,7 +607,7 @@ def precompute_bleu2_cache_only():
             if dev_idx not in bleu2_cache:
                 bleu2_cache[dev_idx] = {}
             
-            # 计算与同语言训练数据的BLEU2分数
+            # 使用缓存的分词计算与所有同语言训练数据的BLEU2分数
             for train_idx, train_row in train_lang_data.iterrows():
                 train_text = train_row['中文']
                 bleu2_score = calculate_bleu2_similarity(dev_text, train_text, "中文")
@@ -1230,30 +635,78 @@ def precompute_bleu2_cache_only():
     
     print(f"BLEU2缓存计算完成！")
     print(f"总耗时: {total_time:.2f} 秒")
-    print(f"共计算了 {len(bleu2_cache)} 个开发样本的BLEU2分数")
+    print(f"共计算了 {len(bleu2_cache)} 个开发样本的相似度分数")
     print(f"缓存文件大小: {os.path.getsize(bleu2_cache_file) / 1024 / 1024:.2f} MB")
     print(f"平均每个样本耗时: {total_time / len(bleu2_cache):.3f} 秒")
 
-def precompute_xcomet_cache_only():
-    """专门计算XCOMET相似度分数的函数"""
-    print("开始预计算XCOMET-XL相似度分数...")
+def check_cache_status():
+    """检查缓存状态"""
+    print("=== 缓存状态检查 ===")
     
-    # 确保缓存目录存在
-    os.makedirs(cache_dir, exist_ok=True)
+    # 检查BLEU2缓存
+    if os.path.exists(bleu2_cache_file):
+        file_size = os.path.getsize(bleu2_cache_file) / 1024 / 1024
+        print(f"✓ BLEU2缓存文件存在: {bleu2_cache_file} ({file_size:.2f} MB)")
+        
+        try:
+            with open(bleu2_cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+            print(f"  - 包含 {len(cache_data)} 个开发样本的分数")
+        except Exception as e:
+            print(f"  - 加载失败: {e}")
+    else:
+        print(f"✗ BLEU2缓存文件不存在: {bleu2_cache_file}")
     
-    # 尝试加载COMET模型
-    print("正在加载COMET模型...")
-    comet_model_instance = load_comet_model()
-    if comet_model_instance is None:
-        print("COMET模型加载失败，无法计算XCOMET分数")
+    # 检查相似度排序缓存
+    if os.path.exists(similarity_ranking_cache_file):
+        file_size = os.path.getsize(similarity_ranking_cache_file) / 1024 / 1024
+        print(f"✓ 相似度排序缓存文件存在: {similarity_ranking_cache_file} ({file_size:.2f} MB)")
+        
+        try:
+            with open(similarity_ranking_cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+            print(f"  - 包含 {len(cache_data)} 个开发样本的排序")
+            
+            # 检查一个示例
+            if cache_data:
+                sample_key = list(cache_data.keys())[0]
+                sample_langs = list(cache_data[sample_key].keys())
+                print(f"  - 示例：dev_idx={sample_key}, 语言={sample_langs}")
+        except Exception as e:
+            print(f"  - 加载失败: {e}")
+    else:
+        print(f"✗ 相似度排序缓存文件不存在: {similarity_ranking_cache_file}")
+        print("  请运行: python script.py --generate-similarity-ranking")
+    
+    # 检查训练数据
+    if os.path.exists(shot_path):
+        try:
+            train_df = pd.read_csv(shot_path)
+            print(f"✓ 训练数据文件存在: {shot_path} ({len(train_df)} 条)")
+        except Exception as e:
+            print(f"✗ 训练数据文件读取失败: {e}")
+    else:
+        print(f"✗ 训练数据文件不存在: {shot_path}")
+    
+    # 检查开发数据
+    if os.path.exists(input_path):
+        try:
+            dev_df = pd.read_csv(input_path)
+            print(f"✓ 开发数据文件存在: {input_path} ({len(dev_df)} 条)")
+        except Exception as e:
+            print(f"✗ 开发数据文件读取失败: {e}")
+    else:
+        print(f"✗ 开发数据文件不存在: {input_path}")
+
+def generate_similarity_ranking_cache():
+    """基于现有的BLEU2缓存生成相似度排序缓存"""
+    print("开始生成相似度排序缓存...")
+    
+    # 加载现有的BLEU2缓存
+    bleu2_cache = load_bleu2_cache()
+    if bleu2_cache is None:
+        print("请先运行预计算生成BLEU2缓存")
         return
-    
-    # 如果缓存文件已存在，询问是否重新计算
-    if os.path.exists(xcomet_cache_file):
-        response = input(f"XCOMET缓存文件已存在: {xcomet_cache_file}\n是否重新计算？(y/N): ")
-        if response.lower() != 'y':
-            print("使用现有缓存文件")
-            return
     
     # 读取数据
     if not os.path.exists(shot_path):
@@ -1267,9 +720,6 @@ def precompute_xcomet_cache_only():
     print("正在读取数据文件...")
     train_df = pd.read_csv(shot_path)
     dev_df = pd.read_csv(input_path)
-    
-    print(f"训练数据: {len(train_df)} 条")
-    print(f"开发数据: {len(dev_df)} 条")
     
     # 筛选有效的训练数据
     train_df_valid = train_df[
@@ -1287,130 +737,48 @@ def precompute_xcomet_cache_only():
         (dev_df.iloc[:, 4] != "")
     ].copy()
     
-    print(f"有效训练数据: {len(train_df_valid)} 条")
-    print(f"有效开发数据: {len(dev_df_valid)} 条")
-    
-    # 初始化缓存结构
-    xcomet_cache = {}
-    
     # 按语言分组处理
     languages = dev_df_valid.iloc[:, 3].unique()  # 语言列
     
-    total_start_time = time.time()
+    print("正在生成相似度排序缓存...")
+    similarity_ranking_cache = {}
     
-    for lang in languages:
-        print(f"\n处理语言: {lang}")
-        lang_start_time = time.time()
+    for dev_idx, train_scores in tqdm(bleu2_cache.items(), desc="生成排序缓存"):
+        similarity_ranking_cache[dev_idx] = {}
         
-        # 获取该语言的开发数据和训练数据
-        dev_lang_data = dev_df_valid[dev_df_valid.iloc[:, 3] == lang]
-        train_lang_data = train_df_valid[train_df_valid['语言'] == lang]
-        
-        if len(train_lang_data) == 0:
-            print(f"  警告: 没有找到语言 '{lang}' 的训练数据")
-            continue
+        # 按语言分组并排序
+        for lang in languages:
+            # 获取该语言的训练数据
+            train_lang_data = train_df_valid[train_df_valid['语言'] == lang]
             
-        print(f"  开发数据: {len(dev_lang_data)} 条")
-        print(f"  训练数据: {len(train_lang_data)} 条")
-        
-        # 为每个开发数据计算与所有同语言训练数据的XCOMET分数
-        for dev_idx, dev_row in tqdm(dev_lang_data.iterrows(), 
-                                   desc=f"  计算 {lang} XCOMET分数", 
-                                   total=len(dev_lang_data)):
-            dev_source = dev_row.iloc[4]  # 中文列作为源文本
+            # 收集该语言下的分数
+            lang_scores = []
+            for train_idx in train_lang_data.index:
+                if train_idx in train_scores:
+                    bleu_score = train_scores[train_idx]
+                    lang_scores.append((bleu_score, train_idx))
             
-            if dev_idx not in xcomet_cache:
-                xcomet_cache[dev_idx] = {}
-            
-            # 使用批量计算优化效率
-            if len(train_lang_data) > 1:
-                # 准备批量计算数据
-                source_texts = [dev_source] * len(train_lang_data)
-                reference_texts = [train_row['中文'] for _, train_row in train_lang_data.iterrows()]
-                prediction_texts = [train_row['文本'] for _, train_row in train_lang_data.iterrows()]
-                train_indices = list(train_lang_data.index)
-                
-                try:
-                    # 批量计算XCOMET分数
-                    xcomet_scores = calculate_comet_similarity_batch(
-                        source_texts, reference_texts, prediction_texts, batch_size=COMET_BATCH_SIZE
-                    )
-                    
-                    # 保存结果
-                    for train_idx, xcomet_score in zip(train_indices, xcomet_scores):
-                        xcomet_cache[dev_idx][train_idx] = xcomet_score
-                        
-                except Exception as e:
-                    print(f"批量计算失败，回退到逐个计算: {e}")
-                    # 回退到逐个计算
-                    for train_idx, train_row in train_lang_data.iterrows():
-                        train_text = train_row['中文']
-                        train_translation = train_row['文本']
-                        xcomet_score = calculate_comet_similarity(dev_source, train_text, train_translation)
-                        xcomet_cache[dev_idx][train_idx] = xcomet_score
-            else:
-                # 逐个计算（数据量小时）
-                for train_idx, train_row in train_lang_data.iterrows():
-                    train_text = train_row['中文']
-                    train_translation = train_row['文本']  # 训练数据的翻译结果
-                    xcomet_score = calculate_comet_similarity(dev_source, train_text, train_translation)
-                    xcomet_cache[dev_idx][train_idx] = xcomet_score
-        
-        lang_end_time = time.time()
-        print(f"  语言 {lang} 处理完成，耗时: {lang_end_time - lang_start_time:.2f} 秒")
+            # 按BLEU2分数降序排序
+            lang_scores.sort(key=lambda x: x[0], reverse=True)
+            # 只保存train_idx列表
+            similarity_ranking_cache[dev_idx][lang] = [train_idx for _, train_idx in lang_scores]
     
-    # 保存缓存到文件
-    print(f"\n正在保存XCOMET缓存到: {xcomet_cache_file}")
+    # 保存相似度排序缓存
+    save_similarity_ranking_cache(similarity_ranking_cache)
     
-    # 转换索引为字符串以便JSON序列化
-    cache_for_json = {}
-    for dev_idx, train_scores in xcomet_cache.items():
-        cache_for_json[str(dev_idx)] = {str(train_idx): score for train_idx, score in train_scores.items()}
-    
-    with open(xcomet_cache_file, 'w', encoding='utf-8') as f:
-        json.dump(cache_for_json, f, ensure_ascii=False, indent=2)
-    
-    total_end_time = time.time()
-    total_time = total_end_time - total_start_time
-    
-    print(f"XCOMET缓存计算完成！")
-    print(f"总耗时: {total_time:.2f} 秒")
-    print(f"共计算了 {len(xcomet_cache)} 个开发样本的XCOMET分数")
-    print(f"缓存文件大小: {os.path.getsize(xcomet_cache_file) / 1024 / 1024:.2f} MB")
-    print(f"平均每个样本耗时: {total_time / len(xcomet_cache):.3f} 秒")
+    print(f"相似度排序缓存生成完成！")
+    print(f"共生成 {len(similarity_ranking_cache)} 个开发样本的排序")
+    print(f"缓存文件大小: {os.path.getsize(similarity_ranking_cache_file) / 1024 / 1024:.2f} MB")
 
 def precompute_bleu2_cache():
     """原版本：为了向后兼容，调用简化版本"""
     precompute_bleu2_cache_simple()
 
-def load_composite_cache():
-    """加载复合分数缓存"""
-    if not os.path.exists(composite_cache_file):
-        print(f"复合分数缓存文件不存在: {composite_cache_file}")
-        print("请先运行预计算: python script.py --precompute-composite")
-        return None
-    
-    try:
-        with open(composite_cache_file, 'r', encoding='utf-8') as f:
-            cache_data = json.load(f)
-        
-        # 转换字符串索引回整数
-        composite_cache = {}
-        for dev_idx_str, train_scores in cache_data.items():
-            dev_idx = int(dev_idx_str)
-            composite_cache[dev_idx] = {int(train_idx_str): score for train_idx_str, score in train_scores.items()}
-        
-        print(f"成功加载复合分数缓存，包含 {len(composite_cache)} 个开发样本的分数")
-        return composite_cache
-    except Exception as e:
-        print(f"加载复合分数缓存失败: {e}")
-        return None
-
-def load_bleu2_cache_only():
-    """加载BLEU2分数缓存"""
+def load_bleu2_cache():
+    """加载BLEU2缓存"""
     if not os.path.exists(bleu2_cache_file):
         print(f"BLEU2缓存文件不存在: {bleu2_cache_file}")
-        print("请先运行: python script.py --precompute-bleu2-only")
+        print("请先运行预计算: python script.py --precompute-bleu2")
         return None
     
     try:
@@ -1429,57 +797,6 @@ def load_bleu2_cache_only():
         print(f"加载BLEU2缓存失败: {e}")
         return None
 
-def load_xcomet_cache_only():
-    """加载XCOMET分数缓存"""
-    if not os.path.exists(xcomet_cache_file):
-        print(f"XCOMET缓存文件不存在: {xcomet_cache_file}")
-        print("请先运行: python script.py --precompute-xcomet-only")
-        return None
-    
-    try:
-        with open(xcomet_cache_file, 'r', encoding='utf-8') as f:
-            cache_data = json.load(f)
-        
-        # 转换字符串索引回整数
-        xcomet_cache = {}
-        for dev_idx_str, train_scores in cache_data.items():
-            dev_idx = int(dev_idx_str)
-            xcomet_cache[dev_idx] = {int(train_idx_str): score for train_idx_str, score in train_scores.items()}
-        
-        print(f"成功加载XCOMET缓存，包含 {len(xcomet_cache)} 个开发样本的分数")
-        return xcomet_cache
-    except Exception as e:
-        print(f"加载XCOMET缓存失败: {e}")
-        return None
-
-def load_bleu2_cache():
-    """向后兼容函数，实际加载复合分数缓存"""
-    return load_composite_cache()
-
-def load_comet_model():
-    """加载COMET模型"""
-    global comet_model
-    if not COMET_AVAILABLE:
-        return None
-    
-    if comet_model is None:
-        try:
-            if os.path.exists(COMET_MODEL_PATH):
-                print(f"正在加载本地COMET模型: {COMET_MODEL_PATH}")
-                comet_model = load_from_checkpoint(COMET_MODEL_PATH)
-                print("COMET模型加载成功")
-            else:
-                print("本地COMET模型不存在，尝试下载默认模型...")
-                from comet import download_model
-                model_path = download_model("Unbabel/XCOMET-XL")
-                comet_model = load_from_checkpoint(model_path)
-                print(f"COMET模型下载并加载成功: {model_path}")
-        except Exception as e:
-            print(f"COMET模型加载失败: {e}")
-            comet_model = None
-    
-    return comet_model
-
 class DeepSeekTranslator:
     def __init__(self, api_key, base_url, model_name, n_shot=0):
         self.client = OpenAI(
@@ -1489,13 +806,13 @@ class DeepSeekTranslator:
         self.model_name = model_name
         self.n_shot = n_shot
         self.examples_cache = {}  # 缓存示例数据
-        self.composite_cache = None  # 复合分数缓存
+        self.bleu2_cache = None  # BLEU2分数缓存
         self.similarity_ranking_cache = None  # 相似度排序缓存
         self.train_data = None  # 训练数据缓存
         
         # 加载缓存和训练数据
         if self.n_shot > 0:
-            self.composite_cache = load_composite_cache()
+            self.bleu2_cache = load_bleu2_cache()
             self.similarity_ranking_cache = load_similarity_ranking_cache()
             # 预加载训练数据到内存
             if os.path.exists(shot_path):
@@ -1540,19 +857,19 @@ class DeepSeekTranslator:
                                 chinese_text = row['中文']  # 中文列
                                 translated_text = row['文本']  # 翻译结果
                                 examples.append((chinese_text, translated_text))
-                    elif dev_idx is not None and self.composite_cache and dev_idx in self.composite_cache:
-                        # 备选方案：使用复合分数缓存并重新排序（较慢）
-                        # print(f"⚠ 降级使用复合分数缓存（需要重新排序）")
-                        cached_scores = self.composite_cache[dev_idx]
+                    elif dev_idx is not None and self.bleu2_cache and dev_idx in self.bleu2_cache:
+                        # 备选方案：使用BLEU2缓存并重新排序（较慢）
+                        # print(f"⚠ 降级使用BLEU2缓存（需要重新排序）")
+                        cached_scores = self.bleu2_cache[dev_idx]
                         
                         # 获取该语言的训练数据分数
                         lang_scores = []
                         for train_idx in lang_data.index:
                             if train_idx in cached_scores:
-                                composite_score = cached_scores[train_idx]
-                                lang_scores.append((composite_score, train_idx))
+                                bleu_score = cached_scores[train_idx]
+                                lang_scores.append((bleu_score, train_idx))
                         
-                        # 按复合分数降序排序，选择top n_shot个
+                        # 按BLEU2分数降序排序，选择top n_shot个
                         lang_scores.sort(key=lambda x: x[0], reverse=True)
                         selected_indices = [train_idx for _, train_idx in lang_scores[:self.n_shot]]
                         
@@ -1563,19 +880,19 @@ class DeepSeekTranslator:
                             examples.append((chinese_text, translated_text))
                             
                     elif current_text:
-                        # 实时计算复合分数（备用方案）
-                        print(f"✗ 缓存未命中，实时计算复合分数（慢）")
+                        # 实时计算BLEU2分数（备用方案）
+                        print(f"✗ 缓存未命中，实时计算BLEU2分数（慢）")
                         bleu_scores = []
                         for _, row in lang_data.iterrows():
                             chinese_text = row['中文']
                             bleu_score = calculate_bleu2_similarity(current_text, chinese_text, "中文")
                             bleu_scores.append((bleu_score, row))
                         
-                        # 按复合分数降序排序，选择top n_shot个
+                        # 按BLEU2分数降序排序，选择top n_shot个
                         bleu_scores.sort(key=lambda x: x[0], reverse=True)
                         selected_rows = [item[1] for item in bleu_scores[:self.n_shot]]
                         
-                        print(f"实时计算复合分数: {[round(item[0], 4) for item in bleu_scores[:self.n_shot]]}")
+                        print(f"实时计算BLEU2分数: {[round(item[0], 4) for item in bleu_scores[:self.n_shot]]}")
                         
                         for row in selected_rows:
                             chinese_text = row['中文']  # 中文列
@@ -1603,9 +920,9 @@ class DeepSeekTranslator:
                                 chinese_text = row['中文']
                                 translated_text = row['文本']
                                 examples.append((chinese_text, translated_text))
-                    elif dev_idx is not None and self.composite_cache and dev_idx in self.composite_cache:
-                        # 备选方案：使用复合分数缓存并重新排序
-                        cached_scores = self.composite_cache[dev_idx]
+                    elif dev_idx is not None and self.bleu2_cache and dev_idx in self.bleu2_cache:
+                        # 备选方案：使用BLEU2缓存并重新排序
+                        cached_scores = self.bleu2_cache[dev_idx]
                         lang_scores = []
                         for train_idx in lang_data.index:
                             if train_idx in cached_scores:
@@ -1620,7 +937,7 @@ class DeepSeekTranslator:
                             translated_text = row['文本']
                             examples.append((chinese_text, translated_text))
                     elif current_text:
-                        # 仍然基于复合分数排序
+                        # 仍然基于BLEU2分数排序
                         bleu_scores = []
                         for _, row in lang_data.iterrows():
                             chinese_text = row['中文']
@@ -1653,7 +970,7 @@ class DeepSeekTranslator:
             # 原有的系统提示词
             system_prompt = f"""你是一个专业的多语言翻译专家，擅长将{source_lang}翻译成{target_lang}。用户将输入中文文本，请只返回翻译后的{target_lang}文本，不要包含任何解释或额外信息。"""
         else:
-            # 包含示例的系统提示词，基于缓存的复合分数选择
+            # 包含示例的系统提示词，基于缓存的BLEU2分数选择
             examples = self.load_examples(target_lang, current_text, dev_idx)
             
             if examples:
@@ -1804,9 +1121,42 @@ def translate_deepseek(n_shot=0):
     df = pd.read_csv(input_path)
     print(f"读取到 {len(df)} 条数据")
     
-    # 检查是否有已存在的翻译结果
+    # 检查输出文件是否已存在
+    existing_results = {}
+    if os.path.exists(deepseek_output_path):
+        print(f"发现已存在的结果文件: {deepseek_output_path}")
+        try:
+            existing_df = pd.read_csv(deepseek_output_path)
+            print(f"加载现有结果文件，包含 {len(existing_df)} 条数据")
+            
+            # 如果现有结果文件有 answer 列，将其映射到索引
+            if 'answer' in existing_df.columns:
+                existing_results = existing_df['answer'].to_dict()
+                completed_count = sum(1 for v in existing_results.values() 
+                                    if pd.notna(v) and str(v).strip() != "")
+                print(f"现有结果中已完成翻译: {completed_count} 条")
+            else:
+                print("现有结果文件中没有找到 answer 列")
+        except Exception as e:
+            print(f"加载现有结果文件失败: {e}")
+            print("将重新开始翻译")
+    else:
+        print(f"结果文件不存在: {deepseek_output_path}")
+        print("将创建新的结果文件")
+    
+    # 初始化answer列，优先使用现有结果
     if 'answer' not in df.columns:
         df['answer'] = ""
+    
+    # 将现有结果合并到数据框中
+    if existing_results:
+        for idx in existing_results:
+            if idx < len(df) and pd.notna(existing_results[idx]) and str(existing_results[idx]).strip() != "":
+                df.loc[idx, 'answer'] = existing_results[idx]
+    
+    # 统计已有结果
+    already_completed = df[df['answer'].notna() & (df['answer'] != "")]
+    print(f"已有翻译结果: {len(already_completed)} 条")
     
     # 获取需要翻译的数据
     need_translation = df[df['answer'].isna() | (df['answer'] == "")]
@@ -1891,13 +1241,21 @@ def translate_deepseek(n_shot=0):
     end_time = time.time()
     elapsed_time = end_time - start_time
     
+    # 统计最终结果
+    final_completed = df[df['answer'].notna() & (df['answer'] != "")]
+    
     print(f"\n=== 翻译完成 ===")
-    print(f"总耗时: {elapsed_time:.2f} 秒")
-    print(f"总翻译条数: {len(texts_and_langs_with_idx)} 条")
-    print(f"成功翻译: {total_successful} 条")
-    print(f"翻译失败: {total_failed} 条")
-    print(f"成功率: {(total_successful/len(texts_and_langs_with_idx)*100):.1f}%")
-    print(f"平均每条翻译耗时: {elapsed_time/len(texts_and_langs_with_idx):.2f} 秒")
+    print(f"总数据条数: {len(df)} 条")
+    print(f"之前已完成: {len(already_completed)} 条")
+    print(f"本次需要翻译: {len(texts_and_langs_with_idx)} 条")
+    print(f"本次成功翻译: {total_successful} 条")
+    print(f"本次翻译失败: {total_failed} 条")
+    print(f"最终完成总数: {len(final_completed)} 条")
+    print(f"总体完成率: {(len(final_completed)/len(df)*100):.1f}%")
+    if len(texts_and_langs_with_idx) > 0:
+        print(f"本次成功率: {(total_successful/len(texts_and_langs_with_idx)*100):.1f}%")
+        print(f"本次翻译耗时: {elapsed_time:.2f} 秒")
+        print(f"平均每条翻译耗时: {elapsed_time/len(texts_and_langs_with_idx):.2f} 秒")
     print(f"最终结果已保存到: {deepseek_output_path}")
 
 def sync_translate_one(text, source_lang, target_lang, n_shot=0):
@@ -1956,64 +1314,6 @@ def test_translation(n_shot=0):
         print(f"译文 ({target_lang}): {result}")
         print("-" * 40)
 
-def save_tokenize_cache():
-    """保存分词缓存"""
-    os.makedirs(cache_dir, exist_ok=True)
-    try:
-        with open(tokenize_cache_file, 'w', encoding='utf-8') as f:
-            json.dump(_tokenize_cache, f, ensure_ascii=False, indent=2)
-        print(f"已保存分词缓存，包含 {len(_tokenize_cache)} 个分词结果")
-    except Exception as e:
-        print(f"保存分词缓存失败: {e}")
-
-def load_tokenize_cache():
-    """加载分词缓存"""
-    global _tokenize_cache
-    if not os.path.exists(tokenize_cache_file):
-        return
-    
-    try:
-        with open(tokenize_cache_file, 'r', encoding='utf-8') as f:
-            _tokenize_cache = json.load(f)
-        print(f"成功加载分词缓存，包含 {len(_tokenize_cache)} 个分词结果")
-    except Exception as e:
-        print(f"加载分词缓存失败: {e}")
-        _tokenize_cache = {}
-
-def show_new_workflow():
-    """显示推荐的新工作流程"""
-    print("=== 推荐的新工作流程 ===")
-    print()
-    print("1. 【单独计算两种相似度分数】")
-    print("   python script.py --precompute-bleu2-only     # 计算纯BLEU2分数（快速）")
-    print("   python script.py --precompute-xcomet-only    # 计算XCOMET分数（慢但准确）")
-    print()
-    print("2. 【生成不同权重的排序缓存】")
-    print("   # 默认权重（BLEU2:40%, XCOMET:60%）")
-    print("   python script.py --generate-similarity-ranking-weighted")
-    print()
-    print("   # 自定义权重")
-    print("   python script.py --generate-similarity-ranking-weighted --bleu2-weight 0.3 --xcomet-weight 0.7")
-    print()
-    print("   # 只使用BLEU2（快速模式）")
-    print("   python script.py --generate-similarity-ranking-weighted --bleu2-weight 1.0 --xcomet-weight 0.0")
-    print()
-    print("   # 只使用XCOMET（高质量模式）")
-    print("   python script.py --generate-similarity-ranking-weighted --bleu2-weight 0.0 --xcomet-weight 1.0")
-    print()
-    print("3. 【运行翻译】")
-    print("   python script.py --n-shot 3    # 使用3-shot学习")
-    print()
-    print("4. 【检查缓存状态】")
-    print("   python script.py --check-cache")
-    print()
-    print("=== 已弃用的指令（仍可用但不推荐） ===")
-    print("   --precompute-bleu2        # 实际计算复合分数，命名有误导性")
-    print("   --precompute-bleu2-fast   # 多进程版本，可能不稳定")
-    print("   --precompute-bleu2-simple # 单进程版本")
-    print()
-    print("建议：使用新的 --precompute-bleu2-only 和 --precompute-xcomet-only 获得更好的灵活性")
-
 if __name__ == "__main__":
     import argparse
     
@@ -2024,41 +1324,22 @@ if __name__ == "__main__":
                        help="最大并发请求数")
     parser.add_argument("--delay", type=float, default=REQUEST_DELAY, 
                        help="请求间隔（秒）")
-    parser.add_argument("--n-shot", type=int, default=0,
+    parser.add_argument("--n-shot", type=int, default=30,
                        help=f"Few-shot 示例数量 (0表示不使用few-shot，默认: {DEFAULT_N_SHOT})")
-    # 弃用的指令（为了兼容性保留）
     parser.add_argument("--precompute-bleu2", action="store_true",
-                       help="[已弃用] 预计算复合分数并缓存（等同于--precompute-composite，建议使用新指令）")
+                       help="预计算BLEU2相似度分数并缓存到文件")
     parser.add_argument("--precompute-bleu2-fast", action="store_true",
-                       help="[已弃用] 使用优化版本预计算复合分数（多进程，不稳定）")
+                       help="使用优化版本预计算BLEU2相似度分数（多进程，更快但可能不稳定）")
     parser.add_argument("--precompute-bleu2-simple", action="store_true",
-                       help="[已弃用] 使用简化版本预计算复合分数（建议使用--precompute-composite）")
-    
-    # 推荐的新指令
-    parser.add_argument("--precompute-bleu2-only", action="store_true",
-                       help="预计算纯BLEU2相似度分数并缓存到独立文件")
-    parser.add_argument("--precompute-xcomet-only", action="store_true",
-                       help="预计算XCOMET-XL相似度分数并缓存到独立文件")
-    parser.add_argument("--precompute-composite", action="store_true",
-                       help="预计算复合相似度分数（BLEU2*0.4 + XCOMET-XL*0.6）并缓存到文件")
+                       help="使用简化版本预计算BLEU2相似度分数（单进程+缓存，稳定）")
     parser.add_argument("--generate-similarity-ranking", action="store_true",
-                       help="基于现有复合分数缓存生成相似度排序缓存（提高推理速度）")
-    parser.add_argument("--generate-similarity-ranking-weighted", action="store_true",
-                       help="基于独立的BLEU2和XCOMET缓存生成带权重的相似度排序缓存")
-    parser.add_argument("--bleu2-weight", type=float, default=0.4,
-                       help="生成排序缓存时BLEU2的权重（默认: 0.4）")
-    parser.add_argument("--xcomet-weight", type=float, default=0.6,
-                       help="生成排序缓存时XCOMET的权重（默认: 0.6）")
+                       help="基于现有BLEU2缓存生成相似度排序缓存（提高推理速度）")
     parser.add_argument("--check-cache", action="store_true",
                        help="检查缓存状态")
-    parser.add_argument("--help-new-workflow", action="store_true",
-                       help="显示推荐的新工作流程")
     parser.add_argument("--low-concurrency", action="store_true",
                        help="使用低并发模式（推荐在网络不稳定时使用）")
     parser.add_argument("--bleu2-workers", type=int, default=BLEU2_WORKERS,
                        help=f"BLEU2计算的并行工作进程数（默认: {BLEU2_WORKERS}）")
-    parser.add_argument("--comet-batch-size", type=int, default=COMET_BATCH_SIZE,
-                       help=f"COMET批量计算的batch_size（默认: {COMET_BATCH_SIZE}）")
     
     args = parser.parse_args()
     
@@ -2075,37 +1356,20 @@ if __name__ == "__main__":
         MAX_CONCURRENT_REQUESTS = args.max_concurrent
         REQUEST_DELAY = args.delay
     BLEU2_WORKERS = args.bleu2_workers
-    COMET_BATCH_SIZE = args.comet_batch_size
     
     # 设置 few-shot 参数
     n_shot = args.n_shot
     
-    # 弃用的指令（保持兼容性）
     if args.precompute_bleu2_fast:
-        print("⚠️  警告：--precompute-bleu2-fast 已弃用，建议使用 --precompute-composite")
         precompute_bleu2_cache_optimized()
     elif args.precompute_bleu2_simple:
-        print("⚠️  警告：--precompute-bleu2-simple 已弃用，建议使用 --precompute-composite")
         precompute_bleu2_cache_simple()
     elif args.precompute_bleu2:
-        print("⚠️  警告：--precompute-bleu2 已弃用，实际计算复合分数，建议使用 --precompute-composite")
         precompute_bleu2_cache()
-    
-    # 推荐的新指令
-    elif args.precompute_bleu2_only:
-        precompute_bleu2_cache_only()
-    elif args.precompute_xcomet_only:
-        precompute_xcomet_cache_only()
-    elif args.precompute_composite:
-        precompute_bleu2_cache_simple()  # 使用简化版本计算复合分数
     elif args.generate_similarity_ranking:
         generate_similarity_ranking_cache()
-    elif args.generate_similarity_ranking_weighted:
-        generate_similarity_ranking_cache_with_weight(args.bleu2_weight, args.xcomet_weight)
     elif args.check_cache:
         check_cache_status()
-    elif args.help_new_workflow:
-        show_new_workflow()
     elif args.test:
         test_translation(n_shot=n_shot)
     else:

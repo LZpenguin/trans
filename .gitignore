@@ -5,7 +5,10 @@ data/
 models/
 output/cache/
 output/cache_dev/
+output/cache_b4/
+output/cache_dev_b4/
 coscli
+*.ckpt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

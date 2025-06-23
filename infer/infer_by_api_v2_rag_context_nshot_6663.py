@@ -43,7 +43,7 @@ except ImportError:
 # 全局常量，确保子进程能访问
 THAI_AVAILABLE = THAI_TOKENIZER_AVAILABLE
 
-dev_mode = False
+dev_mode = True
 
 # 路径配置
 base_dir = os.getcwd()
@@ -63,7 +63,7 @@ similarity_ranking_cache_file = os.path.join(cache_dir, "similarity_ranking_cach
 
 def get_output_path(n_shot):
     if dev_mode:
-        return os.path.join(base_dir, f"output/deepseek/dev_p2_t0_rag_{n_shot}shot.csv")
+        return os.path.join(base_dir, f"output/deepseek/dev_p2_t0_rag_context_{n_shot}shot.csv")
     else:
         return os.path.join(base_dir, f"output/deepseek/result.csv")
 
@@ -822,10 +822,10 @@ class DeepSeekTranslator:
             else:
                 print(f"警告：训练数据文件不存在: {shot_path}")
         
-    def load_examples(self, target_lang, current_text=None, dev_idx=None):
-        """从训练数据加载指定语言的翻译示例，基于缓存的相似度排序选择最相似的示例"""
-        # 为缓存添加dev_idx来区分不同的查询
-        cache_key = f"{target_lang}_{dev_idx if dev_idx is not None else hash(current_text) if current_text else 'default'}"
+    def load_examples(self, target_lang, current_text=None, dev_idx=None, current_show=None):
+        """从训练数据加载指定语言的翻译示例，基于缓存的相似度排序选择最相似的示例，只在同一部剧的语料中搜索"""
+        # 为缓存添加dev_idx和show信息来区分不同的查询
+        cache_key = f"{target_lang}_{current_show}_{dev_idx if dev_idx is not None else hash(current_text) if current_text else 'default'}"
         
         if cache_key in self.examples_cache:
             return self.examples_cache[cache_key]
@@ -833,93 +833,57 @@ class DeepSeekTranslator:
         examples = []
         if self.n_shot > 0 and self.train_data is not None:
             try:
-                # 筛选出目标语言的数据，且有有效翻译结果的
-                lang_data = self.train_data[
-                    (self.train_data['语言'] == target_lang) &  # 语言列匹配
-                    (self.train_data['文本'].notna()) &  # 有翻译结果
-                    (self.train_data['文本'] != "") &  # 翻译结果非空
-                    (self.train_data['中文'].notna()) &  # 中文文本非空
+                # 筛选出目标语言的数据，且有有效翻译结果的，并且属于同一部剧
+                base_conditions = [
+                    (self.train_data['语言'] == target_lang),  # 语言列匹配
+                    (self.train_data['文本'].notna()),  # 有翻译结果
+                    (self.train_data['文本'] != ""),  # 翻译结果非空
+                    (self.train_data['中文'].notna()),  # 中文文本非空
                     (self.train_data['中文'] != "")
                 ]
                 
-                if len(lang_data) >= self.n_shot:
+                # 如果提供了剧集信息，则只在同一部剧中搜索
+                if current_show:
+                    # 从剧集名称中提取剧集标识（如"电视剧1"）
+                    show_id = current_show.split(' ')[0] if ' ' in current_show else current_show
+                    base_conditions.append(self.train_data['片段名'].str.contains(show_id, na=False))
+                
+                # 应用所有筛选条件
+                lang_data = self.train_data[
+                    base_conditions[0] & base_conditions[1] & base_conditions[2] & 
+                    base_conditions[3] & base_conditions[4] & 
+                    (base_conditions[5] if len(base_conditions) > 5 else True)
+                ]
+                
+                # 计算总的语言数据（用于保底）
+                total_lang_data = self.train_data[
+                    base_conditions[0] & base_conditions[1] & base_conditions[2] & 
+                    base_conditions[3] & base_conditions[4]
+                ]
+                
+                # 首先尝试从同一部剧中获取示例
+                selected_indices = set()  # 用于追踪已选择的索引，避免重复
+                examples = []
+                
+                # 阶段1：从同一部剧中选择示例
+                same_show_examples = 0
+                if len(lang_data) > 0:
                     if dev_idx is not None and self.similarity_ranking_cache and dev_idx in self.similarity_ranking_cache:
                         # 优先使用相似度排序缓存（最快）
                         if target_lang in self.similarity_ranking_cache[dev_idx]:
                             sorted_train_indices = self.similarity_ranking_cache[dev_idx][target_lang]
-                            # 筛选出在当前lang_data中存在的索引，并选择top n_shot个
-                            lang_data_indices = set(lang_data.index)  # 转换为set提高查找速度
+                            # 筛选出在当前lang_data中存在的索引
+                            lang_data_indices = set(lang_data.index)
                             valid_indices = [idx for idx in sorted_train_indices if idx in lang_data_indices]
-                            selected_indices = valid_indices[:self.n_shot]
+                            same_show_count = min(len(valid_indices), self.n_shot)
                             
-                            for train_idx in selected_indices:
-                                row = self.train_data.loc[train_idx]
-                                chinese_text = row['中文']  # 中文列
-                                translated_text = row['文本']  # 翻译结果
-                                examples.append((chinese_text, translated_text))
-                    elif dev_idx is not None and self.bleu2_cache and dev_idx in self.bleu2_cache:
-                        # 备选方案：使用BLEU2缓存并重新排序（较慢）
-                        # print(f"⚠ 降级使用BLEU2缓存（需要重新排序）")
-                        cached_scores = self.bleu2_cache[dev_idx]
-                        
-                        # 获取该语言的训练数据分数
-                        lang_scores = []
-                        for train_idx in lang_data.index:
-                            if train_idx in cached_scores:
-                                bleu_score = cached_scores[train_idx]
-                                lang_scores.append((bleu_score, train_idx))
-                        
-                        # 按BLEU2分数降序排序，选择top n_shot个
-                        lang_scores.sort(key=lambda x: x[0], reverse=True)
-                        selected_indices = [train_idx for _, train_idx in lang_scores[:self.n_shot]]
-                        
-                        for train_idx in selected_indices:
-                            row = self.train_data.loc[train_idx]
-                            chinese_text = row['中文']  # 中文列
-                            translated_text = row['文本']  # 翻译结果
-                            examples.append((chinese_text, translated_text))
-                            
-                    elif current_text:
-                        # 实时计算BLEU2分数（备用方案）
-                        print(f"✗ 缓存未命中，实时计算BLEU2分数（慢）")
-                        bleu_scores = []
-                        for _, row in lang_data.iterrows():
-                            chinese_text = row['中文']
-                            bleu_score = calculate_bleu2_similarity(current_text, chinese_text, "中文")
-                            bleu_scores.append((bleu_score, row))
-                        
-                        # 按BLEU2分数降序排序，选择top n_shot个
-                        bleu_scores.sort(key=lambda x: x[0], reverse=True)
-                        selected_rows = [item[1] for item in bleu_scores[:self.n_shot]]
-                        
-                        print(f"实时计算BLEU2分数: {[round(item[0], 4) for item in bleu_scores[:self.n_shot]]}")
-                        
-                        for row in selected_rows:
-                            chinese_text = row['中文']  # 中文列
-                            translated_text = row['文本']  # 翻译结果
-                            examples.append((chinese_text, translated_text))
-                    else:
-                        # 如果没有current_text，随机选择（兼容旧逻辑）
-                        sampled_data = lang_data.sample(n=self.n_shot, random_state=42)
-                        for _, row in sampled_data.iterrows():
-                            chinese_text = row['中文']  # 中文列
-                            translated_text = row['文本']  # 翻译结果
-                            examples.append((chinese_text, translated_text))
-                else:
-                    # 如果数据不够，使用所有可用的
-                    if dev_idx is not None and self.similarity_ranking_cache and dev_idx in self.similarity_ranking_cache:
-                        # 优先使用相似度排序缓存
-                        if target_lang in self.similarity_ranking_cache[dev_idx]:
-                            sorted_train_indices = self.similarity_ranking_cache[dev_idx][target_lang]
-                            # 筛选出在当前lang_data中存在的索引，使用所有可用的
-                            lang_data_indices = set(lang_data.index)  # 转换为set提高查找速度
-                            valid_indices = [idx for idx in sorted_train_indices if idx in lang_data_indices]
-                            
-                            for train_idx in valid_indices:
+                            for train_idx in valid_indices[:same_show_count]:
                                 row = self.train_data.loc[train_idx]
                                 chinese_text = row['中文']
                                 translated_text = row['文本']
                                 examples.append((chinese_text, translated_text))
+                                selected_indices.add(train_idx)
+                                same_show_examples += 1
                     elif dev_idx is not None and self.bleu2_cache and dev_idx in self.bleu2_cache:
                         # 备选方案：使用BLEU2缓存并重新排序
                         cached_scores = self.bleu2_cache[dev_idx]
@@ -930,14 +894,17 @@ class DeepSeekTranslator:
                                 lang_scores.append((bleu_score, train_idx))
                         
                         lang_scores.sort(key=lambda x: x[0], reverse=True)
+                        same_show_count = min(len(lang_scores), self.n_shot)
                         
-                        for bleu_score, train_idx in lang_scores:
+                        for bleu_score, train_idx in lang_scores[:same_show_count]:
                             row = self.train_data.loc[train_idx]
                             chinese_text = row['中文']
                             translated_text = row['文本']
                             examples.append((chinese_text, translated_text))
+                            selected_indices.add(train_idx)
+                            same_show_examples += 1
                     elif current_text:
-                        # 仍然基于BLEU2分数排序
+                        # 实时计算BLEU2分数（备用方案）
                         bleu_scores = []
                         for _, row in lang_data.iterrows():
                             chinese_text = row['中文']
@@ -945,18 +912,89 @@ class DeepSeekTranslator:
                             bleu_scores.append((bleu_score, row))
                         
                         bleu_scores.sort(key=lambda x: x[0], reverse=True)
+                        same_show_count = min(len(bleu_scores), self.n_shot)
                         
-                        for bleu_score, row in bleu_scores:
+                        for bleu_score, row in bleu_scores[:same_show_count]:
                             chinese_text = row['中文']
                             translated_text = row['文本']
                             examples.append((chinese_text, translated_text))
+                            selected_indices.add(row.name)  # row.name 是索引
+                            same_show_examples += 1
                     else:
-                        # 使用所有可用的数据
-                        for _, row in lang_data.iterrows():
+                        # 如果没有current_text，随机选择
+                        available_count = min(len(lang_data), self.n_shot)
+                        sampled_data = lang_data.sample(n=available_count, random_state=42)
+                        for _, row in sampled_data.iterrows():
                             chinese_text = row['中文']
                             translated_text = row['文本']
                             examples.append((chinese_text, translated_text))
+                            selected_indices.add(row.name)
+                            same_show_examples += 1
+
+                # 阶段2：如果同一部剧的示例不足，从其他剧集补充
+                remaining_needed = self.n_shot - same_show_examples
+                if remaining_needed > 0:
+                    # 获取所有语言数据（不限剧集）
+                    all_lang_data = total_lang_data  # 之前计算的不限剧集的数据
+                    
+                    if dev_idx is not None and self.similarity_ranking_cache and dev_idx in self.similarity_ranking_cache:
+                        if target_lang in self.similarity_ranking_cache[dev_idx]:
+                            sorted_train_indices = self.similarity_ranking_cache[dev_idx][target_lang]
+                            # 筛选出在所有语言数据中存在且未被选择的索引
+                            all_lang_data_indices = set(all_lang_data.index)
+                            valid_indices = [idx for idx in sorted_train_indices 
+                                           if idx in all_lang_data_indices and idx not in selected_indices]
+                            
+                            for train_idx in valid_indices[:remaining_needed]:
+                                row = self.train_data.loc[train_idx]
+                                chinese_text = row['中文']
+                                translated_text = row['文本']
+                                examples.append((chinese_text, translated_text))
+                                selected_indices.add(train_idx)
+                    elif dev_idx is not None and self.bleu2_cache and dev_idx in self.bleu2_cache:
+                        cached_scores = self.bleu2_cache[dev_idx]
+                        lang_scores = []
+                        for train_idx in all_lang_data.index:
+                            if train_idx in cached_scores and train_idx not in selected_indices:
+                                bleu_score = cached_scores[train_idx]
+                                lang_scores.append((bleu_score, train_idx))
                         
+                        lang_scores.sort(key=lambda x: x[0], reverse=True)
+                        
+                        for bleu_score, train_idx in lang_scores[:remaining_needed]:
+                            row = self.train_data.loc[train_idx]
+                            chinese_text = row['中文']
+                            translated_text = row['文本']
+                            examples.append((chinese_text, translated_text))
+                            selected_indices.add(train_idx)
+                    elif current_text:
+                        # 实时计算剩余数据的BLEU2分数
+                        remaining_data = all_lang_data[~all_lang_data.index.isin(selected_indices)]
+                        bleu_scores = []
+                        for _, row in remaining_data.iterrows():
+                            chinese_text = row['中文']
+                            bleu_score = calculate_bleu2_similarity(current_text, chinese_text, "中文")
+                            bleu_scores.append((bleu_score, row))
+                        
+                        bleu_scores.sort(key=lambda x: x[0], reverse=True)
+                        
+                        for bleu_score, row in bleu_scores[:remaining_needed]:
+                            chinese_text = row['中文']
+                            translated_text = row['文本']
+                            examples.append((chinese_text, translated_text))
+                            selected_indices.add(row.name)
+                    else:
+                        # 随机从剩余数据中选择
+                        remaining_data = all_lang_data[~all_lang_data.index.isin(selected_indices)]
+                        if len(remaining_data) > 0:
+                            sample_count = min(len(remaining_data), remaining_needed)
+                            sampled_data = remaining_data.sample(n=sample_count, random_state=42)
+                            for _, row in sampled_data.iterrows():
+                                chinese_text = row['中文']
+                                translated_text = row['文本']
+                                examples.append((chinese_text, translated_text))
+                                selected_indices.add(row.name)
+
             except Exception as e:
                 print(f"加载示例时出错: {e}")
                 examples = []
@@ -964,17 +1002,22 @@ class DeepSeekTranslator:
         self.examples_cache[cache_key] = examples
         return examples
         
-    def create_system_prompt(self, source_lang, target_lang, current_text=None, dev_idx=None):
+    def create_system_prompt(self, source_lang, target_lang, current_text=None, dev_idx=None, current_show=None):
         """创建系统提示词，包含 few-shot 示例"""
         if self.n_shot == 0:
             # 原有的系统提示词
             system_prompt = f"""你是一个专业的多语言翻译专家，擅长将{source_lang}翻译成{target_lang}。用户将输入中文文本，请只返回翻译后的{target_lang}文本，不要包含任何解释或额外信息。"""
         else:
-            # 包含示例的系统提示词，基于缓存的BLEU2分数选择
-            examples = self.load_examples(target_lang, current_text, dev_idx)
+            # 包含示例的系统提示词，基于缓存的BLEU2分数选择，只在同一部剧中搜索
+            examples = self.load_examples(target_lang, current_text, dev_idx, current_show)
             
             if examples:
-                examples_text = "\n\n以下是一些翻译示例供参考（按相似度排序）：\n"
+                # 构建示例说明，区分同剧集和跨剧集示例
+                if current_show:
+                    examples_text = f"\n\n以下是一些翻译示例供参考（按相似度排序，优先使用同剧集：{current_show}）：\n"
+                else:
+                    examples_text = f"\n\n以下是一些翻译示例供参考（按相似度排序）：\n"
+                
                 for i, (chinese, translated) in enumerate(examples, 1):
                     examples_text += f"示例{i}:\n"
                     examples_text += f"中文: {chinese}\n"
@@ -991,12 +1034,12 @@ class DeepSeekTranslator:
         """创建翻译提示词"""
         return text
     
-    def translate_text(self, text, source_lang, target_lang, dev_idx=None):
+    def translate_text(self, text, source_lang, target_lang, dev_idx=None, current_show=None):
         """使用DeepSeek API翻译文本，带重试和指数退避"""
         for attempt in range(MAX_RETRIES + 1):
             try:
-                # 创建系统和用户提示，传入dev_idx用于示例选择
-                system_prompt = self.create_system_prompt(source_lang, target_lang, text, dev_idx)
+                # 创建系统和用户提示，传入dev_idx和剧集信息用于示例选择
+                system_prompt = self.create_system_prompt(source_lang, target_lang, text, dev_idx, current_show)
                 user_prompt = self.create_translation_prompt(text)
                 
                 response = self.client.chat.completions.create(
@@ -1033,16 +1076,16 @@ def translate_batch_parallel(translator, texts_and_langs_with_idx, max_workers, 
     results = [""] * len(texts_and_langs_with_idx)
     
     def translate_single(index_and_data):
-        index, (text, source_lang, target_lang, dev_idx) = index_and_data
+        index, (text, source_lang, target_lang, dev_idx, show_name) = index_and_data
         if pd.isna(text) or text == "":
             return index, ""
         
         # 添加单个任务的调试信息
         try:
-            result = translator.translate_text(text, source_lang, target_lang, dev_idx)
+            result = translator.translate_text(text, source_lang, target_lang, dev_idx, show_name)
             return index, result
         except Exception as e:
-            print(f"任务 {index} (dev_idx={dev_idx}) 翻译失败: {e}")
+            print(f"任务 {index} (dev_idx={dev_idx}, show={show_name}) 翻译失败: {e}")
             return index, ""
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -1121,9 +1164,42 @@ def translate_deepseek(n_shot=0):
     df = pd.read_csv(input_path)
     print(f"读取到 {len(df)} 条数据")
     
-    # 检查是否有已存在的翻译结果
+    # 检查输出文件是否已存在
+    existing_results = {}
+    if os.path.exists(deepseek_output_path):
+        print(f"发现已存在的结果文件: {deepseek_output_path}")
+        try:
+            existing_df = pd.read_csv(deepseek_output_path)
+            print(f"加载现有结果文件，包含 {len(existing_df)} 条数据")
+            
+            # 如果现有结果文件有 answer 列，将其映射到索引
+            if 'answer' in existing_df.columns:
+                existing_results = existing_df['answer'].to_dict()
+                completed_count = sum(1 for v in existing_results.values() 
+                                    if pd.notna(v) and str(v).strip() != "")
+                print(f"现有结果中已完成翻译: {completed_count} 条")
+            else:
+                print("现有结果文件中没有找到 answer 列")
+        except Exception as e:
+            print(f"加载现有结果文件失败: {e}")
+            print("将重新开始翻译")
+    else:
+        print(f"结果文件不存在: {deepseek_output_path}")
+        print("将创建新的结果文件")
+    
+    # 初始化answer列，优先使用现有结果
     if 'answer' not in df.columns:
         df['answer'] = ""
+    
+    # 将现有结果合并到数据框中
+    if existing_results:
+        for idx in existing_results:
+            if idx < len(df) and pd.notna(existing_results[idx]) and str(existing_results[idx]).strip() != "":
+                df.loc[idx, 'answer'] = existing_results[idx]
+    
+    # 统计已有结果
+    already_completed = df[df['answer'].notna() & (df['answer'] != "")]
+    print(f"已有翻译结果: {len(already_completed)} 条")
     
     # 获取需要翻译的数据
     need_translation = df[df['answer'].isna() | (df['answer'] == "")]
@@ -1134,16 +1210,17 @@ def translate_deepseek(n_shot=0):
         
     print(f"需要翻译 {len(need_translation)} 条数据")
     
-    # 准备翻译数据（包含dev_idx）
+    # 准备翻译数据（包含dev_idx和剧集信息）
     texts_and_langs_with_idx = []
     indices = []
     
     for idx, row in need_translation.iterrows():
         chinese_text = row.iloc[4]  # 中文列
         target_lang_chinese = row.iloc[3]  # 语言列
+        show_name = row.iloc[1] if len(row) > 1 else None  # 片段名列
         target_lang_english = lang_map.get(target_lang_chinese, target_lang_chinese)
         
-        texts_and_langs_with_idx.append((chinese_text, "中文", target_lang_chinese, idx))  # 添加dev_idx
+        texts_and_langs_with_idx.append((chinese_text, "中文", target_lang_chinese, idx, show_name))  # 添加dev_idx和剧集信息
         indices.append(idx)
     
     # 创建DeepSeek翻译器
@@ -1208,19 +1285,27 @@ def translate_deepseek(n_shot=0):
     end_time = time.time()
     elapsed_time = end_time - start_time
     
+    # 统计最终结果
+    final_completed = df[df['answer'].notna() & (df['answer'] != "")]
+    
     print(f"\n=== 翻译完成 ===")
-    print(f"总耗时: {elapsed_time:.2f} 秒")
-    print(f"总翻译条数: {len(texts_and_langs_with_idx)} 条")
-    print(f"成功翻译: {total_successful} 条")
-    print(f"翻译失败: {total_failed} 条")
-    print(f"成功率: {(total_successful/len(texts_and_langs_with_idx)*100):.1f}%")
-    print(f"平均每条翻译耗时: {elapsed_time/len(texts_and_langs_with_idx):.2f} 秒")
+    print(f"总数据条数: {len(df)} 条")
+    print(f"之前已完成: {len(already_completed)} 条")
+    print(f"本次需要翻译: {len(texts_and_langs_with_idx)} 条")
+    print(f"本次成功翻译: {total_successful} 条")
+    print(f"本次翻译失败: {total_failed} 条")
+    print(f"最终完成总数: {len(final_completed)} 条")
+    print(f"总体完成率: {(len(final_completed)/len(df)*100):.1f}%")
+    if len(texts_and_langs_with_idx) > 0:
+        print(f"本次成功率: {(total_successful/len(texts_and_langs_with_idx)*100):.1f}%")
+        print(f"本次翻译耗时: {elapsed_time:.2f} 秒")
+        print(f"平均每条翻译耗时: {elapsed_time/len(texts_and_langs_with_idx):.2f} 秒")
     print(f"最终结果已保存到: {deepseek_output_path}")
 
-def sync_translate_one(text, source_lang, target_lang, n_shot=0):
+def sync_translate_one(text, source_lang, target_lang, n_shot=0, show_name=None):
     """同步翻译单个文本（用于测试）"""
     translator = DeepSeekTranslator(API_KEY, BASE_URL, MODEL_NAME, n_shot=n_shot)
-    return translator.translate_text(text, source_lang, target_lang)
+    return translator.translate_text(text, source_lang, target_lang, current_show=show_name)
 
 def test_translation(n_shot=0):
     """测试翻译功能"""
@@ -1249,8 +1334,9 @@ def test_translation(n_shot=0):
         print(f"原文 ({source_lang}): {text}")
         print(f"目标语言: {target_lang}")
         
-        # 获取完整的系统提示词
-        system_prompt = translator.create_system_prompt(source_lang, target_lang, text)
+        # 获取完整的系统提示词（测试时可以指定剧集）
+        test_show = "电视剧1 EP09"  # 测试用的剧集名称
+        system_prompt = translator.create_system_prompt(source_lang, target_lang, text, current_show=test_show)
         user_prompt = translator.create_translation_prompt(text)
         
         print(f"\n{'*'*60}")
@@ -1269,7 +1355,7 @@ def test_translation(n_shot=0):
         # 进行翻译
         print(f"\n【翻译结果】:")
         print("-" * 40)
-        result = translator.translate_text(text, source_lang, target_lang)
+        result = translator.translate_text(text, source_lang, target_lang, current_show=test_show)
         print(f"译文 ({target_lang}): {result}")
         print("-" * 40)
 
@@ -1283,7 +1369,7 @@ if __name__ == "__main__":
                        help="最大并发请求数")
     parser.add_argument("--delay", type=float, default=REQUEST_DELAY, 
                        help="请求间隔（秒）")
-    parser.add_argument("--n-shot", type=int, default=0,
+    parser.add_argument("--n-shot", type=int, default=30,
                        help=f"Few-shot 示例数量 (0表示不使用few-shot，默认: {DEFAULT_N_SHOT})")
     parser.add_argument("--precompute-bleu2", action="store_true",
                        help="预计算BLEU2相似度分数并缓存到文件")

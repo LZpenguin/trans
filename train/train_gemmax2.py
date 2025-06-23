@@ -45,21 +45,22 @@ class TrainingConfig:
         # os.path.join(base_dir, "data/opus-100/en-zh/train-00000-of-00001.parquet"),
         # os.path.join(base_dir, "data/opus-100/en-ms/train-00000-of-00001.parquet"),
         # os.path.join(base_dir, "data/opus-100/en-th/train-00000-of-00001.parquet"),
-        os.path.join(base_dir, "data/text_data/train.csv")
+        # os.path.join(base_dir, "data/text_data/train.csv"),
+        os.path.join(base_dir, "data/x/x.parquet")
     ]
     dev_file = os.path.join(base_dir, "data/text_data/dev.csv")
 
     
     # LoRA配置
-    use_lora = False
-    lora_r = 8
-    lora_alpha = 32
+    use_lora = True
+    lora_r = 32
+    lora_alpha = 64
     lora_dropout = 0.1
     
     # 根据训练模式设置输出目录
     training_method = "ft"
     training_mode = "lora" if use_lora else "full"
-    training_idx = 102
+    training_idx = 2
     output_dir = os.path.join(base_dir, f"models/{training_method}/{model_path.split('/')[-1]}-{training_method}-{training_mode}-{training_idx}")
     
     # accelerate配置文件路径
@@ -68,7 +69,7 @@ class TrainingConfig:
     
     # 训练配置
     batch_size = 32
-    learning_rate = 2e-5
+    learning_rate = 1e-4
     num_epochs = 3
     max_length = 128
     gradient_accumulation_steps = 1
@@ -76,9 +77,14 @@ class TrainingConfig:
     eval_steps_ratio = 0.05
     force_restart = False  # 是否强制从头开始训练，忽略检查点
     
+    # 评估配置
+    eval_only_malay = True  # 是否只评估马来语为target的数据，设置为False则评估所有语言
+    force_clear_cache = True  # 是否强制清除缓存并重新处理数据
+    debug_cache = True  # 是否打印缓存调试信息
+    
     # wandb配置
     wandb_project = f"gemmax2-translation"
-    wandb_name = f"gemmax2-translation-{training_method}-{training_mode}-{training_idx}"
+    wandb_name = f"gemmax2-t2-{training_method}-{training_mode}-{training_idx}"
     
     # 添加随机种子
     seed = 42
@@ -91,12 +97,18 @@ def get_processed_data_cache_path(config: 'TrainingConfig') -> tuple:
     Returns:
         (train_cache_path, dev_cache_path)
     """
-    # 使用关键参数生成唯一的缓存标识，包含训练数据文件路径
+    # 使用关键参数生成唯一的缓存标识，包含训练数据文件路径和eval_only_malay设置
     train_files_str = "_".join(sorted(config.train_files))  # 排序确保一致性
     train_files_hash = hashlib.md5(train_files_str.encode()).hexdigest()
     dev_file_hash = hashlib.md5(config.dev_file.encode()).hexdigest()
-    cache_id = f"{config.model_path}_{config.max_length}_{config.seed}_{train_files_hash}_{dev_file_hash}_processed"
+    cache_id = f"{config.model_path}_{config.max_length}_{config.seed}_{train_files_hash}_{dev_file_hash}{'_malay' if config.eval_only_malay else ''}_processed"
     cache_name = hashlib.md5(cache_id.encode()).hexdigest()
+    
+    # 调试信息：打印缓存标识
+    if hasattr(config, 'debug_cache') and config.debug_cache:
+        print(f"Debug - Cache ID: {cache_id}")
+        print(f"Debug - Cache Name: {cache_name}")
+        print(f"Debug - eval_only_malay: {config.eval_only_malay}")
     
     cache_dir = os.path.expanduser("~/.cache/huggingface/datasets/processed_cache")
     os.makedirs(cache_dir, exist_ok=True)
@@ -142,7 +154,10 @@ def prepare_data(config):
         # 根据文件扩展名选择对应的数据加载器
         if train_file.endswith('.parquet'):
             # parquet文件使用预训练格式加载器
-            dataset_loader = TranslationDataset(data_type="parquet", double=False)
+            if "x" in train_file:
+                dataset_loader = TranslationDataset(data_type="x", double=False, target_lang="马来语")
+            else:
+                dataset_loader = TranslationDataset(data_type="parquet", double=False)
         elif train_file.endswith('.csv'):
             # csv文件使用微调格式加载器
             dataset_loader = TranslationDataset(data_type="csv", double=False)
@@ -167,7 +182,15 @@ def prepare_data(config):
         raise ValueError(f"不支持的开发集文件格式: {config.dev_file}")
     
     dev_dataset = dev_dataset_loader.load_data(config.dev_file)
-    logger.info(f"开发集数据大小: {len(dev_dataset)}")
+    logger.info(f"原始开发集数据大小: {len(dev_dataset)}")
+    
+    # 如果配置了只评估马来语，则过滤数据
+    if config.eval_only_malay:
+        # 过滤只保留target_lang为马来语的数据
+        dev_dataset = dev_dataset.filter(lambda x: x['target_lang'] == 'Malay')
+        logger.info(f"过滤后开发集数据大小（仅马来语）: {len(dev_dataset)}")
+    else:
+        logger.info(f"开发集数据大小: {len(dev_dataset)}")
     
     return train_dataset, dev_dataset
 
@@ -294,6 +317,19 @@ def train(config):
     # 准备数据和模型 - 只在主进程处理，避免重复
     train_cache_path, dev_cache_path = get_processed_data_cache_path(config)
     
+    # 如果设置了强制清除缓存，删除现有缓存
+    if config.force_clear_cache and accelerator.is_main_process:
+        import shutil
+        if os.path.exists(train_cache_path):
+            shutil.rmtree(train_cache_path)
+            logger.info(f"已清除训练数据缓存: {train_cache_path}")
+        if os.path.exists(dev_cache_path):
+            shutil.rmtree(dev_cache_path)
+            logger.info(f"已清除开发数据缓存: {dev_cache_path}")
+    
+    # 等待主进程完成缓存清除
+    accelerator.wait_for_everyone()
+    
     # 检查是否已有处理好的数据缓存
     if os.path.exists(train_cache_path) and os.path.exists(dev_cache_path):
         if accelerator.is_main_process:
@@ -303,6 +339,10 @@ def train(config):
         from datasets import load_from_disk
         train_dataset = load_from_disk(train_cache_path)
         dev_dataset = load_from_disk(dev_cache_path)
+        
+        if accelerator.is_main_process:
+            logger.info(f"从缓存加载训练数据: {len(train_dataset)} 样本")
+            logger.info(f"从缓存加载开发数据: {len(dev_dataset)} 样本")
         
         # 所有进程加载模型和tokenizer
         model, tokenizer = prepare_model_and_tokenizer(config)
@@ -318,18 +358,6 @@ def train(config):
             
             logger.info(f"训练集大小: {len(train_dataset)}, 验证集大小: {len(dev_dataset)}")
             logger.info("模型和tokenizer加载完成")
-            
-            # 打印样本示例
-            logger.info("打印前3个训练样本的示例：")
-            for i in range(3):
-                print(f"\n=== 样本 {i+1} ===")
-                sample = train_dataset[i]
-                print(f"Source Language: {sample['source_lang']}")
-                print(f"Source Text: {sample['source_text']}")
-                print(f"Target Language: {sample['target_lang']}")
-                print(f"Target Text: {sample['target_text']}")
-                print(f"Prompt: {sample['prompt']}")
-                print("="*50)
             
             # 主进程进行tokenization
             logger.info("主进程开始tokenization...")

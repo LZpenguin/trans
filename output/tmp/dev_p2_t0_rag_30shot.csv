@@ -1,104 +1,104 @@
 编号,片段名,文本,语言,中文,label,音频路径,answer
-50001,电视剧1 EP09,Aktiviti pengambilan pekerja kali ini dikira tamat.,马来语,咱们这次的招聘活动就算结束了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_07,460_00_15_09,780.wav",
-50002,电视剧1 EP09,Tak sangka kita dapat habiskan ia.,马来语,没想到我们真的能完成,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_10,180_00_15_11,980.wav",
-50003,电视剧1 EP09,Bukannya saya nak mengampu awak.,马来语,我不是拍马屁啊,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_13,380_00_15_14,500.wav",
-50004,电视剧1 EP09,Awak tak nampak seperti orang baharu apabila menyelesaikan urusan kerja.,马来语,你处理起工作来一点都不像个新手,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_14,740_00_15_17,020.wav",
-50005,电视剧1 EP09,"Apa-apa pun, saya pernah menganjurkan pemilihan gadis cantik beberapa kali.",马来语,毕竟是主持过几次秀女选拔的人,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_18,020_00_15_20,540.wav",
-50006,电视剧1 EP09,Cik Wei akhirnya pulang.,马来语,我的魏总 你可回来了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_21,380_00_15_22,980.wav",
-50007,电视剧1 EP09,"Cik Wei, kami rindui awak.",马来语,魏总 我们都可想你了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_22,980_00_15_24,340_chinesetts.wav",
-50008,电视剧1 EP09,Mengapa dia serupa dengan Gundik Besar Wei?,马来语,怎么那么像魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_36,580_00_15_38,340.wav",
-50009,电视剧1 EP09,Awak akhirnya sudah muncul.,马来语,你终究还是出现了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_40,220_00_15_41,900.wav",
-50010,电视剧1 EP09,Lama saya menunggu awak.,马来语,等你很久了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_42,380_00_15_44,100.wav",
-50011,电视剧1 EP10,"Inilah timbalan pengarah syarikat kita, Wei Yahan.",马来语,我们公司的副总魏雅涵,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_33,220_00_00_35,260.wav",
-50012,电视剧1 EP10,"Sebelum ini, dia mengurus operasi dalaman syarikat.",马来语,她之前是负责公司内部运营的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_35,940_00_00_38,220.wav",
-50013,电视剧1 EP10,"Tahun ini, dia menangani pengurusan cawangan luar negara.",马来语,今年她去负责海外分公司管理了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_38,900_00_00_41,500.wav",
-50014,电视剧1 EP10,Mengapa dia tiba-tiba balik?,马来语,她怎么突然回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_41,740_00_00_42,780.wav",
-50015,电视剧1 EP10,Awak juga kenalinya?,马来语,你也认识她啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_45,820_00_00_46,580.wav",
-50016,电视剧1 EP10,Boleh cakap begitu.,马来语,算是认识吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_48,900_00_00_49,900.wav",
-50017,电视剧1 EP10,"Salam sejahtera, Puan Wei.",马来语,见过魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_51,220_00_00_52,380.wav",
-50018,电视剧1 EP10,"Sejak awak digelar sebagai gundik, saya asyik sibuk dengan banyak urusan.",马来语,自你封嫔那日后一直被繁杂的事务耽搁了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_54,220_00_00_57,620.wav",
-50019,电视剧1 EP10,"Hari ini, baru saya dapat bersembang dengan awak.",马来语,今天才有空和你好好聊聊天,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_58,300_00_01_00,580.wav",
-50020,电视剧1 EP10,"Sejak hari itu, adakah Gundik Jing dan Gundik Zhao menyusahkan awak lagi?",马来语,那日过后静嫔赵嫔她们没有再为难你吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_01,540_00_01_05,660.wav",
-50021,电视剧1 EP10,"Dengan bantuan Puan Wei, mereka tak susahkan saya lagi.",马来语,多亏了魏贵妃再也没有了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_05,780_00_01_07,980.wav",
-50022,电视剧1 EP10,Tak perlu berkira dengan mereka.,马来语,犯不着和她们计较,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_08,420_00_01_09,940.wav",
-50023,电视剧1 EP10,Jangan panggil saya puan.,马来语,你不要叫得这么生分,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_10,540_00_01_12,020.wav",
-50024,电视剧1 EP10,Kita ialah adik-beradik.,马来语,以后我们就以姐妹相称,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_12,580_00_01_14,980.wav",
-50025,电视剧1 EP10,Anggaplah ini sebagai hadiah kakak kerana awak dilantik sebagai gundik.,马来语,就当是姐姐庆祝你封嫔的贺礼,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_19,060_00_01_21,180.wav",
-50026,电视剧1 EP10,Ini jepit rambut kegemaran puan yang dikurniakan maharaja.,马来语,这可是皇上赏赐给您的您最喜欢的一根珠钗啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_23,780_00_01_27,180.wav",
-50027,电视剧1 EP10,Saya dan adik sungguh rapat.,马来语,我与妹妹难得投缘,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_28,700_00_01_30,340.wav",
-50028,电视剧1 EP10,Ini cuma jepit rambut.,马来语,不就是一根珠钗嘛,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_30,740_00_01_32,260.wav",
-50029,电视剧1 EP10,"Terima kasih, Puan Wei.",马来语,多谢魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_33,340_00_01_34,540.wav",
-50030,电视剧1 EP10,Awak panggil saya puan lagi?,马来语,你还叫我什么,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_35,020_00_01_35,980.wav",
-50031,电视剧1 EP10,"Jika waktu ini boleh dihentikan, bukankah ia baik?",马来语,要是时间真的能停在这一刻那多好啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_13,020_00_02_16,500_chinesetts.wav",
-50032,电视剧1 EP10,Bila awak pulang?,马来语,什么时候回来的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_26,340_00_02_27,380_chinesetts.wav",
-50033,电视剧1 EP10,Saya datang selepas turun kapal terbang.,马来语,今早飞机刚落地就来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_27,980_00_02_29,580_chinesetts.wav",
-50034,电视剧1 EP10,Dingin sangat Encik Li.,马来语,我们李总这么冷漠呀,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_31,860_00_02_33,460_chinesetts.wav",
-50035,电视剧1 EP10,Saya sudah pulang.,马来语,我回来你就一句,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_33,740_00_02_34,660_chinesetts.wav",
-50036,电视剧1 EP10,"Awak cuma kata ""Awak bersusah payah"".",马来语,辛苦了打发我,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_34,660_00_02_35,940_chinesetts.wav",
-50037,电视剧1 EP10,Tiada pelukan yang menyambut saya.,马来语,都没有个欢迎的拥抱,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_36,260_00_02_37,780_chinesetts.wav",
-50038,电视剧1 EP10,Awak seakan-akan balik rumah sahaja.,马来语,你回来就相当于回家,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_38,180_00_02_39,780_chinesetts.wav",
-50039,电视剧1 EP10,Tak perlu menyambut awak.,马来语,也不需要欢迎了吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_39,780_00_02_40,980_chinesetts.wav",
-50040,电视剧1 EP10,Cepatnya Cik Wei pulang.,马来语,魏总这么快就回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_41,140_00_02_42,540_chinesetts.wav",
-50041,电视剧1 EP10,Cepat?,马来语,怎么就快了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_43,220_00_02_44,180_chinesetts.wav",
-50042,电视剧1 EP10,Awak tak tahu bahawa Cik Wei mencapai KPI sebanyak setahun.,马来语,你是不知道年初魏总领的可是一年的关键绩效指标,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_44,340_00_02_48,580_chinesetts.wav",
-50043,电视剧1 EP10,Dia sudah mengawalkan satu musim.,马来语,这可整整提前了一个季度,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_48,700_00_02_50,380_chinesetts.wav",
-50044,电视剧1 EP10,Saya sudah dengar bahawa Cik Wei cantik dan hebat.,马来语,我早就听说魏总才貌双全,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_52,740_00_02_54,580_chinesetts.wav",
-50045,电视剧1 EP10,Tak sangka inilah benar.,马来语,没想到今日一见真的是这样,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_54,860_00_02_56,700_chinesetts.wav",
-50046,电视剧1 EP10,Entah pertunangannya dengan Encik Li sejak kecil adalah benar atau tidak.,马来语,也不知道她跟李总的娃娃亲到底是真的还是假的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_57,580_00_03_00,380_chinesetts.wav",
-50047,电视剧1 EP10,"Tolong senyap, semua.",马来语,大家安静一下,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_01,300_00_03_02,340_chinesetts.wav",
-50048,电视剧1 EP10,Bersedia untuk bermesyuarat.,马来语,准备开会了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_02,340_00_03_03,300_chinesetts.wav",
-50049,电视剧1 EP10,Saya akan umumkan beberapa perkara.,马来语,宣布几个事情,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_03,860_00_03_05,020_chinesetts.wav",
-50050,电视剧1 EP10,"Kebelakangan ini, syarikat baru menyiapkan pengambilan besar.",马来语,最近公司刚刚完成了一轮大型招聘,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_05,540_00_03_08,100_chinesetts.wav",
-50051,电视剧1 EP10,Pasukan Bahagian Sumber Manusia ketiga menunjukkan prestasi cemerlang dalam aktiviti ini.,马来语,人事部三组在这次活动中表现得非常出色,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_08,580_00_03_11,580_chinesetts.wav",
-50052,电视剧1 EP10,"Selain itu, perkara terpenting di Bahagian Sumber Manusia ialah latihan pekerja baharu dan perubahan jawatan di dalam syarikat.",马来语,另外接下来人事部最重要的工作就是新员工的培训以及公司内部岗位的调动,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_13,100_00_03_20,020_chinesetts.wav",
-50053,电视剧1 EP10,Kebetulan Cik Wei sudah pulang.,马来语,魏总刚好已经回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_20,780_00_03_22,100_chinesetts.wav",
-50054,电视剧1 EP10,"Mulai sekarang, operasi dalaman masih diserahkan kepada dia.",马来语,以后公司内部运营还是交给她负责,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_22,500_00_03_24,780_chinesetts.wav",
-50055,电视剧1 EP10,"Encik Li, boleh saya cakap sesuatu?",马来语,李总 我可以说两句吗,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_26,060_00_03_27,460_chinesetts.wav",
-50056,电视剧2 EP12,Ketua Shen Du daripada Jabatan Pengawal Diraja?,马来语,内卫府大阁领沈渡,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_37,600_00_13_39,880_chinesetts.wav",
-50057,电视剧2 EP12,"The commander of Imperial Guard, Shen Du.",英语,内卫府大阁领沈渡,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_37,600_00_13_39,880_chinesetts.wav",
-50058,电视剧2 EP12,Dialah suami kepada Cik Xing.,马来语,他是六娘的夫君啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_40,600_00_13_43,400_chinesetts.wav",
-50059,电视剧2 EP12,He is Xing's husband.,英语,他是六娘的夫君啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_40,600_00_13_43,400_chinesetts.wav",
-50060,电视剧2 EP12,Dengarnya isteri Ketua Shen dipukul lagi hari ini.,马来语,听说那大阁领夫人今天又挨打了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_46,160_00_13_48,920_chinesetts.wav",
-50061,电视剧2 EP12,I heard the wife of IG Commander got beat up again today.,英语,听说那大阁领夫人今天又挨打了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_46,160_00_13_48,920_chinesetts.wav",
-50062,电视剧2 EP12,Kakinya tempang apabila dia keluar.,马来语,出门那腿都是瘸的,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_48,920_00_13_50,600_chinesetts.wav",
-50063,电视剧2 EP12,She left with a limp.,英语,出门那腿都是瘸的,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_48,920_00_13_50,600_chinesetts.wav",
-50064,电视剧2 EP12,Ya. Dahinya sudah bengkak.,马来语,是啊那额头啊肿了一大块,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_51,080_00_13_54,120_chinesetts.wav",
-50065,电视剧2 EP12,"Yeah, her forehead is swollen quite a bit.",英语,是啊那额头啊肿了一大块,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_51,080_00_13_54,120_chinesetts.wav",
-50066,电视剧2 EP12,Dia berkahwin dengan Utusan Hantu Putih. Dia pasti tak bahagia.,马来语,嫁给白无常能讨得了好吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_55,080_00_13_57,400_chinesetts.wav",
-50067,电视剧2 EP12,Can she truly find happiness by marrying White Death?,英语,嫁给白无常能讨得了好吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_55,080_00_13_57,400_chinesetts.wav",
-50068,电视剧2 EP12,"Cik Xing. Sudah lama kita berkenalan. Setelah saya tahu bahawa awak sudah berkahwin, saya tak patut mengganggu awak lagi.",马来语,六娘你我鸿雁相交多时闻你嫁为人妇本不该再打扰,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_57,400_00_14_03,120_chinesetts.wav",
-50069,电视剧2 EP12,"Xing, we have shared much, and your wedding should bring me joy.",英语,六娘你我鸿雁相交多时闻你嫁为人妇本不该再打扰,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_57,400_00_14_03,120_chinesetts.wav",
-50070,电视剧2 EP12,"Namun, bagaimana saya nak bertenang apabila awak berkahwin dengan Utusan Hantu Putih yang jahat itu?",马来语,可叫我如何能放心你嫁给那恶名昭彰的白无常,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_03,360_00_14_07,480_chinesetts.wav",
-50071,电视剧2 EP12,But the thought of you marrying the notorious White Death troubles me deeply.,英语,可叫我如何能放心你嫁给那恶名昭彰的白无常,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_03,360_00_14_07,480_chinesetts.wav",
-50072,电视剧2 EP12,Kenapa ini?,马来语,这是怎么了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_33,440_00_14_34,440_chinesetts.wav",
-50073,电视剧2 EP12,What's the matter?,英语,这是怎么了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_33,440_00_14_34,440_chinesetts.wav",
-50074,电视剧2 EP12,"Selepas Ketua Shen pulang, dia terus bertinju di halaman belakang. Dia belum makan malam sampai sekarang.",马来语,大阁领自回府之后就在后院一直打拳到现在还没用晚膳呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_34,480_00_14_39,920_chinesetts.wav",
-50075,电视剧2 EP12,"Since my lord returned, he's been in the training of martial arts, and hasn't had dinner yet.",英语,大阁领自回府之后就在后院一直打拳到现在还没用晚膳呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_34,480_00_14_39,920_chinesetts.wav",
-50076,电视剧2 EP12,Akhirnya puan pulang.,马来语,夫人 您可回来了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_42,720_00_14_44,160_chinesetts.wav",
-50077,电视剧2 EP12,"My lady, you're finally back.",英语,夫人 您可回来了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_42,720_00_14_44,160_chinesetts.wav",
-50078,电视剧2 EP12,Lekas pergi ke halaman belakang.,马来语,您快去后院吧,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_44,160_00_14_45,160_chinesetts.wav",
-50079,电视剧2 EP12,You should head to the backyard.,英语,您快去后院吧,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_44,160_00_14_45,160_chinesetts.wav",
-50080,电视剧2 EP12,"Dua hari ini, Ketua Shen menyediakan makanan untuk puan di kediaman.",马来语,这两日大阁领每日都在府上准备好茶点等您,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_45,160_00_14_48,320_chinesetts.wav",
-50081,电视剧2 EP12,"For the past few days, the Commander has been at home, preparing tea and snacks for you.",英语,这两日大阁领每日都在府上准备好茶点等您,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_45,160_00_14_48,320_chinesetts.wav",
-50082,电视剧2 EP12,"Namun, puan menyiasat kasus di luar dan minum arak dengan orang tak berkaitan di jalanan.",马来语,可您不是跑出去办案就是去大街上与一堆不相干的人吃酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_48,480_00_14_52,400_chinesetts.wav",
-50083,电视剧2 EP12,But you've either been out on cases or drinking with a bunch of strangers.,英语,可您不是跑出去办案就是去大街上与一堆不相干的人吃酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_48,480_00_14_52,400_chinesetts.wav",
-50084,电视剧2 EP12,"Kini, Ketua Shen menunggu puan setengah hari di kediaman.",马来语,如今大阁领又在府上等了您半宿,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_54,880_00_14_57,560_chinesetts.wav",
-50085,电视剧2 EP12,Now that the Commander has been waiting for you all night.,英语,如今大阁领又在府上等了您半宿,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_54,880_00_14_57,560_chinesetts.wav",
-50086,电视剧2 EP12,Saya ingat Jabatan Pengawal Diraja sibuk dengan siasatan.,马来语,我还以为内卫府忙于查案呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_04,800_00_15_07,200_chinesetts.wav",
-50087,电视剧2 EP12,I thought you were busy with investigations.,英语,我还以为内卫府忙于查案呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_04,800_00_15_07,200_chinesetts.wav",
-50088,电视剧2 EP12,Awak masih tahu balik?,马来语,还知道回来,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_37,400_00_15_38,480_chinesetts.wav",
-50089,电视剧2 EP12,So you do realize you have a home.,英语,还知道回来,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_37,400_00_15_38,480_chinesetts.wav",
-50090,电视剧2 EP12,Saya pergi ke Jabatan Pengawal Diraja dua hari ini,马来语,我这两日去内卫府报到,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_45,520_00_15_47,880_chinesetts.wav",
-50091,电视剧2 EP12,I reported for duty to the Imperial Guard.,英语,我这两日去内卫府报到,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_45,520_00_15_47,880_chinesetts.wav",
-50092,电视剧2 EP12,dan memeriksa kediaman Chen Shoujie. Saya juga minum arak bersama Chuichui dan Abang Xu.,马来语,又去查看了陈守杰的府邸又跟垂垂和徐大哥去吃了酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_47,960_00_15_51,920_chinesetts.wav",
-50093,电视剧2 EP12,I also investigated Chen Shoujie's residence and went out for drinks with Chui and Chief Xu.,英语,又去查看了陈守杰的府邸又跟垂垂和徐大哥去吃了酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_47,960_00_15_51,920_chinesetts.wav",
-50094,电视剧2 EP12,"Saya juga terserempak dengan peniaga, Pan.",马来语,还遇到了行商阿潘,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_52,800_00_15_54,360_chinesetts.wav",
-50095,电视剧2 EP12,"I even ran into the merchant, Pan.",英语,还遇到了行商阿潘,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_52,800_00_15_54,360_chinesetts.wav",
-50096,电视剧2 EP12,"Jadi, saya pulang dengan lambat.",马来语,所以回来得晚了些,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_56,320_00_15_57,800_chinesetts.wav",
-50097,电视剧2 EP12,So I came back a bit late.,英语,所以回来得晚了些,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_56,320_00_15_57,800_chinesetts.wav",
-50098,电视剧2 EP12,Awak nak jumpa saya untuk apa?,马来语,你找我有什么事吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_59,880_00_16_02,600_chinesetts.wav",
-50099,电视剧2 EP12,Did you need something from me?,英语,你找我有什么事吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_59,880_00_16_02,600_chinesetts.wav",
-50100,电视剧2 EP12,Makanlah jika awak lapar.,马来语,饿了就去吃饭啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_16_08,920_00_16_10,360_chinesetts.wav",
+50001,电视剧1 EP09,Aktiviti pengambilan pekerja kali ini dikira tamat.,马来语,咱们这次的招聘活动就算结束了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_07,460_00_15_09,780.wav",Aktiviti pengambilan pekerja kita kali ini sudah tamat.
+50002,电视剧1 EP09,Tak sangka kita dapat habiskan ia.,马来语,没想到我们真的能完成,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_10,180_00_15_11,980.wav",Tak sangka kami benar-benar berjaya menyelesaikannya.
+50003,电视剧1 EP09,Bukannya saya nak mengampu awak.,马来语,我不是拍马屁啊,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_13,380_00_15_14,500.wav",Saya bukan mengampu.
+50004,电视剧1 EP09,Awak tak nampak seperti orang baharu apabila menyelesaikan urusan kerja.,马来语,你处理起工作来一点都不像个新手,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_14,740_00_15_17,020.wav",Awak urus kerja langsung tak macam orang baru.
+50005,电视剧1 EP09,"Apa-apa pun, saya pernah menganjurkan pemilihan gadis cantik beberapa kali.",马来语,毕竟是主持过几次秀女选拔的人,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_18,020_00_15_20,540.wav","Lagipun, dia pernah menjadi pengacara pemilihan gadis beberapa kali."
+50006,电视剧1 EP09,Cik Wei akhirnya pulang.,马来语,我的魏总 你可回来了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_21,380_00_15_22,980.wav","Ketua Wei saya, akhirnya awak pulang."
+50007,电视剧1 EP09,"Cik Wei, kami rindui awak.",马来语,魏总 我们都可想你了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_22,980_00_15_24,340_chinesetts.wav","Encik Wei, kami semua sangat merindui awak."
+50008,电视剧1 EP09,Mengapa dia serupa dengan Gundik Besar Wei?,马来语,怎么那么像魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_36,580_00_15_38,340.wav",Kenapa begitu mirip dengan Gundik Besar Wei?
+50009,电视剧1 EP09,Awak akhirnya sudah muncul.,马来语,你终究还是出现了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_40,220_00_15_41,900.wav","Akhirnya, awak muncul juga."
+50010,电视剧1 EP09,Lama saya menunggu awak.,马来语,等你很久了,验证集,"/alg_2025_audios_final/电视剧1 EP09/电视剧1 EP09_00_15_42,380_00_15_44,100.wav",Sudah lama menunggu awak.
+50011,电视剧1 EP10,"Inilah timbalan pengarah syarikat kita, Wei Yahan.",马来语,我们公司的副总魏雅涵,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_33,220_00_00_35,260.wav","Naib Presiden syarikat kita, Wei Yahan."
+50012,电视剧1 EP10,"Sebelum ini, dia mengurus operasi dalaman syarikat.",马来语,她之前是负责公司内部运营的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_35,940_00_00_38,220.wav",Dia sebelum ini bertanggungjawab atas operasi dalaman syarikat.
+50013,电视剧1 EP10,"Tahun ini, dia menangani pengurusan cawangan luar negara.",马来语,今年她去负责海外分公司管理了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_38,900_00_00_41,500.wav",Tahun ini dia bertanggungjawab mengurus cawangan luar negara.
+50014,电视剧1 EP10,Mengapa dia tiba-tiba balik?,马来语,她怎么突然回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_41,740_00_00_42,780.wav",Kenapa dia tiba-tiba balik?
+50015,电视剧1 EP10,Awak juga kenalinya?,马来语,你也认识她啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_45,820_00_00_46,580.wav",Awak pun kenal dia juga?
+50016,电视剧1 EP10,Boleh cakap begitu.,马来语,算是认识吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_48,900_00_00_49,900.wav",Boleh dikatakan kenal.
+50017,电视剧1 EP10,"Salam sejahtera, Puan Wei.",马来语,见过魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_51,220_00_00_52,380.wav",Pernah jumpa Gundik Besar Wei.
+50018,电视剧1 EP10,"Sejak awak digelar sebagai gundik, saya asyik sibuk dengan banyak urusan.",马来语,自你封嫔那日后一直被繁杂的事务耽搁了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_54,220_00_00_57,620.wav","Sejak hari awak dilantik sebagai bini, aku sentiasa disibukkan dengan urusan yang rumit."
+50019,电视剧1 EP10,"Hari ini, baru saya dapat bersembang dengan awak.",马来语,今天才有空和你好好聊聊天,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_00_58,300_00_01_00,580.wav",Hari ini baru ada masa untuk berbual baik-baik dengan awak.
+50020,电视剧1 EP10,"Sejak hari itu, adakah Gundik Jing dan Gundik Zhao menyusahkan awak lagi?",马来语,那日过后静嫔赵嫔她们没有再为难你吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_01,540_00_01_05,660.wav","Selepas hari itu, adakah Gundik Jing dan Gundik Zhao masih menyusahkan awak?"
+50021,电视剧1 EP10,"Dengan bantuan Puan Wei, mereka tak susahkan saya lagi.",马来语,多亏了魏贵妃再也没有了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_05,780_00_01_07,980.wav","Terima kasih kepada Gundik Besar Wei, sekarang sudah tiada lagi."
+50022,电视剧1 EP10,Tak perlu berkira dengan mereka.,马来语,犯不着和她们计较,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_08,420_00_01_09,940.wav",Tak perlu berkira dengan mereka.
+50023,电视剧1 EP10,Jangan panggil saya puan.,马来语,你不要叫得这么生分,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_10,540_00_01_12,020.wav",Jangan panggil saya dengan begitu asing.
+50024,电视剧1 EP10,Kita ialah adik-beradik.,马来语,以后我们就以姐妹相称,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_12,580_00_01_14,980.wav","Mulai sekarang, kita akan saling memanggil sebagai adik-beradik perempuan."
+50025,电视剧1 EP10,Anggaplah ini sebagai hadiah kakak kerana awak dilantik sebagai gundik.,马来语,就当是姐姐庆祝你封嫔的贺礼,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_19,060_00_01_21,180.wav",Anggap ini sebagai hadiah daripada kakak untuk menyambut pengurniaan gelaran bini kepada awak.
+50026,电视剧1 EP10,Ini jepit rambut kegemaran puan yang dikurniakan maharaja.,马来语,这可是皇上赏赐给您的您最喜欢的一根珠钗啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_23,780_00_01_27,180.wav",Inilah cucuk sanggul mutiara kegemaran puan yang dikurniakan oleh maharaja!
+50027,电视剧1 EP10,Saya dan adik sungguh rapat.,马来语,我与妹妹难得投缘,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_28,700_00_01_30,340.wav",Saya dan adik perempuan jarang sekali begitu akur.
+50028,电视剧1 EP10,Ini cuma jepit rambut.,马来语,不就是一根珠钗嘛,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_30,740_00_01_32,260.wav",Bukankah itu cuma sebatang cucuk sanggul?
+50029,电视剧1 EP10,"Terima kasih, Puan Wei.",马来语,多谢魏贵妃,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_33,340_00_01_34,540.wav","Terima kasih, Gundik Besar Wei."
+50030,电视剧1 EP10,Awak panggil saya puan lagi?,马来语,你还叫我什么,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_01_35,020_00_01_35,980.wav",Kenapa awak masih panggil saya begitu?
+50031,电视剧1 EP10,"Jika waktu ini boleh dihentikan, bukankah ia baik?",马来语,要是时间真的能停在这一刻那多好啊,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_13,020_00_02_16,500_chinesetts.wav",Alangkah indahnya jika masa benar-benar dapat berhenti pada saat ini.
+50032,电视剧1 EP10,Bila awak pulang?,马来语,什么时候回来的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_26,340_00_02_27,380_chinesetts.wav",Bilakah awak balik?
+50033,电视剧1 EP10,Saya datang selepas turun kapal terbang.,马来语,今早飞机刚落地就来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_27,980_00_02_29,580_chinesetts.wav","Pagi ini, saya terus datang sebaik sahaja pesawat mendarat."
+50034,电视剧1 EP10,Dingin sangat Encik Li.,马来语,我们李总这么冷漠呀,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_31,860_00_02_33,460_chinesetts.wav",Encik Li kita begitu dingin ya.
+50035,电视剧1 EP10,Saya sudah pulang.,马来语,我回来你就一句,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_33,740_00_02_34,660_chinesetts.wav","Saya balik, awak cuma ucap satu ayat."
+50036,电视剧1 EP10,"Awak cuma kata ""Awak bersusah payah"".",马来语,辛苦了打发我,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_34,660_00_02_35,940_chinesetts.wav",Terima kasih kerana menghiburkan saya.
+50037,电视剧1 EP10,Tiada pelukan yang menyambut saya.,马来语,都没有个欢迎的拥抱,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_36,260_00_02_37,780_chinesetts.wav",Tiada pelukan selamat datang pun.
+50038,电视剧1 EP10,Awak seakan-akan balik rumah sahaja.,马来语,你回来就相当于回家,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_38,180_00_02_39,780_chinesetts.wav",Awak kembali sama seperti pulang ke rumah.
+50039,电视剧1 EP10,Tak perlu menyambut awak.,马来语,也不需要欢迎了吧,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_39,780_00_02_40,980_chinesetts.wav",Tak perlu sambut pun.
+50040,电视剧1 EP10,Cepatnya Cik Wei pulang.,马来语,魏总这么快就回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_41,140_00_02_42,540_chinesetts.wav","Tuan Wei, cepatnya awak balik."
+50041,电视剧1 EP10,Cepat?,马来语,怎么就快了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_43,220_00_02_44,180_chinesetts.wav",Kenapa tiba-tiba cepat?
+50042,电视剧1 EP10,Awak tak tahu bahawa Cik Wei mencapai KPI sebanyak setahun.,马来语,你是不知道年初魏总领的可是一年的关键绩效指标,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_44,340_00_02_48,580_chinesetts.wav","Awak tak tahu, pada awal tahun, Encik Wei memikul petunjuk prestasi utama sepanjang tahun."
+50043,电视剧1 EP10,Dia sudah mengawalkan satu musim.,马来语,这可整整提前了一个季度,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_48,700_00_02_50,380_chinesetts.wav",Ini betul-betul lebih awal satu suku tahun.
+50044,电视剧1 EP10,Saya sudah dengar bahawa Cik Wei cantik dan hebat.,马来语,我早就听说魏总才貌双全,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_52,740_00_02_54,580_chinesetts.wav",Saya sudah lama dengar bahawa Tuan Wei bukan sahaja berbakat malah tampan.
+50045,电视剧1 EP10,Tak sangka inilah benar.,马来语,没想到今日一见真的是这样,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_54,860_00_02_56,700_chinesetts.wav","Tak sangka setelah bertemu hari ini, memang benar begitu."
+50046,电视剧1 EP10,Entah pertunangannya dengan Encik Li sejak kecil adalah benar atau tidak.,马来语,也不知道她跟李总的娃娃亲到底是真的还是假的,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_02_57,580_00_03_00,380_chinesetts.wav",Tak tahu sama ada pertunangan dia dengan Encik Li itu betul atau tidak.
+50047,电视剧1 EP10,"Tolong senyap, semua.",马来语,大家安静一下,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_01,300_00_03_02,340_chinesetts.wav","Semua, diam sekejap."
+50048,电视剧1 EP10,Bersedia untuk bermesyuarat.,马来语,准备开会了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_02,340_00_03_03,300_chinesetts.wav",Bersedia untuk bermesyuarat.
+50049,电视剧1 EP10,Saya akan umumkan beberapa perkara.,马来语,宣布几个事情,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_03,860_00_03_05,020_chinesetts.wav",Mengumumkan beberapa perkara.
+50050,电视剧1 EP10,"Kebelakangan ini, syarikat baru menyiapkan pengambilan besar.",马来语,最近公司刚刚完成了一轮大型招聘,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_05,540_00_03_08,100_chinesetts.wav","Baru-baru ini, syarikat baru sahaja menyelesaikan satu pusingan pengambilan pekerja besar-besaran."
+50051,电视剧1 EP10,Pasukan Bahagian Sumber Manusia ketiga menunjukkan prestasi cemerlang dalam aktiviti ini.,马来语,人事部三组在这次活动中表现得非常出色,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_08,580_00_03_11,580_chinesetts.wav",Pasukan ketiga Jabatan Sumber Manusia menunjukkan prestasi yang sangat cemerlang dalam aktiviti kali ini.
+50052,电视剧1 EP10,"Selain itu, perkara terpenting di Bahagian Sumber Manusia ialah latihan pekerja baharu dan perubahan jawatan di dalam syarikat.",马来语,另外接下来人事部最重要的工作就是新员工的培训以及公司内部岗位的调动,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_13,100_00_03_20,020_chinesetts.wav","Selain itu, kerja paling penting Bahagian Tenaga Manusia seterusnya adalah latihan pekerja baharu dan pertukaran jawatan dalam syarikat."
+50053,电视剧1 EP10,Kebetulan Cik Wei sudah pulang.,马来语,魏总刚好已经回来了,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_20,780_00_03_22,100_chinesetts.wav",Ketua Wei kebetulan sudah pulang.
+50054,电视剧1 EP10,"Mulai sekarang, operasi dalaman masih diserahkan kepada dia.",马来语,以后公司内部运营还是交给她负责,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_22,500_00_03_24,780_chinesetts.wav","Kelak, operasi dalaman syarikat tetap akan diserahkan kepadanya untuk diuruskan."
+50055,电视剧1 EP10,"Encik Li, boleh saya cakap sesuatu?",马来语,李总 我可以说两句吗,验证集,"/alg_2025_audios_final/电视剧1 EP10/电视剧1 EP10_00_03_26,060_00_03_27,460_chinesetts.wav","Encik Li, bolehkah saya cakap sikit?"
+50056,电视剧2 EP12,Ketua Shen Du daripada Jabatan Pengawal Diraja?,马来语,内卫府大阁领沈渡,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_37,600_00_13_39,880_chinesetts.wav",Ketua Besar Shen Du dari Jabatan Pengawal Diraja
+50057,电视剧2 EP12,"The commander of Imperial Guard, Shen Du.",英语,内卫府大阁领沈渡,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_37,600_00_13_39,880_chinesetts.wav","Shen Du, Chief Commander of the Imperial Guard"
+50058,电视剧2 EP12,Dialah suami kepada Cik Xing.,马来语,他是六娘的夫君啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_40,600_00_13_43,400_chinesetts.wav",Dia adalah suami Cik Xing.
+50059,电视剧2 EP12,He is Xing's husband.,英语,他是六娘的夫君啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_40,600_00_13_43,400_chinesetts.wav",He's Xing's husband.
+50060,电视剧2 EP12,Dengarnya isteri Ketua Shen dipukul lagi hari ini.,马来语,听说那大阁领夫人今天又挨打了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_46,160_00_13_48,920_chinesetts.wav","Dengar-dengar, isteri Ketua Shen dipukul lagi hari ini."
+50061,电视剧2 EP12,I heard the wife of IG Commander got beat up again today.,英语,听说那大阁领夫人今天又挨打了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_46,160_00_13_48,920_chinesetts.wav",I heard that Lady Shen got beaten again today.
+50062,电视剧2 EP12,Kakinya tempang apabila dia keluar.,马来语,出门那腿都是瘸的,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_48,920_00_13_50,600_chinesetts.wav",Keluar rumah pun kakinya tempang.
+50063,电视剧2 EP12,She left with a limp.,英语,出门那腿都是瘸的,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_48,920_00_13_50,600_chinesetts.wav",He was limping when he left.
+50064,电视剧2 EP12,Ya. Dahinya sudah bengkak.,马来语,是啊那额头啊肿了一大块,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_51,080_00_13_54,120_chinesetts.wav","Ya, dahi itu bengkak besar."
+50065,电视剧2 EP12,"Yeah, her forehead is swollen quite a bit.",英语,是啊那额头啊肿了一大块,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_51,080_00_13_54,120_chinesetts.wav","Yeah, that forehead is all swollen."
+50066,电视剧2 EP12,Dia berkahwin dengan Utusan Hantu Putih. Dia pasti tak bahagia.,马来语,嫁给白无常能讨得了好吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_55,080_00_13_57,400_chinesetts.wav",Berkahwin dengan Utusan Hantu Putih boleh membawa kebaikan?
+50067,电视剧2 EP12,Can she truly find happiness by marrying White Death?,英语,嫁给白无常能讨得了好吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_55,080_00_13_57,400_chinesetts.wav",What good can it do to marry the White Death?
+50068,电视剧2 EP12,"Cik Xing. Sudah lama kita berkenalan. Setelah saya tahu bahawa awak sudah berkahwin, saya tak patut mengganggu awak lagi.",马来语,六娘你我鸿雁相交多时闻你嫁为人妇本不该再打扰,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_57,400_00_14_03,120_chinesetts.wav","Xing, kita sudah lama berkawan melalui surat. Setelah mendengar awak sudah berkahwin, sepatutnya saya tidak mengganggu lagi."
+50069,电视剧2 EP12,"Xing, we have shared much, and your wedding should bring me joy.",英语,六娘你我鸿雁相交多时闻你嫁为人妇本不该再打扰,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_13_57,400_00_14_03,120_chinesetts.wav","Xing, we've corresponded like geese for so long, and now that I've heard you're married, I really shouldn't disturb you anymore."
+50070,电视剧2 EP12,"Namun, bagaimana saya nak bertenang apabila awak berkahwin dengan Utusan Hantu Putih yang jahat itu?",马来语,可叫我如何能放心你嫁给那恶名昭彰的白无常,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_03,360_00_14_07,480_chinesetts.wav",Bagaimana saya boleh tenang membiarkan awak berkahwin dengan Utusan Hantu Putih yang terkenal jahat itu?
+50071,电视剧2 EP12,But the thought of you marrying the notorious White Death troubles me deeply.,英语,可叫我如何能放心你嫁给那恶名昭彰的白无常,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_03,360_00_14_07,480_chinesetts.wav",How can I ever rest easy knowing you're marrying that notorious White Death?
+50072,电视剧2 EP12,Kenapa ini?,马来语,这是怎么了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_33,440_00_14_34,440_chinesetts.wav",Apa yang berlaku ini?
+50073,电视剧2 EP12,What's the matter?,英语,这是怎么了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_33,440_00_14_34,440_chinesetts.wav",What's going on?
+50074,电视剧2 EP12,"Selepas Ketua Shen pulang, dia terus bertinju di halaman belakang. Dia belum makan malam sampai sekarang.",马来语,大阁领自回府之后就在后院一直打拳到现在还没用晚膳呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_34,480_00_14_39,920_chinesetts.wav",Ketua Shen sejak pulang ke rumah terus berlatih seni mempertahankan diri di halaman belakang hingga sekarang belum makan malam.
+50075,电视剧2 EP12,"Since my lord returned, he's been in the training of martial arts, and hasn't had dinner yet.",英语,大阁领自回府之后就在后院一直打拳到现在还没用晚膳呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_34,480_00_14_39,920_chinesetts.wav",Chief Shen has been practicing martial arts in the backyard ever since he returned to the residence and hasn't had dinner yet.
+50076,电视剧2 EP12,Akhirnya puan pulang.,马来语,夫人 您可回来了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_42,720_00_14_44,160_chinesetts.wav","Puan, akhirnya puan pulang."
+50077,电视剧2 EP12,"My lady, you're finally back.",英语,夫人 您可回来了,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_42,720_00_14_44,160_chinesetts.wav","Madam, you're finally back."
+50078,电视剧2 EP12,Lekas pergi ke halaman belakang.,马来语,您快去后院吧,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_44,160_00_14_45,160_chinesetts.wav","Tuanku, cepatlah pergi ke halaman belakang."
+50079,电视剧2 EP12,You should head to the backyard.,英语,您快去后院吧,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_44,160_00_14_45,160_chinesetts.wav",Go to the backyard quickly.
+50080,电视剧2 EP12,"Dua hari ini, Ketua Shen menyediakan makanan untuk puan di kediaman.",马来语,这两日大阁领每日都在府上准备好茶点等您,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_45,160_00_14_48,320_chinesetts.wav","Dua hari ini, Ketua Shen setiap hari menyediakan teh dan kuih-muih di kediaman untuk menunggu tuan."
+50081,电视剧2 EP12,"For the past few days, the Commander has been at home, preparing tea and snacks for you.",英语,这两日大阁领每日都在府上准备好茶点等您,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_45,160_00_14_48,320_chinesetts.wav","These past two days, Chief Shen has been preparing tea and snacks at the residence every day while waiting for you."
+50082,电视剧2 EP12,"Namun, puan menyiasat kasus di luar dan minum arak dengan orang tak berkaitan di jalanan.",马来语,可您不是跑出去办案就是去大街上与一堆不相干的人吃酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_48,480_00_14_52,400_chinesetts.wav","Tetapi awak bukan sahaja keluar menyiasat kes, malah pergi minum-minum dengan orang yang tak berkaitan di jalanan."
+50083,电视剧2 EP12,But you've either been out on cases or drinking with a bunch of strangers.,英语,可您不是跑出去办案就是去大街上与一堆不相干的人吃酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_48,480_00_14_52,400_chinesetts.wav",But you're either out solving cases or drinking with a bunch of strangers on the street.
+50084,电视剧2 EP12,"Kini, Ketua Shen menunggu puan setengah hari di kediaman.",马来语,如今大阁领又在府上等了您半宿,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_54,880_00_14_57,560_chinesetts.wav",Ketua Shen sudah menunggu awak separuh malam di rumah sekarang.
+50085,电视剧2 EP12,Now that the Commander has been waiting for you all night.,英语,如今大阁领又在府上等了您半宿,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_14_54,880_00_14_57,560_chinesetts.wav",Now the Chief has been waiting for you at the residence for half the night again.
+50086,电视剧2 EP12,Saya ingat Jabatan Pengawal Diraja sibuk dengan siasatan.,马来语,我还以为内卫府忙于查案呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_04,800_00_15_07,200_chinesetts.wav",Saya ingat Jabatan Pengawal Diraja sibuk menyiasat kes.
+50087,电视剧2 EP12,I thought you were busy with investigations.,英语,我还以为内卫府忙于查案呢,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_04,800_00_15_07,200_chinesetts.wav",I thought the Imperial Guard was busy with investigations.
+50088,电视剧2 EP12,Awak masih tahu balik?,马来语,还知道回来,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_37,400_00_15_38,480_chinesetts.wav",Masih tahu nak balik?
+50089,电视剧2 EP12,So you do realize you have a home.,英语,还知道回来,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_37,400_00_15_38,480_chinesetts.wav","You're aware that you've got a home, huh?"
+50090,电视剧2 EP12,Saya pergi ke Jabatan Pengawal Diraja dua hari ini,马来语,我这两日去内卫府报到,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_45,520_00_15_47,880_chinesetts.wav",Saya akan pergi melapor diri di Jabatan Pengawal Diraja dalam dua hari ini.
+50091,电视剧2 EP12,I reported for duty to the Imperial Guard.,英语,我这两日去内卫府报到,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_45,520_00_15_47,880_chinesetts.wav",I'm reporting to the Imperial Guard these two days.
+50092,电视剧2 EP12,dan memeriksa kediaman Chen Shoujie. Saya juga minum arak bersama Chuichui dan Abang Xu.,马来语,又去查看了陈守杰的府邸又跟垂垂和徐大哥去吃了酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_47,960_00_15_51,920_chinesetts.wav","Pergi lagi melihat kediaman Chen Shoujie, kemudian pergi minum arak bersama Chuichui dan Abang Xu."
+50093,电视剧2 EP12,I also investigated Chen Shoujie's residence and went out for drinks with Chui and Chief Xu.,英语,又去查看了陈守杰的府邸又跟垂垂和徐大哥去吃了酒,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_47,960_00_15_51,920_chinesetts.wav","I went to check Chen Shoujie's residence again, then had drinks with Chuichui and Brother Xu."
+50094,电视剧2 EP12,"Saya juga terserempak dengan peniaga, Pan.",马来语,还遇到了行商阿潘,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_52,800_00_15_54,360_chinesetts.wav",Juga bertemu dengan peniaga bernama Pan.
+50095,电视剧2 EP12,"I even ran into the merchant, Pan.",英语,还遇到了行商阿潘,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_52,800_00_15_54,360_chinesetts.wav",Also met a traveling merchant named Apan.
+50096,电视剧2 EP12,"Jadi, saya pulang dengan lambat.",马来语,所以回来得晚了些,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_56,320_00_15_57,800_chinesetts.wav","Jadi, balik agak lewat sikit."
+50097,电视剧2 EP12,So I came back a bit late.,英语,所以回来得晚了些,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_56,320_00_15_57,800_chinesetts.wav",That's why I'm back a bit late.
+50098,电视剧2 EP12,Awak nak jumpa saya untuk apa?,马来语,你找我有什么事吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_59,880_00_16_02,600_chinesetts.wav",Ada apa awak cari saya?
+50099,电视剧2 EP12,Did you need something from me?,英语,你找我有什么事吗,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_15_59,880_00_16_02,600_chinesetts.wav",What do you need from me?
+50100,电视剧2 EP12,Makanlah jika awak lapar.,马来语,饿了就去吃饭啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_16_08,920_00_16_10,360_chinesetts.wav","Kalau lapar, pergilah makan."
 50101,电视剧2 EP12,"If you're hungry, you should eat!",英语,饿了就去吃饭啊,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_16_08,920_00_16_10,360_chinesetts.wav",
 50102,电视剧2 EP12,"Oh, ya. Saya pulang untuk beritahu awak",马来语,对了我回来是想跟你说一声,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_16_13,800_00_16_16,320_chinesetts.wav",
 50103,电视剧2 EP12,"By the way, I came back to let you know.",英语,对了我回来是想跟你说一声,验证集,"/alg_2025_audios_final/电视剧2 EP12/电视剧2 EP12_00_16_13,800_00_16_16,320_chinesetts.wav",

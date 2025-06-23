@@ -8,6 +8,8 @@
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["http_proxy"] = "http://127.0.0.1:7890"
+os.environ["https_proxy"] = "http://127.0.0.1:7890"
 import sys
 import pandas as pd
 import numpy as np
@@ -79,20 +81,20 @@ class TranslationEvaluator:
         """加载COMET模型"""
         if self.comet_model is None:
             try:
-                if self.comet_model_path:
-                    self.comet_model = load_from_checkpoint(self.comet_model_path)
-                else:
-                    # 尝试使用本地模型路径
-                    local_model_path = "/mnt/gold/lz/trans/models/XCOMET-XL/checkpoints/model.ckpt"
-                    if os.path.exists(local_model_path):
-                        self.comet_model = load_from_checkpoint(local_model_path)
-                        logger.info(f"加载本地COMET模型: {local_model_path}")
-                    else:
-                        # 如果本地模型不存在，尝试下载默认模型
-                        from comet import download_model
-                        model_path = download_model("Unbabel/XCOMET-XL")
-                        self.comet_model = load_from_checkpoint(model_path)
-                        logger.info(f"下载并加载COMET模型: {model_path}")
+                # if self.comet_model_path:
+                self.comet_model = load_from_checkpoint(self.comet_model_path)
+                # else:
+                #     # 尝试使用本地模型路径
+                #     local_model_path = f"{os.path.dirname(os.path.abspath(__file__))}/models/XCOMET-XL/checkpoints/model.ckpt"
+                #     if os.path.exists(local_model_path):
+                #         self.comet_model = load_from_checkpoint(local_model_path)
+                #         logger.info(f"加载本地COMET模型: {local_model_path}")
+                #     else:
+                #         # 如果本地模型不存在，尝试下载默认模型
+                #         from comet import download_model
+                #         model_path = download_model("Unbabel/XCOMET-XL")
+                #         self.comet_model = load_from_checkpoint(model_path)
+                #         logger.info(f"下载并加载COMET模型: {model_path}")
             except Exception as e:
                 logger.error(f"COMET模型加载失败: {e}")
                 self.comet_model = None
@@ -355,15 +357,15 @@ def save_results(results, output_file):
 
 
 def main():
-    model = 'deepseek'
-    suffix = 'p2_t0_rag_40shot'
+    model = 'openai'
+    suffix = '4o_30shot'
     parser = argparse.ArgumentParser(description='翻译质量评估工具')
     parser.add_argument('--input_file', default=f'output/{model}/dev_{suffix}.csv', help='输入CSV文件路径')
     parser.add_argument('--source-col', default='中文', help='源文本列名（默认：中文）')
     parser.add_argument('--language-col', default='语言', help='语言列名（默认：语言）')
     parser.add_argument('--reference-col', default='文本', help='参考翻译列名（默认：中文）')
     parser.add_argument('--prediction-col', default='answer', help='预测翻译列名（默认：answer）')
-    parser.add_argument('--comet-model-path', default='/mnt/gold/lz/trans/models/XCOMET-XL/checkpoints/model.ckpt', help='COMET模型路径')
+    parser.add_argument('--comet-model-path', default=f'{os.path.dirname(os.path.abspath(__file__))}/models/XCOMET-XL/checkpoints/model.ckpt', help='COMET模型路径')
     parser.add_argument('--output-file', default=f'output/{model}/dev_{suffix}_eval.csv', help='结果输出文件路径')
     
     args = parser.parse_args()
