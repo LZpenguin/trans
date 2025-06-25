@@ -1,7 +1,6 @@
 1
 00:01:53,320 --> 00:02:00,200
-Hello Debate Opponent 2
-EP09
+Hello Debate Opponent 2 EP09
 
 2
 00:02:00,920 --> 00:02:02,800

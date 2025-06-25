@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,370 --> 00:02:00,570
-[Apa Khabar, Lawan Perbahasan 2]
-[EP05]
+Apa Khabar, Lawan Perbahasan 2 EP05
 
 3
 00:02:08,680 --> 00:02:09,520
@@ -21,11 +20,11 @@ Helo, senior.
 
 6
 00:02:13,840 --> 00:02:15,360
-[Kami dari XUST.]
+Kami dari XUST.
 
 7
 00:02:15,360 --> 00:02:16,200
-[Dua universiti digabungkan.]
+Dua universiti digabungkan.
 
 8
 00:02:16,480 --> 00:02:17,200
@@ -41,7 +40,7 @@ jadi
 
 11
 00:02:18,840 --> 00:02:19,800
-[kami ditempatkan di sini.]
+kami ditempatkan di sini.
 
 12
 00:02:20,320 --> 00:02:20,680
@@ -57,8 +56,7 @@ ada tiga katil kosong,
 
 15
 00:02:22,880 --> 00:02:24,240
-jadi tolong jaga satu sama lain
-pada masa akan datang.
+jadi tolong jaga satu sama lain pada masa akan datang.
 
 16
 00:02:28,640 --> 00:02:29,080
@@ -158,8 +156,7 @@ Mat!
 
 40
 00:03:14,040 --> 00:03:15,560
-Tak kira, saya belum
-letak buah catur saya.
+Tak kira, saya belum letak buah catur saya.
 
 41
 00:03:15,560 --> 00:03:16,600
@@ -215,8 +212,7 @@ Betul.
 
 54
 00:03:35,560 --> 00:03:38,600
-Namun, berubah daripada pasukan pertama
-kepada pasukan kedua,
+Namun, berubah daripada pasukan pertama kepada pasukan kedua,
 
 55
 00:03:38,880 --> 00:03:39,800
@@ -232,8 +228,7 @@ Awak mesti percaya pada diri sendiri,
 
 58
 00:03:43,920 --> 00:03:45,640
-lebih-lebih lagi
-percaya pada pelajar awak.
+lebih-lebih lagi percaya pada pelajar awak.
 
 59
 00:03:46,640 --> 00:03:46,960
@@ -261,8 +256,7 @@ Petang ini,
 
 65
 00:03:59,840 --> 00:04:00,960
-Jurusan Kejururawatan akan mengadakan
-pemeriksaan tekanan darah percuma
+Jurusan Kejururawatan akan mengadakan pemeriksaan tekanan darah percuma
 
 66
 00:04:00,960 --> 00:04:02,200
@@ -302,8 +296,7 @@ Tak ada masa.
 
 75
 00:04:14,240 --> 00:04:16,080
-Tekanan darah saya stabil
-seperti garis lurus.
+Tekanan darah saya stabil seperti garis lurus.
 
 76
 00:04:17,920 --> 00:04:18,480
@@ -459,19 +452,19 @@ Saya hampir mati kepanasan.
 
 114
 00:05:27,040 --> 00:05:27,640
-[Bukan,]
+Bukan,
 
 115
 00:05:27,640 --> 00:05:28,720
-[kita bertiga pun tak tahu main tenis,]
+kita bertiga pun tak tahu main tenis,
 
 116
 00:05:28,720 --> 00:05:29,880
-[apa yang kita buat di sini?]
+apa yang kita buat di sini?
 
 117
 00:05:30,280 --> 00:05:30,800
-[Bukankah lebih baik]
+Bukankah lebih baik
 
 118
 00:05:30,800 --> 00:05:32,040
@@ -491,15 +484,15 @@ awak ditakdirkan untuk kekal bujang.
 
 122
 00:05:35,800 --> 00:05:36,640
-[Gelanggang bola keranjang penuh dengan]
+Gelanggang bola keranjang penuh dengan
 
 123
 00:05:36,640 --> 00:05:38,280
-[lelaki berbadan sasa yang berpeluh,]
+lelaki berbadan sasa yang berpeluh,
 
 124
 00:05:38,440 --> 00:05:39,880
-[mana ada]
+mana ada
 
 125
 00:05:39,880 --> 00:05:41,360
@@ -591,8 +584,7 @@ Pelajar tahun dua, tolong ambil perhatian.
 
 147
 00:06:48,360 --> 00:06:50,160
-Pada pukul 2.30 petang
-hari Jumaat minggu depan,
+Pada pukul 2.30 petang hari Jumaat minggu depan,
 
 148
 00:06:50,400 --> 00:06:52,440
@@ -604,8 +596,7 @@ perempuan 800 meter.
 
 150
 00:06:54,320 --> 00:06:56,240
-Semua datang tepat pada masanya,
-jangan lupa.
+Semua datang tepat pada masanya, jangan lupa.
 
 151
 00:06:56,480 --> 00:06:58,040
@@ -765,8 +756,7 @@ memang lebih berbakat,
 
 190
 00:08:03,440 --> 00:08:04,920
-kemahiran berdebatnya
-memang lebih baik daripada saya.
+kemahiran berdebatnya memang lebih baik daripada saya.
 
 191
 00:08:05,160 --> 00:08:05,920
@@ -978,8 +968,7 @@ Bagi saya!
 
 243
 00:09:44,840 --> 00:09:45,960
-Kalau foto tidak cantik,
-ia dipanggil mengintip.
+Kalau foto tidak cantik, ia dipanggil mengintip.
 
 244
 00:09:45,960 --> 00:09:47,120
@@ -1171,8 +1160,7 @@ Sudahlah.
 
 291
 00:11:15,240 --> 00:11:16,920
-Saya akan siasat latar belakangnya
-untuk awak.
+Saya akan siasat latar belakangnya untuk awak.
 
 292
 00:11:17,960 --> 00:11:18,840
@@ -1232,7 +1220,7 @@ saya lari sampai hampir mati,
 
 306
 00:11:44,400 --> 00:11:46,080
-[tapi tidak pernah lulus.]
+tapi tidak pernah lulus.
 
 307
 00:11:46,360 --> 00:11:47,600
@@ -1240,8 +1228,7 @@ Semasa peperiksaan sekolah menengah,
 
 308
 00:11:47,600 --> 00:11:49,240
-kalau bukan sebab
-saya merangkak melepasi garisan
+kalau bukan sebab saya merangkak melepasi garisan
 
 309
 00:11:49,240 --> 00:11:50,600
@@ -1253,8 +1240,7 @@ saya tidak dapat masuk sekolah tinggi.
 
 311
 00:11:53,840 --> 00:11:55,920
-Sekolah... Sekolah tinggi
-juga ada markah sukan?
+Sekolah... Sekolah tinggi juga ada markah sukan?
 
 312
 00:11:57,680 --> 00:11:59,480
@@ -1262,8 +1248,7 @@ Saya terlalu takut
 
 313
 00:11:59,680 --> 00:12:02,040
-sampai mimpi buruk setiap hari,
-rambut pun gugur.
+sampai mimpi buruk setiap hari, rambut pun gugur.
 
 314
 00:12:02,840 --> 00:12:03,720
@@ -1295,8 +1280,7 @@ Saya dah ada cara.
 
 321
 00:12:18,640 --> 00:12:19,640
--Awak nak buat apa?
--Awak mahu pergi ke mana?
+-Awak nak buat apa? -Awak mahu pergi ke mana?
 
 322
 00:12:20,000 --> 00:12:21,640
@@ -1324,8 +1308,7 @@ Itu...
 
 328
 00:12:28,480 --> 00:12:30,440
-Ujian 800 meter
-ialah syarat wajib universiti.
+Ujian 800 meter ialah syarat wajib universiti.
 
 329
 00:12:30,680 --> 00:12:31,800
@@ -1633,8 +1616,7 @@ sekarang, saya sudah terima.
 
 405
 00:15:29,640 --> 00:15:30,600
-Kalau tidak boleh buat,
-memang tidak boleh,
+Kalau tidak boleh buat, memang tidak boleh,
 
 406
 00:15:30,640 --> 00:15:31,760
@@ -1650,8 +1632,7 @@ Berhenti!
 
 409
 00:15:44,880 --> 00:15:46,360
-Awak selalu mencubit saya dengan kuat
-apabila terlalu gembira.
+Awak selalu mencubit saya dengan kuat apabila terlalu gembira.
 
 410
 00:15:47,200 --> 00:15:48,000
@@ -1691,8 +1672,7 @@ pelajar tahun dua dari Jurusan Seni.
 
 419
 00:16:06,840 --> 00:16:08,640
-Dia bersifat lembut dan tenang,
-hobinya adalah melukis dan kaligrafi.
+Dia bersifat lembut dan tenang, hobinya adalah melukis dan kaligrafi.
 
 420
 00:16:08,640 --> 00:16:09,640
@@ -1756,8 +1736,7 @@ Pujaan hati awak
 
 435
 00:16:32,920 --> 00:16:34,200
-pergi ke gimnasium universiti
-setiap hari selepas kelas.
+pergi ke gimnasium universiti setiap hari selepas kelas.
 
 436
 00:16:34,240 --> 00:16:35,400
@@ -1773,13 +1752,11 @@ Dia sudah berpisah selama dua tahun.
 
 439
 00:16:38,560 --> 00:16:39,240
-Bekas teman lelakinya
-ialah pelajar terbaik
+Bekas teman lelakinya ialah pelajar terbaik
 
 440
 00:16:39,240 --> 00:16:40,400
-peperiksaan kemasukan universiti
-di bandar mereka.
+peperiksaan kemasukan universiti di bandar mereka.
 
 441
 00:16:40,880 --> 00:16:42,000
@@ -1803,8 +1780,7 @@ tidak boleh biarkan saja.
 
 446
 00:16:56,040 --> 00:16:57,640
-Bukankah awak pernah kata
-awak mesti berkahwin dengan dia?
+Bukankah awak pernah kata awak mesti berkahwin dengan dia?
 
 447
 00:16:58,440 --> 00:16:59,480
@@ -1848,8 +1824,7 @@ Apa yang awak nak?
 
 457
 00:17:26,400 --> 00:17:28,440
-Kalau awak lelaki sejati,
-tunjukkan sedikit keyakinan.
+Kalau awak lelaki sejati, tunjukkan sedikit keyakinan.
 
 458
 00:17:28,840 --> 00:17:30,080
@@ -1877,8 +1852,7 @@ Awak tidak berani? Awak...
 
 464
 00:17:53,880 --> 00:17:55,080
-Bukankah itu cinta sejati?
-Awak tidak berani?
+Bukankah itu cinta sejati? Awak tidak berani?
 
 465
 00:17:55,480 --> 00:17:56,560
@@ -1906,8 +1880,7 @@ Untuk menguatkan badan.
 
 471
 00:18:04,040 --> 00:18:06,320
-Kalau awak terus berlengah-lengah,
-saya akan memukul awak.
+Kalau awak terus berlengah-lengah, saya akan memukul awak.
 
 472
 00:18:06,480 --> 00:18:08,040
@@ -1931,8 +1904,7 @@ Saya pergi untuk apa?
 
 477
 00:18:16,520 --> 00:18:17,800
-Pada saat penting ini,
-masih perlu bergantung pada saya.
+Pada saat penting ini, masih perlu bergantung pada saya.
 
 478
 00:18:18,280 --> 00:18:18,840
@@ -1980,8 +1952,7 @@ Awak seorang lelaki dewasa,
 
 489
 00:19:08,040 --> 00:19:09,240
-bagaimana awak boleh minta seorang gadis
-membuka penutup botol untuk awak?
+bagaimana awak boleh minta seorang gadis membuka penutup botol untuk awak?
 
 490
 00:19:09,240 --> 00:19:10,000
@@ -2077,8 +2048,7 @@ Mari.
 
 513
 00:20:08,320 --> 00:20:09,480
-Tidak dapat melakukan perkara sekecil ini
-dengan baik,
+Tidak dapat melakukan perkara sekecil ini dengan baik,
 
 514
 00:20:09,480 --> 00:20:10,160
@@ -2130,8 +2100,7 @@ Hidup bertemu halangan lagi?
 
 526
 00:20:49,280 --> 00:20:51,240
-Belum bertemu halangan
-pun sudah tersangkut.
+Belum bertemu halangan pun sudah tersangkut.
 
 527
 00:20:53,600 --> 00:20:54,640
@@ -2163,13 +2132,11 @@ Tidak mengapa, mari kita beri hadiah.
 
 534
 00:21:09,920 --> 00:21:11,120
-Jika kita beri hadiah
-dan dia tidak terima,
+Jika kita beri hadiah dan dia tidak terima,
 
 535
 00:21:11,120 --> 00:21:12,200
-sekurang-kurangnya
-kita sudah bercakap dengannya.
+sekurang-kurangnya kita sudah bercakap dengannya.
 
 536
 00:21:12,280 --> 00:21:13,200
@@ -2277,8 +2244,7 @@ Untuk memberi hadiah kepada seorang gadis,
 
 562
 00:22:34,520 --> 00:22:36,880
-produk kecantikan ialah
-pilihan utama yang abadi.
+produk kecantikan ialah pilihan utama yang abadi.
 
 563
 00:22:39,120 --> 00:22:40,080
@@ -2298,27 +2264,27 @@ Oh Tuhan, beli hadiah ini!
 
 567
 00:23:23,200 --> 00:23:24,320
-[Si Kura-kura,]
+Si Kura-kura,
 
 568
 00:23:25,080 --> 00:23:26,080
-[sudah lebih seminggu]
+sudah lebih seminggu
 
 569
 00:23:26,080 --> 00:23:27,720
-[sejak awak hilang.]
+sejak awak hilang.
 
 570
 00:23:28,200 --> 00:23:29,920
-[Di mana awak sekarang?]
+Di mana awak sekarang?
 
 571
 00:23:30,040 --> 00:23:31,320
-[Adakah awak baik?]
+Adakah awak baik?
 
 572
 00:23:31,560 --> 00:23:33,160
-[Ibu sangat merindui awak.]
+Ibu sangat merindui awak.
 
 573
 00:23:49,720 --> 00:23:50,480
@@ -2346,13 +2312,11 @@ untuk menghadiri seminar,
 
 579
 00:23:57,160 --> 00:23:58,560
-saya telah memohon
-untuk menjadi pembantu beliau.
+saya telah memohon untuk menjadi pembantu beliau.
 
 580
 00:23:58,760 --> 00:24:00,680
-Pada masa itu,
-pasti ada taufan di Guangzhou,
+Pada masa itu, pasti ada taufan di Guangzhou,
 
 581
 00:24:00,680 --> 00:24:02,040
@@ -2360,8 +2324,7 @@ penerbangan pasti dibatalkan.
 
 582
 00:24:02,040 --> 00:24:03,640
-Kereta api laju akan tiba
-pada waktu malam,
+Kereta api laju akan tiba pada waktu malam,
 
 583
 00:24:04,000 --> 00:24:05,480
@@ -2381,8 +2344,7 @@ Pihak penganjur berkata
 
 587
 00:24:24,880 --> 00:24:25,960
-mereka mempertimbangkan
-keselamatan perjalanan
+mereka mempertimbangkan keselamatan perjalanan
 
 588
 00:24:25,960 --> 00:24:27,240
@@ -2394,8 +2356,7 @@ jadi seminar ditangguhkan.
 
 590
 00:24:31,160 --> 00:24:32,760
-Awak sudah memikirkan cara
-untuk mempertaruhkan nyawa,
+Awak sudah memikirkan cara untuk mempertaruhkan nyawa,
 
 591
 00:24:32,760 --> 00:24:33,720
@@ -2407,8 +2368,7 @@ Saya rasa
 
 593
 00:24:35,040 --> 00:24:36,200
-mungkin boleh berkesan
-berdasarkan imej awak.
+mungkin boleh berkesan berdasarkan imej awak.
 
 594
 00:24:36,480 --> 00:24:37,840
@@ -2456,8 +2416,7 @@ Saya perlu menghantar e-mel dengan segera.
 
 605
 00:24:50,600 --> 00:24:52,560
-Baiklah, kata laluannya
-ialah tarikh lahir saya.
+Baiklah, kata laluannya ialah tarikh lahir saya.
 
 606
 00:24:53,880 --> 00:24:55,400
@@ -2501,8 +2460,7 @@ Isi utama ini sangat bagus,
 
 616
 00:25:38,920 --> 00:25:40,000
-pasti berguna untuk debat kita
-yang seterusnya...
+pasti berguna untuk debat kita yang seterusnya...
 
 617
 00:25:54,560 --> 00:25:55,360
@@ -2682,8 +2640,7 @@ Mu Xiaoyu.
 
 661
 00:27:51,680 --> 00:27:52,960
-Saya beri amaran kepada awak,
-jangan buat kacau.
+Saya beri amaran kepada awak, jangan buat kacau.
 
 662
 00:27:53,280 --> 00:27:53,960
@@ -2691,8 +2648,7 @@ Awak tidak lupa bahawa
 
 663
 00:27:53,960 --> 00:27:56,080
-saya pemegang tali pinggang oren
-dalam karate, bukan?
+saya pemegang tali pinggang oren dalam karate, bukan?
 
 664
 00:27:56,400 --> 00:27:57,400
@@ -2864,8 +2820,7 @@ Baiklah,
 
 706
 00:28:53,320 --> 00:28:54,720
-setiap perkara ada
-sisi positif dan negatifnya.
+setiap perkara ada sisi positif dan negatifnya.
 
 707
 00:28:54,720 --> 00:28:55,600
@@ -2881,8 +2836,7 @@ Boleh awak berhenti bercakap?
 
 710
 00:29:02,280 --> 00:29:03,600
-Adakah Yin Nan memahami
-kura-kura kesayangan saya?
+Adakah Yin Nan memahami kura-kura kesayangan saya?
 
 711
 00:29:03,960 --> 00:29:05,040
@@ -2942,8 +2896,7 @@ Sebagai ibunya,
 
 725
 00:29:22,560 --> 00:29:23,520
-saya mesti pergi
-menyelamatkannya sekarang.
+saya mesti pergi menyelamatkannya sekarang.
 
 726
 00:29:23,840 --> 00:29:25,120
@@ -2951,8 +2904,7 @@ Baiklah, semoga awak...
 
 727
 00:29:25,120 --> 00:29:26,160
-Semoga awak dapat bersatu semula
-dengan Si Kura-kura awak secepat mungkin.
+Semoga awak dapat bersatu semula dengan Si Kura-kura awak secepat mungkin.
 
 728
 00:29:26,160 --> 00:29:27,520
@@ -3064,8 +3016,7 @@ Awak tidak boleh mengelak ketakutan ini,
 
 755
 00:30:17,600 --> 00:30:19,080
-kita mesti mencari cara
-untuk menyelesaikannya.
+kita mesti mencari cara untuk menyelesaikannya.
 
 756
 00:30:20,160 --> 00:30:21,120
@@ -3129,13 +3080,11 @@ lebih baik awak bijak dalam
 
 771
 00:30:45,200 --> 00:30:46,160
-merancang penyelamatan
-kura-kura kesayangan saya.
+merancang penyelamatan kura-kura kesayangan saya.
 
 772
 00:30:46,320 --> 00:30:47,280
-Jika tidak, dengan pelbagai kesalahan
-yang digabungkan,
+Jika tidak, dengan pelbagai kesalahan yang digabungkan,
 
 773
 00:30:47,280 --> 00:30:47,960
@@ -3143,8 +3092,7 @@ awak bersedialah untuk hidup
 
 774
 00:30:47,960 --> 00:30:48,880
-di atas kerusi roda
-dalam kehidupan akan datang.
+di atas kerusi roda dalam kehidupan akan datang.
 
 775
 00:30:49,320 --> 00:30:49,880
@@ -3156,66 +3104,63 @@ saya sudah merancang semuanya.
 
 777
 00:30:52,920 --> 00:30:54,440
-[Pertama sekali, awak perlu mencari]
+Pertama sekali, awak perlu mencari
 
 778
 00:30:54,440 --> 00:30:55,680
-[masa apabila Yin Nan
-tidak berada di bilik asrama.]
+masa apabila Yin Nan tidak berada di bilik asrama.
 
 779
 00:30:55,880 --> 00:30:56,800
-[Saya akan mengalihkan perhatian]
+Saya akan mengalihkan perhatian
 
 780
 00:30:56,800 --> 00:30:57,800
-[penjaga bilik asrama.]
+penjaga bilik asrama.
 
 781
 00:30:58,400 --> 00:30:59,720
-[Awak berjaya masuk ke]
+Awak berjaya masuk ke
 
 782
 00:30:59,720 --> 00:31:00,920
-[bilik asrama pelajar tahun atas.]
+bilik asrama pelajar tahun atas.
 
 783
 00:31:02,600 --> 00:31:03,840
-[Selepas awak mendapatkan Si Kura-kura,]
+Selepas awak mendapatkan Si Kura-kura,
 
 784
 00:31:03,840 --> 00:31:04,640
-[jangan tergesa-gesa untuk keluar.]
+jangan tergesa-gesa untuk keluar.
 
 785
 00:31:04,640 --> 00:31:06,000
-[Sebab awak akan dirakam
-oleh kamera litar tertutup.]
+Sebab awak akan dirakam oleh kamera litar tertutup.
 
 786
 00:31:06,440 --> 00:31:07,880
-[Awak perlu menyamar,]
+Awak perlu menyamar,
 
 787
 00:31:08,040 --> 00:31:10,160
-[mengikat Si Kura-kura dengan tali]
+mengikat Si Kura-kura dengan tali
 
 788
 00:31:10,400 --> 00:31:11,520
-[dan menurunkannya melalui tingkap.]
+dan menurunkannya melalui tingkap.
 
 789
 00:31:11,880 --> 00:31:13,400
-[Saya akan menunggu di bawah
-untuk menerimanya.]
+Saya akan menunggu di bawah untuk menerimanya.
 
 790
 00:31:13,640 --> 00:31:14,800
-[Selepas mendapatkan Si Kura-kura,]
+Selepas mendapatkan Si Kura-kura,
 
 791
 00:31:15,080 --> 00:31:16,240
-[kita akan bertemu di sini.]
+kita akan bertemu di sini.
 
 792
 00:31:23,800 --> 00:31:25,040
@@ -3271,7 +3216,7 @@ Bola itu... Terpukul dan pergi ke jauh.
 
 805
 00:32:09,520 --> 00:32:10,400
-[Selamat sejahtera.]
+Selamat sejahtera.
 
 806
 00:32:26,880 --> 00:32:27,640
@@ -3279,11 +3224,11 @@ Helo.
 
 807
 00:32:27,680 --> 00:32:29,240
-[Pintu bilik asrama Yin Nan]
+Pintu bilik asrama Yin Nan
 
 808
 00:32:29,240 --> 00:32:30,360
-[dikunci dari dalam.]
+dikunci dari dalam.
 
 809
 00:32:30,800 --> 00:32:31,400
@@ -3307,7 +3252,7 @@ yang boleh diselesaikan.
 
 814
 00:32:37,560 --> 00:32:38,760
-[Sekarang, awak cari satu pin rambut.]
+Sekarang, awak cari satu pin rambut.
 
 815
 00:32:39,400 --> 00:32:40,160
@@ -3315,8 +3260,7 @@ Tunggu sebentar.
 
 816
 00:32:40,160 --> 00:32:41,600
-[Saya akan ajar awak
-cara membuka kunci melalui telefon.]
+Saya akan ajar awak cara membuka kunci melalui telefon.
 
 817
 00:32:45,400 --> 00:32:46,040
@@ -3324,17 +3268,15 @@ Kemudian?
 
 818
 00:32:46,040 --> 00:32:47,480
-[Langkah pertama,
-bengkokkan pin rambut itu.]
+Langkah pertama, bengkokkan pin rambut itu.
 
 819
 00:32:47,720 --> 00:32:48,960
-[Masukkan ke dalam lubang kunci.]
+Masukkan ke dalam lubang kunci.
 
 820
 00:32:51,640 --> 00:32:53,520
-Guna pin rambut
-untuk buka kunci elektronik?
+Guna pin rambut untuk buka kunci elektronik?
 
 821
 00:32:53,520 --> 00:32:55,560
@@ -3350,7 +3292,7 @@ Ya.
 
 824
 00:32:58,280 --> 00:32:59,440
-[Kata laluan...]
+Kata laluan...
 
 825
 00:33:00,440 --> 00:33:01,400
@@ -3362,7 +3304,7 @@ Satu satu satu satu.
 
 827
 00:33:08,400 --> 00:33:09,200
-[Operasi gagal.]
+Operasi gagal.
 
 828
 00:33:09,200 --> 00:33:10,240
@@ -3374,7 +3316,7 @@ Satu satu satu dua.
 
 830
 00:33:16,000 --> 00:33:16,960
-[Operasi gagal.]
+Operasi gagal.
 
 831
 00:33:16,960 --> 00:33:17,680
@@ -3390,8 +3332,7 @@ Satu satu satu tiga.
 
 834
 00:33:21,640 --> 00:33:22,920
-Nan Bei yang tak guna! Kalau saya
-tunggu untuk cuba semua kombinasi,
+Nan Bei yang tak guna! Kalau saya tunggu untuk cuba semua kombinasi,
 
 835
 00:33:22,920 --> 00:33:24,160
@@ -3407,7 +3348,7 @@ Saya ulang. Yin Nan balik ke bilik asrama.
 
 838
 00:33:55,320 --> 00:33:56,120
-[Selamat sejahtera.]
+Selamat sejahtera.
 
 839
 00:34:25,120 --> 00:34:26,360
@@ -3443,8 +3384,7 @@ Mesej sudah tiba.
 
 847
 00:34:54,880 --> 00:34:56,600
-[Menunggu balasan
-daripada semua orang dua hari nanti.]
+Menunggu balasan daripada semua orang dua hari nanti.
 
 848
 00:34:56,880 --> 00:34:58,200
@@ -3468,8 +3408,7 @@ Maafkan saya.
 
 853
 00:35:21,000 --> 00:35:22,880
-Kalau begitu, dua cawan minuman
-saiz keluarga,
+Kalau begitu, dua cawan minuman saiz keluarga,
 
 854
 00:35:23,240 --> 00:35:24,800
@@ -3509,8 +3448,7 @@ menyebabkan darah cepat berundur,
 
 863
 00:35:49,320 --> 00:35:50,720
-mungkin boleh menyebabkan
-kematian mengejut.
+mungkin boleh menyebabkan kematian mengejut.
 
 864
 00:35:51,720 --> 00:35:53,000
@@ -3542,26 +3480,23 @@ Macam mana nak cakap?
 
 871
 00:36:03,600 --> 00:36:05,480
-Lebih baik hidup dalam keadaan buruk
-daripada mati dengan baik, kan?
+Lebih baik hidup dalam keadaan buruk daripada mati dengan baik, kan?
 
 872
 00:36:09,640 --> 00:36:10,400
-[Senior Tao Hao.]
+Senior Tao Hao.
 
 873
 00:36:10,560 --> 00:36:11,760
-[Laporan Kewangan Kelab
-Separuh Tahun Pertama]
+Laporan Kewangan Kelab Separuh Tahun Pertama
 
 874
 00:36:11,760 --> 00:36:13,360
-[di atas meja pejabat Cikgu Li,]
+di atas meja pejabat Cikgu Li,
 
 875
 00:36:13,360 --> 00:36:14,840
-[boleh tolong hantar ke
-Bangunan Nombor Satu?]
+boleh tolong hantar ke Bangunan Nombor Satu?
 
 876
 00:36:16,280 --> 00:36:16,640
@@ -3613,8 +3548,7 @@ Terima kasih.
 
 888
 00:36:42,840 --> 00:36:45,280
-Jadi... Awak sendiri
-mahu pergi ke pasukan kedua?
+Jadi... Awak sendiri mahu pergi ke pasukan kedua?
 
 889
 00:36:47,320 --> 00:36:49,240
@@ -3630,8 +3564,7 @@ Terima kasih.
 
 892
 00:36:59,600 --> 00:37:01,120
-Kenapa minuman awak
-disediakan begitu cepat?
+Kenapa minuman awak disediakan begitu cepat?
 
 893
 00:37:01,400 --> 00:37:02,680
@@ -3703,13 +3636,11 @@ Tolong lepaskan saya,
 
 910
 00:37:44,760 --> 00:37:46,160
-saya benar-benar tidak mahu
-berlari 800 meter...
+saya benar-benar tidak mahu berlari 800 meter...
 
 911
 00:37:46,160 --> 00:37:47,440
-Bolehkah kita bincang perkara ini
-selepas balik
+Bolehkah kita bincang perkara ini selepas balik
 
 912
 00:37:47,440 --> 00:37:48,720
@@ -3821,8 +3752,7 @@ Namun,
 
 939
 00:38:27,320 --> 00:38:28,840
-berdasarkan pengalaman saya
-selama tiga tahun ini,
+berdasarkan pengalaman saya selama tiga tahun ini,
 
 940
 00:38:29,320 --> 00:38:30,600
@@ -3830,8 +3760,7 @@ asalkan awak menyertai,
 
 941
 00:38:30,800 --> 00:38:32,240
-walaupun akhirnya awak sampai ke
-garisan penamat dengan berjalan saja,
+walaupun akhirnya awak sampai ke garisan penamat dengan berjalan saja,
 
 942
 00:38:32,320 --> 00:38:33,480
@@ -3895,8 +3824,7 @@ Namun, jika awak tidak bersuara,
 
 957
 00:38:53,720 --> 00:38:55,240
-kemungkinannya akan sentiasa
-menjadi sifar.
+kemungkinannya akan sentiasa menjadi sifar.
 
 958
 00:38:56,320 --> 00:38:57,080
@@ -3904,8 +3832,7 @@ Saya tidak akan pergi.
 
 959
 00:38:57,720 --> 00:38:59,760
-Saya mengambil masa sepuluh minit
-untuk berjalan 800 meter,
+Saya mengambil masa sepuluh minit untuk berjalan 800 meter,
 
 960
 00:38:59,760 --> 00:39:00,960
@@ -3913,8 +3840,7 @@ lebih baik saya tidak berjalan langsung.
 
 961
 00:39:01,120 --> 00:39:02,720
-Semua pelajar di universiti
-akan mentertawakan saya.
+Semua pelajar di universiti akan mentertawakan saya.
 
 962
 00:39:03,000 --> 00:39:03,760
@@ -3926,8 +3852,7 @@ Qing.
 
 964
 00:39:08,640 --> 00:39:10,080
-Tiada siapa yang mahu menjadi
-yang terakhir,
+Tiada siapa yang mahu menjadi yang terakhir,
 
 965
 00:39:10,720 --> 00:39:11,440
@@ -3979,13 +3904,11 @@ Apa salahnya dengan berasa malu?
 
 977
 00:39:30,000 --> 00:39:31,280
-Adakah awak akan kehilangan apa-apa
-jika berasa malu?
+Adakah awak akan kehilangan apa-apa jika berasa malu?
 
 978
 00:39:31,640 --> 00:39:32,880
-Jika awak tidak melakukan
-sesuatu yang memalukan,
+Jika awak tidak melakukan sesuatu yang memalukan,
 
 979
 00:39:32,880 --> 00:39:34,120
@@ -3993,13 +3916,11 @@ bolehkah awak panggil itu zaman remaja?
 
 980
 00:39:34,400 --> 00:39:35,840
-Jika awak tidak melakukan
-sesuatu yang bodoh sekarang,
+Jika awak tidak melakukan sesuatu yang bodoh sekarang,
 
 981
 00:39:35,920 --> 00:39:37,440
-adakah awak nak tunggu hingga
-berumur 40 tahun untuk melakukannya?
+adakah awak nak tunggu hingga berumur 40 tahun untuk melakukannya?
 
 982
 00:39:39,040 --> 00:39:40,280
@@ -4007,13 +3928,11 @@ Jika awak pergi,
 
 983
 00:39:40,320 --> 00:39:41,880
-siapa yang akan menemani kami
-pergi ke kedai teh susu?
+siapa yang akan menemani kami pergi ke kedai teh susu?
 
 984
 00:39:43,040 --> 00:39:44,360
-Kita juga tidak akan dapat harga borong
-untuk produk kecantikan lagi.
+Kita juga tidak akan dapat harga borong untuk produk kecantikan lagi.
 
 985
 00:39:46,480 --> 00:39:47,520
@@ -4025,8 +3944,7 @@ siapa yang akan menemani awak
 
 987
 00:39:50,560 --> 00:39:51,640
-berbual tentang pelbagai perkara
-hingga lewat malam?
+berbual tentang pelbagai perkara hingga lewat malam?
 
 988
 00:40:06,600 --> 00:40:07,440
@@ -4062,8 +3980,7 @@ Nan Bei.
 
 996
 00:40:19,240 --> 00:40:21,200
-Awak sedang memberi nasihat
-kepada diri sendiri
+Awak sedang memberi nasihat kepada diri sendiri
 
 997
 00:40:21,200 --> 00:40:22,480

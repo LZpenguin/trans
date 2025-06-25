@@ -357,8 +357,8 @@ def save_results(results, output_file):
 
 
 def main():
-    model = 'openai'
-    suffix = '4o_30shot'
+    model = 'GemmaX2-28-2B-v0.1-ft-full-5'
+    suffix = 'translate_7500'
     parser = argparse.ArgumentParser(description='翻译质量评估工具')
     parser.add_argument('--input_file', default=f'output/{model}/dev_{suffix}.csv', help='输入CSV文件路径')
     parser.add_argument('--source-col', default='中文', help='源文本列名（默认：中文）')

@@ -1,21 +1,18 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,400 --> 00:02:00,240
-[Apa Khabar, Perbahasan Lawan 2]
-[EP30]
+Apa Khabar, Perbahasan Lawan 2 EP30
 
 3
 00:02:03,000 --> 00:02:04,840
-Terima kasih atas hujah daripada
-pendebat keempat pihak pencadang.
+Terima kasih atas hujah daripada pendebat keempat pihak pencadang.
 
 4
 00:02:05,040 --> 00:02:07,040
-Pertandingan untuk kali ini
-telah pun berakhir.
+Pertandingan untuk kali ini telah pun berakhir.
 
 5
 00:02:07,200 --> 00:02:08,600
@@ -39,8 +36,7 @@ untuk mengundi?
 
 10
 00:02:30,120 --> 00:02:31,240
-Sila angkat tangan
-jika memilih pihak pencadang.
+Sila angkat tangan jika memilih pihak pencadang.
 
 11
 00:02:33,880 --> 00:02:34,720
@@ -48,8 +44,7 @@ Yang memilih pihak pembangkang?
 
 12
 00:02:36,360 --> 00:02:38,160
-Jadi, apakah pendapat
-daripada kamu berdua?
+Jadi, apakah pendapat daripada kamu berdua?
 
 13
 00:02:38,600 --> 00:02:39,440
@@ -101,8 +96,7 @@ saya dapat tahu tujuannya.
 
 25
 00:02:53,160 --> 00:02:54,680
-Saya lebih mengenali
-kedua-dua pasukan ini.
+Saya lebih mengenali kedua-dua pasukan ini.
 
 26
 00:02:54,840 --> 00:02:55,800
@@ -114,8 +108,7 @@ Pasukan Debat 235
 
 28
 00:02:57,840 --> 00:02:59,360
-merupakan satu pasukan dengan
-pihak pencadang pada asalnya.
+merupakan satu pasukan dengan pihak pencadang pada asalnya.
 
 29
 00:02:59,360 --> 00:03:01,040
@@ -123,13 +116,11 @@ Hubungan mereka sangat rumit.
 
 30
 00:03:01,040 --> 00:03:01,680
-Pendebat pertama daripada
-pihak pembangkang
+Pendebat pertama daripada pihak pembangkang
 
 31
 00:03:01,680 --> 00:03:02,520
-dan pendebat keempat
-daripada pihak pencadang
+dan pendebat keempat daripada pihak pencadang
 
 32
 00:03:02,520 --> 00:03:03,400
@@ -137,13 +128,11 @@ merupakan sepasang kekasih.
 
 33
 00:03:03,400 --> 00:03:04,720
-Mengikuti peraturan pertandingan,
-pendebat keempat pihak pencadang
+Mengikuti peraturan pertandingan, pendebat keempat pihak pencadang
 
 34
 00:03:04,720 --> 00:03:05,880
-perlu menyoal pendebat pertama
-pihak pembangkang.
+perlu menyoal pendebat pertama pihak pembangkang.
 
 35
 00:03:05,920 --> 00:03:06,680
@@ -151,8 +140,7 @@ Pastinya sebab dia risau
 
 36
 00:03:06,680 --> 00:03:08,080
-bahawa teman wanitanya
-ingin menang pertandingan ini.
+bahawa teman wanitanya ingin menang pertandingan ini.
 
 37
 00:03:08,160 --> 00:03:08,960
@@ -164,8 +152,7 @@ dengan pendebat ketiga
 
 39
 00:03:09,400 --> 00:03:10,360
-supaya menyoal pendebat kedua
-daripada pihak pembangkang.
+supaya menyoal pendebat kedua daripada pihak pembangkang.
 
 40
 00:03:10,360 --> 00:03:11,640
@@ -181,8 +168,7 @@ ingin main strategi
 
 43
 00:03:13,800 --> 00:03:15,200
-supaya pihak pencadang
-terjatuh dalam perangkap.
+supaya pihak pencadang terjatuh dalam perangkap.
 
 44
 00:03:15,200 --> 00:03:15,840
@@ -190,8 +176,7 @@ Namun, tak sangka pula
 
 45
 00:03:15,840 --> 00:03:16,760
-pihak pencadang mengelak
-dengan cara tersebut.
+pihak pencadang mengelak dengan cara tersebut.
 
 46
 00:03:16,880 --> 00:03:17,720
@@ -199,8 +184,7 @@ Jadi dia terpaksa
 
 47
 00:03:17,720 --> 00:03:18,960
-menukar tempat dengan
-pendebat ketiga juga.
+menukar tempat dengan pendebat ketiga juga.
 
 48
 00:03:18,960 --> 00:03:19,840
@@ -228,13 +212,11 @@ Walau bagaimanapun,
 
 54
 00:03:27,400 --> 00:03:28,840
-bermula dari ucapan substantif
-pihak pencadang sehingga sesi soal balas,
+bermula dari ucapan substantif pihak pencadang sehingga sesi soal balas,
 
 55
 00:03:28,840 --> 00:03:30,480
-konsensus yang satu-satunya
-daripada pihak pembangkang
+konsensus yang satu-satunya daripada pihak pembangkang
 
 56
 00:03:30,480 --> 00:03:31,440
@@ -254,8 +236,7 @@ apakah manfaatnya jika kita jatuh sakit?
 
 60
 00:03:37,680 --> 00:03:38,840
-Jika kita melihat dari
-sudut yang lain, jatuh sakit boleh
+Jika kita melihat dari sudut yang lain, jatuh sakit boleh
 
 61
 00:03:38,840 --> 00:03:40,160
@@ -263,18 +244,15 @@ meningkatkan daya tahan kita.
 
 62
 00:03:40,160 --> 00:03:41,080
-Jadi, rakan pendebat lawan,
-bolehkah awak cakap
+Jadi, rakan pendebat lawan, bolehkah awak cakap
 
 63
 00:03:41,080 --> 00:03:42,320
-apakah manfaatnya jika seseorang
-mendapatkan rawatan daripada pendeta?
+apakah manfaatnya jika seseorang mendapatkan rawatan daripada pendeta?
 
 64
 00:03:42,920 --> 00:03:43,520
-Jika kita melihat dari
-sudut yang lain, cara ini
+Jika kita melihat dari sudut yang lain, cara ini
 
 65
 00:03:43,520 --> 00:03:44,400
@@ -282,13 +260,11 @@ mengasah diri dan menjaga tingkah laku.
 
 66
 00:03:44,880 --> 00:03:46,080
-Jadi, rakan pendebat lawan,
-bolehkah awak cakap
+Jadi, rakan pendebat lawan, bolehkah awak cakap
 
 67
 00:03:46,080 --> 00:03:46,720
-jika kita tidak melakukan apa-apa
-pada setiap hari,
+jika kita tidak melakukan apa-apa pada setiap hari,
 
 68
 00:03:46,720 --> 00:03:47,440
@@ -300,13 +276,11 @@ apa manfaatnya?
 
 70
 00:03:48,520 --> 00:03:49,320
-Sekali lagi, jika kita melihat
-dari sudut yang lain,
+Sekali lagi, jika kita melihat dari sudut yang lain,
 
 71
 00:03:49,360 --> 00:03:50,240
-kelakuan ini boleh
-menghilangkan kegelisahan,
+kelakuan ini boleh menghilangkan kegelisahan,
 
 72
 00:03:50,240 --> 00:03:51,160
@@ -322,18 +296,15 @@ jika kita melihat dari sudut lain,
 
 75
 00:03:53,000 --> 00:03:53,880
-adakah perkara tersebut
-tidak bermanfaat juga?
+adakah perkara tersebut tidak bermanfaat juga?
 
 76
 00:03:53,960 --> 00:03:54,680
-Perkara yang tidak bermanfaat
-boleh ditukar kepada bermanfaat
+Perkara yang tidak bermanfaat boleh ditukar kepada bermanfaat
 
 77
 00:03:54,680 --> 00:03:55,800
-manakala yang bermanfaat
-boleh dianggap tidak bermanfaat juga.
+manakala yang bermanfaat boleh dianggap tidak bermanfaat juga.
 
 78
 00:03:55,800 --> 00:03:56,600
@@ -365,8 +336,7 @@ yang seterusnya.
 
 85
 00:04:04,400 --> 00:04:05,680
-Adakah wujud perkara yang
-tidak bermanfaat langsung?
+Adakah wujud perkara yang tidak bermanfaat langsung?
 
 86
 00:04:06,960 --> 00:04:08,040
@@ -382,8 +352,7 @@ perlu juga menjawab.
 
 89
 00:04:10,560 --> 00:04:11,840
-Jika tidak, mengelak merupakan
-satu-satunya cara penyelesaian.
+Jika tidak, mengelak merupakan satu-satunya cara penyelesaian.
 
 90
 00:04:12,360 --> 00:04:13,520
@@ -395,8 +364,7 @@ Tentulah ada.
 
 92
 00:04:14,880 --> 00:04:16,080
-Banyak ahli sains tidak formal
-mengkaji mesin gerak abadi.
+Banyak ahli sains tidak formal mengkaji mesin gerak abadi.
 
 93
 00:04:16,080 --> 00:04:17,640
@@ -412,8 +380,7 @@ walaupun nampak tidak bermanfaat,
 
 96
 00:04:19,520 --> 00:04:20,800
-adakah ia benar-benar
-tidak bermanfaat langsung?
+adakah ia benar-benar tidak bermanfaat langsung?
 
 97
 00:04:23,040 --> 00:04:24,400
@@ -425,13 +392,11 @@ Tiada.
 
 99
 00:04:26,040 --> 00:04:27,480
-Segalanya dalam dunia ini
-mempunyai nilai yang tertentu.
+Segalanya dalam dunia ini mempunyai nilai yang tertentu.
 
 100
 00:04:27,480 --> 00:04:29,360
-Jadi, perkara yang tidak bermanfaat
-sebenarnya bernilai juga.
+Jadi, perkara yang tidak bermanfaat sebenarnya bernilai juga.
 
 101
 00:04:29,880 --> 00:04:30,560
@@ -447,8 +412,7 @@ betul sebenarnya?
 
 104
 00:04:31,960 --> 00:04:32,840
-Jadi, perkara yang nampak
-tidak bermanfaat tetapi bernilai
+Jadi, perkara yang nampak tidak bermanfaat tetapi bernilai
 
 105
 00:04:32,840 --> 00:04:34,040
@@ -488,13 +452,11 @@ Perkara tidak bermanfaat yang dirujuk sini
 
 114
 00:04:40,480 --> 00:04:41,760
-merupakan perkara tidak bermanfaat
-dalam aspek duniawi.
+merupakan perkara tidak bermanfaat dalam aspek duniawi.
 
 115
 00:04:41,760 --> 00:04:42,960
-Namun, adakah perkara tersebut
-bermanfaat atau tidak,
+Namun, adakah perkara tersebut bermanfaat atau tidak,
 
 116
 00:04:42,960 --> 00:04:44,280
@@ -502,8 +464,7 @@ bergantung kepada nilainya.
 
 117
 00:04:44,480 --> 00:04:45,960
-Perkara yang ditakrifkan
-dalam konteks duniawi,
+Perkara yang ditakrifkan dalam konteks duniawi,
 
 118
 00:04:45,960 --> 00:04:46,640
@@ -543,8 +504,7 @@ tiada susulan yang diberi
 
 127
 00:05:07,840 --> 00:05:08,760
-kepada pendebat pertama
-untuk meneruskan debat.
+kepada pendebat pertama untuk meneruskan debat.
 
 128
 00:05:09,080 --> 00:05:09,840
@@ -556,8 +516,7 @@ dalam pusingan ini,
 
 130
 00:05:10,680 --> 00:05:12,120
-sekurang-kurangnya
-membuat penonton berfikir
+sekurang-kurangnya membuat penonton berfikir
 
 131
 00:05:12,120 --> 00:05:13,360
@@ -577,13 +536,11 @@ Tugas mereka sudah selesai.
 
 135
 00:05:16,280 --> 00:05:17,480
-Dari segi suasana, pihak kita
-boleh dianggap menang.
+Dari segi suasana, pihak kita boleh dianggap menang.
 
 136
 00:05:18,400 --> 00:05:19,840
-Namun masih tiada
-perbincangan yang mendalam.
+Namun masih tiada perbincangan yang mendalam.
 
 137
 00:05:20,640 --> 00:05:21,880
@@ -611,8 +568,7 @@ Seterusnya pendebat pertama
 
 143
 00:05:31,520 --> 00:05:33,240
-pihak pembangkang dijemput
-untuk penerangan hujah.
+pihak pembangkang dijemput untuk penerangan hujah.
 
 144
 00:05:33,360 --> 00:05:33,960
@@ -628,13 +584,11 @@ Salam sejahtera.
 
 147
 00:05:43,240 --> 00:05:44,360
-Sesuatu perkara yang
-tidak bermanfaat kepada saya,
+Sesuatu perkara yang tidak bermanfaat kepada saya,
 
 148
 00:05:44,360 --> 00:05:45,880
-saya akan menggelarnya sebagai
-perkara tidak bermanfaat tetapi bernilai.
+saya akan menggelarnya sebagai perkara tidak bermanfaat tetapi bernilai.
 
 149
 00:05:46,240 --> 00:05:47,320
@@ -658,13 +612,11 @@ Bukankah ini bermanfaat?
 
 154
 00:05:52,480 --> 00:05:53,720
-Kenyataan ini lebih kurang
-sama dengan memberitahu kita
+Kenyataan ini lebih kurang sama dengan memberitahu kita
 
 155
 00:05:54,240 --> 00:05:55,600
-siapa yang kata
-makanan anjing tak boleh dimakan?
+siapa yang kata makanan anjing tak boleh dimakan?
 
 156
 00:05:55,720 --> 00:05:56,440
@@ -680,13 +632,11 @@ Saya mengaku bahawa
 
 159
 00:05:58,920 --> 00:06:00,480
-makanan anjing betul-betul
-boleh dimakan oleh manusia.
+makanan anjing betul-betul boleh dimakan oleh manusia.
 
 160
 00:06:00,720 --> 00:06:02,120
-Namun, tidak boleh dijadikan
-makanan seharian, kan?
+Namun, tidak boleh dijadikan makanan seharian, kan?
 
 161
 00:06:02,120 --> 00:06:02,800
@@ -702,8 +652,7 @@ bolehkah awak menukar sudut pandangan
 
 164
 00:06:05,320 --> 00:06:06,800
-supaya boleh membantu saya
-masuk universiti terkenal
+supaya boleh membantu saya masuk universiti terkenal
 
 165
 00:06:06,800 --> 00:06:07,560
@@ -715,8 +664,7 @@ dengan hati yang gembira?
 
 167
 00:06:09,080 --> 00:06:10,200
-Selain itu,
-dengan sudut pandang yang mana satu,
+Selain itu, dengan sudut pandang yang mana satu,
 
 168
 00:06:10,200 --> 00:06:11,240
@@ -728,18 +676,15 @@ boleh memastikan saya mampu menyara hidup?
 
 170
 00:06:13,360 --> 00:06:14,320
-Semua perkara yang
-tidak bermanfaat tetapi bernilai ini,
+Semua perkara yang tidak bermanfaat tetapi bernilai ini,
 
 171
 00:06:14,320 --> 00:06:15,800
-jika menukar sudut pandangan lain,
-memang adanya serba sedikit manfaat.
+jika menukar sudut pandangan lain, memang adanya serba sedikit manfaat.
 
 172
 00:06:15,880 --> 00:06:17,360
-Namun, adakah manfaat itu
-benar-benar manfaat yang
+Namun, adakah manfaat itu benar-benar manfaat yang
 
 173
 00:06:17,360 --> 00:06:18,360
@@ -819,8 +764,7 @@ Kita semua merupakan manusia biasa.
 
 192
 00:06:44,760 --> 00:06:46,360
-Apa yang kita perlukan adalah
-untuk masuk universiti,
+Apa yang kita perlukan adalah untuk masuk universiti,
 
 193
 00:06:46,360 --> 00:06:47,400
@@ -828,8 +772,7 @@ mencari nafkah,
 
 194
 00:06:47,400 --> 00:06:48,760
-melakukan perkara yang
-bermanfaat untuk diri sendiri,
+melakukan perkara yang bermanfaat untuk diri sendiri,
 
 195
 00:06:48,760 --> 00:06:50,320
@@ -841,8 +784,7 @@ dan bukan orang yang berteriak
 
 197
 00:06:52,000 --> 00:06:53,160
-mengatakan Zhuangzi yang menyatakan
-perkara tidak bermanfaat tetapi bernilai
+mengatakan Zhuangzi yang menyatakan perkara tidak bermanfaat tetapi bernilai
 
 198
 00:06:53,160 --> 00:06:53,920
@@ -854,8 +796,7 @@ Akhirnya, dia menghabiskan seumur hidup
 
 200
 00:06:55,400 --> 00:06:58,040
-di dalam mimpi indah yang
-dirinya sentiasa rujuk.
+di dalam mimpi indah yang dirinya sentiasa rujuk.
 
 201
 00:06:59,320 --> 00:06:59,800
@@ -867,8 +808,7 @@ Seterusnya pendebat keempat
 
 203
 00:07:11,320 --> 00:07:13,400
-pihak pencadang dijemput untuk
-menyoal pendebat pertama pihak lawan.
+pihak pencadang dijemput untuk menyoal pendebat pertama pihak lawan.
 
 204
 00:07:13,960 --> 00:07:15,480
@@ -892,8 +832,7 @@ Pihak kamu berpendapat bahawa
 
 209
 00:07:19,520 --> 00:07:20,280
-penilaian terhadap perkataan
-"bermanfaat" di depan
+penilaian terhadap perkataan "bermanfaat" di depan
 
 210
 00:07:20,280 --> 00:07:21,040
@@ -925,8 +864,7 @@ bolehkah saya memahaminya sebagai
 
 217
 00:07:26,320 --> 00:07:27,360
-disebabkan perkara yang
-tidak bermanfaat tetapi bernilai
+disebabkan perkara yang tidak bermanfaat tetapi bernilai
 
 218
 00:07:27,360 --> 00:07:27,760
@@ -934,8 +872,7 @@ adalah tidak bermanfaat,
 
 219
 00:07:27,760 --> 00:07:29,240
-maka perkara tersebut
-tidak bernilai, betul tak?
+maka perkara tersebut tidak bernilai, betul tak?
 
 220
 00:07:29,720 --> 00:07:30,520
@@ -971,13 +908,11 @@ Kunci hujah pihak kami terletak pada
 
 228
 00:07:37,280 --> 00:07:38,920
-perkara tidak bermanfaat
-tetapi bernilai adalah tidak praktikal.
+perkara tidak bermanfaat tetapi bernilai adalah tidak praktikal.
 
 229
 00:07:38,960 --> 00:07:40,040
-Jika asyik menekan bahawa
-perkara tersebut bermanfaat
+Jika asyik menekan bahawa perkara tersebut bermanfaat
 
 230
 00:07:40,040 --> 00:07:40,680
@@ -1001,18 +936,15 @@ Bolehkah awak memberikan contoh?
 
 235
 00:07:46,520 --> 00:07:47,760
-Contohnya, pelajar yang akan
-menduduki peperiksaan Gaokao
+Contohnya, pelajar yang akan menduduki peperiksaan Gaokao
 
 236
 00:07:47,760 --> 00:07:49,120
-tetapi membaca komik setiap hari
-maka inilah tidak bermanfaat.
+tetapi membaca komik setiap hari maka inilah tidak bermanfaat.
 
 237
 00:07:49,120 --> 00:07:50,040
-Perkara ini adalah
-situasi yang amat nyata.
+Perkara ini adalah situasi yang amat nyata.
 
 238
 00:07:50,240 --> 00:07:50,680
@@ -1032,8 +964,7 @@ Namun dalam pandangan awak,
 
 242
 00:07:53,280 --> 00:07:54,360
-adakah hidup kita
-hanya mempunyai satu pilihan
+adakah hidup kita hanya mempunyai satu pilihan
 
 243
 00:07:54,360 --> 00:07:55,080
@@ -1077,23 +1008,19 @@ Tidak mengapa.
 
 253
 00:08:15,240 --> 00:08:17,560
-Berikut adalah sesi penerangan hujah
-untuk pusingan kedua.
+Berikut adalah sesi penerangan hujah untuk pusingan kedua.
 
 254
 00:08:17,720 --> 00:08:19,240
-Pendebat kedua pihak pencadang
-akan memberi penerangan hujah
+Pendebat kedua pihak pencadang akan memberi penerangan hujah
 
 255
 00:08:19,360 --> 00:08:20,760
-dan pendebat ketiga
-pihak pembangkang menyoal.
+dan pendebat ketiga pihak pembangkang menyoal.
 
 256
 00:08:22,480 --> 00:08:23,840
-Walau bagaimanapun,
-dia tetap membersihkan
+Walau bagaimanapun, dia tetap membersihkan
 
 257
 00:08:23,840 --> 00:08:24,680
@@ -1101,8 +1028,7 @@ medan perang pihak lawan tadi.
 
 258
 00:08:25,560 --> 00:08:26,760
-Untuk langkah seterusnya,
-tidak perlu mengikat kepada takrifan.
+Untuk langkah seterusnya, tidak perlu mengikat kepada takrifan.
 
 259
 00:08:28,600 --> 00:08:29,520
@@ -1110,8 +1036,7 @@ Perlu tetapkan satu darjat yang jelas.
 
 260
 00:08:31,360 --> 00:08:33,040
-Kata-kata daripada kedua-dua pihak
-seakan-akan nampak logik,
+Kata-kata daripada kedua-dua pihak seakan-akan nampak logik,
 
 261
 00:08:33,040 --> 00:08:33,960
@@ -1135,8 +1060,7 @@ Tadi kita telah mencapai konsensus
 
 266
 00:08:41,480 --> 00:08:42,560
-bahawa perkara tidak bermanfaat
-merujuk kepada perkara yang
+bahawa perkara tidak bermanfaat merujuk kepada perkara yang
 
 267
 00:08:42,560 --> 00:08:43,400
@@ -1160,8 +1084,7 @@ bagaimana kita pertimbangkan
 
 272
 00:08:48,080 --> 00:08:49,320
-nilai kepada benda yang
-tidak bermanfaat, betul tak?
+nilai kepada benda yang tidak bermanfaat, betul tak?
 
 273
 00:08:50,240 --> 00:08:50,800
@@ -1209,13 +1132,11 @@ Bukankah begitu?
 
 284
 00:09:04,040 --> 00:09:05,120
-Apabila awak menggunakan
-darjat yang pelbagai dimensi
+Apabila awak menggunakan darjat yang pelbagai dimensi
 
 285
 00:09:05,120 --> 00:09:06,160
-untuk menilai perkara yang
-tidak bermanfaat tetapi bernilai,
+untuk menilai perkara yang tidak bermanfaat tetapi bernilai,
 
 286
 00:09:06,320 --> 00:09:06,840
@@ -1239,8 +1160,7 @@ Oleh itu, pihak kami berpendapat bahawa
 
 291
 00:09:11,040 --> 00:09:12,240
-perkara tidak bermanfaat
-masih dianggap bernilai
+perkara tidak bermanfaat masih dianggap bernilai
 
 292
 00:09:12,280 --> 00:09:13,240
@@ -1264,8 +1184,7 @@ jatuh ke dalam kesombongan dan kebodohan
 
 297
 00:09:18,120 --> 00:09:19,800
-di bawah pandangan nilai
-yang utilitarian.
+di bawah pandangan nilai yang utilitarian.
 
 298
 00:09:21,680 --> 00:09:22,840
@@ -1289,8 +1208,7 @@ tiada masalah.
 
 303
 00:09:29,040 --> 00:09:30,880
-Hujah ini akan didorong
-ke arah ekstrem sekejap lagi.
+Hujah ini akan didorong ke arah ekstrem sekejap lagi.
 
 304
 00:09:31,600 --> 00:09:32,160
@@ -1318,8 +1236,7 @@ adalah multidimensi juga?
 
 310
 00:09:38,360 --> 00:09:39,360
-Darjat untuk betul atau salah,
-hitam atau putih,
+Darjat untuk betul atau salah, hitam atau putih,
 
 311
 00:09:39,360 --> 00:09:40,400
@@ -1327,17 +1244,15 @@ ini juga bukan satu-satunya darjat?
 
 312
 00:09:41,240 --> 00:09:42,880
-[Dia ingin menggunakan ugutan moral.]
+Dia ingin menggunakan ugutan moral.
 
 313
 00:09:45,400 --> 00:09:46,440
-Memang betul cakap awak,
-rakan pendebat lawan.
+Memang betul cakap awak, rakan pendebat lawan.
 
 314
 00:09:46,560 --> 00:09:47,440
-Tentulah darjat kepada
-betul atau salah, hitam atau putih
+Tentulah darjat kepada betul atau salah, hitam atau putih
 
 315
 00:09:47,440 --> 00:09:48,480
@@ -1345,18 +1260,15 @@ bukan satu-satunya darjat.
 
 316
 00:09:48,720 --> 00:09:50,160
-Anjing pemburu adalah bermanfaat
-kepada pemburu,
+Anjing pemburu adalah bermanfaat kepada pemburu,
 
 317
 00:09:50,200 --> 00:09:51,400
-namun untuk arnab,
-anjing itu tidak bermanfaat pula.
+namun untuk arnab, anjing itu tidak bermanfaat pula.
 
 318
 00:09:51,480 --> 00:09:52,360
-Prinsip
-"Tiga Ketaatan dan Empat Keutamaan"
+Prinsip "Tiga Ketaatan dan Empat Keutamaan"
 
 319
 00:09:52,360 --> 00:09:53,320
@@ -1364,18 +1276,15 @@ dianggap betul dalam masyarakat feudal.
 
 320
 00:09:53,320 --> 00:09:54,640
-Namun, dalam masyarakat sekarang
-tentulah prinsip ini salah.
+Namun, dalam masyarakat sekarang tentulah prinsip ini salah.
 
 321
 00:09:54,760 --> 00:09:55,840
-Matahari kelihatan putih
-dengan mata kasar,
+Matahari kelihatan putih dengan mata kasar,
 
 322
 00:09:55,840 --> 00:09:57,200
-dalam filem negatif kamera pula
-kelihatan hitam.
+dalam filem negatif kamera pula kelihatan hitam.
 
 323
 00:09:57,400 --> 00:09:58,800
@@ -1391,7 +1300,7 @@ Adakah perkara ini bermasalah?
 
 326
 00:10:02,080 --> 00:10:03,840
-[Kakak, perlukah awak begitu tegas?]
+Kakak, perlukah awak begitu tegas?
 
 327
 00:10:04,200 --> 00:10:05,040
@@ -1423,13 +1332,11 @@ Bukankah keadaan ini
 
 334
 00:10:14,600 --> 00:10:15,640
-dianggap betul
-untuk pendirian masing-masing?
+dianggap betul untuk pendirian masing-masing?
 
 335
 00:10:15,800 --> 00:10:16,920
-Jadi, bolehkah saya tahu
-dengan darjat seperti ini,
+Jadi, bolehkah saya tahu dengan darjat seperti ini,
 
 336
 00:10:16,920 --> 00:10:17,880
@@ -1445,17 +1352,15 @@ dapat diselesaikan?
 
 339
 00:10:19,760 --> 00:10:20,640
-[Masalah sudah timbul.]
+Masalah sudah timbul.
 
 340
 00:10:22,680 --> 00:10:23,800
-Tanpa perbandingan, bagaimana kita
-bezakan baik atau buruk?
+Tanpa perbandingan, bagaimana kita bezakan baik atau buruk?
 
 341
 00:10:23,800 --> 00:10:24,960
-Tanpa perbandingan, bagaimana kita
-bezakan hodoh atau cantik?
+Tanpa perbandingan, bagaimana kita bezakan hodoh atau cantik?
 
 342
 00:10:25,320 --> 00:10:26,480
@@ -1471,8 +1376,7 @@ kita boleh
 
 345
 00:10:28,040 --> 00:10:29,600
-menganggap cantik atau hodoh,
-baik atau baik adalah sama.
+menganggap cantik atau hodoh, baik atau baik adalah sama.
 
 346
 00:10:29,960 --> 00:10:30,960
@@ -1496,8 +1400,7 @@ yang membimbing hidup kita.
 
 351
 00:10:36,080 --> 00:10:37,840
-Rakan pendebat lawan,
-betulkah cakap saya?
+Rakan pendebat lawan, betulkah cakap saya?
 
 352
 00:10:51,840 --> 00:10:52,920
@@ -1513,8 +1416,7 @@ asyik melakukan satu perkara,
 
 355
 00:10:54,920 --> 00:10:56,680
-iaitu memberikan nilai kepada
-perkara tidak bermanfaat.
+iaitu memberikan nilai kepada perkara tidak bermanfaat.
 
 356
 00:10:56,800 --> 00:10:58,040
@@ -1522,8 +1424,7 @@ Malah, memberi nilai dengan paksaan.
 
 357
 00:10:58,760 --> 00:11:00,000
-Jika menggunakan paksaan,
-apa lagi nilai yang
+Jika menggunakan paksaan, apa lagi nilai yang
 
 358
 00:11:00,000 --> 00:11:01,160
@@ -1551,8 +1452,7 @@ dengan memegang telefon di dalam tangan.
 
 364
 00:11:07,360 --> 00:11:08,640
-Jika kita memberi nilai
-kepada novel dalam talian
+Jika kita memberi nilai kepada novel dalam talian
 
 365
 00:11:08,640 --> 00:11:10,040
@@ -1596,8 +1496,7 @@ jangan lupa
 
 375
 00:11:19,840 --> 00:11:21,560
-tanggungjawab dan komitmen
-kamu sebagai pendebat.
+tanggungjawab dan komitmen kamu sebagai pendebat.
 
 376
 00:11:21,640 --> 00:11:22,760
@@ -1633,8 +1532,7 @@ Terima kasih.
 
 384
 00:11:38,520 --> 00:11:40,120
-Terima kasih kepada
-pendebat kedua pihak pembangkang
+Terima kasih kepada pendebat kedua pihak pembangkang
 
 385
 00:11:40,120 --> 00:11:40,840
@@ -1642,8 +1540,7 @@ dengan hujah menarik.
 
 386
 00:11:41,040 --> 00:11:43,280
-Seterusnya pendebat ketiga
-pihak pencadang untuk menyoal.
+Seterusnya pendebat ketiga pihak pencadang untuk menyoal.
 
 387
 00:11:43,280 --> 00:11:44,000
@@ -1707,8 +1604,7 @@ Semasa dia menyoal,
 
 402
 00:12:01,960 --> 00:12:03,000
-dia sudah menyerah
-hujah dengan sepenuhnya
+dia sudah menyerah hujah dengan sepenuhnya
 
 403
 00:12:03,000 --> 00:12:04,040
@@ -1764,8 +1660,7 @@ untuk rancangan pembelajaran.
 
 416
 00:12:24,960 --> 00:12:26,040
-Ini perkara yang
-tidak bermanfaat tetapi bernilai.
+Ini perkara yang tidak bermanfaat tetapi bernilai.
 
 417
 00:12:26,320 --> 00:12:27,800
@@ -1773,8 +1668,7 @@ Rancangan pembelajaran semasa cuti
 
 418
 00:12:27,880 --> 00:12:29,120
-boleh membantu saya
-dalam pembelajaran semasa cuti.
+boleh membantu saya dalam pembelajaran semasa cuti.
 
 419
 00:12:29,160 --> 00:12:30,000
@@ -1814,8 +1708,7 @@ dan pengetahuan
 
 428
 00:12:38,080 --> 00:12:39,320
-yang saya tidak guna
-adalah tidak bermanfaat?
+yang saya tidak guna adalah tidak bermanfaat?
 
 429
 00:12:39,400 --> 00:12:40,400
@@ -1823,8 +1716,7 @@ Bolehkah awak memberikan satu contoh
 
 430
 00:12:40,400 --> 00:12:41,040
-yang menunjukkan walaupun awak
-tidak menggunakannya
+yang menunjukkan walaupun awak tidak menggunakannya
 
 431
 00:12:41,040 --> 00:12:41,840
@@ -1836,13 +1728,11 @@ Boleh.
 
 433
 00:12:43,400 --> 00:12:44,640
-Banyak membaca buku boleh
-meningkatkan keanggunan.
+Banyak membaca buku boleh meningkatkan keanggunan.
 
 434
 00:12:44,720 --> 00:12:45,880
-Bukankah ini perkara yang
-tidak bermanfaat tetapi bernilai?
+Bukankah ini perkara yang tidak bermanfaat tetapi bernilai?
 
 435
 00:12:46,520 --> 00:12:47,480
@@ -1866,8 +1756,7 @@ kesan yang secara langsung.
 
 440
 00:12:51,600 --> 00:12:52,600
-Jadi, hanya yang
-bermanfaat secara langsung
+Jadi, hanya yang bermanfaat secara langsung
 
 441
 00:12:52,600 --> 00:12:53,240
@@ -1883,8 +1772,7 @@ tidak dimasukkan dalam peperiksaan
 
 444
 00:12:54,920 --> 00:12:55,640
-dianggap perkara
-tidak bermanfaat tetapi bernilai?
+dianggap perkara tidak bermanfaat tetapi bernilai?
 
 445
 00:12:55,640 --> 00:12:56,680
@@ -1904,8 +1792,7 @@ baru dianggap boleh diterima.
 
 449
 00:13:03,640 --> 00:13:04,440
-Jika tidak, bukankah kita
-sudah kembali kepada
+Jika tidak, bukankah kita sudah kembali kepada
 
 450
 00:13:04,440 --> 00:13:05,280
@@ -1925,13 +1812,11 @@ Adakah kamu masih ingin menafikan
 
 454
 00:13:09,160 --> 00:13:10,240
-kewujudan perkara yang
-tidak bermanfaat tetapi bernilai,
+kewujudan perkara yang tidak bermanfaat tetapi bernilai,
 
 455
 00:13:10,240 --> 00:13:11,560
-sehubungan itu menafikan
-tajuk debat tersebut?
+sehubungan itu menafikan tajuk debat tersebut?
 
 456
 00:13:12,120 --> 00:13:12,720
@@ -1943,13 +1828,11 @@ Kami mengaku bahawa dalam tajuk debat,
 
 458
 00:13:22,360 --> 00:13:23,600
-definisi tentang perkara yang
-tidak bermanfaat tetapi bernilai
+definisi tentang perkara yang tidak bermanfaat tetapi bernilai
 
 459
 00:13:23,600 --> 00:13:24,920
-adalah perkara yang dianggap
-tidak bermanfaat
+adalah perkara yang dianggap tidak bermanfaat
 
 460
 00:13:24,920 --> 00:13:26,200
@@ -1985,8 +1868,7 @@ terhadap utilitarianisme.
 
 468
 00:13:34,680 --> 00:13:35,920
-Sebabnya dengan menggunakan
-darjat utilitarianisme
+Sebabnya dengan menggunakan darjat utilitarianisme
 
 469
 00:13:35,920 --> 00:13:36,680
@@ -2014,8 +1896,7 @@ pilihan dalam kehidupan kita.
 
 475
 00:13:42,120 --> 00:13:43,000
-Banyak pilihan yang
-kelihatan tidak bermanfaat,
+Banyak pilihan yang kelihatan tidak bermanfaat,
 
 476
 00:13:43,000 --> 00:13:44,120
@@ -2043,18 +1924,15 @@ harus kita menolak
 
 482
 00:13:49,000 --> 00:13:50,160
-kewujudan perkara
-tidak bermanfaat tetapi bernilai.
+kewujudan perkara tidak bermanfaat tetapi bernilai.
 
 483
 00:13:50,560 --> 00:13:51,680
-Sebabnya di dalam mulut
-rakan pendebat lawan kami,
+Sebabnya di dalam mulut rakan pendebat lawan kami,
 
 484
 00:13:51,680 --> 00:13:52,360
-perkara yang tidak bermanfaat
-pada hari ini
+perkara yang tidak bermanfaat pada hari ini
 
 485
 00:13:52,360 --> 00:13:53,880
@@ -2074,8 +1952,7 @@ pada masa depan.
 
 489
 00:13:56,520 --> 00:13:58,000
-Serupa dengan pemikiran
-cendekiawan Yunani Kuno
+Serupa dengan pemikiran cendekiawan Yunani Kuno
 
 490
 00:13:58,000 --> 00:13:58,760
@@ -2103,8 +1980,7 @@ dari permukaan.
 
 496
 00:14:03,520 --> 00:14:05,480
-Jadi, semua yang
-kelihatan tidak bermanfaat
+Jadi, semua yang kelihatan tidak bermanfaat
 
 497
 00:14:05,480 --> 00:14:07,960
@@ -2140,13 +2016,11 @@ tajuk debat dari segi definisi.
 
 505
 00:14:38,800 --> 00:14:40,280
-Kuncinya ialah menjadikan
-perkara ini logik.
+Kuncinya ialah menjadikan perkara ini logik.
 
 506
 00:14:40,800 --> 00:14:41,680
-Jika keadaan ini berterusan,
-tiada peluang lagi
+Jika keadaan ini berterusan, tiada peluang lagi
 
 507
 00:14:41,680 --> 00:14:42,480
@@ -2166,8 +2040,7 @@ Sesi ini diberi masa tiga minit.
 
 511
 00:14:57,720 --> 00:14:59,600
-Jurulatih kedua-dua pasukan
-dibenarkan naik ke pentas
+Jurulatih kedua-dua pasukan dibenarkan naik ke pentas
 
 512
 00:14:59,680 --> 00:15:01,160
@@ -2187,8 +2060,7 @@ Bermula sekarang.
 
 516
 00:15:12,080 --> 00:15:13,840
-Maafkan saya, kalian.
-Saya telah melakukan kesilapan.
+Maafkan saya, kalian. Saya telah melakukan kesilapan.
 
 517
 00:15:14,800 --> 00:15:15,480
@@ -2196,8 +2068,7 @@ Tidak mengapa, Hao.
 
 518
 00:15:15,480 --> 00:15:16,880
-Pendirian kita belum runtuh,
-boleh dibahas lagi.
+Pendirian kita belum runtuh, boleh dibahas lagi.
 
 519
 00:15:19,520 --> 00:15:21,000
@@ -2205,7 +2076,7 @@ Nan Bei, mahukah awak naik?
 
 520
 00:15:33,920 --> 00:15:34,840
-[Kita jumpa di atas pentas.]
+Kita jumpa di atas pentas.
 
 521
 00:15:38,560 --> 00:15:38,920
@@ -2249,8 +2120,7 @@ Namun untuk pendebatan bebas,
 
 531
 00:15:54,080 --> 00:15:55,280
-memang memerlukan awak
-untuk menjadi ketua
+memang memerlukan awak untuk menjadi ketua
 
 532
 00:15:55,680 --> 00:15:56,560
@@ -2258,8 +2128,7 @@ dan mengawal situasi.
 
 533
 00:15:57,120 --> 00:15:58,320
-Bahagian ini saya
-benar-benar kurang mahir.
+Bahagian ini saya benar-benar kurang mahir.
 
 534
 00:16:00,400 --> 00:16:00,800
@@ -2287,18 +2156,15 @@ Betul cakap Tuan Zi.
 
 540
 00:16:09,960 --> 00:16:10,680
-Nan Bei, awak tukar kepada
-pendebat pertama.
+Nan Bei, awak tukar kepada pendebat pertama.
 
 541
 00:16:10,800 --> 00:16:11,480
-Awak bertugas untuk
-menyerang debat mereka.
+Awak bertugas untuk menyerang debat mereka.
 
 542
 00:16:11,560 --> 00:16:12,680
-Yang lain bersedia untuk
-pendebatan bebas.
+Yang lain bersedia untuk pendebatan bebas.
 
 543
 00:16:12,960 --> 00:16:13,440
@@ -2314,8 +2180,7 @@ Bagus untuk separuh masa yang pertama.
 
 546
 00:16:17,240 --> 00:16:19,040
-Namun, tak boleh
-hanya berbahas tentang logik.
+Namun, tak boleh hanya berbahas tentang logik.
 
 547
 00:16:19,280 --> 00:16:20,240
@@ -2339,8 +2204,7 @@ hujah yang mendalam.
 
 552
 00:16:24,440 --> 00:16:25,320
-Jangan memberi peluang untuk
-mereka bentangkan hujah.
+Jangan memberi peluang untuk mereka bentangkan hujah.
 
 553
 00:16:25,520 --> 00:16:26,040
@@ -2356,8 +2220,7 @@ Saya rasa boleh berbahas lagi.
 
 556
 00:16:29,520 --> 00:16:30,560
-kamu boleh mengambil keputusan sendiri
-untuk perkara ini.
+kamu boleh mengambil keputusan sendiri untuk perkara ini.
 
 557
 00:16:30,760 --> 00:16:31,440
@@ -2365,8 +2228,7 @@ Namun ingat ya,
 
 558
 00:16:32,440 --> 00:16:34,000
-harus kamu bertanggungjawab
-terhadap keputusan sendiri.
+harus kamu bertanggungjawab terhadap keputusan sendiri.
 
 559
 00:16:35,360 --> 00:16:36,160
@@ -2378,13 +2240,11 @@ kita memang lemah sedikit.
 
 561
 00:16:38,000 --> 00:16:39,640
-Namun, konsensus kita
-pada dasarnya sudah dicapai.
+Namun, konsensus kita pada dasarnya sudah dicapai.
 
 562
 00:16:40,320 --> 00:16:41,400
-Kelemahan dalam
-sesi menyoal tidak penting.
+Kelemahan dalam sesi menyoal tidak penting.
 
 563
 00:16:41,720 --> 00:16:43,400
@@ -2392,8 +2252,7 @@ Yang penting adalah menarik pihak lawan
 
 564
 00:16:43,400 --> 00:16:44,160
-ke dalam medan perang kita
-untuk bertempur.
+ke dalam medan perang kita untuk bertempur.
 
 565
 00:16:44,920 --> 00:16:45,400
@@ -2437,8 +2296,7 @@ Ada lagi,
 
 575
 00:16:56,680 --> 00:16:57,800
-harus kamu pendekkan bahasan
-semasa menyerang dan bertahan.
+harus kamu pendekkan bahasan semasa menyerang dan bertahan.
 
 576
 00:16:58,200 --> 00:16:58,440
@@ -2454,8 +2312,7 @@ semasa dalam sesi
 
 579
 00:17:01,320 --> 00:17:02,320
-pendebatan bebas,
-awak bertanggungjawab untuk menolak.
+pendebatan bebas, awak bertanggungjawab untuk menolak.
 
 580
 00:17:02,440 --> 00:17:02,800
@@ -2467,8 +2324,7 @@ Berkenaan dengan pendebatan bebas,
 
 582
 00:17:04,800 --> 00:17:05,920
-kamu semua bertanggungjawab untuk
-menghalang dan serang balik.
+kamu semua bertanggungjawab untuk menghalang dan serang balik.
 
 583
 00:17:06,040 --> 00:17:06,920
@@ -2480,8 +2336,7 @@ Mengukuhkan hujah.
 
 585
 00:17:08,680 --> 00:17:09,520
-Tao Hao bertanggungjawab untuk
-menstabilkan medan perang.
+Tao Hao bertanggungjawab untuk menstabilkan medan perang.
 
 586
 00:17:10,120 --> 00:17:10,880
@@ -2545,8 +2400,7 @@ Pada waktu ini,
 
 601
 00:17:29,840 --> 00:17:31,880
-jika hujah kita dikukuhkan,
-kita akan menang.
+jika hujah kita dikukuhkan, kita akan menang.
 
 602
 00:17:32,120 --> 00:17:32,680
@@ -2590,8 +2444,7 @@ Seterusnya adalah sesi menyerang debat.
 
 612
 00:17:59,840 --> 00:18:01,040
-Mana-mana satu pendebat
-dari kedua-dua pihak
+Mana-mana satu pendebat dari kedua-dua pihak
 
 613
 00:18:01,040 --> 00:18:02,560
@@ -2599,13 +2452,11 @@ boleh melakukan serangan debat
 
 614
 00:18:02,560 --> 00:18:03,600
-berkenaan dengan kandungan
-pendebatan di atas.
+berkenaan dengan kandungan pendebatan di atas.
 
 615
 00:18:04,120 --> 00:18:05,720
-Jumlah masa yang diberi
-adalah empat minit.
+Jumlah masa yang diberi adalah empat minit.
 
 616
 00:18:06,360 --> 00:18:07,040
@@ -2613,13 +2464,11 @@ Silakan.
 
 617
 00:18:10,200 --> 00:18:11,680
-Pihak kamu cakap perkara tidak bermanfaat
-tetapi bernilai sebenarnya bermanfaat.
+Pihak kamu cakap perkara tidak bermanfaat tetapi bernilai sebenarnya bermanfaat.
 
 618
 00:18:11,760 --> 00:18:12,480
-Bolehkah awak terangkan
-bagaimana perkara tersebut
+Bolehkah awak terangkan bagaimana perkara tersebut
 
 619
 00:18:12,480 --> 00:18:13,200
@@ -2635,13 +2484,11 @@ serta panjang subjek yang berbeza,
 
 622
 00:18:15,560 --> 00:18:16,480
-awak akan perasan
-melalui pemerhatian bahawa
+awak akan perasan melalui pemerhatian bahawa
 
 623
 00:18:16,640 --> 00:18:17,840
-perkara tidak bermanfaat tetapi bernilai
-membawa manfaat yang paling besar.
+perkara tidak bermanfaat tetapi bernilai membawa manfaat yang paling besar.
 
 624
 00:18:17,840 --> 00:18:19,040
@@ -2705,8 +2552,7 @@ saya cuma nampak karbon.
 
 639
 00:18:32,160 --> 00:18:33,200
-Ketika kembali ke skala makro
-barulah saya menyedari bahawa
+Ketika kembali ke skala makro barulah saya menyedari bahawa
 
 640
 00:18:33,200 --> 00:18:34,160
@@ -2746,8 +2592,7 @@ melalui cara apa?
 
 649
 00:18:41,520 --> 00:18:42,520
-Di Hebei, ada seorang
-pencipta yang bernama
+Di Hebei, ada seorang pencipta yang bernama
 
 650
 00:18:42,520 --> 00:18:43,200
@@ -2763,18 +2608,15 @@ langsung tidak bernilai secara khusus
 
 653
 00:18:45,560 --> 00:18:46,480
-sehingga menjadi
-tersebar luas dalam internet.
+sehingga menjadi tersebar luas dalam internet.
 
 654
 00:18:46,480 --> 00:18:47,600
-Akhirnya menjadi
-pempengaruh media sosial terkemuka.
+Akhirnya menjadi pempengaruh media sosial terkemuka.
 
 655
 00:18:47,760 --> 00:18:49,120
-Bukankah ini bukti perkara yang
-tidak bermanfaat tetapi bernilai
+Bukankah ini bukti perkara yang tidak bermanfaat tetapi bernilai
 
 656
 00:18:49,120 --> 00:18:49,920
@@ -2798,8 +2640,7 @@ lingkungan perbincangan kita hari ini.
 
 661
 00:18:55,120 --> 00:18:56,080
-Awak tidak berani
-menjawab secara langsung.
+Awak tidak berani menjawab secara langsung.
 
 662
 00:18:56,280 --> 00:18:56,960
@@ -2819,13 +2660,11 @@ Jadi, sudahkah awak sedar?
 
 666
 00:19:00,840 --> 00:19:02,080
-Nilai sebenar dari perkara
-yang tidak bermanfaat tetapi bernilai
+Nilai sebenar dari perkara yang tidak bermanfaat tetapi bernilai
 
 667
 00:19:02,120 --> 00:19:03,920
-adalah kerana benda itu
-tidak bermanfaat, betul tak?
+adalah kerana benda itu tidak bermanfaat, betul tak?
 
 668
 00:19:10,680 --> 00:19:12,040
@@ -2941,8 +2780,7 @@ Oleh itu,
 
 696
 00:19:39,520 --> 00:19:40,520
-apabila perkara tidak bermanfaat
-betul-betul tidak bernilai,
+apabila perkara tidak bermanfaat betul-betul tidak bernilai,
 
 697
 00:19:40,520 --> 00:19:41,200
@@ -2954,8 +2792,7 @@ Apabila perkara tersebut bernilai,
 
 699
 00:19:42,160 --> 00:19:43,320
-perkara ini akan jadi
-tidak bermanfaat lagi, betul tak?
+perkara ini akan jadi tidak bermanfaat lagi, betul tak?
 
 700
 00:19:46,120 --> 00:19:46,880
@@ -2967,8 +2804,7 @@ hujah yang mendalam.
 
 702
 00:19:48,120 --> 00:19:49,040
-Jangan memberi peluang untuk
-mereka bentangkan hujah.
+Jangan memberi peluang untuk mereka bentangkan hujah.
 
 703
 00:19:49,200 --> 00:19:49,600
@@ -3000,8 +2836,7 @@ rakan pendebat lawan
 
 710
 00:20:10,480 --> 00:20:11,640
-semestinya menggolongkan perkara
-yang tidak bermanfaat tetapi bernilai
+semestinya menggolongkan perkara yang tidak bermanfaat tetapi bernilai
 
 711
 00:20:11,640 --> 00:20:12,840
@@ -3017,8 +2852,7 @@ pendirian ini sudah menghapuskan
 
 714
 00:20:14,840 --> 00:20:16,320
-kemungkinan perkara tidak bermanfaat
-tetapi bernilai membawa manfaat.
+kemungkinan perkara tidak bermanfaat tetapi bernilai membawa manfaat.
 
 715
 00:20:17,000 --> 00:20:17,520
@@ -3030,8 +2864,7 @@ Jika dianggap bernilai,
 
 717
 00:20:41,080 --> 00:20:42,760
-maka benda ini akan
-meruntuhkan asas perkara bermanfaat.
+maka benda ini akan meruntuhkan asas perkara bermanfaat.
 
 718
 00:20:42,920 --> 00:20:43,720
@@ -3063,8 +2896,7 @@ menentang balik.
 
 725
 00:20:51,720 --> 00:20:53,640
-Seterusnya adalah bahagian
-yang paling kita nantikan
+Seterusnya adalah bahagian yang paling kita nantikan
 
 726
 00:20:53,640 --> 00:20:54,560
@@ -3076,8 +2908,7 @@ iaitu sesi pendebatan bebas.
 
 728
 00:20:56,120 --> 00:20:58,120
-Setiap pihak diberi masa berucap
-selama empat minit.
+Setiap pihak diberi masa berucap selama empat minit.
 
 729
 00:20:58,600 --> 00:21:00,120
@@ -3089,8 +2920,7 @@ Biar kita pastikan konsensus.
 
 731
 00:21:02,040 --> 00:21:03,200
-Prasyarat untuk perkara yang bermanfaat
-adalah tidak bernilai.
+Prasyarat untuk perkara yang bermanfaat adalah tidak bernilai.
 
 732
 00:21:03,200 --> 00:21:04,000
@@ -3110,8 +2940,7 @@ teras pendebatan kita adalah
 
 736
 00:21:06,440 --> 00:21:07,800
-bagaimana kita menilai perkara
-yang tidak bermanfaat tetapi bernilai.
+bagaimana kita menilai perkara yang tidak bermanfaat tetapi bernilai.
 
 737
 00:21:07,920 --> 00:21:08,720
@@ -3135,13 +2964,11 @@ tidak mempertimbangkan prasyarat?
 
 742
 00:21:12,720 --> 00:21:13,800
-Apa yang dimaksudkan
-dengan penutupan kes?
+Apa yang dimaksudkan dengan penutupan kes?
 
 743
 00:21:13,960 --> 00:21:15,000
-Sebabnya sudah mendapat hasil,
-maka hasil ini boleh dinilai,
+Sebabnya sudah mendapat hasil, maka hasil ini boleh dinilai,
 
 744
 00:21:15,000 --> 00:21:15,480
@@ -3153,18 +2980,15 @@ Kursus Sejarah Falsafah,
 
 746
 00:21:18,960 --> 00:21:20,000
-jika dilihat dari
-sudut pandang utilitarian,
+jika dilihat dari sudut pandang utilitarian,
 
 747
 00:21:20,000 --> 00:21:20,600
-ia dianggap sebagai perkara yang
-tidak bermanfaat tetapi bernilai, kan?
+ia dianggap sebagai perkara yang tidak bermanfaat tetapi bernilai, kan?
 
 748
 00:21:20,760 --> 00:21:21,960
-Namun, kursus ini mengandungi
-banyak kebijaksanaan
+Namun, kursus ini mengandungi banyak kebijaksanaan
 
 749
 00:21:21,960 --> 00:21:23,040
@@ -3180,13 +3004,11 @@ Bukankah kursus ini bermanfaat?
 
 752
 00:21:25,640 --> 00:21:26,840
-Oleh kerana kursus ini
-bukan jurusan praktikal,
+Oleh kerana kursus ini bukan jurusan praktikal,
 
 753
 00:21:26,840 --> 00:21:27,760
-maka kursus ini dapat
-mencapai kesan yang begitu.
+maka kursus ini dapat mencapai kesan yang begitu.
 
 754
 00:21:27,960 --> 00:21:29,120
@@ -3198,8 +3020,7 @@ sejarah falsafah itu akan dijadikan
 
 756
 00:21:30,560 --> 00:21:31,360
-falsafah yang bernilai
-dalam kehidupan seperti
+falsafah yang bernilai dalam kehidupan seperti
 
 757
 00:21:31,360 --> 00:21:32,400
@@ -3215,8 +3036,7 @@ daripada Wittgenstein.
 
 760
 00:21:34,000 --> 00:21:34,920
-Jadi, adakah perkara bermanfaat
-yang pihak kamu rujuk
+Jadi, adakah perkara bermanfaat yang pihak kamu rujuk
 
 761
 00:21:35,240 --> 00:21:36,320
@@ -3224,8 +3044,7 @@ sudah banyak berkurang nilainya?
 
 762
 00:21:36,680 --> 00:21:37,600
-Perkara yang tidak bermanfaat
-tetapi bernilai boleh meningkatkan
+Perkara yang tidak bermanfaat tetapi bernilai boleh meningkatkan
 
 763
 00:21:37,600 --> 00:21:38,160
@@ -3249,13 +3068,11 @@ bagaimana pihak kamu menilai
 
 768
 00:21:42,560 --> 00:21:43,680
-sama ada perkara ini
-bermanfaat atau tidak?
+sama ada perkara ini bermanfaat atau tidak?
 
 769
 00:21:43,840 --> 00:21:45,240
-Pengalaman dan peningkatan kehidupan
-walaupun amat kecil,
+Pengalaman dan peningkatan kehidupan walaupun amat kecil,
 
 770
 00:21:45,240 --> 00:21:46,360
@@ -3267,13 +3084,11 @@ Rakan pendebat lawan,
 
 772
 00:21:47,120 --> 00:21:48,440
-jangan memperbesar
-perkara yang tidak bermanfaat
+jangan memperbesar perkara yang tidak bermanfaat
 
 773
 00:21:48,480 --> 00:21:50,080
-dan jangan menganggap sesuatu
-yang kecil tidak bermanfaat langsung.
+dan jangan menganggap sesuatu yang kecil tidak bermanfaat langsung.
 
 774
 00:21:50,840 --> 00:21:51,800
@@ -3281,8 +3096,7 @@ Apa maksudnya?
 
 775
 00:21:53,120 --> 00:21:54,640
-Yin Nan mengambil kesempatan
-daripada Xiaoyu,
+Yin Nan mengambil kesempatan daripada Xiaoyu,
 
 776
 00:21:54,920 --> 00:21:56,280
@@ -3302,8 +3116,7 @@ seluruh badan.
 
 780
 00:21:59,960 --> 00:22:01,080
-Otak ialah organ yang
-paling banyak menggunakan tenaga.
+Otak ialah organ yang paling banyak menggunakan tenaga.
 
 781
 00:22:01,080 --> 00:22:01,720
@@ -3315,8 +3128,7 @@ jika saya ingin menurunkan berat badan,
 
 783
 00:22:02,760 --> 00:22:03,800
-sebenarnya belajar matematik tambahan
-bermanfaat juga.
+sebenarnya belajar matematik tambahan bermanfaat juga.
 
 784
 00:22:03,840 --> 00:22:04,720
@@ -3332,8 +3144,7 @@ Walaupun amat kecil.
 
 787
 00:22:07,560 --> 00:22:08,600
-Namun, jika menjawab soalan
-matematik tambahan untuk beberapa hari
+Namun, jika menjawab soalan matematik tambahan untuk beberapa hari
 
 788
 00:22:08,600 --> 00:22:09,560
@@ -3357,8 +3168,7 @@ menurunkan berat badan?
 
 793
 00:22:16,440 --> 00:22:17,920
-Pokok yang ditanam secara
-tidak sengaja boleh tumbuh besar juga,
+Pokok yang ditanam secara tidak sengaja boleh tumbuh besar juga,
 
 794
 00:22:18,040 --> 00:22:18,840
@@ -3374,8 +3184,7 @@ Betul cakap awak.
 
 797
 00:22:20,080 --> 00:22:21,560
-Pokok yang ditanam secara
-tidak sengaja bukankah kerana
+Pokok yang ditanam secara tidak sengaja bukankah kerana
 
 798
 00:22:21,560 --> 00:22:22,800
@@ -3391,8 +3200,7 @@ Bukankah begitu?
 
 801
 00:22:24,720 --> 00:22:26,680
-Sebabnya, bunga yang ditanam dengan
-berhati-hati tidak akan berbunga.
+Sebabnya, bunga yang ditanam dengan berhati-hati tidak akan berbunga.
 
 802
 00:22:27,080 --> 00:22:27,960
@@ -3412,8 +3220,7 @@ penentangan ke atas utilitarianisme.
 
 806
 00:22:30,560 --> 00:22:31,640
-Bukankah ini bertentangan
-dengan pendirian kamu?
+Bukankah ini bertentangan dengan pendirian kamu?
 
 807
 00:22:31,920 --> 00:22:32,680
@@ -3433,8 +3240,7 @@ Tidak mengapa.
 
 811
 00:22:35,360 --> 00:22:36,200
-Sekurang-kurangnya kita
-telah mencapai lagi
+Sekurang-kurangnya kita telah mencapai lagi
 
 812
 00:22:36,200 --> 00:22:36,880
@@ -3446,8 +3252,7 @@ Kita berpendapat bahawa
 
 814
 00:22:37,640 --> 00:22:38,600
-penilaian ke atas perkara
-yang tidak bermanfaat tetapi bernilai
+penilaian ke atas perkara yang tidak bermanfaat tetapi bernilai
 
 815
 00:22:38,640 --> 00:22:39,600
@@ -3455,8 +3260,7 @@ adalah bertentang dengan utilitarianisme.
 
 816
 00:22:39,760 --> 00:22:40,800
-Namun untuk melepaskan diri
-dari utilitarianisme
+Namun untuk melepaskan diri dari utilitarianisme
 
 817
 00:22:40,800 --> 00:22:42,200
@@ -3488,8 +3292,7 @@ kepada perkara yang tidak bermanfaat.
 
 824
 00:22:47,760 --> 00:22:49,480
-Seharusnya mengaku perkara ini
-betul-betul tidak bernilai.
+Seharusnya mengaku perkara ini betul-betul tidak bernilai.
 
 825
 00:22:49,600 --> 00:22:50,600
@@ -3517,8 +3320,7 @@ Sebabnya debat ini
 
 831
 00:22:56,760 --> 00:22:58,760
-merupakan contoh klasik kepada perkara
-yang tidak bermanfaat tetapi bernilai.
+merupakan contoh klasik kepada perkara yang tidak bermanfaat tetapi bernilai.
 
 832
 00:22:58,960 --> 00:22:59,880
@@ -3530,13 +3332,11 @@ menilai manfaat debat ini?
 
 834
 00:23:00,920 --> 00:23:02,600
-Adakah memberitahu junior bahawa
-debat tidak bermanfaat,
+Adakah memberitahu junior bahawa debat tidak bermanfaat,
 
 835
 00:23:02,760 --> 00:23:03,760
-kemudian menunggu untuk
-pertandingan tahun depan
+kemudian menunggu untuk pertandingan tahun depan
 
 836
 00:23:03,760 --> 00:23:04,760
@@ -3584,8 +3384,7 @@ debat dengan cara paksaan seperti
 
 847
 00:23:22,400 --> 00:23:23,680
-melatih kemahiran bercakap,
-melatih pemikiran dan
+melatih kemahiran bercakap, melatih pemikiran dan
 
 848
 00:23:23,680 --> 00:23:24,320
@@ -3641,8 +3440,7 @@ dengan kebiasaan kamu.
 
 861
 00:23:38,360 --> 00:23:40,120
-Sebabnya kegunaan itu
-membuatkan kita rasa yakin
+Sebabnya kegunaan itu membuatkan kita rasa yakin
 
 862
 00:23:40,120 --> 00:23:41,320
@@ -3702,8 +3500,7 @@ Daya tarikan yang
 
 876
 00:24:06,720 --> 00:24:08,640
-menyebabkan kita
-berjuang di tengah kesibukan,
+menyebabkan kita berjuang di tengah kesibukan,
 
 877
 00:24:10,920 --> 00:24:12,120
@@ -3727,8 +3524,7 @@ Sama seperti apa yang kamu katakan,
 
 882
 00:24:34,920 --> 00:24:36,240
-penilaian terhadap perkara
-yang tidak bermanfaat tetapi bernilai
+penilaian terhadap perkara yang tidak bermanfaat tetapi bernilai
 
 883
 00:24:36,240 --> 00:24:37,680
@@ -3792,8 +3588,7 @@ Untuk kebanyakan orang,
 
 898
 00:24:58,640 --> 00:25:00,160
-apa gunanya perkara yang
-tidak bermanfaat tetapi bernilai,
+apa gunanya perkara yang tidak bermanfaat tetapi bernilai,
 
 899
 00:25:00,200 --> 00:25:01,440
@@ -3805,8 +3600,7 @@ sukar dijelaskan.
 
 901
 00:25:03,120 --> 00:25:04,720
-Namun, Newton
-merenung di bawah pokok epal
+Namun, Newton merenung di bawah pokok epal
 
 902
 00:25:04,720 --> 00:25:05,800
@@ -3922,8 +3716,7 @@ percaya bahawa membaca tidak bernilai.
 
 930
 00:25:39,880 --> 00:25:40,920
-Harus kita membetulkan
-penilaian orang ramai terhadap
+Harus kita membetulkan penilaian orang ramai terhadap
 
 931
 00:25:41,280 --> 00:25:42,120
@@ -3931,8 +3724,7 @@ perkara tidak bermanfaat itu bernilai
 
 932
 00:25:42,800 --> 00:25:44,200
-adalah untuk menjadikan perkara
-yang tidak bermanfaat tetapi bernilai ini
+adalah untuk menjadikan perkara yang tidak bermanfaat tetapi bernilai ini
 
 933
 00:25:44,280 --> 00:25:45,000
@@ -3952,8 +3744,7 @@ Ini nampak bermasalah sedikit.
 
 937
 00:25:50,240 --> 00:25:51,800
-Hanya yang diakui bermanfaat
-akan dianggap bernilai,
+Hanya yang diakui bermanfaat akan dianggap bernilai,
 
 938
 00:25:52,400 --> 00:25:54,120
@@ -3993,8 +3784,7 @@ Tanpa disedari,
 
 947
 00:26:10,120 --> 00:26:11,760
-setiap orang kita menggunakan
-nilai sesuatu perkara
+setiap orang kita menggunakan nilai sesuatu perkara
 
 948
 00:26:11,960 --> 00:26:13,680
@@ -4010,8 +3800,7 @@ Seperti kita sekarang,
 
 951
 00:26:18,040 --> 00:26:19,240
-hanya dengan tidak kisah pada
-keputusan pertandingan ini,
+hanya dengan tidak kisah pada keputusan pertandingan ini,
 
 952
 00:26:19,880 --> 00:26:21,040
@@ -4023,8 +3812,7 @@ nilai sebenar untuk pertandingan ini.
 
 954
 00:26:23,560 --> 00:26:25,000
-Mengakui perkara yang tidak bermanfaat
-betul-betul tidak bernilai
+Mengakui perkara yang tidak bermanfaat betul-betul tidak bernilai
 
 955
 00:26:25,840 --> 00:26:26,680
@@ -4092,8 +3880,7 @@ orang yang menikmati
 
 971
 00:26:51,600 --> 00:26:52,840
-perkara yang
-tidak bermanfaat tetapi bernilai.
+perkara yang tidak bermanfaat tetapi bernilai.
 
 972
 00:26:54,040 --> 00:26:55,080
@@ -4125,8 +3912,7 @@ Mari.
 
 979
 00:27:19,080 --> 00:27:20,120
-Angkat tangan jika
-memilih pihak pencadang.
+Angkat tangan jika memilih pihak pencadang.
 
 980
 00:28:28,320 --> 00:28:29,520
@@ -4150,8 +3936,7 @@ Tunjukkan gaya pahlawan kamu.
 
 985
 00:28:35,120 --> 00:28:37,560
-Masa sudah lewat,
-mari pergi menerima hadiah.
+Masa sudah lewat, mari pergi menerima hadiah.
 
 986
 00:28:38,440 --> 00:28:38,960
@@ -4175,8 +3960,7 @@ Pihak pembangkang, Pasukan Debat 235
 
 991
 00:29:13,440 --> 00:29:15,360
-menjadi juara
-pertandingan provinsi kali ini.
+menjadi juara pertandingan provinsi kali ini.
 
 992
 00:29:15,400 --> 00:29:16,000
@@ -4268,8 +4052,7 @@ Oh.
 
 1014
 00:32:46,720 --> 00:32:48,440
-Memang manusia
-bergantung pada penampilan.
+Memang manusia bergantung pada penampilan.
 
 1015
 00:32:48,440 --> 00:32:49,200
@@ -4305,8 +4088,7 @@ janganlah begitu.
 
 1023
 00:32:59,200 --> 00:33:00,880
-Tiba-tiba awak jadi begini,
-saya tak biasa dengannya.
+Tiba-tiba awak jadi begini, saya tak biasa dengannya.
 
 1024
 00:33:00,880 --> 00:33:02,120
@@ -4314,8 +4096,7 @@ Betul, mengapa bersopan?
 
 1025
 00:33:02,200 --> 00:33:03,160
-Saya cuma ingin mengucapkan
-terima kasih kepada kamu.
+Saya cuma ingin mengucapkan terima kasih kepada kamu.
 
 1026
 00:33:03,160 --> 00:33:03,760
@@ -4331,8 +4112,7 @@ saya mungkin
 
 1029
 00:33:05,880 --> 00:33:07,520
-masih bermain permainan
-di asrama sekarang.
+masih bermain permainan di asrama sekarang.
 
 1030
 00:33:08,440 --> 00:33:09,240
@@ -4340,8 +4120,7 @@ Terutamanya,
 
 1031
 00:33:09,800 --> 00:33:11,120
-saya harus mengucap
-terima kasih kepada Hao.
+saya harus mengucap terima kasih kepada Hao.
 
 1032
 00:33:11,880 --> 00:33:12,560
@@ -4365,8 +4144,7 @@ Encik Li kata
 
 1037
 00:33:19,920 --> 00:33:21,240
-keputusan awak kepada
-salah satu kursus komputer
+keputusan awak kepada salah satu kursus komputer
 
 1038
 00:33:21,240 --> 00:33:22,120
@@ -4398,8 +4176,7 @@ dia sudah memberitahu awak.
 
 1045
 00:33:29,640 --> 00:33:31,440
-Awak berjanji bahawa pasti akan
-menghadiri kelas tersebut.
+Awak berjanji bahawa pasti akan menghadiri kelas tersebut.
 
 1046
 00:33:32,040 --> 00:33:33,400
@@ -4411,8 +4188,7 @@ Aduh,
 
 1048
 00:33:43,400 --> 00:33:44,760
-saya ingatkan Ujian Bahasa Inggeris
-Universiti Tahap Empat
+saya ingatkan Ujian Bahasa Inggeris Universiti Tahap Empat
 
 1049
 00:33:44,760 --> 00:33:45,720
@@ -4444,8 +4220,7 @@ Mungkin
 
 1056
 00:33:59,320 --> 00:34:00,920
-terlupa dengan awak
-yang dalam tahun lima.
+terlupa dengan awak yang dalam tahun lima.
 
 1057
 00:34:10,240 --> 00:34:11,600
@@ -4453,8 +4228,7 @@ Adakah awak menyalahkan saya?
 
 1058
 00:34:14,360 --> 00:34:16,280
-Dalam dua belas bulan
-awak belajar dalam tahun enam,
+Dalam dua belas bulan awak belajar dalam tahun enam,
 
 1059
 00:34:16,760 --> 00:34:17,920
@@ -4462,13 +4236,11 @@ anggap gaji bulanan awak enam ribu,
 
 1060
 00:34:17,920 --> 00:34:19,680
-tambah dengan bonus dua bulan pada
-hujung tahun ada tujuh puluh enam ribu.
+tambah dengan bonus dua bulan pada hujung tahun ada tujuh puluh enam ribu.
 
 1061
 00:34:20,000 --> 00:34:21,640
-Separuh daripadanya bayar pinjaman rumah
-iaitu tiga puluh lapan ribu.
+Separuh daripadanya bayar pinjaman rumah iaitu tiga puluh lapan ribu.
 
 1062
 00:34:21,640 --> 00:34:22,480
@@ -4476,13 +4248,11 @@ Jika dikira dengan cara begitu,
 
 1063
 00:34:22,720 --> 00:34:24,160
-awak hanya perlu menanggung
-dua pekerjaan dalam sebulan
+awak hanya perlu menanggung dua pekerjaan dalam sebulan
 
 1064
 00:34:24,200 --> 00:34:25,400
-untuk mengganti
-tiga puluh lapan ribu ini.
+untuk mengganti tiga puluh lapan ribu ini.
 
 1065
 00:34:25,640 --> 00:34:26,680
@@ -4506,13 +4276,11 @@ seperti gula-gula getah?
 
 1070
 00:34:44,960 --> 00:34:45,720
-Hari ini dia tidak mengikut
-di belakang awakkah?
+Hari ini dia tidak mengikut di belakang awakkah?
 
 1071
 00:34:46,680 --> 00:34:48,480
-Katanya ada orang yang
-ingin jumpa dia secara tiba-tiba.
+Katanya ada orang yang ingin jumpa dia secara tiba-tiba.
 
 1072
 00:34:48,480 --> 00:34:49,640
@@ -4556,8 +4324,7 @@ Dengan suasana ini, pasti tiada masalah.
 
 1082
 00:35:13,400 --> 00:35:15,200
-Kenapa? Sama seperti keadaan awak
-pada masa dahulu?
+Kenapa? Sama seperti keadaan awak pada masa dahulu?
 
 1083
 00:35:15,760 --> 00:35:16,960
@@ -4573,8 +4340,7 @@ Namun, dalam Baidu sekarang
 
 1086
 00:35:20,080 --> 00:35:21,640
-apa-apa langkah yang awak jumpa
-sama seperti ini juga.
+apa-apa langkah yang awak jumpa sama seperti ini juga.
 
 1087
 00:35:21,640 --> 00:35:22,320
@@ -4626,8 +4392,7 @@ Kenapa dengan awak?
 
 1099
 00:35:46,800 --> 00:35:48,120
-Banyaknya lilin,
-tidak perlukah awak bersihkan?
+Banyaknya lilin, tidak perlukah awak bersihkan?
 
 1100
 00:35:49,000 --> 00:35:49,560
@@ -4667,8 +4432,7 @@ Kali ini,
 
 1109
 00:36:21,480 --> 00:36:22,960
-perasaan saya sangat berbeza
-daripada sebelum ini.
+perasaan saya sangat berbeza daripada sebelum ini.
 
 1110
 00:36:23,600 --> 00:36:24,720
@@ -4744,13 +4508,11 @@ Biar saya tengok.
 
 1128
 00:37:34,000 --> 00:37:35,520
--Jurulatih.
--Betul, telah menempah tiket.
+-Jurulatih. -Betul, telah menempah tiket.
 
 1129
 00:37:37,200 --> 00:37:38,880
-Sebelum pergi, mari kita minum
-sup perut khinzir dan ayam.
+Sebelum pergi, mari kita minum sup perut khinzir dan ayam.
 
 1130
 00:37:38,920 --> 00:37:40,200
@@ -4758,8 +4520,7 @@ Eropah tidak mempunyai benda itu.
 
 1131
 00:37:40,600 --> 00:37:43,000
-Kak Tao Hao, Ma Nan,
-datanglah cepat-cepat.
+Kak Tao Hao, Ma Nan, datanglah cepat-cepat.
 
 1132
 00:37:43,000 --> 00:37:43,280
@@ -4819,8 +4580,7 @@ Dengar sini,
 
 1146
 00:38:01,480 --> 00:38:03,000
-awak perlu sunting wajah saya
-supaya kelihatan lebih cantik.
+awak perlu sunting wajah saya supaya kelihatan lebih cantik.
 
 1147
 00:38:03,000 --> 00:38:03,480

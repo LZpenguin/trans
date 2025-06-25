@@ -1,6 +1,6 @@
 import os
 import argparse
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6,7"
 # 配置 PyTorch Dynamo
 import torch._dynamo
 torch._dynamo.config.cache_size_limit = 64  # 增加缓存限制
@@ -15,6 +15,10 @@ from peft import PeftModel, PeftConfig
 from argparse import Namespace
 from datasets import Dataset
 import numpy as np
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from queue import Queue
+import time
 torch.serialization.add_safe_globals([Namespace])
 
 # 设置 PyTorch 优化
@@ -27,11 +31,11 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', message='It is strongly recommended to pass the.*sampling_rate.*argument')
 
 # 路径配置 - 使用相对路径
-base_dir = os.getcwd()  # 当前工作目录
+base_dir = os.path.dirname(os.getcwd())  # 当前工作目录往外退一层
 
-asr_model_path = os.path.join(base_dir, "models/FireRedASR-AED-L")
-translate_model_path = os.path.join(base_dir, "models/GemmaX2-28-9B-v0.1")
-translate_model_lora_path = os.path.join(base_dir, "models/pt/GemmaX2-28-9B-v0.1-pt-101/checkpoint-87000")
+asr_model_path = os.path.join(base_dir, "modelsdels/ftNonemaX2-28-2B-v0.1-ft-full-3/checkpoint-6600")
+translate_model_path = os.path.join(base_dir, "models/ft/GemmaX2-28-2B-v0.1-ft-full-5/checkpoint-4950")
+tokenizer_path = os.path.join(base_dir, "models/GemmaX2-28-2B-v0.1")
 
 # NLLB模型路径配置
 # 单模型方式：使用一个模型处理所有语言
@@ -67,8 +71,14 @@ nllb_lang_map = {
 
 # 全局变量存储模型
 asr_model = None
-translate_model = None
-tokenizer = None
+# 多GPU Gemma模型配置
+NUM_GPUS = 4  # 使用的GPU数量
+GPU_DEVICES = [4, 5, 6, 7]  # 对应的物理GPU编号
+gemma_models = {}  # 存储多个Gemma模型实例 {gpu_id: (model, tokenizer)}
+model_locks = {}  # 每个模型的锁，确保线程安全
+current_model_index = 0  # 轮询计数器
+model_lock = threading.Lock()  # 轮询计数器的锁
+
 # NLLB相关全局变量
 nllb_model = None
 nllb_tokenizer = None
@@ -84,28 +94,75 @@ use_multi_models = False  # 是否使用多模型模式
 def init_asr_model():
     """初始化ASR模型"""
     global asr_model
-    if asr_model is None:
+    if asr_model_path:
         print("正在加载ASR模型...")
         asr_model = FireRedAsr.from_pretrained("aed", asr_model_path)
     return asr_model
 
+def init_gemma_models():
+    """初始化多个Gemma翻译模型，每个GPU一个"""
+    global gemma_models, model_locks
+    
+    if len(gemma_models) == NUM_GPUS:
+        print("Gemma多模型已初始化")
+        return gemma_models
+    
+    print(f"正在加载{NUM_GPUS}个Gemma翻译模型到GPU {GPU_DEVICES}...")
+    
+    # 首先加载tokenizer（共享）
+    print("正在加载共享tokenizer...")
+    shared_tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+    
+    for i, gpu_id in enumerate(GPU_DEVICES):
+        physical_gpu = gpu_id  # 物理GPU编号
+        logical_gpu = i       # 逻辑GPU编号（0,1,2,3）
+        
+        print(f"正在加载模型到GPU {physical_gpu} (逻辑GPU {logical_gpu})...")
+        
+        try:
+            # 指定具体的GPU设备
+            device = f"cuda:{logical_gpu}"
+            
+            # 加载模型到指定GPU
+            model = AutoModelForCausalLM.from_pretrained(
+                translate_model_path,
+                device_map={"": device},  # 强制模型加载到指定设备
+                torch_dtype=torch.bfloat16,
+                low_cpu_mem_usage=True
+            )
+            
+            model = model.to(device)
+            model = model.to(torch.bfloat16)
+            
+            # 存储模型和tokenizer
+            gemma_models[logical_gpu] = (model, shared_tokenizer)
+            model_locks[logical_gpu] = threading.Lock()
+            
+            print(f"GPU {physical_gpu} (逻辑GPU {logical_gpu}): Gemma模型加载完成，已转换为bf16精度")
+            
+        except Exception as e:
+            print(f"GPU {physical_gpu}模型加载失败: {e}")
+            raise
+    
+    print(f"所有{NUM_GPUS}个Gemma模型初始化完成！")
+    return gemma_models
+
+def get_next_model():
+    """获取下一个可用的模型（轮询负载均衡）"""
+    global current_model_index
+    
+    with model_lock:
+        gpu_id = current_model_index % NUM_GPUS
+        current_model_index += 1
+        return gpu_id
+
 def init_gemma_model():
-    """初始化Gemma翻译模型"""
-    global translate_model, tokenizer
-    if translate_model is None:
-        print("正在加载Gemma翻译模型...")
-        tokenizer = AutoTokenizer.from_pretrained(translate_model_path)
-        translate_model = AutoModelForCausalLM.from_pretrained(
-            translate_model_path,
-            device_map="auto",
-            torch_dtype=torch.bfloat16,
-            low_cpu_mem_usage=True
-        )
-        translate_model = PeftModel.from_pretrained(translate_model, translate_model_lora_path)
-        translate_model = translate_model.to("cuda")
-        translate_model = translate_model.to(torch.bfloat16)
-        print("Gemma模型已转换为 bf16 精度")
-    return translate_model, tokenizer
+    """保持兼容性的单模型初始化函数"""
+    models = init_gemma_models()
+    if models:
+        # 返回第一个模型用于兼容性
+        return models[0]
+    return None, None
 
 def init_nllb_model(multi_model=False):
     """初始化NLLB翻译模型和翻译器
@@ -277,41 +334,51 @@ def asr_one(audio_path):
         return ""
 
 def translate_one_gemma(text, lang):
-    """使用Gemma模型翻译单个文本"""
+    """使用多GPU Gemma模型翻译单个文本（带负载均衡）"""
     try:
-        model, tok = init_gemma_model()
-        prompt = f"Translate this from Chinese to {lang}:\nChinese: {text}\n{lang}:"
-        inputs = tok(prompt, return_tensors="pt").to(model.device)
+        # 确保模型已初始化
+        if not gemma_models:
+            init_gemma_models()
         
-        if hasattr(inputs, 'input_ids'):
-            inputs = {k: v.to(model.device) for k, v in inputs.items()}
+        # 获取下一个可用的模型
+        gpu_id = get_next_model()
+        model, tokenizer = gemma_models[gpu_id]
         
-        with torch.inference_mode(), torch.backends.cudnn.flags(enabled=False):
-            with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
-                outputs = model.generate(
-                    **inputs,
-                    max_new_tokens=100,
-                    do_sample=True,
-                    temperature=0.7,
-                    top_p=0.9,
-                    use_cache=True,
-                    pad_token_id=tok.eos_token_id
-                )
-        
-        translated_text = tok.decode(outputs[0], skip_special_tokens=True)
-        
-        # 清理缓存
-        del outputs
-        del inputs
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-        
-        try:
-            return translated_text.split(f"{lang}:")[-1].strip()
-        except:
-            return translated_text
+        # 使用模型锁确保线程安全
+        with model_locks[gpu_id]:
+            prompt = f"Translate this from Chinese to {lang}:\nChinese: {text}\n{lang}:"
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            
+            if hasattr(inputs, 'input_ids'):
+                inputs = {k: v.to(model.device) for k, v in inputs.items()}
+            
+            with torch.inference_mode():
+                with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
+                    outputs = model.generate(
+                        **inputs,
+                        max_new_tokens=100,
+                        do_sample=True,
+                        temperature=0.7,
+                        top_p=0.9,
+                        use_cache=True,
+                        pad_token_id=tokenizer.eos_token_id
+                    )
+            
+            translated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            
+            # 清理缓存
+            del outputs
+            del inputs
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            
+            try:
+                return translated_text.split(f"{lang}:")[-1].strip()
+            except:
+                return translated_text
+                
     except Exception as e:
-        print(f"Gemma翻译文本出错: {str(e)}")
+        print(f"GPU {gpu_id} Gemma翻译文本出错: {str(e)}")
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
         return ""
@@ -911,58 +978,97 @@ def translate_batch_nllb_multi(texts, lang, batch_size=16):
             torch.cuda.empty_cache()
         return [f"[多模型批量翻译错误] {text}" for text in texts]
 
-def translate_batch_gemma(texts, lang, batch_size=8):
-    """批量翻译函数 - Gemma模型，使用Dataset提高效率"""
+def translate_batch_gemma_parallel(texts, lang, batch_size=4):
+    """并行批量翻译函数 - 多GPU Gemma模型"""
     try:
-        model, tok = init_gemma_model()
-        results = []
+        # 确保模型已初始化
+        if not gemma_models:
+            init_gemma_models()
         
-        print(f"使用Gemma模型批量翻译 {len(texts)} 个文本到 {lang} (批大小: {batch_size})")
+        print(f"使用{NUM_GPUS}个GPU的Gemma模型并行批量翻译 {len(texts)} 个文本到 {lang}")
         
-        # 分批处理
-        for i in tqdm(range(0, len(texts), batch_size), desc="Gemma批量翻译"):
-            batch_texts = texts[i:i+batch_size]
-            
-            # 创建批量prompt
-            prompts = [f"Translate this from Chinese to {lang}:\nChinese: {text}\n{lang}:" for text in batch_texts]
-            
-            # 批量编码
-            inputs = tok(prompts, return_tensors="pt", padding=True, truncation=True, max_length=512).to(model.device)
-            
-            with torch.inference_mode(), torch.backends.cudnn.flags(enabled=False):
-                with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
-                    outputs = model.generate(
-                        **inputs,
-                        max_new_tokens=128,
-                        do_sample=True,
-                        temperature=0.7,
-                        top_p=0.9,
-                        use_cache=True,
-                        pad_token_id=tok.eos_token_id
+        results = [None] * len(texts)  # 预分配结果数组
+        
+        def process_batch_on_gpu(gpu_id, batch_indices, batch_texts):
+            """在指定GPU上处理一批文本"""
+            try:
+                model, tokenizer = gemma_models[gpu_id]
+                batch_results = []
+                
+                # 处理该GPU分配的文本
+                for text in batch_texts:
+                    prompt = f"Translate this from Chinese to {lang}:\nChinese: {text}\n{lang}:"
+                    inputs = tokenizer(prompt, return_tensors="pt", padding=True, truncation=True, max_length=512).to(model.device)
+                    
+                    with torch.inference_mode():
+                        with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
+                            outputs = model.generate(
+                                **inputs,
+                                max_new_tokens=100,
+                                do_sample=False,
+                                num_beams=1,
+                                use_cache=True,
+                                pad_token_id=tokenizer.eos_token_id
+                            )
+                    
+                    # 只解码新生成的部分
+                    input_length = inputs["input_ids"].shape[1]
+                    new_tokens = outputs[0][input_length:]
+                    translated_text = tokenizer.decode(new_tokens, skip_special_tokens=True)
+                    batch_results.append(translated_text.strip())
+                    
+                    # 清理中间结果
+                    del outputs
+                    del inputs
+                
+                return batch_indices, batch_results
+                
+            except Exception as e:
+                print(f"GPU {gpu_id} 处理批次出错: {e}")
+                return batch_indices, [f"[GPU{gpu_id}翻译错误] {text}" for text in batch_texts]
+            finally:
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+        
+        # 将文本分配到不同的GPU
+        gpu_batches = [[] for _ in range(NUM_GPUS)]
+        gpu_indices = [[] for _ in range(NUM_GPUS)]
+        
+        for i, text in enumerate(texts):
+            gpu_id = i % NUM_GPUS
+            gpu_batches[gpu_id].append(text)
+            gpu_indices[gpu_id].append(i)
+        
+        # 使用线程池并行处理
+        with ThreadPoolExecutor(max_workers=NUM_GPUS) as executor:
+            futures = []
+            for gpu_id in range(NUM_GPUS):
+                if gpu_batches[gpu_id]:  # 只处理非空批次
+                    future = executor.submit(
+                        process_batch_on_gpu, 
+                        gpu_id, 
+                        gpu_indices[gpu_id], 
+                        gpu_batches[gpu_id]
                     )
+                    futures.append(future)
             
-            # 批量解码
-            for j, output in enumerate(outputs):
-                translated_text = tok.decode(output, skip_special_tokens=True)
-                try:
-                    result = translated_text.split(f"{lang}:")[-1].strip()
-                    results.append(result)
-                except:
-                    results.append(translated_text)
-            
-            # 清理缓存
-            del outputs
-            del inputs
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
+            # 收集结果
+            for future in tqdm(as_completed(futures), total=len(futures), desc="多GPU并行翻译"):
+                batch_indices, batch_results = future.result()
+                for idx, result in zip(batch_indices, batch_results):
+                    results[idx] = result
         
         return results
         
     except Exception as e:
-        print(f"Gemma批量翻译出错: {str(e)}")
+        print(f"多GPU Gemma并行批量翻译出错: {str(e)}")
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
-        return [f"[翻译错误] {text}" for text in texts]
+        return [f"[并行翻译错误] {text}" for text in texts]
+
+def translate_batch_gemma(texts, lang, batch_size=4):
+    """批量翻译函数 - Gemma模型，使用多GPU并行处理"""
+    return translate_batch_gemma_parallel(texts, lang, batch_size)
 
 def show_model_status():
     """显示当前模型状态和配置"""
@@ -972,10 +1078,22 @@ def show_model_status():
     print(f"ASR模型路径: {asr_model_path}")
     print(f"ASR模型状态: {'已加载' if asr_model is not None else '未加载'}")
     
-    # Gemma模型状态
-    print(f"\nGemma模型路径: {translate_model_path}")
-    print(f"Gemma LoRA路径: {translate_model_lora_path}")
-    print(f"Gemma模型状态: {'已加载' if translate_model is not None else '未加载'}")
+    # 多GPU Gemma模型状态
+    print(f"\n=== 多GPU Gemma模型配置 ===")
+    print(f"使用GPU数量: {NUM_GPUS}")
+    print(f"物理GPU编号: {GPU_DEVICES}")
+    print(f"Gemma模型路径: {translate_model_path}")
+    
+    print(f"已加载的Gemma模型数量: {len(gemma_models)}")
+    for gpu_id in range(NUM_GPUS):
+        if gpu_id in gemma_models:
+            model, tokenizer = gemma_models[gpu_id]
+            device = next(model.parameters()).device
+            print(f"  GPU {GPU_DEVICES[gpu_id]} (逻辑GPU {gpu_id}): 已加载, 设备={device}")
+        else:
+            print(f"  GPU {GPU_DEVICES[gpu_id]} (逻辑GPU {gpu_id}): 未加载")
+    
+    print(f"当前轮询索引: {current_model_index}")
     
     # NLLB模型状态
     print(f"\n=== NLLB模型配置 ===")
@@ -1008,7 +1126,7 @@ def show_model_status():
 
 def main():
     """主函数，处理命令行参数"""
-    parser = argparse.ArgumentParser(description='语音识别和翻译推理工具')
+    parser = argparse.ArgumentParser(description='语音识别和翻译推理工具 (多GPU版本)')
     parser.add_argument('--task', choices=['asr', 'translate', 'all', 'test', 'test_batch', 'status'], default='all',
                       help='选择任务: asr(语音识别), translate(翻译), all(全部), test(测试pipeline), test_batch(测试批量翻译), status(显示模型状态)')
     parser.add_argument('--model', choices=['gemma', 'nllb'], default='gemma',
@@ -1018,7 +1136,9 @@ def main():
     parser.add_argument('--efficient', action='store_true', default=True,
                       help='启用高效批量处理模式 (默认启用)')
     parser.add_argument('--batch-size', type=int, default=None,
-                      help='批处理大小 (默认: Gemma=8, NLLB=16)')
+                      help='批处理大小')
+    parser.add_argument('--test-multi-gpu', action='store_true',
+                      help='测试多GPU Gemma模型加载和推理')
     
     args = parser.parse_args()
     
@@ -1028,6 +1148,35 @@ def main():
     
     if args.task == 'status':
         show_model_status()
+        return
+    
+    if args.test_multi_gpu:
+        print("=== 测试多GPU Gemma模型 ===")
+        try:
+            # 初始化模型
+            models = init_gemma_models()
+            print("多GPU模型初始化成功！")
+            
+            # 测试推理
+            test_texts = ["你好，世界！", "今天天气很好。", "谢谢你的帮助。"]
+            test_lang = "English"
+            
+            print(f"\n测试单条推理 (轮询负载均衡):")
+            for text in test_texts:
+                result = translate_one_gemma(text, test_lang)
+                print(f"中文: {text}")
+                print(f"英文: {result}")
+                print("-" * 40)
+            
+            print(f"\n测试并行批量推理:")
+            batch_results = translate_batch_gemma_parallel(test_texts, test_lang)
+            for text, result in zip(test_texts, batch_results):
+                print(f"中文: {text}")
+                print(f"英文: {result}")
+                print("-" * 40)
+                
+        except Exception as e:
+            print(f"多GPU测试失败: {e}")
         return
     
     if args.task in ['asr', 'all']:

@@ -1,7 +1,6 @@
 1
 00:01:53,400 --> 00:01:57,520
-Hello Debate Opponent 2
-EP05
+Hello Debate Opponent 2 EP05
 
 2
 00:02:08,680 --> 00:02:09,520
@@ -1669,8 +1668,7 @@ sophomore at the art department,
 
 418
 00:16:06,840 --> 00:16:08,640
-who is gentle and quiet, 
-and loves painting and calligraphy.
+who is gentle and quiet, and loves painting and calligraphy.
 
 419
 00:16:08,640 --> 00:16:09,640

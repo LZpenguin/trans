@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:04,800
-[Sari kata bahasa Melayu disediakan.]
+Sari kata bahasa Melayu disediakan.
 
 2
 00:00:27,100 --> 00:00:33,600
-[Berugam Buta dengan Bos]
-[EP02]
+Berugam Buta dengan Bos EP02
 
 3
 00:00:33,640 --> 00:00:34,680
@@ -13,7 +12,7 @@ Berkumpul.
 
 4
 00:00:34,680 --> 00:00:37,920
-[Mari berkumpul.]
+Mari berkumpul.
 
 5
 00:01:44,280 --> 00:01:45,520

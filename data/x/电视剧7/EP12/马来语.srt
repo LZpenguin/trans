@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,400 --> 00:02:00,204
-[Apa Khabar, Lawan Perbahasan 2]
-[EP12]
+Apa Khabar, Lawan Perbahasan 2 EP12
 
 3
 00:02:00,417 --> 00:02:01,960
@@ -77,8 +76,7 @@ Ini...
 
 20
 00:03:20,560 --> 00:03:22,040
-Berdasarkan rasa
-yang saya cuba sebelum ini
+Berdasarkan rasa yang saya cuba sebelum ini
 
 21
 00:03:22,331 --> 00:03:23,577
@@ -142,8 +140,7 @@ Namun,
 
 36
 00:03:47,305 --> 00:03:49,654
-mengenai perkadaran
-dan kehalusan yang sempurna,
+mengenai perkadaran dan kehalusan yang sempurna,
 
 37
 00:03:49,869 --> 00:03:50,880
@@ -191,8 +188,7 @@ awak perlu sediakan termometer.
 
 48
 00:04:08,080 --> 00:04:09,400
-Ilmu luas dan
-tak berkesudahan seperti laut.
+Ilmu luas dan tak berkesudahan seperti laut.
 
 49
 00:04:10,128 --> 00:04:11,320
@@ -236,13 +232,11 @@ esok.
 
 59
 00:04:28,449 --> 00:04:29,720
-Saya akan gagal
-jika saya tak hantar tesis lagi.
+Saya akan gagal jika saya tak hantar tesis lagi.
 
 60
 00:04:29,855 --> 00:04:31,368
-Gaya penulisan awak baik,
-awak juga sangat teliti.
+Gaya penulisan awak baik, awak juga sangat teliti.
 
 61
 00:04:31,393 --> 00:04:32,520
@@ -270,104 +264,99 @@ Terima kasih.
 
 67
 00:04:47,720 --> 00:04:48,440
-[Senior Ma Nan,]
+Senior Ma Nan,
 
 68
 00:04:48,640 --> 00:04:50,200
-[ada orang minta bantuan saya lagi.]
+ada orang minta bantuan saya lagi.
 
 69
 00:04:51,000 --> 00:04:51,760
-[Bolehkah saya]
+Bolehkah saya
 
 70
 00:04:51,760 --> 00:04:53,360
-[pergi ke latihan lambat sikit?]
+pergi ke latihan lambat sikit?
 
 71
 00:05:00,399 --> 00:05:01,040
-[Kenapa]
+Kenapa
 
 72
 00:05:01,040 --> 00:05:02,534
-[awak tanya saya?
-Awak diserang penyakit itu lagi?]
+awak tanya saya? Awak diserang penyakit itu lagi?
 
 73
 00:05:03,768 --> 00:05:05,960
-[Awak bantu saya
-dengan serius selama ini,]
+Awak bantu saya dengan serius selama ini,
 
 74
 00:05:06,117 --> 00:05:08,046
-[tapi hal ini memang sangat cemas.]
+tapi hal ini memang sangat cemas.
 
 75
 00:05:08,173 --> 00:05:09,680
-[Saya malu untuk menolak permintaannya.]
+Saya malu untuk menolak permintaannya.
 
 76
 00:05:09,931 --> 00:05:10,560
-[Justeru,]
+Justeru,
 
 77
 00:05:10,560 --> 00:05:12,200
-[sekurang-kurangnya
-saya boleh maklumkan awak.]
+sekurang-kurangnya saya boleh maklumkan awak.
 
 78
 00:05:13,336 --> 00:05:14,000
-[Lagipun,]
+Lagipun,
 
 79
 00:05:14,455 --> 00:05:15,520
-[pada hari jadi saya,]
+pada hari jadi saya,
 
 80
 00:05:15,520 --> 00:05:16,840
-[awak belum beri saya hadiah.]
+awak belum beri saya hadiah.
 
 81
 00:05:17,286 --> 00:05:18,640
-[Anggaplah permintaan ini sebagai]
+Anggaplah permintaan ini sebagai
 
 82
 00:05:18,640 --> 00:05:20,040
-[hadiah hari jadi yang awak beri saya.]
+hadiah hari jadi yang awak beri saya.
 
 83
 00:05:26,346 --> 00:05:27,560
-[Okey, baiklah.]
+Okey, baiklah.
 
 84
 00:05:27,560 --> 00:05:28,759
-[Saya pergi ke latihan dulu.]
+Saya pergi ke latihan dulu.
 
 85
 00:05:30,599 --> 00:05:32,280
-[Saya akan pergi ke sana
-sebaik sahaja siapkan kerja.]
+Saya akan pergi ke sana sebaik sahaja siapkan kerja.
 
 86
 00:05:33,000 --> 00:05:33,520
-[Bantulah saya]
+Bantulah saya
 
 87
 00:05:33,520 --> 00:05:34,800
-[maklumkan Xiaoyu dan orang lain.]
+maklumkan Xiaoyu dan orang lain.
 
 88
 00:05:37,400 --> 00:05:38,480
-[Terima kasih, Senior Ma Nan.]
+Terima kasih, Senior Ma Nan.
 
 89
 00:06:41,987 --> 00:06:42,520
-[Helo.]
+Helo.
 
 90
 00:06:42,709 --> 00:06:44,542
-[Nombor yang anda dail
-tak dapat dihubungi.]
+Nombor yang anda dail tak dapat dihubungi.
 
 91
 00:06:44,567 --> 00:06:45,617
@@ -403,8 +392,7 @@ Saya sedang main permainan video.
 
 99
 00:07:02,709 --> 00:07:03,798
-Baiklah, saya akan pergi
-setelah habis pusingan ini.
+Baiklah, saya akan pergi setelah habis pusingan ini.
 
 100
 00:07:03,823 --> 00:07:04,200
@@ -420,8 +408,7 @@ Helo.
 
 103
 00:07:21,163 --> 00:07:22,160
-Saya ada hal cemas
-yang perlukan bantuan awak.
+Saya ada hal cemas yang perlukan bantuan awak.
 
 104
 00:07:23,280 --> 00:07:24,560
@@ -497,8 +484,7 @@ Terlalu memalukan.
 
 122
 00:08:12,880 --> 00:08:14,382
-Tunjuk... Tunjukkan
-keserasian yang lebih baik.
+Tunjuk... Tunjukkan keserasian yang lebih baik.
 
 123
 00:08:14,840 --> 00:08:15,485
@@ -570,8 +556,7 @@ Awak rasa saya sudi beginikah?
 
 140
 00:08:39,760 --> 00:08:42,600
--Dua...
--Empat ketuahan...
+-Dua... -Empat ketuahan...
 
 141
 00:08:42,640 --> 00:08:44,208
@@ -615,8 +600,7 @@ Semuanya salah pasukan pertama.
 
 151
 00:09:03,130 --> 00:09:04,440
-Awak menyesal kerana
-menyertai pasukan keduakah?
+Awak menyesal kerana menyertai pasukan keduakah?
 
 152
 00:09:06,259 --> 00:09:07,053
@@ -632,8 +616,7 @@ menyesal kerana menyertai pasukan kedua.
 
 155
 00:09:09,521 --> 00:09:10,811
-Sebelum menyertai pasukan kedua,
-bukankah kita tak terfikir bahawa
+Sebelum menyertai pasukan kedua, bukankah kita tak terfikir bahawa
 
 156
 00:09:10,836 --> 00:09:11,573
@@ -649,8 +632,7 @@ Tiada tempat latihan pun.
 
 159
 00:09:13,485 --> 00:09:15,447
-Tuhan akan beri
-tugas penting kepada seseorang.
+Tuhan akan beri tugas penting kepada seseorang.
 
 160
 00:09:15,939 --> 00:09:17,280
@@ -658,8 +640,7 @@ Ini baru permulaan.
 
 161
 00:09:18,336 --> 00:09:19,840
-Lagipun, bukankah saya
-dah cakap sebelum ini?
+Lagipun, bukankah saya dah cakap sebelum ini?
 
 162
 00:09:21,091 --> 00:09:22,329
@@ -703,18 +684,15 @@ Kenapa begitu lambat?
 
 172
 00:09:52,772 --> 00:09:54,017
--Xiaoyu, saya beritahu awak.
--Kerja saya terlalu banyak hari ini.
+-Xiaoyu, saya beritahu awak. -Kerja saya terlalu banyak hari ini.
 
 173
 00:09:54,042 --> 00:09:54,560
--Hari ini, saya ada satu...
--Jangan tanya lagi.
+-Hari ini, saya ada satu... -Jangan tanya lagi.
 
 174
 00:09:54,560 --> 00:09:56,320
--Hal yang sangat gembira.
--Jangan tanya lagi.
+-Hal yang sangat gembira. -Jangan tanya lagi.
 
 175
 00:11:29,440 --> 00:11:29,760
@@ -754,18 +732,15 @@ Berita yang sangat baik.
 
 184
 00:11:36,566 --> 00:11:38,000
-Saya dah pinjam sebuah kereta
-daripada pihak universiti.
+Saya dah pinjam sebuah kereta daripada pihak universiti.
 
 185
 00:11:38,025 --> 00:11:39,058
-Kereta itu akan
-datang untuk bawa kamu nanti.
+Kereta itu akan datang untuk bawa kamu nanti.
 
 186
 00:11:39,264 --> 00:11:40,880
-Kamu tak perlu berhimpit-himpit untuk
-menaiki kereta api bawah tanah lagi.
+Kamu tak perlu berhimpit-himpit untuk menaiki kereta api bawah tanah lagi.
 
 187
 00:11:41,440 --> 00:11:42,740
@@ -837,8 +812,7 @@ Terima kasih, tauke.
 
 204
 00:11:55,704 --> 00:11:56,488
--Sama-sama.
--Terima kasih, tauke.
+-Sama-sama. -Terima kasih, tauke.
 
 205
 00:11:56,513 --> 00:11:57,040
@@ -846,8 +820,7 @@ Jom.
 
 206
 00:12:00,499 --> 00:12:01,681
-Saya boleh memahami bahawa
-awak memilih kawan lama
+Saya boleh memahami bahawa awak memilih kawan lama
 
 207
 00:12:01,706 --> 00:12:02,320
@@ -879,8 +852,7 @@ penampilan yang kasihan,
 
 214
 00:12:07,945 --> 00:12:09,640
-itulah sifat mementingkan
-diri sendiri kita terhadap kawan lama
+itulah sifat mementingkan diri sendiri kita terhadap kawan lama
 
 215
 00:12:09,665 --> 00:12:11,680
@@ -936,8 +908,7 @@ pada pukul 9 pagi.
 
 228
 00:12:34,462 --> 00:12:35,600
-Kita perlu ambil
-masa berapa lama untuk balik?
+Kita perlu ambil masa berapa lama untuk balik?
 
 229
 00:12:35,662 --> 00:12:36,720
@@ -945,8 +916,7 @@ Lebih daripada 40 minit.
 
 230
 00:12:37,139 --> 00:12:38,456
-Tak apa jika
-ponteng kuliah untuk satu kali.
+Tak apa jika ponteng kuliah untuk satu kali.
 
 231
 00:12:38,512 --> 00:12:39,560
@@ -986,8 +956,7 @@ Pergi ke bilik rawatan, jom.
 
 240
 00:12:59,137 --> 00:13:00,480
-Tak perlu, saya mahu
-teruskan pembelajaran.
+Tak perlu, saya mahu teruskan pembelajaran.
 
 241
 00:13:01,040 --> 00:13:01,568
@@ -1003,8 +972,7 @@ Teruskan berpura-pura.
 
 244
 00:13:04,702 --> 00:13:05,829
-Datang ke pejabat saya
-setelah kuliah tamat.
+Datang ke pejabat saya setelah kuliah tamat.
 
 245
 00:13:07,120 --> 00:13:07,748
@@ -1040,47 +1008,39 @@ muka surat ke-131.
 
 253
 00:13:29,840 --> 00:13:30,600
-[Ekonomi rendah karbon...]
+Ekonomi rendah karbon...
 
 254
 00:13:30,600 --> 00:13:31,894
--Berlatih di mana...
--[Merujuk kepada...]
+-Berlatih di mana... -Merujuk kepada...
 
 255
 00:13:31,919 --> 00:13:33,426
--Pada malam ini?
--[Pengurangan penggunaan...]
+-Pada malam ini? -Pengurangan penggunaan...
 
 256
 00:13:33,440 --> 00:13:33,840
--Apa?
--[Tenaga karbon tinggi...]
+-Apa? -Tenaga karbon tinggi...
 
 257
 00:13:33,840 --> 00:13:34,910
--Berlatih di mana...
--[Seperti arang batu...]
+-Berlatih di mana... -Seperti arang batu...
 
 258
 00:13:34,935 --> 00:13:35,974
--Pada malam ini?
--[Petroleum dan sebagainya...]
+-Pada malam ini? -Petroleum dan sebagainya...
 
 259
 00:13:36,000 --> 00:13:37,156
--Apa?
--[Sebanyak mungkin...]
+-Apa? -Sebanyak mungkin...
 
 260
 00:13:37,181 --> 00:13:38,655
--Apa? Latihan apa?
--[Kurangkan pelepasan gas rumah hijau...]
+-Apa? Latihan apa? -Kurangkan pelepasan gas rumah hijau...
 
 261
 00:13:38,680 --> 00:13:40,044
--Awak cakap apa?
--[Melalui inovasi teknologi...]
+-Awak cakap apa? -Melalui inovasi teknologi...
 
 262
 00:13:40,069 --> 00:13:40,510
@@ -1088,54 +1048,47 @@ Berlatih di mana?
 
 263
 00:13:40,535 --> 00:13:42,670
--Kita pergi berlatih.
--[Inovasi dasar...]
+-Kita pergi berlatih. -Inovasi dasar...
 
 264
 00:13:42,960 --> 00:13:44,272
--Mana-mana pun boleh.
--[Transformasi industri,]
+-Mana-mana pun boleh. -Transformasi industri,
 
 265
 00:13:44,297 --> 00:13:44,920
-[pembangunan tenaga baharu]
+pembangunan tenaga baharu
 
 266
 00:13:44,945 --> 00:13:45,880
-[dan cara lain...]
+dan cara lain...
 
 267
 00:13:45,905 --> 00:13:47,738
--Bincang setelah kuliah tamat.
--[Di bawah bimbingan...]
+-Bincang setelah kuliah tamat. -Di bawah bimbingan...
 
 268
 00:13:48,182 --> 00:13:50,697
--Awak dah fikir baik-baik?
--[Konsep pembangunan mampan]
+-Awak dah fikir baik-baik? -Konsep pembangunan mampan
 
 269
 00:13:50,722 --> 00:13:51,480
-[untuk mencapai...]
+untuk mencapai...
 
 270
 00:13:51,480 --> 00:13:52,615
--Tukar tempat duduk.
--[Bentuk perkembangan ekonomi...]
+-Tukar tempat duduk. -Bentuk perkembangan ekonomi...
 
 271
 00:13:52,640 --> 00:13:54,378
--Terima kasih.
--[Di bawah situasi sama menang]
+-Terima kasih. -Di bawah situasi sama menang
 
 272
 00:13:54,403 --> 00:13:55,455
-[yang pembangunan sosioekonomi]
+yang pembangunan sosioekonomi
 
 273
 00:13:55,480 --> 00:13:56,840
-[dan perlindungan
-persekitaran ekologi terjamin.]
+dan perlindungan persekitaran ekologi terjamin.
 
 274
 00:13:57,586 --> 00:13:58,240
@@ -1171,8 +1124,7 @@ awak masih ada 10% diskaun.
 
 282
 00:14:06,652 --> 00:14:08,440
-Susu akan dihantar ke bilik awak
-setiap pagi dan malam.
+Susu akan dihantar ke bilik awak setiap pagi dan malam.
 
 283
 00:14:08,698 --> 00:14:10,167
@@ -1280,8 +1232,7 @@ Pada asalnya, tiada.
 
 309
 00:14:45,360 --> 00:14:46,492
-Saya dah ada keyakinan
-sebaik sahaja nampak awak.
+Saya dah ada keyakinan sebaik sahaja nampak awak.
 
 310
 00:14:48,468 --> 00:14:49,160
@@ -1321,8 +1272,7 @@ Tauke.
 
 319
 00:15:00,955 --> 00:15:02,495
-Mengenai harga susu
-yang dia tempah dengan awak tadi,
+Mengenai harga susu yang dia tempah dengan awak tadi,
 
 320
 00:15:02,520 --> 00:15:03,640
@@ -1374,8 +1324,7 @@ Disebabkan marah pada pasukan pertama,
 
 332
 00:15:22,667 --> 00:15:23,920
-kamu terus tarik diri
-daripada pasukan debat universiti.
+kamu terus tarik diri daripada pasukan debat universiti.
 
 333
 00:15:24,427 --> 00:15:25,240
@@ -1471,8 +1420,7 @@ untuk puluhan pertandingan.
 
 356
 00:15:56,353 --> 00:15:57,880
-Jadual pertandingan kami padat,
-misi kami penting.
+Jadual pertandingan kami padat, misi kami penting.
 
 357
 00:15:57,995 --> 00:15:59,400
@@ -1576,8 +1524,7 @@ Terima kasih, Dr. Li.
 
 382
 00:16:39,600 --> 00:16:41,880
-Kelab Aktuari, Kelab Catur
-dan Kelab Nyanyian.
+Kelab Aktuari, Kelab Catur dan Kelab Nyanyian.
 
 383
 00:16:41,960 --> 00:16:43,080
@@ -1625,8 +1572,7 @@ perlu guna kelas?
 
 394
 00:16:57,182 --> 00:16:58,840
-Bukankah mereka hanya cari makan
-di restoran bersama-sama?
+Bukankah mereka hanya cari makan di restoran bersama-sama?
 
 395
 00:16:59,716 --> 00:17:00,960
@@ -1634,8 +1580,7 @@ Kelab Penyelidikan
 
 396
 00:17:00,960 --> 00:17:03,320
-Kemahiran Permainan Domino
-Tradisional China?
+Kemahiran Permainan Domino Tradisional China?
 
 397
 00:17:03,448 --> 00:17:04,630
@@ -1647,8 +1592,7 @@ Masih perlu guna kelas untuk main mahjung?
 
 399
 00:17:06,044 --> 00:17:07,480
-Kelab-kelab sebegini
-yang tak mendapat sambutan ramai pelajar
+Kelab-kelab sebegini yang tak mendapat sambutan ramai pelajar
 
 400
 00:17:07,480 --> 00:17:08,760
@@ -1768,8 +1712,7 @@ Kenapa awak tak masuk?
 
 429
 00:18:46,093 --> 00:18:47,435
-Biar mereka masuk dulu
-untuk merasai tempat itu.
+Biar mereka masuk dulu untuk merasai tempat itu.
 
 430
 00:18:52,314 --> 00:18:53,496
@@ -1933,8 +1876,7 @@ Marilah, sila masuk.
 
 470
 00:20:49,200 --> 00:20:50,778
-Mari, semua orang masuklah.
-Jangan segan-segan.
+Mari, semua orang masuklah. Jangan segan-segan.
 
 471
 00:20:51,285 --> 00:20:52,000
@@ -1978,8 +1920,7 @@ Kamu berdua dah bercinta?
 
 481
 00:21:36,682 --> 00:21:37,840
-Kenapa dia hadiahkan
-baju yang begitu mahal
+Kenapa dia hadiahkan baju yang begitu mahal
 
 482
 00:21:37,840 --> 00:21:38,422
@@ -1987,8 +1928,7 @@ kepada awak?
 
 483
 00:21:39,184 --> 00:21:41,208
-Pada asalnya, saya mahu
-meluahkan cinta kepada dia.
+Pada asalnya, saya mahu meluahkan cinta kepada dia.
 
 484
 00:21:56,920 --> 00:21:57,600
@@ -2048,8 +1988,7 @@ Otak awak bermasalahkah?
 
 498
 00:22:29,000 --> 00:22:29,840
-Awak mahu meluahkan cinta
-kepada perempuan,
+Awak mahu meluahkan cinta kepada perempuan,
 
 499
 00:22:29,840 --> 00:22:30,400
@@ -2089,8 +2028,7 @@ daripada dia untuk beli jaket,
 
 508
 00:22:40,533 --> 00:22:42,120
-pulangkan wang ini
-secara ansuran selama 15 tahun,
+pulangkan wang ini secara ansuran selama 15 tahun,
 
 509
 00:22:42,208 --> 00:22:43,520
@@ -2122,8 +2060,7 @@ hantar 14 sen kepada dia pada petang.
 
 516
 00:22:51,652 --> 00:22:55,486
-Dengan begini, angka e-angpau setiap hari
-bermakna seumur hidup.
+Dengan begini, angka e-angpau setiap hari bermakna seumur hidup.
 
 517
 00:22:58,680 --> 00:23:00,256
@@ -2135,8 +2072,7 @@ Bagaimana awak tahu
 
 519
 00:23:01,099 --> 00:23:02,640
-saya pelajar aliran sains ketika
-belajar di sekolah tinggi?
+saya pelajar aliran sains ketika belajar di sekolah tinggi?
 
 520
 00:23:03,074 --> 00:23:04,440
@@ -2176,13 +2112,11 @@ Dia gadis baik.
 
 529
 00:23:18,130 --> 00:23:20,000
-Tengoklah dia,
-dia masih fikir tentang awak.
+Tengoklah dia, dia masih fikir tentang awak.
 
 530
 00:23:20,075 --> 00:23:21,638
-Dia takut awak rasa kekok
-ketika bayar wang.
+Dia takut awak rasa kekok ketika bayar wang.
 
 531
 00:23:21,741 --> 00:23:23,773
@@ -2302,8 +2236,7 @@ Abang Shui.
 
 560
 00:24:17,222 --> 00:24:19,560
-Kami tak pesan
-makanan bawa pulang dari bar.
+Kami tak pesan makanan bawa pulang dari bar.
 
 561
 00:24:20,024 --> 00:24:21,440
@@ -2323,13 +2256,11 @@ Saya pergi dulu.
 
 565
 00:24:26,120 --> 00:24:27,985
-Ingatlah untuk beri
-komen bagus sebanyak lima bintang.
+Ingatlah untuk beri komen bagus sebanyak lima bintang.
 
 566
 00:24:28,104 --> 00:24:29,392
-Tiada masalah untuk beri
-komen bagus sebanyak lima bintang,
+Tiada masalah untuk beri komen bagus sebanyak lima bintang,
 
 567
 00:24:29,987 --> 00:24:30,765
@@ -2357,8 +2288,7 @@ Bukan, jika tiada cara lain,
 
 573
 00:24:37,950 --> 00:24:39,292
-tempat yang boleh berlindung daripada
-angin dan hujan dah okey.
+tempat yang boleh berlindung daripada angin dan hujan dah okey.
 
 574
 00:24:40,106 --> 00:24:40,920
@@ -2378,8 +2308,7 @@ Cakaplah dengan jelas.
 
 578
 00:24:45,289 --> 00:24:47,000
-Selalu ada bungkusan
-yang tak diterima oleh pemiliknya
+Selalu ada bungkusan yang tak diterima oleh pemiliknya
 
 579
 00:24:47,040 --> 00:24:47,934
@@ -2395,8 +2324,7 @@ di sana,
 
 582
 00:24:49,818 --> 00:24:51,277
-tiada orang akan peduli awak
-jika awak buat parti di sana.
+tiada orang akan peduli awak jika awak buat parti di sana.
 
 583
 00:24:55,520 --> 00:24:56,405
@@ -2432,8 +2360,7 @@ Saya pergi dulu.
 
 591
 00:25:25,280 --> 00:25:26,520
-Awak memang
-pentingkan hubungan persahabatan.
+Awak memang pentingkan hubungan persahabatan.
 
 592
 00:25:29,960 --> 00:25:31,484
@@ -2445,8 +2372,7 @@ Eh.
 
 594
 00:25:33,525 --> 00:25:37,055
-Bak kata pepatah, "Angin bertiup kencang,
-air Sungai Yishui..."
+Bak kata pepatah, "Angin bertiup kencang, air Sungai Yishui..."
 
 595
 00:25:37,080 --> 00:25:37,640
@@ -2462,8 +2388,7 @@ Awak ada perasaan itukah?
 
 598
 00:25:46,504 --> 00:25:47,840
-Perasaan yang orang ternama
-dan wira pada zaman kuno
+Perasaan yang orang ternama dan wira pada zaman kuno
 
 599
 00:25:49,800 --> 00:25:50,640
@@ -2479,18 +2404,15 @@ Awak mahu jadi Raja Gunung?
 
 602
 00:25:55,000 --> 00:25:57,070
-Raja Bertanduk Emas, Raja Bertanduk Perak
-atau snek jagung yang berbentuk tanduk?
+Raja Bertanduk Emas, Raja Bertanduk Perak atau snek jagung yang berbentuk tanduk?
 
 603
 00:25:57,680 --> 00:25:59,000
-Itu dipanggil
-"Setelah menunaikan cita-cita,
+Itu dipanggil "Setelah menunaikan cita-cita,
 
 604
 00:25:59,000 --> 00:26:00,608
-saya bebas seperti
-awan yang terapung di langit."
+saya bebas seperti awan yang terapung di langit."
 
 605
 00:26:04,981 --> 00:26:05,695
@@ -2534,8 +2456,7 @@ Ia tak mampu menyusahkan saya.
 
 615
 00:27:12,444 --> 00:27:14,080
-Saya tiada kawan
-di Jurusan Sains Komputerkah?
+Saya tiada kawan di Jurusan Sains Komputerkah?
 
 616
 00:27:19,560 --> 00:27:20,080
@@ -2591,8 +2512,7 @@ Tak betul.
 
 629
 00:27:40,201 --> 00:27:41,880
-Saya ingat kita dah
-memenangi banyak piala.
+Saya ingat kita dah memenangi banyak piala.
 
 630
 00:27:43,407 --> 00:27:44,160
@@ -2632,8 +2552,7 @@ Saya dah menemui sijil anugerah awak.
 
 639
 00:28:09,971 --> 00:28:13,296
-Pendebat terbaik dalam
-Piala Periuk Ayam di Jalan Wutong.
+Pendebat terbaik dalam Piala Periuk Ayam di Jalan Wutong.
 
 640
 00:28:14,121 --> 00:28:14,800
@@ -2709,28 +2628,23 @@ untuk menentukan senarainya setiap tahun,
 
 658
 00:31:08,858 --> 00:31:10,440
-tapi tahun ini,
-pihak universiti menetapkan peraturan
+tapi tahun ini, pihak universiti menetapkan peraturan
 
 659
 00:31:10,720 --> 00:31:11,920
-untuk memilih
-beberapa jurusan secara rawak
+untuk memilih beberapa jurusan secara rawak
 
 660
 00:31:12,064 --> 00:31:13,520
-dan bekerjasama demi
-menyempurnakan hal ini.
+dan bekerjasama demi menyempurnakan hal ini.
 
 661
 00:31:13,826 --> 00:31:15,714
-Yang utamanya adalah untuk
-mengelakkan hubungan peribadi
+Yang utamanya adalah untuk mengelakkan hubungan peribadi
 
 662
 00:31:15,739 --> 00:31:16,880
-antara pelajar yang buat penilaian
-dengan pelajar yang dinilai
+antara pelajar yang buat penilaian dengan pelajar yang dinilai
 
 663
 00:31:16,880 --> 00:31:17,680
@@ -2738,8 +2652,7 @@ sangat rapat
 
 664
 00:31:17,762 --> 00:31:19,480
-sehingga buat semua orang
-rasa serba salah.
+sehingga buat semua orang rasa serba salah.
 
 665
 00:31:19,920 --> 00:31:21,680
@@ -2791,13 +2704,11 @@ barulah boleh menyertai penilaian ini?
 
 677
 00:31:37,748 --> 00:31:39,200
-Awak maksudkan
-gred purata saya dalam lima tahun ini
+Awak maksudkan gred purata saya dalam lima tahun ini
 
 678
 00:31:39,200 --> 00:31:40,431
-tak setinggi gred purata awak
-dalam dua tahun ini?
+tak setinggi gred purata awak dalam dua tahun ini?
 
 679
 00:31:40,511 --> 00:31:41,280
@@ -2813,8 +2724,7 @@ Bagi pelajar yang sangat miskin,
 
 682
 00:31:44,900 --> 00:31:46,000
-pihak universiti ada
-dasar pembasmian kemiskinan lain.
+pihak universiti ada dasar pembasmian kemiskinan lain.
 
 683
 00:31:46,025 --> 00:31:46,840
@@ -2846,8 +2756,7 @@ gred ujian pemohon,
 
 690
 00:31:54,548 --> 00:31:56,560
-keadaan purata
-pendapatan per kapita isi rumah
+keadaan purata pendapatan per kapita isi rumah
 
 691
 00:31:56,560 --> 00:31:57,880
@@ -2911,8 +2820,7 @@ Jangan risau,
 
 706
 00:32:16,408 --> 00:32:17,600
-penyakit lama saya
-dah sembuh awal-awal lagi.
+penyakit lama saya dah sembuh awal-awal lagi.
 
 707
 00:32:20,195 --> 00:32:20,957
@@ -2980,8 +2888,7 @@ beberapa bilion yuan kepada bank.
 
 723
 00:32:45,816 --> 00:32:47,200
-Menganalisis masalah khusus
-secara terperinci.
+Menganalisis masalah khusus secara terperinci.
 
 724
 00:32:47,320 --> 00:32:48,437
@@ -2997,18 +2904,15 @@ namanya Gao Zhenzhou,
 
 727
 00:32:51,787 --> 00:32:52,880
-dia mendapat
-kedudukan lima teratas di seluruh jurusan,
+dia mendapat kedudukan lima teratas di seluruh jurusan,
 
 728
 00:32:52,905 --> 00:32:53,715
-gred setiap mata pelajarannya
-pun sangat cemerlang.
+gred setiap mata pelajarannya pun sangat cemerlang.
 
 729
 00:32:53,740 --> 00:32:55,080
-Dia pernah buat permohonan
-pada tahun lepas
+Dia pernah buat permohonan pada tahun lepas
 
 730
 00:32:55,177 --> 00:32:56,080
@@ -3052,8 +2956,7 @@ Konsepnya adalah
 
 740
 00:33:09,520 --> 00:33:11,880
-untuk biar mahasiswa dan mahasiswi
-hidup dengan bahagia.
+untuk biar mahasiswa dan mahasiswi hidup dengan bahagia.
 
 741
 00:33:12,016 --> 00:33:13,120
@@ -3077,8 +2980,7 @@ yang bekerja sebagai buruh.
 
 746
 00:33:18,430 --> 00:33:20,320
-Jumlah pendapatan tahunan keluarganya
-kurang daripada 30 ribu yuan,
+Jumlah pendapatan tahunan keluarganya kurang daripada 30 ribu yuan,
 
 747
 00:33:20,345 --> 00:33:21,382
@@ -3090,18 +2992,15 @@ yang baru belajar di sekolah rendah.
 
 749
 00:33:22,596 --> 00:33:24,560
-Saudara-mara yang bayar
-yuran pembelajarannya.
+Saudara-mara yang bayar yuran pembelajarannya.
 
 750
 00:33:25,147 --> 00:33:27,155
-Jumlah pendapatan tahunan
-kurang daripada 30 ribu yuan,
+Jumlah pendapatan tahunan kurang daripada 30 ribu yuan,
 
 751
 00:33:27,180 --> 00:33:28,909
-maksudnya jumlah
-pendapatan bulanan keluarga
+maksudnya jumlah pendapatan bulanan keluarga
 
 752
 00:33:28,934 --> 00:33:30,250
@@ -3109,8 +3008,7 @@ kurang daripada 2200 yuan.
 
 753
 00:33:31,838 --> 00:33:33,204
-Saya rasa syarat pelajar ini
-memenuhi standard.
+Saya rasa syarat pelajar ini memenuhi standard.
 
 754
 00:33:33,236 --> 00:33:34,080
@@ -3134,8 +3032,7 @@ Saya juga setuju.
 
 759
 00:33:40,851 --> 00:33:42,398
-Kak Hao, apa yang berlaku
-pada awak baru-baru ini?
+Kak Hao, apa yang berlaku pada awak baru-baru ini?
 
 760
 00:33:44,049 --> 00:33:44,605
@@ -3151,8 +3048,7 @@ sehingga mengakibatkan komplikasi.
 
 763
 00:33:47,897 --> 00:33:50,160
-Dia membantah
-semua hal yang ditanya atas naluri.
+Dia membantah semua hal yang ditanya atas naluri.
 
 764
 00:33:50,421 --> 00:33:52,080
@@ -3216,8 +3112,7 @@ Awak sedang baca apa?
 
 779
 00:34:26,621 --> 00:34:28,640
-Saya sedang baca
-maklumat tentang kajian percintaan.
+Saya sedang baca maklumat tentang kajian percintaan.
 
 780
 00:34:28,732 --> 00:34:29,668
@@ -3225,8 +3120,7 @@ Jika awak ada enam ciri daripadanya,
 
 781
 00:34:29,693 --> 00:34:31,680
-maksudnya awak dah
-jatuh cinta pada lelaki itu.
+maksudnya awak dah jatuh cinta pada lelaki itu.
 
 782
 00:34:32,924 --> 00:34:34,075
@@ -3238,8 +3132,7 @@ Hanya awak yang mengikuti
 
 784
 00:34:41,191 --> 00:34:42,451
-forum tentang artikel
-menaikkan semangat yang tak berguna ini.
+forum tentang artikel menaikkan semangat yang tak berguna ini.
 
 785
 00:34:42,476 --> 00:34:43,039
@@ -3299,8 +3192,7 @@ Kelakuan pertama yang suka seseorang,
 
 799
 00:35:04,065 --> 00:35:06,800
-awak dapat mengecam dia dalam kalangan
-orang ramai melalui pandangan pertama.
+awak dapat mengecam dia dalam kalangan orang ramai melalui pandangan pertama.
 
 800
 00:35:07,120 --> 00:35:07,787
@@ -3328,8 +3220,7 @@ Marilah kita pergi makan.
 
 806
 00:35:20,139 --> 00:35:21,121
-Makanan di sebuah
-kedai stimbot sangat sedap.
+Makanan di sebuah kedai stimbot sangat sedap.
 
 807
 00:35:21,146 --> 00:35:21,680
@@ -3357,8 +3248,7 @@ Saya nampak awak,
 
 813
 00:35:28,467 --> 00:35:29,600
-saya tak boleh
-bertegur sapa dengan awakkah?
+saya tak boleh bertegur sapa dengan awakkah?
 
 814
 00:35:30,069 --> 00:35:31,320
@@ -3394,8 +3284,7 @@ Ran Da pula,
 
 822
 00:36:08,970 --> 00:36:10,708
-keluarganya terima bantuan sosial
-jaminan sara hidup minimum setiap hari.
+keluarganya terima bantuan sosial jaminan sara hidup minimum setiap hari.
 
 823
 00:36:11,636 --> 00:36:12,795
@@ -3447,8 +3336,7 @@ Jika dia guna barangan mewah,
 
 835
 00:36:24,920 --> 00:36:26,179
-tentulah dia tak layak
-untuk terima biasiswa.
+tentulah dia tak layak untuk terima biasiswa.
 
 836
 00:36:26,204 --> 00:36:27,100
@@ -3472,8 +3360,7 @@ Paling maksimum, ia boleh dikira sebagai
 
 841
 00:36:32,040 --> 00:36:33,520
-model kasut roda permulaan
-pada peringkat mewah sederhana.
+model kasut roda permulaan pada peringkat mewah sederhana.
 
 842
 00:36:33,689 --> 00:36:34,600
@@ -3497,8 +3384,7 @@ Berdasarkan peraturan, permohonan pelajar
 
 847
 00:36:43,651 --> 00:36:44,880
-yang ada perbelanjaan tinggi
-memang tak boleh diluluskan.
+yang ada perbelanjaan tinggi memang tak boleh diluluskan.
 
 848
 00:36:44,905 --> 00:36:45,920
@@ -3522,8 +3408,7 @@ siapa yang layak untuk mendapat biasiswa.
 
 853
 00:36:51,905 --> 00:36:52,948
-Jika kamu buat keputusan
-dengan ikut pendapat orang ramai,
+Jika kamu buat keputusan dengan ikut pendapat orang ramai,
 
 854
 00:36:52,973 --> 00:36:54,200
@@ -3547,8 +3432,7 @@ Maksud saya,
 
 859
 00:37:02,849 --> 00:37:04,475
-memandang penilaian ini
-tiada peraturan yang jelas,
+memandang penilaian ini tiada peraturan yang jelas,
 
 860
 00:37:04,500 --> 00:37:05,134
@@ -3564,8 +3448,7 @@ Isi penting sekarang ialah
 
 863
 00:37:07,595 --> 00:37:08,975
-ada peraturan jelas
-yang ditetapkan atau tidak
+ada peraturan jelas yang ditetapkan atau tidak
 
 864
 00:37:09,000 --> 00:37:09,960
@@ -3573,8 +3456,7 @@ bahawa permohonan pelajar
 
 865
 00:37:09,960 --> 00:37:11,560
-yang ada perbelanjaan tinggi
-mesti dibatalkan?
+yang ada perbelanjaan tinggi mesti dibatalkan?
 
 866
 00:37:11,599 --> 00:37:12,760
@@ -3582,13 +3464,11 @@ Tiada.
 
 867
 00:37:13,274 --> 00:37:14,551
-Yang pentingnya,
-jika perbelanjaannya tinggi,
+Yang pentingnya, jika perbelanjaannya tinggi,
 
 868
 00:37:14,576 --> 00:37:16,091
-ini bermakna
-pelajar itu tak sangat miskin.
+ini bermakna pelajar itu tak sangat miskin.
 
 869
 00:37:16,116 --> 00:37:17,240
@@ -3616,8 +3496,7 @@ daging ketika dia pergi ke kantin
 
 875
 00:37:22,312 --> 00:37:23,808
-dibandingkan dengan
-pelajar yang beli kasut roda,
+dibandingkan dengan pelajar yang beli kasut roda,
 
 876
 00:37:23,833 --> 00:37:25,157
@@ -3629,8 +3508,7 @@ Seorang pelajar
 
 878
 00:37:25,754 --> 00:37:27,189
-yang guna telefon bimbit
-berharga 1000 yuan
+yang guna telefon bimbit berharga 1000 yuan
 
 879
 00:37:27,214 --> 00:37:27,760
@@ -3670,8 +3548,7 @@ Contohnya, jika seorang pelajar
 
 888
 00:37:41,240 --> 00:37:42,181
-pergi buat kerja sambilan
-di kedai teh susu,
+pergi buat kerja sambilan di kedai teh susu,
 
 889
 00:37:42,206 --> 00:37:43,120
@@ -3683,8 +3560,7 @@ lapan jam sehari.
 
 891
 00:37:44,309 --> 00:37:45,800
-Dalam tempoh masa ini,
-dia perlu cuci gelas,
+Dalam tempoh masa ini, dia perlu cuci gelas,
 
 892
 00:37:45,800 --> 00:37:46,560
@@ -3724,13 +3600,11 @@ Bagi dia, 5000 yuan
 
 901
 00:37:55,191 --> 00:37:57,280
-ialah kos untuk balik ke rumahnya
-dua kali pada setahun.
+ialah kos untuk balik ke rumahnya dua kali pada setahun.
 
 902
 00:37:57,308 --> 00:37:58,760
-Ditambah dengan
-yuran pelbagai jenis buku kuliah
+Ditambah dengan yuran pelbagai jenis buku kuliah
 
 903
 00:37:58,760 --> 00:38:00,200
@@ -3762,8 +3636,7 @@ Awak rasa siapa
 
 910
 00:38:06,847 --> 00:38:08,087
-yang lebih layak
-untuk terima biasiswa ini?
+yang lebih layak untuk terima biasiswa ini?
 
 911
 00:38:08,112 --> 00:38:09,552
@@ -3807,8 +3680,7 @@ yang saya beri tadi,
 
 921
 00:38:19,585 --> 00:38:20,800
-awak rasa
-siapa lebih perlukan biasiswa ini?
+awak rasa siapa lebih perlukan biasiswa ini?
 
 922
 00:38:20,832 --> 00:38:22,440
@@ -3816,8 +3688,7 @@ Pelajar ini berjimat cermat setiap hari.
 
 923
 00:38:22,482 --> 00:38:24,280
-Dia jimatkan
-wang satu hidangan setiap hari,
+Dia jimatkan wang satu hidangan setiap hari,
 
 924
 00:38:24,466 --> 00:38:25,800
@@ -3845,8 +3716,7 @@ memang milik awak sendiri,
 
 930
 00:38:30,477 --> 00:38:31,985
-tapi bantuan kewangan
-kemiskinan negara bukan wang awak.
+tapi bantuan kewangan kemiskinan negara bukan wang awak.
 
 931
 00:38:32,010 --> 00:38:33,396
@@ -3862,8 +3732,7 @@ Justeru,
 
 934
 00:38:35,640 --> 00:38:37,216
-memandangkan dia dah beli
-sepasang kasut roda,
+memandangkan dia dah beli sepasang kasut roda,
 
 935
 00:38:37,241 --> 00:38:38,320
@@ -3911,8 +3780,7 @@ tak begitu teruk.
 
 946
 00:38:49,317 --> 00:38:50,682
-Memandangkan keadaan kewangannya
-tak begitu teruk,
+Memandangkan keadaan kewangannya tak begitu teruk,
 
 947
 00:38:50,707 --> 00:38:51,444
@@ -3960,8 +3828,7 @@ keadaan keluarga,
 
 958
 00:39:02,670 --> 00:39:04,280
-keadaan purata
-pendapatan per kapita isi rumah,
+keadaan purata pendapatan per kapita isi rumah,
 
 959
 00:39:04,473 --> 00:39:05,592
@@ -4001,13 +3868,11 @@ Kita perlu buat penilaian
 
 968
 00:39:15,434 --> 00:39:16,560
-berdasarkan keadaan
-untuk tengok sama ada dia
+berdasarkan keadaan untuk tengok sama ada dia
 
 969
 00:39:16,560 --> 00:39:17,760
-benar-benar memenuhi
-syarat ini atau tidak.
+benar-benar memenuhi syarat ini atau tidak.
 
 970
 00:39:17,789 --> 00:39:18,875
@@ -4019,8 +3884,7 @@ sekurang-kurangnya boleh buktikan
 
 972
 00:39:19,734 --> 00:39:21,130
-keadaan kewangan pelajar ini
-tak begitu teruk.
+keadaan kewangan pelajar ini tak begitu teruk.
 
 973
 00:39:21,155 --> 00:39:21,720
@@ -4084,8 +3948,7 @@ maka keluarganya
 
 988
 00:39:39,292 --> 00:39:41,160
-tak semestinya mengalami
-kemiskinan yang teruk?
+tak semestinya mengalami kemiskinan yang teruk?
 
 989
 00:39:41,378 --> 00:39:42,761
@@ -4129,8 +3992,7 @@ kerjaya bebas kelak.
 
 999
 00:39:51,613 --> 00:39:52,920
-Cubalah awak tanya
-Tuan Zi tentang hal ini.
+Cubalah awak tanya Tuan Zi tentang hal ini.
 
 1000
 00:39:53,184 --> 00:39:54,295
@@ -4166,8 +4028,7 @@ Sudahlah.
 
 1008
 00:40:06,102 --> 00:40:08,320
-Kedua-dua pihak
-dah sampaikan hujah sendiri.
+Kedua-dua pihak dah sampaikan hujah sendiri.
 
 1009
 00:40:08,616 --> 00:40:09,640

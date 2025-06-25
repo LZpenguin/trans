@@ -1,7 +1,6 @@
 1
 00:01:53,400 --> 00:01:57,500
-Hello Debate Opponent 2
-EP04
+Hello Debate Opponent 2 EP04
 
 2
 00:02:11,560 --> 00:02:13,320
@@ -3653,7 +3652,7 @@ hide when you see me?
 
 914
 00:34:07,840 --> 00:34:09,360
-I come in to change my clothes. 
+I come in to change my clothes.
 
 915
 00:34:09,360 --> 00:34:10,400

@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,820 --> 00:01:57,580
-[Apa Khabar, Perbahasan Lawan 2]
-[EP02]
+Apa Khabar, Perbahasan Lawan 2 EP02
 
 3
 00:02:37,080 --> 00:02:38,160
@@ -77,8 +76,7 @@ Apa pendapat kamu?
 
 20
 00:03:10,880 --> 00:03:12,320
--Mustahil!
--Mustahil!
+-Mustahil! -Mustahil!
 
 21
 00:03:14,360 --> 00:03:15,120
@@ -230,8 +228,7 @@ Siapa yang membuat fitnah?
 
 58
 00:04:17,760 --> 00:04:19,080
-Siapa yang tanya,
-dialah yang membuat fitnah.
+Siapa yang tanya, dialah yang membuat fitnah.
 
 59
 00:04:19,240 --> 00:04:20,120
@@ -323,8 +320,7 @@ Kami tak marah pun.
 
 81
 00:05:03,520 --> 00:05:05,160
-Siapa yang kurang ajar,
-dialah yang cepat naik angin.
+Siapa yang kurang ajar, dialah yang cepat naik angin.
 
 82
 00:05:05,400 --> 00:05:07,120
@@ -480,13 +476,11 @@ Baiklah.
 
 120
 00:06:18,600 --> 00:06:20,240
-Saya menantikan pertandingan
-yang menarik ini.
+Saya menantikan pertandingan yang menarik ini.
 
 121
 00:06:20,440 --> 00:06:22,320
-Semoga pasukan yang lebih bagus
-akan menang.
+Semoga pasukan yang lebih bagus akan menang.
 
 122
 00:06:34,680 --> 00:06:35,080
@@ -598,8 +592,7 @@ pada peperiksaan akhir tahun.
 
 149
 00:07:45,560 --> 00:07:46,920
-Dia ingat dia akhirnya
-berjaya tewaskan Yin Nan,
+Dia ingat dia akhirnya berjaya tewaskan Yin Nan,
 
 150
 00:07:47,240 --> 00:07:47,920
@@ -611,8 +604,7 @@ Yin Nan melangkau tingkatan
 
 152
 00:07:49,800 --> 00:07:51,640
-dan berjaya lebih awal
-mendaftar di XUST.
+dan berjaya lebih awal mendaftar di XUST.
 
 153
 00:07:52,040 --> 00:07:53,560
@@ -672,8 +664,7 @@ Cepat balik dan berlatih.
 
 167
 00:08:32,560 --> 00:08:34,440
-[Lekas balik ke kelas
-untuk buat persiapan!]
+Lekas balik ke kelas untuk buat persiapan!
 
 168
 00:08:34,640 --> 00:08:35,720
@@ -809,8 +800,7 @@ Liu Yanze,
 
 201
 00:09:24,840 --> 00:09:26,680
-mereka panggil dia
-Dongfang Bubai di Dongzhou.
+mereka panggil dia Dongfang Bubai di Dongzhou.
 
 202
 00:09:27,440 --> 00:09:27,840
@@ -1186,8 +1176,7 @@ Kadang-kadang
 
 295
 00:12:19,720 --> 00:12:21,000
-dia akan tertidur
-semasa melayari TikTok.
+dia akan tertidur semasa melayari TikTok.
 
 296
 00:12:21,160 --> 00:12:21,640
@@ -1783,8 +1772,7 @@ Sedang tengok apa?
 
 444
 00:17:24,560 --> 00:17:25,680
-Abang Kepala Anjing dan kemas kini.
-Tengok!
+Abang Kepala Anjing dan kemas kini. Tengok!
 
 445
 00:17:26,160 --> 00:17:27,400
@@ -1856,8 +1844,7 @@ Yu, marilah sini tengok drama.
 
 462
 00:18:13,880 --> 00:18:15,560
-Demi membuat persiapan untuk
-pertandingan debat minggu depan,
+Demi membuat persiapan untuk pertandingan debat minggu depan,
 
 463
 00:18:16,280 --> 00:18:17,040
@@ -2145,8 +2132,7 @@ Mereka sedang bekerja keras
 
 534
 00:21:08,480 --> 00:21:10,000
-dan membuat bersiapan
-dengan bersungguh-sungguh.
+dan membuat bersiapan dengan bersungguh-sungguh.
 
 535
 00:21:10,120 --> 00:21:11,200
@@ -2226,8 +2212,7 @@ Tengok sini,
 
 554
 00:21:41,600 --> 00:21:43,640
-pengelola mereka sudah
-tandatangan di sini.
+pengelola mereka sudah tandatangan di sini.
 
 555
 00:21:44,880 --> 00:21:45,880
@@ -2451,8 +2436,7 @@ Saya fikir awak tak tahu,
 
 610
 00:23:51,400 --> 00:23:52,560
-kesannya lebih baik kalau
-saya yang cakap ayat tu.
+kesannya lebih baik kalau saya yang cakap ayat tu.
 
 611
 00:23:55,600 --> 00:23:57,520
@@ -2488,8 +2472,7 @@ bolehkah awak bagi saya
 
 619
 00:24:19,680 --> 00:24:20,920
-cara untuk menghubungi
-Kelab Senja Merah itu?
+cara untuk menghubungi Kelab Senja Merah itu?
 
 620
 00:24:21,080 --> 00:24:22,480
@@ -2629,8 +2612,7 @@ gagap sekali-sekala
 
 654
 00:25:23,640 --> 00:25:25,120
-dan kosa kata yang salah
-kerana awak terlalu teruja
+dan kosa kata yang salah kerana awak terlalu teruja
 
 655
 00:25:25,120 --> 00:25:27,080
@@ -2674,8 +2656,7 @@ yang bersajak
 
 665
 00:25:39,080 --> 00:25:41,800
--akan menonjolkan diri sendiri!
--akan menonjolkan diri sendiri!
+-akan menonjolkan diri sendiri! -akan menonjolkan diri sendiri!
 
 666
 00:25:42,800 --> 00:25:43,920
@@ -2687,8 +2668,7 @@ Saya pun dah hafalkan.
 
 668
 00:26:50,160 --> 00:26:51,200
--Ah.
--Ah.
+-Ah. -Ah.
 
 669
 00:26:54,480 --> 00:26:55,080
@@ -2780,8 +2760,7 @@ Saya pergi ke dewan itu sekarang juga.
 
 691
 00:28:09,760 --> 00:28:11,480
-Tapi awak mungkin
-tak boleh masuk sekarang.
+Tapi awak mungkin tak boleh masuk sekarang.
 
 692
 00:28:12,200 --> 00:28:12,800
@@ -2813,8 +2792,7 @@ Kalau cepat, sehari.
 
 699
 00:28:20,960 --> 00:28:22,760
-Kalau lambat,
-mungkin dua atau tiga minggu.
+Kalau lambat, mungkin dua atau tiga minggu.
 
 700
 00:28:28,920 --> 00:28:29,800
@@ -3034,15 +3012,15 @@ Nan Bei!
 
 754
 00:30:44,920 --> 00:30:45,920
-[Sejak saya kenal orang ini,]
+Sejak saya kenal orang ini,
 
 755
 00:30:45,920 --> 00:30:46,720
-[saya tahu]
+saya tahu
 
 756
 00:30:47,720 --> 00:30:49,080
-[itu adalah pertemuan yang malang.]
+itu adalah pertemuan yang malang.
 
 757
 00:30:54,880 --> 00:30:56,440
@@ -3534,8 +3512,7 @@ Saya tidak akan
 
 879
 00:36:07,880 --> 00:36:09,600
-lapor kepada pihak sekolah
-buat sementara waktu ini.
+lapor kepada pihak sekolah buat sementara waktu ini.
 
 880
 00:36:10,680 --> 00:36:11,600
@@ -3715,8 +3692,7 @@ Hebatnya awak, Tuan Zi,
 
 924
 00:38:28,920 --> 00:38:29,880
-awak boleh buang tabiat buruk
-dengan senang.
+awak boleh buang tabiat buruk dengan senang.
 
 925
 00:38:29,920 --> 00:38:30,560
@@ -4064,6 +4040,5 @@ Hai!
 
 1011
 00:42:04,960 --> 00:42:06,760
--Gadis jelita.
--Gadis jelita.
+-Gadis jelita. -Gadis jelita.
 

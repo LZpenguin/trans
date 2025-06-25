@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,400 --> 00:01:57,760
-[Apa Khabar, Lawan Perbahasan 2]
-[EP18]
+Apa Khabar, Lawan Perbahasan 2 EP18
 
 3
 00:01:58,560 --> 00:02:01,480
@@ -93,8 +92,7 @@ Mahupun awak belanja saya makan,
 
 24
 00:03:17,760 --> 00:03:19,200
-kenapa belanja saya makan
-secara bersendirian?
+kenapa belanja saya makan secara bersendirian?
 
 25
 00:03:19,200 --> 00:03:19,960
@@ -106,8 +104,7 @@ Kalau begitu, tanyalah
 
 27
 00:03:20,800 --> 00:03:21,720
-sama ada saya dah ada
-teman lelaki atau tidak.
+sama ada saya dah ada teman lelaki atau tidak.
 
 28
 00:03:21,720 --> 00:03:22,840
@@ -143,8 +140,7 @@ Saya dengar daripada rakan sebaya
 
 36
 00:03:33,200 --> 00:03:34,560
-bahawa awak telah pergi ke luar negara
-untuk melanjutkan pelajaran.
+bahawa awak telah pergi ke luar negara untuk melanjutkan pelajaran.
 
 37
 00:03:34,720 --> 00:03:35,600
@@ -156,8 +152,7 @@ Kali ini, saya kembali
 
 39
 00:03:36,920 --> 00:03:38,680
-untuk menjadi pembimbing
-pasukan debat kawan saya.
+untuk menjadi pembimbing pasukan debat kawan saya.
 
 40
 00:03:39,400 --> 00:03:40,040
@@ -181,8 +176,7 @@ Sekarang pun saya berdebat.
 
 45
 00:03:45,120 --> 00:03:47,000
-[Oh, rupanya dia jadi jurulatih
-pasukan debat.]
+Oh, rupanya dia jadi jurulatih pasukan debat.
 
 46
 00:03:47,520 --> 00:03:48,200
@@ -242,8 +236,7 @@ Masuk dan lihat sendiri.
 
 60
 00:05:07,920 --> 00:05:12,080
-♪Tak dapat menyanyi
-sesuatu yang belum habis♪
+♪Tak dapat menyanyi sesuatu yang belum habis♪
 
 61
 00:05:12,600 --> 00:05:14,520
@@ -315,8 +308,7 @@ Kami...
 
 78
 00:05:50,120 --> 00:05:52,000
-Pasukan olahraga kami adakan
-latihan tambahan hari ini.
+Pasukan olahraga kami adakan latihan tambahan hari ini.
 
 79
 00:05:52,520 --> 00:05:53,520
@@ -396,8 +388,7 @@ Tak apa-apa.
 
 98
 00:06:23,800 --> 00:06:24,680
-Apa kata saya papah awak
-untuk duduk sebentar?
+Apa kata saya papah awak untuk duduk sebentar?
 
 99
 00:06:24,680 --> 00:06:25,240
@@ -417,13 +408,11 @@ Dengar kata saya.
 
 103
 00:06:31,240 --> 00:06:32,840
-Mari kita pergi ke situ
-untuk berehat dulu.
+Mari kita pergi ke situ untuk berehat dulu.
 
 104
 00:06:32,880 --> 00:06:34,000
-Kemudian tunggu sampai awak
-dah rasa lebih baik,
+Kemudian tunggu sampai awak dah rasa lebih baik,
 
 105
 00:06:34,000 --> 00:06:34,920
@@ -459,8 +448,7 @@ Tak pernah
 
 113
 00:06:46,120 --> 00:06:47,480
-ada perempuan yang layan saya
-dengan begitu baik.
+ada perempuan yang layan saya dengan begitu baik.
 
 114
 00:06:48,640 --> 00:06:49,840
@@ -496,8 +484,7 @@ Baik.
 
 122
 00:07:04,800 --> 00:07:06,080
-Bolehkah saya tanya, ada apa-apa
-lagi yang kamu perlukan?
+Bolehkah saya tanya, ada apa-apa lagi yang kamu perlukan?
 
 123
 00:07:06,960 --> 00:07:08,280
@@ -621,8 +608,7 @@ atau perkara mana yang saya salah lakukan.
 
 153
 00:07:54,800 --> 00:07:56,120
-Perlukah saya beritahu atau
-awak memikirkan sendiri?
+Perlukah saya beritahu atau awak memikirkan sendiri?
 
 154
 00:07:56,880 --> 00:07:57,440
@@ -646,8 +632,7 @@ ataupun
 
 159
 00:08:02,120 --> 00:08:03,400
-makanan tadi tak sesuai
-dengan selera awak?
+makanan tadi tak sesuai dengan selera awak?
 
 160
 00:08:04,160 --> 00:08:04,720
@@ -671,8 +656,7 @@ Jangan cakap lagi!
 
 165
 00:08:14,400 --> 00:08:16,440
-Mengyuan, saya ingin bincang
-sesuatu dengan awak.
+Mengyuan, saya ingin bincang sesuatu dengan awak.
 
 166
 00:08:17,360 --> 00:08:17,880
@@ -792,8 +776,7 @@ Dengan pengalaman saya
 
 195
 00:09:01,200 --> 00:09:02,120
-yang pernah mengalami
-pelbagai jenis situasi,
+yang pernah mengalami pelbagai jenis situasi,
 
 196
 00:09:02,680 --> 00:09:03,800
@@ -833,8 +816,7 @@ Awak terlalu pandai bertahan.
 
 205
 00:09:18,760 --> 00:09:20,440
-Penutupan lima deria yang
-saya baru saja melatih.
+Penutupan lima deria yang saya baru saja melatih.
 
 206
 00:09:20,440 --> 00:09:21,520
@@ -886,7 +868,7 @@ Helo.
 
 218
 00:09:45,600 --> 00:09:47,440
-[Helo, keluar beli teh susu.]
+Helo, keluar beli teh susu.
 
 219
 00:09:48,000 --> 00:09:49,520
@@ -898,12 +880,11 @@ Awak tak takutkah
 
 221
 00:09:50,000 --> 00:09:51,280
-awak tak sepadan dengan saya
-selepas jadi gemuk?
+awak tak sepadan dengan saya selepas jadi gemuk?
 
 222
 00:09:51,480 --> 00:09:53,200
-[Siapa yang memberi awak keberanian?]
+Siapa yang memberi awak keberanian?
 
 223
 00:09:53,800 --> 00:09:55,080
@@ -923,27 +904,27 @@ Saya tengah melegakan perasaannya.
 
 227
 00:09:59,080 --> 00:09:59,640
-[Jadi anggaplah]
+Jadi anggaplah
 
 228
 00:09:59,640 --> 00:10:00,800
-[kalau awak tahu disebabkan]
+kalau awak tahu disebabkan
 
 229
 00:10:00,800 --> 00:10:01,600
-[secawan teh susu,]
+secawan teh susu,
 
 230
 00:10:01,600 --> 00:10:02,320
-[awak telah ditinggalkan.]
+awak telah ditinggalkan.
 
 231
 00:10:02,600 --> 00:10:03,840
-[Apa yang awak rasa]
+Apa yang awak rasa
 
 232
 00:10:03,840 --> 00:10:04,640
-[dengan anggapan ini?]
+dengan anggapan ini?
 
 233
 00:10:05,000 --> 00:10:05,720
@@ -1055,8 +1036,7 @@ Mustahil.
 
 260
 00:10:45,560 --> 00:10:47,160
-Sikap awak seperti perempuan
-yang cerewet takkan berubah.
+Sikap awak seperti perempuan yang cerewet takkan berubah.
 
 261
 00:10:51,240 --> 00:10:52,040
@@ -1112,8 +1092,7 @@ Saya dah beritahu awak
 
 274
 00:11:14,520 --> 00:11:15,400
-bahawa saya makan malam dengan
-seorang kawan.
+bahawa saya makan malam dengan seorang kawan.
 
 275
 00:11:15,520 --> 00:11:16,480
@@ -1133,8 +1112,7 @@ Saya tak tanya?
 
 279
 00:11:25,040 --> 00:11:26,040
-Selain makan malam, apa lagi
-yang kamu lakukan?
+Selain makan malam, apa lagi yang kamu lakukan?
 
 280
 00:11:26,360 --> 00:11:28,440
@@ -1174,8 +1152,7 @@ Saya...
 
 289
 00:11:45,480 --> 00:11:46,480
-Saya sedang tunjuk keprihatinan
-kepada awak.
+Saya sedang tunjuk keprihatinan kepada awak.
 
 290
 00:11:46,880 --> 00:11:48,520
@@ -1255,8 +1232,7 @@ Lepas ni,
 
 309
 00:12:26,640 --> 00:12:27,840
-jangan cakap ayat cinta yang
-murahan seperti itu lagi.
+jangan cakap ayat cinta yang murahan seperti itu lagi.
 
 310
 00:12:28,000 --> 00:12:28,760
@@ -1304,8 +1280,7 @@ Tak.
 
 321
 00:12:59,760 --> 00:13:01,240
-Dia cuma kata universitinya dalam
-libur musim bunga.
+Dia cuma kata universitinya dalam libur musim bunga.
 
 322
 00:13:01,520 --> 00:13:02,520
@@ -1413,13 +1388,11 @@ Baiklah.
 
 348
 00:13:37,000 --> 00:13:39,240
-Bagaimanapun, saya menyokong
-awak dengan Nan Bei.
+Bagaimanapun, saya menyokong awak dengan Nan Bei.
 
 349
 00:13:40,160 --> 00:13:41,600
-Jangan bergosip tentang saya lagi,
-boleh tak?
+Jangan bergosip tentang saya lagi, boleh tak?
 
 350
 00:13:41,800 --> 00:13:42,880
@@ -1459,8 +1432,7 @@ Hasilnya, mak saya kata
 
 359
 00:13:50,680 --> 00:13:52,200
-fikiran saya ini dipanggil keyakinan
-yang tak berasas,
+fikiran saya ini dipanggil keyakinan yang tak berasas,
 
 360
 00:13:52,200 --> 00:13:53,840
@@ -1480,8 +1452,7 @@ saya pun mula meragui
 
 364
 00:13:58,000 --> 00:13:59,160
-sama ada saya orang yang sesuai
-dengan ini atau tidak.
+sama ada saya orang yang sesuai dengan ini atau tidak.
 
 365
 00:14:00,520 --> 00:14:00,960
@@ -1525,8 +1496,7 @@ Saya sangat gembira.
 
 375
 00:14:34,720 --> 00:14:37,080
-Saya segera bangun untuk menghantar
-mesej kepada dia.
+Saya segera bangun untuk menghantar mesej kepada dia.
 
 376
 00:14:38,040 --> 00:14:38,920
@@ -1626,8 +1596,7 @@ Jingwen.
 
 400
 00:15:34,000 --> 00:15:35,600
-Saya ada sesuatu yang saya
-ingin berikan kepada awak.
+Saya ada sesuatu yang saya ingin berikan kepada awak.
 
 401
 00:15:36,080 --> 00:15:37,000
@@ -1643,8 +1612,7 @@ Saya alergi.
 
 404
 00:15:47,240 --> 00:15:48,720
-Kenapa awak beli bunga
-walaupun awak alergi?
+Kenapa awak beli bunga walaupun awak alergi?
 
 405
 00:15:48,720 --> 00:15:49,440
@@ -1660,8 +1628,7 @@ Romantik.
 
 408
 00:15:54,960 --> 00:15:56,840
-Saya sangat terharu dengan
-tindakan awak ini.
+Saya sangat terharu dengan tindakan awak ini.
 
 409
 00:15:57,200 --> 00:15:58,080
@@ -1685,8 +1652,7 @@ Habis seperti itu saja?
 
 414
 00:16:12,800 --> 00:16:15,000
-Kalau begitu, saya rasa dah
-tak ada harapan.
+Kalau begitu, saya rasa dah tak ada harapan.
 
 415
 00:16:15,240 --> 00:16:15,760
@@ -1750,23 +1716,23 @@ Mari kita mulakan langkah seterusnya.
 
 430
 00:16:44,360 --> 00:16:45,800
-[Awak boleh asyik kacau dia]
+Awak boleh asyik kacau dia
 
 431
 00:16:46,520 --> 00:16:48,240
-[untuk membuatkan dia rasa cinta awak]
+untuk membuatkan dia rasa cinta awak
 
 432
 00:16:48,240 --> 00:16:49,320
-[dan betapa baiknya awak.]
+dan betapa baiknya awak.
 
 433
 00:16:50,080 --> 00:16:51,120
-[Hatinya]
+Hatinya
 
 434
 00:16:51,760 --> 00:16:53,440
-[akan tertarik oleh awak.]
+akan tertarik oleh awak.
 
 435
 00:16:54,840 --> 00:16:56,960
@@ -1802,8 +1768,7 @@ ketika menghadapi masalah,
 
 443
 00:17:07,160 --> 00:17:08,880
-manusia pertama sekali harus
-menghindari diri sendiri...
+manusia pertama sekali harus menghindari diri sendiri...
 
 444
 00:17:08,880 --> 00:17:09,920
@@ -1811,8 +1776,7 @@ Pada waktu ini,
 
 445
 00:17:09,920 --> 00:17:11,720
-bukankah awak berlatih dalam
-pasukan olahraga?
+bukankah awak berlatih dalam pasukan olahraga?
 
 446
 00:17:12,040 --> 00:17:13,720
@@ -1904,13 +1868,11 @@ Sama-sama.
 
 468
 00:17:54,440 --> 00:17:55,520
-Saya hanya boleh membantu awak
-sampai di sini.
+Saya hanya boleh membantu awak sampai di sini.
 
 469
 00:17:56,240 --> 00:17:57,400
-Bahagian selepas ini, awak hanya boleh
-bergantung pada awak sendiri.
+Bahagian selepas ini, awak hanya boleh bergantung pada awak sendiri.
 
 470
 00:17:57,640 --> 00:17:58,240
@@ -1938,8 +1900,7 @@ Saya tahu
 
 476
 00:18:16,440 --> 00:18:17,480
-mungkin saya telah melakukan
-sesuatu kesalahan
+mungkin saya telah melakukan sesuatu kesalahan
 
 477
 00:18:17,800 --> 00:18:19,120
@@ -2075,8 +2036,7 @@ Pernahkah rancangan awak berfungsi?
 
 510
 00:19:48,840 --> 00:19:49,520
-Tak kisah rancangan saya
-berfungsi atau tidak,
+Tak kisah rancangan saya berfungsi atau tidak,
 
 511
 00:19:49,520 --> 00:19:50,880
@@ -2116,8 +2076,7 @@ Jangan, jangan ganggu dia lagi.
 
 520
 00:20:30,600 --> 00:20:31,920
-Betulkah benda ini boleh
-menenangkan minda?
+Betulkah benda ini boleh menenangkan minda?
 
 521
 00:20:32,480 --> 00:20:34,120
@@ -2141,8 +2100,7 @@ Kamu tak tahu.
 
 526
 00:20:41,480 --> 00:20:43,280
-Baru-baru ini, kami tak tidur selama
-beberapa siang dan malam
+Baru-baru ini, kami tak tidur selama beberapa siang dan malam
 
 527
 00:20:43,280 --> 00:20:44,800
@@ -2162,8 +2120,7 @@ mengalami serangan loceng.
 
 531
 00:20:49,480 --> 00:20:51,320
-Setiap malam ada lagu yang dimainkan
-berulang kali tanpa henti.
+Setiap malam ada lagu yang dimainkan berulang kali tanpa henti.
 
 532
 00:20:51,320 --> 00:20:52,320
@@ -2187,8 +2144,7 @@ Berikan sedikit sumbangan
 
 537
 00:20:59,000 --> 00:21:00,840
-untuk membebaskan asrama kita
-daripada penderitaan.
+untuk membebaskan asrama kita daripada penderitaan.
 
 538
 00:21:01,040 --> 00:21:01,920
@@ -2220,8 +2176,7 @@ Dalam hubungan percintaan,
 
 545
 00:21:14,120 --> 00:21:15,200
-patut biarkannya berjalan
-secara semula jadi
+patut biarkannya berjalan secara semula jadi
 
 546
 00:21:15,200 --> 00:21:16,720
@@ -2229,8 +2184,7 @@ atau berusaha untuk mengurusnya?
 
 547
 00:21:16,720 --> 00:21:18,480
-Perspektif kita adalah berusaha
-untuk mengurusnya.
+Perspektif kita adalah berusaha untuk mengurusnya.
 
 548
 00:21:19,440 --> 00:21:20,400
@@ -2246,8 +2200,7 @@ Berpengalaman, kan?
 
 551
 00:21:27,160 --> 00:21:29,320
-Bukankah Mengyuan kebetulan
-mengalami perpisahan?
+Bukankah Mengyuan kebetulan mengalami perpisahan?
 
 552
 00:21:29,320 --> 00:21:31,400
@@ -2259,8 +2212,7 @@ Betulkah?
 
 554
 00:21:32,880 --> 00:21:33,840
-Kalau begitu, apa pengalaman
-yang awak ada?
+Kalau begitu, apa pengalaman yang awak ada?
 
 555
 00:21:33,840 --> 00:21:34,680
@@ -2268,8 +2220,7 @@ Kongsi sedikit.
 
 556
 00:21:35,280 --> 00:21:36,960
-Jika awak rasa percintaan sendiri
-belum gagal sepenuhnya,
+Jika awak rasa percintaan sendiri belum gagal sepenuhnya,
 
 557
 00:21:36,960 --> 00:21:38,240
@@ -2309,8 +2260,7 @@ untuk mengurus dengan munasabah.
 
 566
 00:21:51,680 --> 00:21:53,000
-Dia dan tajuk debat kita adalah
-benda yang berbeza.
+Dia dan tajuk debat kita adalah benda yang berbeza.
 
 567
 00:21:53,480 --> 00:21:54,360
@@ -2350,8 +2300,7 @@ Cuba awak lihat saya dan Xiaoyu
 
 576
 00:22:05,720 --> 00:22:06,400
-yang biarkannya berjalan
-secara semula jadi.
+yang biarkannya berjalan secara semula jadi.
 
 577
 00:22:06,400 --> 00:22:07,680
@@ -2395,8 +2344,7 @@ Di atas dasar ini,
 
 587
 00:22:25,880 --> 00:22:27,360
-untuk menguruskan hubungan
-dengan lebih baik...
+untuk menguruskan hubungan dengan lebih baik...
 
 588
 00:22:29,760 --> 00:22:31,160
@@ -2444,8 +2392,7 @@ Boleh saja tak beritahu.
 
 599
 00:22:46,840 --> 00:22:48,680
-Kamu berdua sedang berbincang
-tentang topik debat, kan?
+Kamu berdua sedang berbincang tentang topik debat, kan?
 
 600
 00:22:49,440 --> 00:22:50,800
@@ -2453,8 +2400,7 @@ Kalau begitu, lagi bermasalah.
 
 601
 00:22:51,360 --> 00:22:53,000
-Tadi awak kata kepercayaan
-adalah dasarnya.
+Tadi awak kata kepercayaan adalah dasarnya.
 
 602
 00:22:53,200 --> 00:22:54,200
@@ -2462,8 +2408,7 @@ Kemudian sekarang,
 
 603
 00:22:54,760 --> 00:22:55,800
-awak kata tak perlu beritahu
-kalau tak penting.
+awak kata tak perlu beritahu kalau tak penting.
 
 604
 00:22:55,800 --> 00:22:56,440
@@ -2495,8 +2440,7 @@ Awak jelaskannya?
 
 611
 00:23:05,920 --> 00:23:07,200
-Ada sesuatu yang awak sembunyikan
-daripada saya?
+Ada sesuatu yang awak sembunyikan daripada saya?
 
 612
 00:23:09,560 --> 00:23:11,200
@@ -2508,8 +2452,7 @@ Saya.
 
 614
 00:23:15,400 --> 00:23:17,120
-Adakah ia terkenal dalam
-kalangan perempuan
+Adakah ia terkenal dalam kalangan perempuan
 
 615
 00:23:17,480 --> 00:23:18,760
@@ -2525,8 +2468,7 @@ tradisi kuno.
 
 618
 00:23:29,760 --> 00:23:31,400
-[Mari keluar untuk melihat
-pameran hujung minggu ini.]
+Mari keluar untuk melihat pameran hujung minggu ini.
 
 619
 00:23:38,320 --> 00:23:39,160
@@ -2546,8 +2488,7 @@ Pagi ini,
 
 623
 00:23:42,480 --> 00:23:44,120
-saya pergi ke pejabat untuk
-memindahkan barang,
+saya pergi ke pejabat untuk memindahkan barang,
 
 624
 00:23:44,120 --> 00:23:44,600
@@ -2599,8 +2540,7 @@ tugas harus diselesaikan lebih awal.
 
 636
 00:23:58,120 --> 00:23:59,280
-Kalau tidak, ia akan jadi
-semakin menyusahkan.
+Kalau tidak, ia akan jadi semakin menyusahkan.
 
 637
 00:23:59,680 --> 00:24:00,360
@@ -2608,11 +2548,11 @@ Jom.
 
 638
 00:24:14,280 --> 00:24:14,920
-[Helo, senior.]
+Helo, senior.
 
 639
 00:24:14,920 --> 00:24:16,360
-[Mari makan bersama tengah hari esok.]
+Mari makan bersama tengah hari esok.
 
 640
 00:24:25,280 --> 00:24:25,960
@@ -2632,8 +2572,7 @@ dalam percintaan,
 
 644
 00:24:29,040 --> 00:24:30,880
-apa bezanya antara biarkannya
-berjalan secara semula jadi
+apa bezanya antara biarkannya berjalan secara semula jadi
 
 645
 00:24:30,880 --> 00:24:31,680
@@ -2665,8 +2604,7 @@ bermaksud melayan dia dengan baik.
 
 652
 00:24:43,040 --> 00:24:44,240
-Kalau begitu, biarkannya berjalan
-secara semula jadi
+Kalau begitu, biarkannya berjalan secara semula jadi
 
 653
 00:24:44,240 --> 00:24:45,160
@@ -2682,13 +2620,11 @@ Kalau perasaan hilang,
 
 656
 00:24:47,280 --> 00:24:48,000
-maksudnya tak perlu layan dia
-dengan baik lagi.
+maksudnya tak perlu layan dia dengan baik lagi.
 
 657
 00:24:48,200 --> 00:24:50,040
-Kalau perasaan dah hilang masih
-terus layan dia dengan baik,
+Kalau perasaan dah hilang masih terus layan dia dengan baik,
 
 658
 00:24:50,040 --> 00:24:51,360
@@ -2708,8 +2644,7 @@ perbezaan antara berusaha menguruskan
 
 662
 00:24:55,480 --> 00:24:56,440
-dan biarkannya berjalan
-secara semula jadi?
+dan biarkannya berjalan secara semula jadi?
 
 663
 00:24:57,080 --> 00:24:58,320
@@ -2765,8 +2700,7 @@ dalam percintaan,
 
 676
 00:25:20,560 --> 00:25:22,320
-biarkannya berlaku secara
-semula jadi seharusnya ialah
+biarkannya berlaku secara semula jadi seharusnya ialah
 
 677
 00:25:22,800 --> 00:25:24,280
@@ -2778,8 +2712,7 @@ lepaskan saja kalau marah.
 
 679
 00:25:26,640 --> 00:25:28,200
-Jika ada pendapat,
-katakan secara langsung.
+Jika ada pendapat, katakan secara langsung.
 
 680
 00:25:29,360 --> 00:25:31,000
@@ -2787,8 +2720,7 @@ Semasa dua orang bersama,
 
 681
 00:25:31,360 --> 00:25:32,440
-mengikuti keinginan hati
-masing-masing sepenuhnya
+mengikuti keinginan hati masing-masing sepenuhnya
 
 682
 00:25:32,440 --> 00:25:33,960
@@ -2812,8 +2744,7 @@ awak akan mempertimbangkan
 
 687
 00:25:41,160 --> 00:25:42,920
-sama ada awak patut melepaskan
-kemarahan ini atau tidak.
+sama ada awak patut melepaskan kemarahan ini atau tidak.
 
 688
 00:25:43,560 --> 00:25:44,280
@@ -2829,13 +2760,11 @@ adalah untuk
 
 691
 00:25:46,360 --> 00:25:47,840
-menjadikan hubungan antara
-kamu berdua lebih baik.
+menjadikan hubungan antara kamu berdua lebih baik.
 
 692
 00:25:49,320 --> 00:25:50,360
-Kata-kata awak membuat saya
-rasa jelas secara tiba-tiba.
+Kata-kata awak membuat saya rasa jelas secara tiba-tiba.
 
 693
 00:25:50,640 --> 00:25:51,760
@@ -2859,8 +2788,7 @@ Jadi percintaan saya dan Nan Bei
 
 698
 00:25:57,920 --> 00:25:59,760
-kira biarkannya berjalan
-secara semula jadi.
+kira biarkannya berjalan secara semula jadi.
 
 699
 00:25:59,800 --> 00:26:01,560
@@ -2880,8 +2808,7 @@ Maksudnya ialah
 
 703
 00:26:08,960 --> 00:26:10,560
-dia telah menanggung segala
-ketidakadilan untuk awak.
+dia telah menanggung segala ketidakadilan untuk awak.
 
 704
 00:26:14,280 --> 00:26:15,960
@@ -2893,8 +2820,7 @@ Semua orang pulang
 
 706
 00:26:17,080 --> 00:26:18,880
-dan fikirkan bagaimana untuk
-mengekspresikannya.
+dan fikirkan bagaimana untuk mengekspresikannya.
 
 707
 00:26:18,880 --> 00:26:20,040
@@ -2902,8 +2828,7 @@ Kemudian carikan informasi
 
 708
 00:26:20,040 --> 00:26:20,800
-untuk semua hujah yang
-disebutkan hari ini juga.
+untuk semua hujah yang disebutkan hari ini juga.
 
 709
 00:26:21,360 --> 00:26:22,120
@@ -2939,8 +2864,7 @@ Saya dah membuat janji dengan
 
 717
 00:26:31,400 --> 00:26:34,280
-Dandan dan Mengyuan untuk
-main komputer bersama.
+Dandan dan Mengyuan untuk main komputer bersama.
 
 718
 00:26:36,040 --> 00:26:37,080
@@ -2956,8 +2880,7 @@ Kamu mainlah bersama.
 
 721
 00:26:40,240 --> 00:26:41,560
-Baik juga jika awak menemani
-Mengyuan dengan kerap.
+Baik juga jika awak menemani Mengyuan dengan kerap.
 
 722
 00:26:41,560 --> 00:26:42,480
@@ -2969,8 +2892,7 @@ Apa?
 
 724
 00:26:51,120 --> 00:26:52,920
-Mengyuan pergi ke tingkat bawah bilik
-Jingwen untuk menangis lagi?
+Mengyuan pergi ke tingkat bawah bilik Jingwen untuk menangis lagi?
 
 725
 00:26:55,480 --> 00:26:55,920
@@ -3182,13 +3104,11 @@ Senior.
 
 777
 00:28:38,560 --> 00:28:39,760
-Jangan terburu-buru untuk
-memesan makanan dulu.
+Jangan terburu-buru untuk memesan makanan dulu.
 
 778
 00:28:39,960 --> 00:28:41,600
-Saya datang untuk
-memberitahu awak sesuatu.
+Saya datang untuk memberitahu awak sesuatu.
 
 779
 00:28:41,800 --> 00:28:42,800
@@ -3208,8 +3128,7 @@ Saya beritahu awak dulu.
 
 783
 00:28:47,480 --> 00:28:50,000
-Dalam tempoh masa awak
-berada di luar negara,
+Dalam tempoh masa awak berada di luar negara,
 
 784
 00:28:50,000 --> 00:28:50,520
@@ -3217,12 +3136,11 @@ saya...
 
 785
 00:28:53,120 --> 00:28:53,800
-[Cepat datanglah.]
+Cepat datanglah.
 
 786
 00:28:56,280 --> 00:28:57,680
-Dalam tempoh masa awak
-berada di luar negara,
+Dalam tempoh masa awak berada di luar negara,
 
 787
 00:28:57,720 --> 00:28:59,440
@@ -3234,20 +3152,19 @@ sebenarnya saya sudah...
 
 789
 00:29:00,600 --> 00:29:01,360
-[Di mana awak?]
+Di mana awak?
 
 790
 00:29:02,040 --> 00:29:02,800
-[Ada apa-apa?]
+Ada apa-apa?
 
 791
 00:29:03,680 --> 00:29:05,040
-[Makanan dah dihidangkan, cepatlah.]
+Makanan dah dihidangkan, cepatlah.
 
 792
 00:29:06,640 --> 00:29:08,400
-[Makanan dah jadi sejuk,
-saya datang cari awak.]
+Makanan dah jadi sejuk, saya datang cari awak.
 
 793
 00:29:09,840 --> 00:29:10,240
@@ -3279,8 +3196,7 @@ Nanti saya akan balik dan beritahu awak.
 
 800
 00:29:19,880 --> 00:29:21,560
-Tandas mana yang awak pergi
-sampai begitu lama?
+Tandas mana yang awak pergi sampai begitu lama?
 
 801
 00:29:21,560 --> 00:29:22,560
@@ -3400,13 +3316,11 @@ Kenapa awak tak peduli saya?
 
 830
 00:30:29,880 --> 00:30:31,200
-Dia ialah senior saya,
-dia ialah Abang Shui.
+Dia ialah senior saya, dia ialah Abang Shui.
 
 831
 00:30:31,200 --> 00:30:32,440
-Dia ialah Abang Shui,
-dia ialah senior saya.
+Dia ialah Abang Shui, dia ialah senior saya.
 
 832
 00:30:32,680 --> 00:30:33,080
@@ -3458,8 +3372,7 @@ di mana Xiaoyu?
 
 844
 00:31:19,160 --> 00:31:20,520
-Dia pergi ke tandas untuk
-mengambil sesuatu.
+Dia pergi ke tandas untuk mengambil sesuatu.
 
 845
 00:31:24,360 --> 00:31:24,880
@@ -3467,13 +3380,11 @@ Nan Bei.
 
 846
 00:31:26,360 --> 00:31:27,840
-Saya telah memutuskan untuk
-memberitahu awak sesuatu.
+Saya telah memutuskan untuk memberitahu awak sesuatu.
 
 847
 00:31:31,680 --> 00:31:33,720
-Xiaoyu, saya pernah
-beritahu awak sebelum ini
+Xiaoyu, saya pernah beritahu awak sebelum ini
 
 848
 00:31:34,760 --> 00:31:35,520
@@ -3485,8 +3396,7 @@ untuk seseorang.
 
 850
 00:31:40,720 --> 00:31:41,640
-Saya ingin minta awak menolong
-saya memikat seseorang.
+Saya ingin minta awak menolong saya memikat seseorang.
 
 851
 00:31:41,640 --> 00:31:42,280
@@ -3494,8 +3404,7 @@ Saya dah ada teman lelaki.
 
 852
 00:31:46,480 --> 00:31:47,680
-Kalau begitu, saya perlu mengucapkan
-tahniah kepada awak.
+Kalau begitu, saya perlu mengucapkan tahniah kepada awak.
 
 853
 00:31:47,880 --> 00:31:49,000
@@ -3519,18 +3428,15 @@ awak suka gadis yang mana?
 
 858
 00:31:57,800 --> 00:31:58,640
-Lawan debat yang saya kenal
-semasa saya keluar
+Lawan debat yang saya kenal semasa saya keluar
 
 859
 00:31:58,640 --> 00:32:00,240
-menyertai pertandingan debat
-dalam sekolah tinggi.
+menyertai pertandingan debat dalam sekolah tinggi.
 
 860
 00:32:00,760 --> 00:32:02,280
-Selepas itu, kami sentiasa
-berbual di WeChat.
+Selepas itu, kami sentiasa berbual di WeChat.
 
 861
 00:32:02,480 --> 00:32:03,760
@@ -3538,8 +3444,7 @@ Kami juga pernah keluar makan bersama.
 
 862
 00:32:04,480 --> 00:32:06,280
-Asalnya, saya merancang untuk
-meluahkan perasaan.
+Asalnya, saya merancang untuk meluahkan perasaan.
 
 863
 00:32:06,600 --> 00:32:07,240
@@ -3547,8 +3452,7 @@ Tetapi
 
 864
 00:32:09,120 --> 00:32:10,240
-saya pergi melanjutkan
-pelajaran di luar negara.
+saya pergi melanjutkan pelajaran di luar negara.
 
 865
 00:32:10,640 --> 00:32:11,560
@@ -3560,8 +3464,7 @@ Jadi, kali ini awak kembali,
 
 867
 00:32:13,600 --> 00:32:14,240
-adakah awak bercadang untuk
-meluahkan perasaan?
+adakah awak bercadang untuk meluahkan perasaan?
 
 868
 00:32:17,080 --> 00:32:17,920
@@ -3605,8 +3508,7 @@ Namanya Wei.
 
 878
 00:32:34,240 --> 00:32:35,800
-Dia ialah ketua
-pasukan debat saya kali ini.
+Dia ialah ketua pasukan debat saya kali ini.
 
 879
 00:32:36,080 --> 00:32:37,000
@@ -3626,8 +3528,7 @@ Selagi saya dapat bantu,
 
 883
 00:32:41,080 --> 00:32:42,000
-saya akan cuba sedaya upaya
-untuk membantu awak.
+saya akan cuba sedaya upaya untuk membantu awak.
 
 884
 00:32:42,800 --> 00:32:43,640
@@ -3635,8 +3536,7 @@ Tapi selepas berjaya,
 
 885
 00:32:43,640 --> 00:32:44,680
-awak harus belanja saya makan
-sesuatu yang lumayan.
+awak harus belanja saya makan sesuatu yang lumayan.
 
 886
 00:32:45,080 --> 00:32:45,600
@@ -3644,8 +3544,7 @@ Sudah pasti.
 
 887
 00:32:45,600 --> 00:32:47,200
-Panggil teman lelaki awak
-bersama, kebetulan.
+Panggil teman lelaki awak bersama, kebetulan.
 
 888
 00:32:48,520 --> 00:32:49,640
@@ -3685,8 +3584,7 @@ Dia ialah senior sekolah tinggi saya
 
 897
 00:33:14,080 --> 00:33:15,600
-yang baru pulang dari luar negara,
-Gong Chen.
+yang baru pulang dari luar negara, Gong Chen.
 
 898
 00:33:17,400 --> 00:33:18,680
@@ -3698,8 +3596,7 @@ Tak perlu.
 
 900
 00:33:25,000 --> 00:33:26,400
-Saya ada makanan yang memenuhi
-seluruh meja di kedai sebelah lagi.
+Saya ada makanan yang memenuhi seluruh meja di kedai sebelah lagi.
 
 901
 00:34:27,360 --> 00:34:28,080
@@ -3711,13 +3608,11 @@ tiket pameran kali ini?
 
 903
 00:34:30,200 --> 00:34:31,840
-Saya dengar bahawa ia dah habis
-dijual sebelum tahun baru.
+Saya dengar bahawa ia dah habis dijual sebelum tahun baru.
 
 904
 00:34:31,960 --> 00:34:33,520
-Semua rakan sekelas kami
-tak sempat membelinya.
+Semua rakan sekelas kami tak sempat membelinya.
 
 905
 00:34:33,920 --> 00:34:34,320
@@ -3745,8 +3640,7 @@ Susah payah saya mengumpulkannya.
 
 911
 00:34:45,560 --> 00:34:46,880
-Lagipun, ini satu-satunya
-di seluruh pameran ini.
+Lagipun, ini satu-satunya di seluruh pameran ini.
 
 912
 00:34:47,760 --> 00:34:49,480
@@ -3786,13 +3680,11 @@ dan beli puluhan naskhah.
 
 921
 00:35:00,880 --> 00:35:01,640
-Saya telah simpan selama
-lima hingga enam tahun.
+Saya telah simpan selama lima hingga enam tahun.
 
 922
 00:35:01,760 --> 00:35:04,000
-Sekarang, saya dapat jual dengan
-harga lima puluh kali ganda.
+Sekarang, saya dapat jual dengan harga lima puluh kali ganda.
 
 923
 00:35:09,200 --> 00:35:10,640
@@ -3800,8 +3692,7 @@ Saya tiada begitu banyak duit.
 
 924
 00:35:11,080 --> 00:35:13,120
-Tunggu saya kumpulkan duit yang
-mencukupi barulah saya beli.
+Tunggu saya kumpulkan duit yang mencukupi barulah saya beli.
 
 925
 00:35:14,640 --> 00:35:15,880
@@ -3833,8 +3724,7 @@ Baik, pasti secukup-cukupnya.
 
 932
 00:35:33,960 --> 00:35:35,040
-Pameran ini hanya berlangsung
-untuk beberapa hari ini.
+Pameran ini hanya berlangsung untuk beberapa hari ini.
 
 933
 00:35:35,040 --> 00:35:35,680
@@ -3874,8 +3764,7 @@ editor yang pandai mengenali bakat.
 
 942
 00:35:47,000 --> 00:35:47,840
-Kalau tidak, tak kira betapa
-baiknya lukisan
+Kalau tidak, tak kira betapa baiknya lukisan
 
 943
 00:35:47,840 --> 00:35:48,880
@@ -3887,13 +3776,11 @@ Jika pelukis komik ini
 
 945
 00:35:50,200 --> 00:35:51,600
-bertemu dengan orang yang mengenali
-bakatnya sejak awal,
+bertemu dengan orang yang mengenali bakatnya sejak awal,
 
 946
 00:35:51,800 --> 00:35:53,000
-dia takkan bersusah payah
-untuk begitu lama.
+dia takkan bersusah payah untuk begitu lama.
 
 947
 00:35:56,600 --> 00:35:58,000
@@ -3905,23 +3792,23 @@ Baik.
 
 949
 00:36:15,640 --> 00:36:16,280
-[Saya tahu]
+Saya tahu
 
 950
 00:36:16,680 --> 00:36:17,560
-[saya kelihatan seperti]
+saya kelihatan seperti
 
 951
 00:36:17,560 --> 00:36:18,320
-[ada sesuatu yang tak kena.]
+ada sesuatu yang tak kena.
 
 952
 00:36:19,040 --> 00:36:19,800
-[Tapi saya beritahu awak,]
+Tapi saya beritahu awak,
 
 953
 00:36:20,080 --> 00:36:21,640
-[tiada apa-apa yang berlaku.]
+tiada apa-apa yang berlaku.
 
 954
 00:36:22,160 --> 00:36:23,560
@@ -3933,8 +3820,7 @@ kenapa tak beritahu saya?
 
 956
 00:36:28,160 --> 00:36:29,520
-[Saya takut awak akan marah kalau
-saya beritahu awak.]
+Saya takut awak akan marah kalau saya beritahu awak.
 
 957
 00:36:30,720 --> 00:36:32,320
@@ -3946,8 +3832,7 @@ kenapa awak takut saya marah?
 
 959
 00:36:36,120 --> 00:36:37,600
-[Saya takut awak berfikir
-yang bukan-bukan.]
+Saya takut awak berfikir yang bukan-bukan.
 
 960
 00:36:39,240 --> 00:36:40,200
@@ -4023,38 +3908,35 @@ Xi Wang!
 
 978
 00:37:50,480 --> 00:37:51,600
-[Melukis komik sangat hebat.]
+Melukis komik sangat hebat.
 
 979
 00:37:52,280 --> 00:37:53,400
-[Tapi yang susah adalah jumpa]
+Tapi yang susah adalah jumpa
 
 980
 00:37:53,400 --> 00:37:54,600
-[editor yang pandai mengenali bakat.]
+editor yang pandai mengenali bakat.
 
 981
 00:37:55,080 --> 00:37:55,880
-[Kalau tidak, tak kira betapa
-baiknya lukisan]
+Kalau tidak, tak kira betapa baiknya lukisan
 
 982
 00:37:55,880 --> 00:37:57,000
-[tetap tiada peluang.]
+tetap tiada peluang.
 
 983
 00:37:57,520 --> 00:37:58,280
-[Jika pelukis komik ini]
+Jika pelukis komik ini
 
 984
 00:37:58,280 --> 00:37:59,600
-[bertemu dengan orang yang mengenali
-bakatnya sejak awal,]
+bertemu dengan orang yang mengenali bakatnya sejak awal,
 
 985
 00:37:59,880 --> 00:38:01,160
-[dia takkan bersusah payah
-untuk begitu lama.]
+dia takkan bersusah payah untuk begitu lama.
 
 986
 00:38:25,520 --> 00:38:26,960
@@ -4066,7 +3948,7 @@ Anak, awak sedang buat apa?
 
 988
 00:38:29,600 --> 00:38:30,960
-[Ayah mungkin takkan percaya kata saya.]
+Ayah mungkin takkan percaya kata saya.
 
 989
 00:38:31,360 --> 00:38:32,400
@@ -4074,7 +3956,7 @@ Saya sedang belajar.
 
 990
 00:38:32,680 --> 00:38:33,680
-[Sedang belajar?]
+Sedang belajar?
 
 991
 00:38:34,440 --> 00:38:36,800
@@ -4094,8 +3976,7 @@ Saya masih tengah
 
 995
 00:38:42,120 --> 00:38:43,680
-mengisi borang pemilihan
-kursus utama di sini.
+mengisi borang pemilihan kursus utama di sini.
 
 996
 00:38:44,320 --> 00:38:45,080
@@ -4115,7 +3996,7 @@ ayah akan menyokong awak.
 
 1000
 00:38:51,480 --> 00:38:54,840
-[Awak terlalu berkeyakinan,]
+Awak terlalu berkeyakinan,
 
 1001
 00:38:55,560 --> 00:38:57,080
@@ -4123,11 +4004,11 @@ terlalu optimistik,
 
 1002
 00:38:57,280 --> 00:38:58,960
-[berfikiran khayalan,]
+berfikiran khayalan,
 
 1003
 00:38:59,200 --> 00:38:59,960
-[tetapi...]
+tetapi...
 
 1004
 00:39:00,360 --> 00:39:02,240
@@ -4135,8 +4016,7 @@ Baiklah, saya dah tahu.
 
 1005
 00:39:03,080 --> 00:39:05,360
-Baiklah, makan banyak sikit
-untuk makan malam.
+Baiklah, makan banyak sikit untuk makan malam.
 
 1006
 00:39:05,840 --> 00:39:06,960
@@ -4144,7 +4024,7 @@ Jangan nanti jadi kurus.
 
 1007
 00:39:07,280 --> 00:39:08,600
-[Katakan saya menyeksa awak.]
+Katakan saya menyeksa awak.
 
 1008
 00:39:10,560 --> 00:39:11,040
@@ -4168,13 +4048,11 @@ Anak.
 
 1013
 00:39:19,720 --> 00:39:21,280
-[Ada duitkah untuk makan lumayan
-hujung minggu ini?]
+Ada duitkah untuk makan lumayan hujung minggu ini?
 
 1014
 00:39:21,640 --> 00:39:22,960
-[Saya akan berikan awak
-sedikit wang saku lagi.]
+Saya akan berikan awak sedikit wang saku lagi.
 
 1015
 00:39:23,080 --> 00:39:24,640
@@ -4182,11 +4060,11 @@ Baik, saya mahu lima ratus.
 
 1016
 00:39:24,960 --> 00:39:25,560
-[Baik.]
+Baik.
 
 1017
 00:39:26,000 --> 00:39:26,440
-[Lima ratus.]
+Lima ratus.
 
 1018
 00:39:46,240 --> 00:39:47,880
@@ -4214,8 +4092,7 @@ Apa yang terjadi dengan awak lagi?
 
 1024
 00:40:02,040 --> 00:40:06,880
-Hilangkan kekasih,
-kemudian hilangkan itik juga.
+Hilangkan kekasih, kemudian hilangkan itik juga.
 
 1025
 00:40:09,520 --> 00:40:10,240
@@ -4319,8 +4196,7 @@ Kenapa sekarang baru awak menelefon saya?
 
 1050
 00:41:02,800 --> 00:41:04,000
-Apabila ada cinta baru,
-awak dah lupakan cinta lama?
+Apabila ada cinta baru, awak dah lupakan cinta lama?
 
 1051
 00:41:04,000 --> 00:41:04,360
@@ -4340,13 +4216,11 @@ dua hari lagi,
 
 1055
 00:41:09,800 --> 00:41:11,200
-saya akan terus menempah
-bilik hotel untuk awak.
+saya akan terus menempah bilik hotel untuk awak.
 
 1056
 00:41:14,600 --> 00:41:16,560
-Baiklah, saya akan pergi
-jemput awak nanti.
+Baiklah, saya akan pergi jemput awak nanti.
 
 1057
 00:41:16,960 --> 00:41:17,560
@@ -4366,8 +4240,7 @@ Kawan baik saya sejak zaman kanak-kanak.
 
 1061
 00:41:24,160 --> 00:41:25,560
-Dia kata dia akan datang
-jenguk saya dua hari nanti.
+Dia kata dia akan datang jenguk saya dua hari nanti.
 
 1062
 00:41:26,160 --> 00:41:26,880

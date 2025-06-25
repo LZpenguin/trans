@@ -1,7 +1,6 @@
 1
 00:01:53,250 --> 00:01:57,500
-Hello Debate Opponent 2
-EP21
+Hello Debate Opponent 2 EP21
 
 2
 00:03:27,200 --> 00:03:27,800

@@ -1,7 +1,6 @@
 1
 00:01:53,400 --> 00:01:57,500
-Hello Debate Opponent 2
-EP17
+Hello Debate Opponent 2 EP17
 
 2
 00:02:15,960 --> 00:02:16,840
@@ -4321,7 +4320,7 @@ four minutes for each side.
 
 1081
 00:35:25,280 --> 00:35:26,880
-Start from the affirmative side, please. 
+Start from the affirmative side, please.
 
 1082
 00:35:27,800 --> 00:35:28,400

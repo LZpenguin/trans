@@ -52,7 +52,7 @@ class TrainingConfig:
 
     
     # LoRA配置
-    use_lora = True
+    use_lora = False
     lora_r = 32
     lora_alpha = 64
     lora_dropout = 0.1
@@ -60,7 +60,7 @@ class TrainingConfig:
     # 根据训练模式设置输出目录
     training_method = "ft"
     training_mode = "lora" if use_lora else "full"
-    training_idx = 2
+    training_idx = 6
     output_dir = os.path.join(base_dir, f"models/{training_method}/{model_path.split('/')[-1]}-{training_method}-{training_mode}-{training_idx}")
     
     # accelerate配置文件路径
@@ -68,19 +68,18 @@ class TrainingConfig:
     
     
     # 训练配置
-    batch_size = 32
-    learning_rate = 1e-4
+    batch_size = 64
+    learning_rate = 5e-5
     num_epochs = 3
     max_length = 128
     gradient_accumulation_steps = 1
     save_total_limit = 100
-    eval_steps_ratio = 0.05
-    force_restart = False  # 是否强制从头开始训练，忽略检查点
+    eval_steps_ratio = 0.02
+    save_only_model = True  # 只保存模型权重，不保存优化器状态等中间参数
     
     # 评估配置
-    eval_only_malay = True  # 是否只评估马来语为target的数据，设置为False则评估所有语言
-    force_clear_cache = True  # 是否强制清除缓存并重新处理数据
-    debug_cache = True  # 是否打印缓存调试信息
+    eval_only_malay = False  # 是否只评估马来语为target的数据，设置为False则评估所有语言
+    force_clear_cache = False  # 是否强制清除缓存并重新处理数据
     
     # wandb配置
     wandb_project = f"gemmax2-translation"
@@ -103,12 +102,6 @@ def get_processed_data_cache_path(config: 'TrainingConfig') -> tuple:
     dev_file_hash = hashlib.md5(config.dev_file.encode()).hexdigest()
     cache_id = f"{config.model_path}_{config.max_length}_{config.seed}_{train_files_hash}_{dev_file_hash}{'_malay' if config.eval_only_malay else ''}_processed"
     cache_name = hashlib.md5(cache_id.encode()).hexdigest()
-    
-    # 调试信息：打印缓存标识
-    if hasattr(config, 'debug_cache') and config.debug_cache:
-        print(f"Debug - Cache ID: {cache_id}")
-        print(f"Debug - Cache Name: {cache_name}")
-        print(f"Debug - eval_only_malay: {config.eval_only_malay}")
     
     cache_dir = os.path.expanduser("~/.cache/huggingface/datasets/processed_cache")
     os.makedirs(cache_dir, exist_ok=True)
@@ -155,7 +148,7 @@ def prepare_data(config):
         if train_file.endswith('.parquet'):
             # parquet文件使用预训练格式加载器
             if "x" in train_file:
-                dataset_loader = TranslationDataset(data_type="x", double=False, target_lang="马来语")
+                dataset_loader = TranslationDataset(data_type="x", double=False, target_lang=None)
             else:
                 dataset_loader = TranslationDataset(data_type="parquet", double=False)
         elif train_file.endswith('.csv'):
@@ -429,6 +422,7 @@ def train(config):
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         save_total_limit=config.save_total_limit,
+        save_only_model=config.save_only_model,  # 只保存模型权重，不保存优化器状态等中间参数
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
         save_safetensors=True,

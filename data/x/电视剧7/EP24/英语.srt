@@ -1,7 +1,6 @@
 1
 00:01:53,440 --> 00:01:57,160
-Hello Debate Opponent 2
-EP24
+Hello Debate Opponent 2 EP24
 
 2
 00:02:08,120 --> 00:02:09,840
@@ -2313,8 +2312,7 @@ have trivial matters.
 
 579
 00:25:40,960 --> 00:25:42,840
-Those are trivial things in life, like relationship 
-between mother-in-law and daughter-in-law,
+Those are trivial things in life, like relationship between mother-in-law and daughter-in-law,
 
 580
 00:25:43,160 --> 00:25:44,480

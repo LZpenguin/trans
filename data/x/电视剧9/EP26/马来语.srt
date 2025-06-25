@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:38,040 --> 00:01:48,480
-[Tepat Pada Masanya]
-[EP26]
+Tepat Pada Masanya EP26
 
 3
 00:01:52,800 --> 00:01:53,520
@@ -69,8 +68,7 @@ dan jatuh sakit,
 
 18
 00:02:23,680 --> 00:02:24,960
-bagaimana saya
-nak jelaskan kepada abang ipar?
+bagaimana saya nak jelaskan kepada abang ipar?
 
 19
 00:02:31,759 --> 00:02:32,439
@@ -158,8 +156,7 @@ Cakap, "Kak, saya kasihani awak."
 
 40
 00:03:07,080 --> 00:03:08,520
-Adakah begitu sukar
-untuk memberitahu kebenaran?
+Adakah begitu sukar untuk memberitahu kebenaran?
 
 41
 00:03:08,599 --> 00:03:09,920
@@ -215,7 +212,7 @@ Baik. Nanti mak turunkan tandatangan.
 
 54
 00:03:54,960 --> 00:03:56,520
-[Bagus idea awak.]
+Bagus idea awak.
 
 55
 00:03:58,039 --> 00:03:58,879
@@ -227,15 +224,15 @@ Mak yang fikirkan idea ini.
 
 57
 00:04:00,080 --> 00:04:00,879
-[Ini sama dengan]
+Ini sama dengan
 
 58
 00:04:00,879 --> 00:04:02,279
-[orang-orangan sawah]
+orang-orangan sawah
 
 59
 00:04:02,279 --> 00:04:03,480
-[berdiri di balkoni.]
+berdiri di balkoni.
 
 60
 00:04:03,599 --> 00:04:05,759
@@ -279,19 +276,19 @@ hantarkan dua helai baju.
 
 70
 00:04:21,999 --> 00:04:23,439
-[Sudah ditentukan.]
+Sudah ditentukan.
 
 71
 00:04:23,640 --> 00:04:24,920
-[Ayah hantar baju itu sekarang.]
+Ayah hantar baju itu sekarang.
 
 72
 00:04:25,199 --> 00:04:26,319
-[Bukan, Wanzhen, jangan risau.]
+Bukan, Wanzhen, jangan risau.
 
 73
 00:04:26,720 --> 00:04:27,199
-[Hari ini]
+Hari ini
 
 74
 00:04:27,600 --> 00:04:28,840
@@ -307,8 +304,7 @@ Saya akan
 
 77
 00:04:30,680 --> 00:04:32,879
-terus berikan baju kepada awak
-di tingkat bawah tanah.
+terus berikan baju kepada awak di tingkat bawah tanah.
 
 78
 00:04:32,879 --> 00:04:33,879
@@ -316,7 +312,7 @@ Selepas hantar, saya terus balik.
 
 79
 00:04:34,199 --> 00:04:34,920
-[Saya pergi sekarang.]
+Saya pergi sekarang.
 
 80
 00:04:35,879 --> 00:04:36,480
@@ -432,8 +428,7 @@ yang kuat dan boleh dipercayai.
 
 108
 00:05:19,360 --> 00:05:20,360
-Dengan ini, tiada sesiapa
-akan berani membuli kamu.
+Dengan ini, tiada sesiapa akan berani membuli kamu.
 
 109
 00:05:21,199 --> 00:05:21,840
@@ -493,8 +488,7 @@ Kekurangan seseorang untuk membantu awak?
 
 123
 00:05:47,399 --> 00:05:49,360
-Perkara yang awak boleh buat
-pun boleh dilakukan pengurus harta.
+Perkara yang awak boleh buat pun boleh dilakukan pengurus harta.
 
 124
 00:05:49,439 --> 00:05:50,879
@@ -550,8 +544,7 @@ Bolehkah awak datang sejam awal
 
 137
 00:06:06,199 --> 00:06:07,600
-pada masa ambil anak-anak
-hujung minggu depan?
+pada masa ambil anak-anak hujung minggu depan?
 
 138
 00:06:08,519 --> 00:06:09,680
@@ -635,8 +628,7 @@ Awak juga kekurangan
 
 158
 00:06:38,280 --> 00:06:39,840
-seorang lelaki
-yang boleh dipercayai seperti saya.
+seorang lelaki yang boleh dipercayai seperti saya.
 
 159
 00:06:41,240 --> 00:06:41,959
@@ -664,8 +656,7 @@ Awak pergi dahulu.
 
 165
 00:06:49,840 --> 00:06:51,480
-Kereta awak
-dah menghalang jalan orang lain.
+Kereta awak dah menghalang jalan orang lain.
 
 166
 00:07:14,319 --> 00:07:14,840
@@ -729,8 +720,7 @@ Saya lapar.
 
 181
 00:08:19,079 --> 00:08:20,680
-Ada wantan yang dibuat kakak
-di dalam peti sejuk.
+Ada wantan yang dibuat kakak di dalam peti sejuk.
 
 182
 00:08:30,120 --> 00:08:31,120
@@ -838,8 +828,7 @@ Tengoklah awak.
 
 208
 00:09:56,679 --> 00:09:57,799
-Saya tahu kak pergi belajar
-sebagai pengasuh berpantang
+Saya tahu kak pergi belajar sebagai pengasuh berpantang
 
 209
 00:09:57,799 --> 00:09:58,799
@@ -867,12 +856,11 @@ Lagipun,
 
 215
 00:10:07,560 --> 00:10:09,360
-[kak juga lapang.]
+kak juga lapang.
 
 216
 00:10:09,600 --> 00:10:10,840
-Saya belajar
-menjadi pengasuh berpantang
+Saya belajar menjadi pengasuh berpantang
 
 217
 00:10:10,999 --> 00:10:12,399
@@ -960,11 +948,11 @@ Semua itu awak yang pinjam.
 
 238
 00:10:53,519 --> 00:10:54,440
-[Pada tahun itu,]
+Pada tahun itu,
 
 239
 00:10:54,799 --> 00:10:55,560
-[saya dan Li Lin]
+saya dan Li Lin
 
 240
 00:10:55,560 --> 00:10:57,320
@@ -988,8 +976,7 @@ Kemudian, baru abang ipar beritahu kami.
 
 245
 00:11:03,919 --> 00:11:05,519
-Kamu memulangkan bayaran
-untuk beberapa tahun.
+Kamu memulangkan bayaran untuk beberapa tahun.
 
 246
 00:11:07,120 --> 00:11:08,720
@@ -1025,19 +1012,19 @@ Jadi, apabila adik saya nak beli rumah,
 
 254
 00:11:20,399 --> 00:11:21,240
-[bukankah saya]
+bukankah saya
 
 255
 00:11:21,240 --> 00:11:22,480
-[membantu dia sebagai kakaknya?]
+membantu dia sebagai kakaknya?
 
 256
 00:11:23,279 --> 00:11:23,799
-[Memang begitu.]
+Memang begitu.
 
 257
 00:11:24,919 --> 00:11:25,999
-[Betul cakap kak.]
+Betul cakap kak.
 
 258
 00:11:26,879 --> 00:11:28,279
@@ -1057,8 +1044,7 @@ Kemudian, saya kata,
 
 262
 00:11:33,840 --> 00:11:35,879
-awak mesti dapatkan sebahagian
-daripada rumah ini.
+awak mesti dapatkan sebahagian daripada rumah ini.
 
 263
 00:11:36,840 --> 00:11:37,600
@@ -1314,7 +1300,7 @@ Saya belajar daripada Lanxiang?
 
 326
 00:14:44,080 --> 00:14:45,519
-[Adakah awak tersilap?]
+Adakah awak tersilap?
 
 327
 00:14:45,759 --> 00:14:46,759
@@ -1498,8 +1484,7 @@ ke kursus wanita mengandung.
 
 372
 00:15:56,080 --> 00:15:57,679
-Saya fikir tidak mengapa
-kalau tidak pergi.
+Saya fikir tidak mengapa kalau tidak pergi.
 
 373
 00:15:58,679 --> 00:15:59,799
@@ -1631,7 +1616,7 @@ Susunan ini amat baik.
 
 405
 00:16:55,799 --> 00:16:56,360
-[Betul.]
+Betul.
 
 406
 00:16:56,679 --> 00:16:58,159
@@ -1751,8 +1736,7 @@ Itu...
 
 435
 00:18:00,080 --> 00:18:01,760
-Pemandu masih
-dalam kesesakan jalan raya.
+Pemandu masih dalam kesesakan jalan raya.
 
 436
 00:18:01,760 --> 00:18:03,399
@@ -1924,8 +1908,7 @@ Mak cik, saya tahu
 
 478
 00:19:24,320 --> 00:19:26,320
-bahawa awak menjaga anak
-untuk anak awak.
+bahawa awak menjaga anak untuk anak awak.
 
 479
 00:19:26,760 --> 00:19:27,919
@@ -2097,8 +2080,7 @@ Ini ubat untuk melegakan demam.
 
 521
 00:20:44,199 --> 00:20:45,439
-Kalau suhu badan
-tak sampai 38.5 darjah,
+Kalau suhu badan tak sampai 38.5 darjah,
 
 522
 00:20:45,439 --> 00:20:46,760
@@ -2110,8 +2092,7 @@ Okey?
 
 524
 00:20:48,360 --> 00:20:50,439
-Kalau suhu badannya
-mencapai 38.5 darjah,
+Kalau suhu badannya mencapai 38.5 darjah,
 
 525
 00:20:50,439 --> 00:20:51,199
@@ -2147,8 +2128,7 @@ Okey.
 
 533
 00:20:59,520 --> 00:21:01,679
-Kita tak sepatutnya bergantung
-kepada pengambilan ubat dan suntikan.
+Kita tak sepatutnya bergantung kepada pengambilan ubat dan suntikan.
 
 534
 00:21:01,959 --> 00:21:03,959
@@ -2228,8 +2208,7 @@ Ya.
 
 553
 00:21:32,520 --> 00:21:34,199
-Saya berasa gembira
-sebab dapat membantu awak.
+Saya berasa gembira sebab dapat membantu awak.
 
 554
 00:21:34,199 --> 00:21:35,879
@@ -2413,8 +2392,7 @@ Apakah makanan yang diberikan mak?
 
 599
 00:22:56,120 --> 00:22:57,280
-Masalahnya dia tinggal di rumah
-kedua-dua nenek
+Masalahnya dia tinggal di rumah kedua-dua nenek
 
 600
 00:22:57,280 --> 00:22:58,360
@@ -2822,15 +2800,15 @@ Awak tak ikut bersama?
 
 701
 00:26:47,639 --> 00:26:48,800
-[Awak bawalah saya]
+Awak bawalah saya
 
 702
 00:26:48,800 --> 00:26:49,679
-[ke tempat mandi bayi itu.]
+ke tempat mandi bayi itu.
 
 703
 00:26:49,679 --> 00:26:51,199
-[Saya nak pergi menjaga bayi.]
+Saya nak pergi menjaga bayi.
 
 704
 00:26:51,199 --> 00:26:51,959
@@ -3122,8 +3100,7 @@ Doktor dah kata,
 
 776
 00:29:50,159 --> 00:29:52,000
-jika banyak berjalan,
-ia bagus untuk kesihatan.
+jika banyak berjalan, ia bagus untuk kesihatan.
 
 777
 00:29:52,479 --> 00:29:53,719
@@ -3143,8 +3120,7 @@ Dia jarang bergerak.
 
 781
 00:29:58,159 --> 00:30:00,159
-Itulah sebabnya saluran darah
-mudah tersumbat.
+Itulah sebabnya saluran darah mudah tersumbat.
 
 782
 00:30:01,000 --> 00:30:03,000
@@ -3192,8 +3168,7 @@ Yakah?
 
 793
 00:30:37,879 --> 00:30:39,719
-Awak pernah pakai ia
-semasa awak dilahirkan.
+Awak pernah pakai ia semasa awak dilahirkan.
 
 794
 00:30:41,000 --> 00:30:41,719
@@ -3225,15 +3200,15 @@ Si Tembikai.
 
 801
 00:30:50,719 --> 00:30:52,000
-[Kelahiran pramatang juga.]
+Kelahiran pramatang juga.
 
 802
 00:30:52,000 --> 00:30:52,639
-[Namun, awak dilahirkan]
+Namun, awak dilahirkan
 
 803
 00:30:52,639 --> 00:30:53,840
-[pada musim sejuk.]
+pada musim sejuk.
 
 804
 00:30:54,040 --> 00:30:54,840
@@ -3241,8 +3216,7 @@ Cuaca itu sejuk.
 
 805
 00:30:55,080 --> 00:30:57,280
-Awak tercekik cecair ketuban
-semasa dilahirkan.
+Awak tercekik cecair ketuban semasa dilahirkan.
 
 806
 00:30:58,479 --> 00:31:00,719
@@ -3254,7 +3228,7 @@ Budak kecil seperti awak
 
 808
 00:31:02,800 --> 00:31:04,439
-[tak boleh ambil ubat banyak.]
+tak boleh ambil ubat banyak.
 
 809
 00:31:04,919 --> 00:31:05,760
@@ -3390,8 +3364,7 @@ Mengapa berisiko tinggi?
 
 842
 00:32:26,280 --> 00:32:28,040
-Apabila umur meningkat,
-risiko pun tinggi.
+Apabila umur meningkat, risiko pun tinggi.
 
 843
 00:32:28,320 --> 00:32:30,320
@@ -3439,8 +3412,7 @@ Lipid darah dan tekanan darah awak.
 
 854
 00:32:46,879 --> 00:32:49,040
-Semakin meningkat usia,
-metabolisme semakin perlahan.
+Semakin meningkat usia, metabolisme semakin perlahan.
 
 855
 00:32:49,280 --> 00:32:50,679
@@ -3500,67 +3472,67 @@ yang paling mudah untuk dibandingkan.
 
 869
 00:33:16,560 --> 00:33:17,199
-[Dalam tempoh kehamilan,]
+Dalam tempoh kehamilan,
 
 870
 00:33:17,199 --> 00:33:18,800
-[kita beri perhatian kepada minyak masak.]
+kita beri perhatian kepada minyak masak.
 
 871
 00:33:18,800 --> 00:33:19,840
-[Biasanya sehari]
+Biasanya sehari
 
 872
 00:33:19,840 --> 00:33:21,760
-[25 gram minyak, 6 gram garam.]
+25 gram minyak, 6 gram garam.
 
 873
 00:33:21,760 --> 00:33:22,600
-[Jadi, berapa banyak]
+Jadi, berapa banyak
 
 874
 00:33:22,600 --> 00:33:23,600
-[minyak 25 gram?]
+minyak 25 gram?
 
 875
 00:33:23,600 --> 00:33:24,600
-[Mari kita tengok]
+Mari kita tengok
 
 876
 00:33:24,600 --> 00:33:25,600
-[model kita ini.]
+model kita ini.
 
 877
 00:33:27,399 --> 00:33:29,120
-[Inilah minyak 25 gram.]
+Inilah minyak 25 gram.
 
 878
 00:33:29,120 --> 00:33:29,879
-[Dalam tempoh kehamilan,]
+Dalam tempoh kehamilan,
 
 879
 00:33:29,879 --> 00:33:31,479
-[25 gram sehari sahaja.]
+25 gram sehari sahaja.
 
 880
 00:33:31,479 --> 00:33:32,639
-[Perlu kawal minyak dan garam.]
+Perlu kawal minyak dan garam.
 
 881
 00:33:33,120 --> 00:33:33,560
-[Jadi,]
+Jadi,
 
 882
 00:33:33,560 --> 00:33:35,479
-[kalori minyak juga tinggi.]
+kalori minyak juga tinggi.
 
 883
 00:33:35,679 --> 00:33:37,080
-[Inilah kuantiti minyak bagi sehari.]
+Inilah kuantiti minyak bagi sehari.
 
 884
 00:33:37,080 --> 00:33:38,040
-[Kuantiti garam sehari]
+Kuantiti garam sehari
 
 885
 00:33:38,040 --> 00:33:39,000
@@ -3580,8 +3552,7 @@ Saya memperkenalkan
 
 889
 00:33:45,919 --> 00:33:47,760
-timbalan pengarah
-pusat kandungan media baharu
+timbalan pengarah pusat kandungan media baharu
 
 890
 00:33:47,760 --> 00:33:49,320
@@ -3613,8 +3584,7 @@ Di mana Meng'an?
 
 897
 00:34:11,959 --> 00:34:13,600
-Jangan kata dia
-mohon cuti mengandung lagi.
+Jangan kata dia mohon cuti mengandung lagi.
 
 898
 00:34:14,000 --> 00:34:14,959
@@ -3654,8 +3624,7 @@ Saya dengar bahawa awak
 
 907
 00:34:28,440 --> 00:34:29,960
-ialah Anugerah 10
-Tokoh Wanita Internet Cemerlang.
+ialah Anugerah 10 Tokoh Wanita Internet Cemerlang.
 
 908
 00:34:30,400 --> 00:34:31,319
@@ -3703,8 +3672,7 @@ Memang betul.
 
 919
 00:34:48,839 --> 00:34:50,520
-Anugerah 10 Tokoh Wanita
-Internet Cemerlang
+Anugerah 10 Tokoh Wanita Internet Cemerlang
 
 920
 00:34:50,799 --> 00:34:51,920
@@ -3756,8 +3724,7 @@ Syaitan wanita tegas
 
 932
 00:35:28,480 --> 00:35:29,560
-yang dikatakan
-dalam kumpulan perbualan itu?
+yang dikatakan dalam kumpulan perbualan itu?
 
 933
 00:35:30,560 --> 00:35:31,120
@@ -3861,8 +3828,7 @@ Hanya dengan data yang paling sahih,
 
 958
 00:36:04,880 --> 00:36:06,799
-baru boleh membuat pertimbangan
-yang paling tepat.
+baru boleh membuat pertimbangan yang paling tepat.
 
 959
 00:36:07,000 --> 00:36:08,400
@@ -3882,8 +3848,7 @@ saya tidak tahu apa yang perlu dilakukan.
 
 963
 00:36:12,120 --> 00:36:13,480
-Tetapi saya tidak akan
-melakukan kerja buruk
+Tetapi saya tidak akan melakukan kerja buruk
 
 964
 00:36:13,480 --> 00:36:14,880
@@ -4227,13 +4192,11 @@ dengan tekanan besar.
 
 1049
 00:38:43,799 --> 00:38:45,080
-Awak diberikan jawatan tinggi
-sebaik sahaja datang.
+Awak diberikan jawatan tinggi sebaik sahaja datang.
 
 1050
 00:38:45,480 --> 00:38:47,040
-Awak patut bersedia
-untuk menghadapi krisis.
+Awak patut bersedia untuk menghadapi krisis.
 
 1051
 00:38:47,520 --> 00:38:48,400
@@ -4281,8 +4244,7 @@ Jika begitu, beritahu saya.
 
 1062
 00:39:06,159 --> 00:39:07,600
-Apa yang boleh awak sumbang
-kepada Xinmiao?
+Apa yang boleh awak sumbang kepada Xinmiao?
 
 1063
 00:39:10,719 --> 00:39:11,920
@@ -4734,8 +4696,7 @@ Wendy.
 
 1175
 00:43:09,480 --> 00:43:11,080
-Apabila kita memasuki
-industri ini bersama-sama,
+Apabila kita memasuki industri ini bersama-sama,
 
 1176
 00:43:11,960 --> 00:43:12,560

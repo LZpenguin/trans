@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:38,680 --> 00:02:08,160
-[Tepat Pada Masanya]
-[EP03]
+Tepat Pada Masanya EP03
 
 3
 00:02:09,359 --> 00:02:10,160
@@ -41,8 +40,7 @@ Awak kata awak akan pertimbangkan lagi.
 
 11
 00:02:24,359 --> 00:02:25,839
-Saya telah pertimbangkannya,
-jadi, saya pergi ke sana.
+Saya telah pertimbangkannya, jadi, saya pergi ke sana.
 
 12
 00:02:25,839 --> 00:02:27,800
@@ -54,8 +52,7 @@ Saya mahu lekas.
 
 14
 00:02:31,079 --> 00:02:32,880
-Macam mana awak buktikan bahawa
-awak pergi ke Beijing
+Macam mana awak buktikan bahawa awak pergi ke Beijing
 
 15
 00:02:32,880 --> 00:02:34,400
@@ -355,8 +352,7 @@ Kami telah berjanji sebelum ini,
 
 89
 00:05:58,879 --> 00:06:00,319
-dia kendalikan hal di rumah,
-saya cari nafkah di luar.
+dia kendalikan hal di rumah, saya cari nafkah di luar.
 
 90
 00:06:00,319 --> 00:06:01,399
@@ -520,8 +516,7 @@ Beri saya resume mereka.
 
 130
 00:07:05,720 --> 00:07:06,800
-Saya minta Bahagian Sumber Manusia
-mengendalikannya.
+Saya minta Bahagian Sumber Manusia mengendalikannya.
 
 131
 00:07:06,800 --> 00:07:07,920
@@ -613,8 +608,7 @@ Agaknya, seterusnya, nama siapa
 
 153
 00:08:24,160 --> 00:08:25,559
-akan muncul dalam senarai nama
-kakitangan yang dibuang
+akan muncul dalam senarai nama kakitangan yang dibuang
 
 154
 00:08:25,559 --> 00:08:26,439
@@ -682,8 +676,7 @@ Ini surat rekomen.
 
 170
 00:09:28,840 --> 00:09:30,320
-Bawa bersama ketika
-awak pergi ke temu duga.
+Bawa bersama ketika awak pergi ke temu duga.
 
 171
 00:09:31,440 --> 00:09:32,360
@@ -711,8 +704,7 @@ Saya amat bersyukur.
 
 177
 00:09:40,039 --> 00:09:41,720
-Terima kasih atas semua
-yang awak buat untuk Xinmiao.
+Terima kasih atas semua yang awak buat untuk Xinmiao.
 
 178
 00:09:43,120 --> 00:09:44,480
@@ -720,13 +712,11 @@ Saya takkan berunding!
 
 179
 00:09:44,519 --> 00:09:46,320
-Sanggup pula syarikat mengupah
-dan memecat secara sembarangan.
+Sanggup pula syarikat mengupah dan memecat secara sembarangan.
 
 180
 00:09:46,960 --> 00:09:48,320
-Kontrak saya belum sampai
-tarikh akhirnya.
+Kontrak saya belum sampai tarikh akhirnya.
 
 181
 00:09:48,320 --> 00:09:49,200
@@ -742,8 +732,7 @@ saya takkan pergi!
 
 184
 00:09:50,759 --> 00:09:52,360
-Apa halnya yang tak boleh
-awak cakap dengan tenang?
+Apa halnya yang tak boleh awak cakap dengan tenang?
 
 185
 00:09:52,679 --> 00:09:53,360
@@ -947,8 +936,7 @@ He datang awal dan balik lewat,
 
 235
 00:11:08,120 --> 00:11:10,360
-bekerja lebih masa setiap hari
-dan tidur di pejabat.
+bekerja lebih masa setiap hari dan tidur di pejabat.
 
 236
 00:11:10,440 --> 00:11:11,639
@@ -1096,19 +1084,19 @@ Dia juga rasa susah hati.
 
 272
 00:12:52,840 --> 00:12:53,759
-[Kamu tahu macam mana kamu]
+Kamu tahu macam mana kamu
 
 273
 00:12:53,759 --> 00:12:54,960
-[dapat gaji pada bulan ini?]
+dapat gaji pada bulan ini?
 
 274
 00:12:55,399 --> 00:12:56,399
-[Gaji semua pekerja dikurangkan]
+Gaji semua pekerja dikurangkan
 
 275
 00:12:56,399 --> 00:12:57,560
-[kecuali bahagian kita.]
+kecuali bahagian kita.
 
 276
 00:12:57,999 --> 00:12:58,600
@@ -1244,11 +1232,11 @@ tak dapat hubungi Li Lin?
 
 309
 00:15:29,960 --> 00:15:30,519
-[Meng'an.]
+Meng'an.
 
 310
 00:15:30,960 --> 00:15:32,560
-[Awak dan Li Lin masih memerlukan duit?]
+Awak dan Li Lin masih memerlukan duit?
 
 311
 00:15:33,560 --> 00:15:34,480
@@ -1256,28 +1244,27 @@ Duit apa?
 
 312
 00:15:34,600 --> 00:15:36,519
-[Sebelum ini, Li Lin
-pinjam duit daripada saya.]
+Sebelum ini, Li Lin pinjam duit daripada saya.
 
 313
 00:15:36,560 --> 00:15:37,279
-[Saya kesempitan duit]
+Saya kesempitan duit
 
 314
 00:15:37,399 --> 00:15:38,039
-[dan tak mampu pinjam.]
+dan tak mampu pinjam.
 
 315
 00:15:38,039 --> 00:15:39,320
-[Saya rasa bersalah.]
+Saya rasa bersalah.
 
 316
 00:15:39,639 --> 00:15:41,320
-[Kebelakangan ini, saya ada sedikit wang.]
+Kebelakangan ini, saya ada sedikit wang.
 
 317
 00:15:41,560 --> 00:15:43,039
-[Kalau kamu perlukannya, ambillah saja.]
+Kalau kamu perlukannya, ambillah saja.
 
 318
 00:15:43,600 --> 00:15:44,999
@@ -1285,15 +1272,15 @@ Li Lin pinjam duit daripada awak?
 
 319
 00:15:46,039 --> 00:15:47,120
-[Awak tak tahukah?]
+Awak tak tahukah?
 
 320
 00:15:47,399 --> 00:15:47,720
-[Kalau begitu,]
+Kalau begitu,
 
 321
 00:15:48,159 --> 00:15:48,960
-[lupakannya.]
+lupakannya.
 
 322
 00:15:49,360 --> 00:15:49,879
@@ -1461,8 +1448,7 @@ Syarikat sedang alami transformasi.
 
 363
 00:17:37,760 --> 00:17:39,159
-Semua pekerja dari
-bahagian yang diketuai Encik Li
+Semua pekerja dari bahagian yang diketuai Encik Li
 
 364
 00:17:39,159 --> 00:17:40,320
@@ -1498,7 +1484,7 @@ tak beritahu awak semua ini?
 
 372
 00:17:51,760 --> 00:17:52,919
-[Apa yang sedang awak buat?]
+Apa yang sedang awak buat?
 
 373
 00:17:53,479 --> 00:17:54,280
@@ -1574,7 +1560,7 @@ bersama Yunjie nanti.
 
 391
 00:18:25,719 --> 00:18:26,879
-[Helo, Meng'an.]
+Helo, Meng'an.
 
 392
 00:18:27,000 --> 00:18:28,159
@@ -1582,23 +1568,23 @@ Adakah awak di pejabat?
 
 393
 00:18:28,560 --> 00:18:29,040
-[Tidak,]
+Tidak,
 
 394
 00:18:29,320 --> 00:18:30,520
-[saya dah keluar.]
+saya dah keluar.
 
 395
 00:18:30,679 --> 00:18:31,120
-[Saya ada tugas]
+Saya ada tugas
 
 396
 00:18:31,120 --> 00:18:33,280
-[di Wisma Tianheng.]
+di Wisma Tianheng.
 
 397
 00:18:33,520 --> 00:18:34,399
-[Apa hal?]
+Apa hal?
 
 398
 00:18:34,520 --> 00:18:36,159
@@ -1842,8 +1828,7 @@ Pinjam duit?
 
 458
 00:22:30,040 --> 00:22:31,479
-Awak mahu pergi ke Beijing
-walau sudah kesempitan duit.
+Awak mahu pergi ke Beijing walau sudah kesempitan duit.
 
 459
 00:22:31,840 --> 00:22:32,520
@@ -1895,8 +1880,7 @@ Kali ini,
 
 471
 00:22:49,000 --> 00:22:50,520
-saya bertemu dengan
-beberapa rakan sekolah lama.
+saya bertemu dengan beberapa rakan sekolah lama.
 
 472
 00:22:50,520 --> 00:22:52,159
@@ -1912,8 +1896,7 @@ dengan gembira.
 
 475
 00:22:54,560 --> 00:22:56,239
-Mereka ajak saya
-berbual lagi selepas dua hari.
+Mereka ajak saya berbual lagi selepas dua hari.
 
 476
 00:22:56,560 --> 00:22:57,919
@@ -2037,8 +2020,7 @@ Biarlah mereka mengumpat.
 
 506
 00:24:49,959 --> 00:24:51,520
-Asalkan ada mulut,
-sesiapa pun boleh mengumpat.
+Asalkan ada mulut, sesiapa pun boleh mengumpat.
 
 507
 00:24:51,560 --> 00:24:52,600
@@ -2206,8 +2188,7 @@ Cantik.
 
 548
 00:27:17,120 --> 00:27:18,679
-Esok, kalau awak pergi
-dengan pakaian ini,
+Esok, kalau awak pergi dengan pakaian ini,
 
 549
 00:27:18,679 --> 00:27:19,639
@@ -2339,8 +2320,7 @@ ramai elit yang handal
 
 581
 00:28:27,239 --> 00:28:28,639
-kehilangan kelayakan
-selepas ditemu duga oleh dia.
+kehilangan kelayakan selepas ditemu duga oleh dia.
 
 582
 00:28:30,080 --> 00:28:31,679
@@ -2420,8 +2400,7 @@ barang kemas yang terlalu mahal,
 
 601
 00:29:22,360 --> 00:29:23,959
-harus padan dengan
-identiti awak di tempat kerja.
+harus padan dengan identiti awak di tempat kerja.
 
 602
 00:29:28,159 --> 00:29:29,199
@@ -2497,8 +2476,7 @@ Asalkan itu sesuatu yang benar,
 
 620
 00:30:18,520 --> 00:30:20,040
-awak boleh gunakan
-perkataan yang lebih elok.
+awak boleh gunakan perkataan yang lebih elok.
 
 621
 00:30:24,879 --> 00:30:26,120
@@ -2514,8 +2492,7 @@ tamat pengajian dari
 
 624
 00:30:29,239 --> 00:30:30,919
-Jurusan Pengurusan Ekonomi
-Universiti Jiangnan.
+Jurusan Pengurusan Ekonomi Universiti Jiangnan.
 
 625
 00:30:30,919 --> 00:30:31,959
@@ -2527,8 +2504,7 @@ Berhenti.
 
 627
 00:30:34,840 --> 00:30:37,000
-Jangan cakap tentang
-isi kandungan resume awak.
+Jangan cakap tentang isi kandungan resume awak.
 
 628
 00:30:37,120 --> 00:30:38,439
@@ -2552,8 +2528,7 @@ fikirlah soalan ini dengan baik
 
 633
 00:30:47,439 --> 00:30:49,159
-dan jawab orang yang
-menemu duga awak pada hari esok.
+dan jawab orang yang menemu duga awak pada hari esok.
 
 634
 00:30:51,560 --> 00:30:52,120
@@ -2569,8 +2544,7 @@ Mengapa awak memilih syarikat kami?
 
 637
 00:30:59,000 --> 00:31:01,120
-Saya telah memahami
-Syarikat Hartanah Huaxing
+Saya telah memahami Syarikat Hartanah Huaxing
 
 638
 00:31:01,479 --> 00:31:02,840
@@ -2602,8 +2576,7 @@ serta jawatan itu secara lengkap.
 
 645
 00:31:13,159 --> 00:31:14,919
-Tolong perkenalkan
-projek yang pernah awak kendalikan.
+Tolong perkenalkan projek yang pernah awak kendalikan.
 
 646
 00:31:18,360 --> 00:31:20,360
@@ -2659,8 +2632,7 @@ kerani pentadbiran,
 
 659
 00:31:44,639 --> 00:31:46,520
-dia cukup layak dengan kelayakan akademik
-dan latar belakang dia.
+dia cukup layak dengan kelayakan akademik dan latar belakang dia.
 
 660
 00:31:47,399 --> 00:31:48,520
@@ -2680,8 +2652,7 @@ Ketika hadiri temu duga,
 
 664
 00:32:03,679 --> 00:32:05,719
-bolehkah saya sebut tentang
-gaji dan faedah pekerja?
+bolehkah saya sebut tentang gaji dan faedah pekerja?
 
 665
 00:32:06,040 --> 00:32:07,000
@@ -2725,8 +2696,7 @@ jadi suri rumah tangga.
 
 675
 00:32:21,159 --> 00:32:23,199
-Awak boleh merendahkan diri
-di hadapan kami,
+Awak boleh merendahkan diri di hadapan kami,
 
 676
 00:32:23,439 --> 00:32:24,080
@@ -2782,8 +2752,7 @@ saya akan ajar awak.
 
 689
 00:32:53,840 --> 00:32:55,959
-Akhir sekali, saya ingatkan awak
-tentang satu perkara.
+Akhir sekali, saya ingatkan awak tentang satu perkara.
 
 690
 00:32:56,479 --> 00:32:58,199
@@ -2839,8 +2808,7 @@ Saya Chen Wanzhen,
 
 703
 00:33:51,399 --> 00:33:53,399
-Puan Xu dari Xinmiao
-yang perkenalkan saya ke sini.
+Puan Xu dari Xinmiao yang perkenalkan saya ke sini.
 
 704
 00:33:54,600 --> 00:33:55,800
@@ -2904,8 +2872,7 @@ ini pekerja rencam.
 
 719
 00:34:18,639 --> 00:34:20,239
-Mungkin awak terlalu cemerlang
-untuk kerja begini.
+Mungkin awak terlalu cemerlang untuk kerja begini.
 
 720
 00:34:20,520 --> 00:34:21,239
@@ -2985,8 +2952,7 @@ Kalaulah,
 
 739
 00:34:46,520 --> 00:34:49,159
-kalau awak dapat bawa
-klien datang beli rumah,
+kalau awak dapat bawa klien datang beli rumah,
 
 740
 00:34:49,159 --> 00:34:50,239
@@ -3002,8 +2968,7 @@ Okey. Tengok.
 
 743
 00:34:53,199 --> 00:34:54,600
-Kami baru pindah ke
-pejabat penjualan rumah.
+Kami baru pindah ke pejabat penjualan rumah.
 
 744
 00:34:54,600 --> 00:34:55,159
@@ -3043,8 +3008,7 @@ Saya pandai mengemaskan tempat.
 
 753
 00:35:05,440 --> 00:35:07,000
-Awak baru datang, saya tak boleh
-minta awak buat kerja.
+Awak baru datang, saya tak boleh minta awak buat kerja.
 
 754
 00:35:07,000 --> 00:35:07,319
@@ -3084,8 +3048,7 @@ Mesin fotostat sudah siap pasang?
 
 763
 00:35:17,359 --> 00:35:19,040
-Staf perkhidmatan selepas jualan
-belum datang,
+Staf perkhidmatan selepas jualan belum datang,
 
 764
 00:35:19,440 --> 00:35:20,239
@@ -3109,8 +3072,7 @@ Mesin fotostat jenama ini
 
 769
 00:35:24,920 --> 00:35:25,839
-sama dengan jenama mesin fotostat
-di rumah saya.
+sama dengan jenama mesin fotostat di rumah saya.
 
 770
 00:35:26,040 --> 00:35:27,159
@@ -3118,8 +3080,7 @@ Kalau begitu, terima kasih.
 
 771
 00:35:27,480 --> 00:35:29,000
-Staf tua seperti kami
-tak tahu apa-apa tentang
+Staf tua seperti kami tak tahu apa-apa tentang
 
 772
 00:35:29,000 --> 00:35:30,319
@@ -3279,13 +3240,11 @@ Biar saya yang uruskan.
 
 811
 00:36:57,960 --> 00:36:59,520
-Kita kekurangan kakitangan
-dalam tempoh ini.
+Kita kekurangan kakitangan dalam tempoh ini.
 
 812
 00:36:59,520 --> 00:37:00,639
-Awak telah bekerja lebih masa
-untuk beberapa hari.
+Awak telah bekerja lebih masa untuk beberapa hari.
 
 813
 00:37:00,639 --> 00:37:01,520
@@ -3317,7 +3276,7 @@ Helo, Cikgu Xue.
 
 820
 00:37:18,839 --> 00:37:19,639
-[Puan Li.]
+Puan Li.
 
 821
 00:37:19,960 --> 00:37:21,440
@@ -3353,7 +3312,7 @@ kurang memuaskan.
 
 829
 00:37:30,440 --> 00:37:32,520
-[Saya ingin berbincang dengan awak.]
+Saya ingin berbincang dengan awak.
 
 830
 00:37:32,520 --> 00:37:33,359
@@ -3385,15 +3344,15 @@ tentang anak secara sembarangan.
 
 837
 00:37:45,159 --> 00:37:46,400
-[Saya telefon awak]
+Saya telefon awak
 
 838
 00:37:46,400 --> 00:37:46,960
-[bukan kerana]
+bukan kerana
 
 839
 00:37:46,960 --> 00:37:48,520
-[keputusan peperiksaan kali ini.]
+keputusan peperiksaan kali ini.
 
 840
 00:37:48,600 --> 00:37:49,880
@@ -3409,15 +3368,15 @@ dan memahami anak ini.
 
 843
 00:37:52,120 --> 00:37:53,560
-[Dia perempuan pada usia remaja.]
+Dia perempuan pada usia remaja.
 
 844
 00:37:53,719 --> 00:37:54,480
-[Adanya hal yang]
+Adanya hal yang
 
 845
 00:37:54,480 --> 00:37:56,159
-[perlu diambil berat oleh maknya.]
+perlu diambil berat oleh maknya.
 
 846
 00:37:57,120 --> 00:37:58,159
@@ -3445,11 +3404,11 @@ tak begitu prihatin.
 
 852
 00:38:05,839 --> 00:38:07,319
-[Ini saat penting yang]
+Ini saat penting yang
 
 853
 00:38:07,319 --> 00:38:08,400
-[menentukan nasib anak.]
+menentukan nasib anak.
 
 854
 00:38:08,400 --> 00:38:09,440
@@ -3465,7 +3424,7 @@ anak paling penting,
 
 857
 00:38:12,960 --> 00:38:13,799
-[betul?]
+betul?
 
 858
 00:38:13,799 --> 00:38:14,359
@@ -3573,8 +3532,7 @@ anak kita ialah perempuan.
 
 884
 00:39:36,199 --> 00:39:37,560
-Hal seperti ini lebih mudah
-dibincangkan bersama awak.
+Hal seperti ini lebih mudah dibincangkan bersama awak.
 
 885
 00:39:37,560 --> 00:39:38,560
@@ -3614,8 +3572,7 @@ Dua hal ini berbeza.
 
 894
 00:39:49,799 --> 00:39:51,080
-Sekarang, saya sedang cakap
-tentang hal awak.
+Sekarang, saya sedang cakap tentang hal awak.
 
 895
 00:39:53,600 --> 00:39:54,359
@@ -3727,13 +3684,11 @@ Saya tak tukar selipar.
 
 922
 00:40:24,040 --> 00:40:25,639
-Tak apa, biar abang ipar awak
-mengelap lantai.
+Tak apa, biar abang ipar awak mengelap lantai.
 
 923
 00:40:25,679 --> 00:40:26,960
-Dia suka mengelap rumah ini
-kebelakangan ini.
+Dia suka mengelap rumah ini kebelakangan ini.
 
 924
 00:40:27,400 --> 00:40:28,279
@@ -3749,13 +3704,11 @@ di rumah ini.
 
 927
 00:40:32,880 --> 00:40:34,400
-Tak rasa sempitkah
-tiga orang tinggal bersama?
+Tak rasa sempitkah tiga orang tinggal bersama?
 
 928
 00:40:34,480 --> 00:40:36,120
-Baru beberapa hari awak
-tinggal di rumah besar,
+Baru beberapa hari awak tinggal di rumah besar,
 
 929
 00:40:36,359 --> 00:40:37,639
@@ -3779,8 +3732,7 @@ Selepas setahun.
 
 934
 00:40:44,839 --> 00:40:46,359
-Selepas dapat kunci rumah,
-kak perlu mengubah suai rumah.
+Selepas dapat kunci rumah, kak perlu mengubah suai rumah.
 
 935
 00:40:47,239 --> 00:40:48,199
@@ -3788,8 +3740,7 @@ Berapa duit kak pinjam?
 
 936
 00:40:48,480 --> 00:40:49,960
-Kata mak, kak perlu bayar
-banyak ansuran pinjaman
+Kata mak, kak perlu bayar banyak ansuran pinjaman
 
 937
 00:40:49,960 --> 00:40:51,560
@@ -3797,18 +3748,15 @@ kepada bank setiap bulan.
 
 938
 00:40:52,639 --> 00:40:54,400
-Siapa tak pinjam duit
-apabila membeli rumah?
+Siapa tak pinjam duit apabila membeli rumah?
 
 939
 00:40:54,440 --> 00:40:56,359
-Kak bekerja lebih masa
-setiap hari dan cari duit,
+Kak bekerja lebih masa setiap hari dan cari duit,
 
 940
 00:40:56,359 --> 00:40:57,759
-semua duit itu untuk
-bayar faedah pinjaman.
+semua duit itu untuk bayar faedah pinjaman.
 
 941
 00:40:58,080 --> 00:40:58,639
@@ -3956,8 +3904,7 @@ Yakah?
 
 977
 00:41:49,319 --> 00:41:50,400
-Kak dan abang ipar
-pegawai eksekutif berpangkat tinggi,
+Kak dan abang ipar pegawai eksekutif berpangkat tinggi,
 
 978
 00:41:50,520 --> 00:41:51,639
@@ -4009,8 +3956,7 @@ Semalam,
 
 990
 00:42:15,120 --> 00:42:16,480
-saya pergi ke Bahagian Ginekologi dan
-Obstetrik di hospital wilayah.
+saya pergi ke Bahagian Ginekologi dan Obstetrik di hospital wilayah.
 
 991
 00:42:16,639 --> 00:42:17,560
@@ -4066,8 +4012,7 @@ Baiklah.
 
 1004
 00:42:32,480 --> 00:42:33,639
-Bawa semua barang yang tak boleh
-digunakan wanita mengandung
+Bawa semua barang yang tak boleh digunakan wanita mengandung
 
 1005
 00:42:33,639 --> 00:42:34,799
@@ -4139,8 +4084,7 @@ pada hari ini?
 
 1022
 00:43:16,359 --> 00:43:17,880
-Tak mengapa, cuma nak
-berbual-bual dengan kamu.
+Tak mengapa, cuma nak berbual-bual dengan kamu.
 
 1023
 00:43:18,880 --> 00:43:20,520

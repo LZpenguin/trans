@@ -1,7 +1,6 @@
 1
 00:01:53,320 --> 00:02:00,320
-Hello Debate Opponent 2
-EP22
+Hello Debate Opponent 2 EP22
 
 2
 00:02:16,360 --> 00:02:17,280
@@ -25,7 +24,7 @@ What's your opinion on
 
 7
 00:02:30,800 --> 00:02:31,600
- our last contest with them?
+our last contest with them?
 
 8
 00:02:31,880 --> 00:02:33,280

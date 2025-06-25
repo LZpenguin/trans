@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,820 --> 00:01:57,580
-[Apa Khabar, Perbahasan Lawan 2]
-[EP03]
+Apa Khabar, Perbahasan Lawan 2 EP03
 
 3
 00:02:22,120 --> 00:02:22,800
@@ -173,8 +172,7 @@ Bertenanglah.
 
 44
 00:04:02,480 --> 00:04:03,960
-Mereka tak langgar undang-undang
-dan tiada paksaan.
+Mereka tak langgar undang-undang dan tiada paksaan.
 
 45
 00:04:04,480 --> 00:04:05,560
@@ -182,8 +180,7 @@ Awak nak saman dengan apa?
 
 46
 00:04:05,600 --> 00:04:06,800
-Nasib baik mereka tak menyaman awak
-kerana bayar lewat!
+Nasib baik mereka tak menyaman awak kerana bayar lewat!
 
 47
 00:04:07,480 --> 00:04:07,720
@@ -267,8 +264,7 @@ kes pinjaman sivil
 
 67
 00:05:12,360 --> 00:05:14,080
-daripada perbicaraan
-Mahkamah Agung Rakyat,
+daripada perbicaraan Mahkamah Agung Rakyat,
 
 68
 00:05:14,240 --> 00:05:14,840
@@ -388,8 +384,7 @@ Mungkin awak tak profesional sangat?
 
 97
 00:05:59,200 --> 00:06:00,400
-Saya pelajar terbaik
-dalam jurusan undang-undang.
+Saya pelajar terbaik dalam jurusan undang-undang.
 
 98
 00:06:00,400 --> 00:06:01,320
@@ -429,8 +424,7 @@ Nampaknya,
 
 107
 00:06:13,720 --> 00:06:14,960
-Tuan Zi tidak boleh kurangkan
-pinjaman walaupun sesen.
+Tuan Zi tidak boleh kurangkan pinjaman walaupun sesen.
 
 108
 00:06:15,800 --> 00:06:16,240
@@ -442,24 +436,23 @@ Helo?
 
 110
 00:06:24,080 --> 00:06:24,960
-[Awak Mu Xiaoyu?]
+Awak Mu Xiaoyu?
 
 111
 00:06:25,480 --> 00:06:26,200
-[Kami tak dapat hubungi]
+Kami tak dapat hubungi
 
 112
 00:06:26,200 --> 00:06:27,080
-[Xiong Zishi sejak
-beberapa hari yang lepas.]
+Xiong Zishi sejak beberapa hari yang lepas.
 
 113
 00:06:27,520 --> 00:06:28,360
-[Beritahu dia,]
+Beritahu dia,
 
 114
 00:06:28,480 --> 00:06:29,480
-[hubungi saya secepat mungkin.]
+hubungi saya secepat mungkin.
 
 115
 00:06:30,240 --> 00:06:31,240
@@ -467,35 +460,35 @@ Awak siapa?
 
 116
 00:06:31,560 --> 00:06:32,600
-[Awak rakan sekelasnya, bukan?]
+Awak rakan sekelasnya, bukan?
 
 117
 00:06:33,240 --> 00:06:34,240
-[Hutang dia dengan saya]
+Hutang dia dengan saya
 
 118
 00:06:34,240 --> 00:06:35,240
-[dah lama tertunggak,]
+dah lama tertunggak,
 
 119
 00:06:35,440 --> 00:06:36,240
-[dia belum bayar.]
+dia belum bayar.
 
 120
 00:06:36,720 --> 00:06:37,840
-[Kalau dia tak uruskan lagi,]
+Kalau dia tak uruskan lagi,
 
 121
 00:06:38,040 --> 00:06:39,520
-[kami perlu mengambil tindakan]
+kami perlu mengambil tindakan
 
 122
 00:06:39,520 --> 00:06:40,560
-[dan cari dia di rumah dia.]
+dan cari dia di rumah dia.
 
 123
 00:06:41,000 --> 00:06:41,400
-[Faham?]
+Faham?
 
 124
 00:06:41,560 --> 00:06:42,680
@@ -519,8 +512,7 @@ tiga hubungan kecemasan,
 
 129
 00:06:53,160 --> 00:06:54,440
-saya tak berani berikan
-nombor telefon ahli keluarga,
+saya tak berani berikan nombor telefon ahli keluarga,
 
 130
 00:06:54,440 --> 00:06:55,960
@@ -576,8 +568,7 @@ Ayah Tuan Zi seorang yang garang.
 
 143
 00:07:21,800 --> 00:07:23,360
-Ayah saya pengawal keselamatan
-di pasar raya
+Ayah saya pengawal keselamatan di pasar raya
 
 144
 00:07:23,360 --> 00:07:24,360
@@ -689,8 +680,7 @@ ayah saya tak boleh hadir.
 
 171
 00:08:14,480 --> 00:08:17,880
-Mak mentua saya akan pandang rendah
-terhadap saya!
+Mak mentua saya akan pandang rendah terhadap saya!
 
 172
 00:08:19,960 --> 00:08:20,520
@@ -742,8 +732,7 @@ Saya tak boleh
 
 184
 00:08:36,400 --> 00:08:38,160
-cari cikgu atau ibu bapa
-untuk selesaikan masalah saya.
+cari cikgu atau ibu bapa untuk selesaikan masalah saya.
 
 185
 00:08:38,160 --> 00:08:40,800
@@ -771,8 +760,7 @@ Kalau bunganya
 
 191
 00:08:56,000 --> 00:08:57,200
-beberapa ratus yuan,
-itu tidak menjadi masalah.
+beberapa ratus yuan, itu tidak menjadi masalah.
 
 192
 00:08:58,520 --> 00:08:59,440
@@ -792,8 +780,7 @@ hutang sebanyak 30 ribu di platform lain.
 
 196
 00:09:03,840 --> 00:09:05,600
-Walaupun dengan
-platform pinjaman yang sah,
+Walaupun dengan platform pinjaman yang sah,
 
 197
 00:09:05,920 --> 00:09:07,000
@@ -837,8 +824,7 @@ bayar 120 yuan sehari.
 
 207
 00:09:22,800 --> 00:09:24,160
-Kita akan dapat gaji bulanan
-sebanyak tiga ribu yuan.
+Kita akan dapat gaji bulanan sebanyak tiga ribu yuan.
 
 208
 00:09:24,440 --> 00:09:26,160
@@ -982,8 +968,7 @@ masa dia kecil
 
 243
 00:10:20,640 --> 00:10:22,040
-dan mak dia selalu
-menyelesaikan masalah dia.
+dan mak dia selalu menyelesaikan masalah dia.
 
 244
 00:10:22,720 --> 00:10:23,520
@@ -1095,8 +1080,7 @@ takrifan tentang autonomi dan heteronomi.
 
 271
 00:11:17,600 --> 00:11:19,240
-Kedua, macam mana kita tentukan
-yang mana lebih penting.
+Kedua, macam mana kita tentukan yang mana lebih penting.
 
 272
 00:11:22,400 --> 00:11:24,160
@@ -1104,8 +1088,7 @@ Nan Bei, biar saya tambahkan.
 
 273
 00:11:28,400 --> 00:11:30,120
-Kalau kita gunakan kehidupan
-universiti sebagai premis hujah
+Kalau kita gunakan kehidupan universiti sebagai premis hujah
 
 274
 00:11:30,160 --> 00:11:31,600
@@ -1189,8 +1172,7 @@ saya pernah
 
 294
 00:11:50,080 --> 00:11:51,160
-ringkuk di atas katil selama
-tiga hari dan tiga malam.
+ringkuk di atas katil selama tiga hari dan tiga malam.
 
 295
 00:11:51,920 --> 00:11:52,800
@@ -1214,8 +1196,7 @@ Sebagai seorang budak lelaki,
 
 300
 00:12:01,080 --> 00:12:02,640
-berjaga sepanjang malam
-untuk main komputer
+berjaga sepanjang malam untuk main komputer
 
 301
 00:12:02,640 --> 00:12:03,480
@@ -1291,8 +1272,7 @@ Jadi,
 
 319
 00:12:21,440 --> 00:12:23,320
-adakah kawalan daripada ibu bapa
-dikira sebagai heteronomi?
+adakah kawalan daripada ibu bapa dikira sebagai heteronomi?
 
 320
 00:12:23,760 --> 00:12:25,800
@@ -1372,8 +1352,7 @@ juga bermaksud
 
 339
 00:12:50,920 --> 00:12:52,480
-tiada lagi orang yang
-menyelesaikan masalah awak
+tiada lagi orang yang menyelesaikan masalah awak
 
 340
 00:12:53,760 --> 00:12:54,440
@@ -1429,8 +1408,7 @@ Sebenarnya,
 
 353
 00:13:20,600 --> 00:13:22,400
-ayah saya telah melindungi saya
-terlalu lama.
+ayah saya telah melindungi saya terlalu lama.
 
 354
 00:13:23,840 --> 00:13:25,200
@@ -1618,8 +1596,7 @@ Benar.
 
 400
 00:16:07,760 --> 00:16:09,320
-Tahukah awak satu
-kaji selidik yang berkata
+Tahukah awak satu kaji selidik yang berkata
 
 401
 00:16:09,920 --> 00:16:11,520
@@ -1827,8 +1804,7 @@ tapi apa masalah tu,
 
 452
 00:18:08,080 --> 00:18:09,120
-dia akan beritahu saya
-apabila dia jumpa saya.
+dia akan beritahu saya apabila dia jumpa saya.
 
 453
 00:18:09,320 --> 00:18:09,800
@@ -1860,8 +1836,7 @@ Saya rasa
 
 460
 00:18:16,240 --> 00:18:17,040
-lebih elok kalau awak dengar
-daripada Tuan Zi.
+lebih elok kalau awak dengar daripada Tuan Zi.
 
 461
 00:18:17,040 --> 00:18:17,960
@@ -2105,8 +2080,7 @@ dia takkan naik teksi.
 
 521
 00:19:51,880 --> 00:19:54,480
-Kalau boleh jalan kaki,
-dia takkan naik bas.
+Kalau boleh jalan kaki, dia takkan naik bas.
 
 522
 00:19:55,120 --> 00:19:55,960
@@ -2198,8 +2172,7 @@ awak boleh berterusan macam ini,
 
 544
 00:20:33,120 --> 00:20:34,440
-macam budak kecil yang
-tidak akan menjadi dewasa.
+macam budak kecil yang tidak akan menjadi dewasa.
 
 545
 00:20:36,240 --> 00:20:37,080
@@ -2295,8 +2268,7 @@ sebagai kawan awak,
 
 568
 00:21:11,200 --> 00:21:12,280
-saya sanggup ikat awak
-dan bawa awak balik,
+saya sanggup ikat awak dan bawa awak balik,
 
 569
 00:21:13,040 --> 00:21:14,120
@@ -2332,8 +2304,7 @@ Akhirnya, kamu datang!
 
 577
 00:21:54,640 --> 00:21:58,440
-Saya baru nak cakap kisah saya
-pada tahun kedua.
+Saya baru nak cakap kisah saya pada tahun kedua.
 
 578
 00:22:08,200 --> 00:22:09,200
@@ -2521,8 +2492,7 @@ Saya takkan ganggu.
 
 624
 00:23:33,320 --> 00:23:34,680
-Saya nak berbual dengan
-Tuan Zi sekejap lagi.
+Saya nak berbual dengan Tuan Zi sekejap lagi.
 
 625
 00:23:35,040 --> 00:23:35,280
@@ -2922,8 +2892,7 @@ Selepas lelaki guna, dia menjadi kuat.
 
 724
 00:27:26,760 --> 00:27:28,200
-Selepas perempuan guna,
-dia menjadi jelita.
+Selepas perempuan guna, dia menjadi jelita.
 
 725
 00:27:28,400 --> 00:27:29,600
@@ -2963,8 +2932,7 @@ benda ni memang sesuai untuk
 
 734
 00:27:38,120 --> 00:27:39,520
-anak muda macam kamu yang
-berjaga sepanjang malam.
+anak muda macam kamu yang berjaga sepanjang malam.
 
 735
 00:27:40,120 --> 00:27:41,560
@@ -2988,8 +2956,7 @@ usaha autonomi untuk mengatasi
 
 740
 00:28:03,560 --> 00:28:04,920
-sifat kemalasan yang wujud
-dalam sifat kemanusiaan
+sifat kemalasan yang wujud dalam sifat kemanusiaan
 
 741
 00:28:05,000 --> 00:28:05,800
@@ -3009,8 +2976,7 @@ Saya akan balas
 
 745
 00:28:09,520 --> 00:28:11,600
-faedah jangka panjang autonomi
-adalah lebih tinggi.
+faedah jangka panjang autonomi adalah lebih tinggi.
 
 746
 00:28:11,920 --> 00:28:12,800
@@ -3082,8 +3048,7 @@ Jika seseorang perlu
 
 763
 00:28:42,400 --> 00:28:43,640
-mengatasi kemalasan untuk
-mencapai autonomi,
+mengatasi kemalasan untuk mencapai autonomi,
 
 764
 00:28:43,880 --> 00:28:44,640
@@ -3203,8 +3168,7 @@ kepada pelajar-pelajar.
 
 793
 00:29:26,520 --> 00:29:28,360
-Kesatuan pelajar mengadakan
-mesyuarat ke-26
+Kesatuan pelajar mengadakan mesyuarat ke-26
 
 794
 00:29:28,440 --> 00:29:30,440
@@ -3268,8 +3232,7 @@ pihak pencadang hari ini,
 
 809
 00:30:07,000 --> 00:30:09,080
-usul mereka adalah bahawa
-autonomi lebih penting
+usul mereka adalah bahawa autonomi lebih penting
 
 810
 00:30:09,120 --> 00:30:10,240
@@ -3313,8 +3276,7 @@ Usul mereka adalah bahawa
 
 820
 00:30:31,520 --> 00:30:33,720
-heteronomi lebih penting
-dalam kehidupan universiti.
+heteronomi lebih penting dalam kehidupan universiti.
 
 821
 00:30:34,000 --> 00:30:34,760
@@ -3390,8 +3352,7 @@ pertandingan bermula.
 
 839
 00:31:15,520 --> 00:31:17,560
-Kedua-dua pihak,
-sila beri ucapan substantif.
+Kedua-dua pihak, sila beri ucapan substantif.
 
 840
 00:31:17,600 --> 00:31:19,000
@@ -3411,8 +3372,7 @@ Seterusnya,
 
 844
 00:31:24,200 --> 00:31:25,720
-pihak pencadang boleh
-membuat ucapan pembuka.
+pihak pencadang boleh membuat ucapan pembuka.
 
 845
 00:31:26,040 --> 00:31:26,360
@@ -3432,8 +3392,7 @@ Usul pihak pencadang hari ini adalah
 
 849
 00:31:32,600 --> 00:31:34,440
-autonomi lebih penting
-untuk kehidupan universiti.
+autonomi lebih penting untuk kehidupan universiti.
 
 850
 00:31:34,920 --> 00:31:35,480
@@ -3445,8 +3404,7 @@ tafsirkan ayat itu?
 
 852
 00:31:36,680 --> 00:31:38,320
-Kehidupan universiti
-adalah tempoh peralihan
+Kehidupan universiti adalah tempoh peralihan
 
 853
 00:31:38,400 --> 00:31:39,880
@@ -3482,48 +3440,47 @@ tempoh ini.
 
 861
 00:31:48,440 --> 00:31:49,280
-[Sempitnya takrifan dia.]
+Sempitnya takrifan dia.
 
 862
 00:31:49,960 --> 00:31:51,480
-[Adakah mereka mengajak kami
-membuat bantahan]
+Adakah mereka mengajak kami membuat bantahan
 
 863
 00:31:51,600 --> 00:31:52,760
-[dan mulakan persaingan pertama?]
+dan mulakan persaingan pertama?
 
 864
 00:31:57,320 --> 00:31:58,200
-[Tanyalah kami.]
+Tanyalah kami.
 
 865
 00:31:59,000 --> 00:31:59,320
-[Marilah.]
+Marilah.
 
 866
 00:32:00,000 --> 00:32:00,680
-[Yin Nan,]
+Yin Nan,
 
 867
 00:32:01,200 --> 00:32:01,960
-[ambillah serangan ini.]
+ambillah serangan ini.
 
 868
 00:32:04,240 --> 00:32:04,920
-[Xiaoyu,]
+Xiaoyu,
 
 869
 00:32:05,120 --> 00:32:05,840
-[saya sokong awak.]
+saya sokong awak.
 
 870
 00:32:08,000 --> 00:32:08,640
-[Awaklah]
+Awaklah
 
 871
 00:32:08,640 --> 00:32:10,120
-[yang tahu baca otak saya.]
+yang tahu baca otak saya.
 
 872
 00:32:12,600 --> 00:32:13,880
@@ -3587,7 +3544,7 @@ Oleh begitu...
 
 887
 00:32:30,080 --> 00:32:31,120
-[Masa ini...]
+Masa ini...
 
 888
 00:32:31,360 --> 00:32:32,680
@@ -3647,12 +3604,11 @@ Ikut logik awak,
 
 902
 00:32:51,840 --> 00:32:53,120
-duit lebih penting daripada bernafas.
-Betul?
+duit lebih penting daripada bernafas. Betul?
 
 903
 00:32:55,560 --> 00:32:56,600
-[Itu falasi "reductio ad absurdum".]
+Itu falasi "reductio ad absurdum".
 
 904
 00:32:57,920 --> 00:32:58,480
@@ -3736,8 +3692,7 @@ adalah lebih penting daripada
 
 924
 00:33:19,200 --> 00:33:20,000
-kemahiran makan nasi yang
-saya tidak perlu belajar. Betul?
+kemahiran makan nasi yang saya tidak perlu belajar. Betul?
 
 925
 00:33:20,040 --> 00:33:20,880
@@ -3785,8 +3740,7 @@ ilmu solek tentulah lebih penting.
 
 936
 00:33:30,560 --> 00:33:31,320
--Justeru itu...
--Jadi kesegeraan
+-Justeru itu... -Jadi kesegeraan
 
 937
 00:33:31,320 --> 00:33:32,280
@@ -3794,12 +3748,11 @@ sama dengan kepentingan?
 
 938
 00:33:32,800 --> 00:33:33,240
-[Piawaian telah berubah.]
+Piawaian telah berubah.
 
 939
 00:33:34,440 --> 00:33:36,280
-Piawaian membuat keputusan pihak kami
-adalah sangat komprehensif.
+Piawaian membuat keputusan pihak kami adalah sangat komprehensif.
 
 940
 00:33:36,400 --> 00:33:37,280
@@ -3831,19 +3784,19 @@ Itu...
 
 947
 00:33:45,800 --> 00:33:47,960
-[Dia tersekat. Yin Nan sial!]
+Dia tersekat. Yin Nan sial!
 
 948
 00:33:48,480 --> 00:33:49,600
-[Menyelesaikan masalah yang mendesak]
+Menyelesaikan masalah yang mendesak
 
 949
 00:33:49,600 --> 00:33:50,520
-[dan kesegeraan masalah]
+dan kesegeraan masalah
 
 950
 00:33:50,520 --> 00:33:51,360
-[bukan benda yang sama.]
+bukan benda yang sama.
 
 951
 00:33:56,320 --> 00:33:56,800
@@ -3855,8 +3808,7 @@ Piawaian pihak lawan telah
 
 953
 00:33:58,240 --> 00:33:59,040
-dialih daripada usaha yang
-harus diletakkan
+dialih daripada usaha yang harus diletakkan
 
 954
 00:33:59,040 --> 00:33:59,800
@@ -3868,8 +3820,7 @@ Ia kurang daya pujukan
 
 956
 00:34:01,240 --> 00:34:02,160
-dan tidak dapat
-dijelaskan dengan sempurna.
+dan tidak dapat dijelaskan dengan sempurna.
 
 957
 00:34:02,480 --> 00:34:03,360
@@ -3893,15 +3844,15 @@ Terima kasih.
 
 962
 00:34:08,800 --> 00:34:09,760
-[Gerakan Yin Nan]
+Gerakan Yin Nan
 
 963
 00:34:09,960 --> 00:34:11,120
-[menghancurkan piawaian pihak lawan.]
+menghancurkan piawaian pihak lawan.
 
 964
 00:34:11,720 --> 00:34:12,000
-[Sangat bagus.]
+Sangat bagus.
 
 965
 00:34:20,960 --> 00:34:21,160
@@ -3913,8 +3864,7 @@ Seterusnya,
 
 967
 00:34:22,160 --> 00:34:23,200
-saya akan terus
-menerangkan pandangan kami.
+saya akan terus menerangkan pandangan kami.
 
 968
 00:34:23,680 --> 00:34:24,440
@@ -3966,8 +3916,7 @@ Oleh itu, pihak kami percaya
 
 980
 00:34:39,640 --> 00:34:41,280
-bahawa autonomi lebih penting
-untuk kehidupan universiti.
+bahawa autonomi lebih penting untuk kehidupan universiti.
 
 981
 00:34:41,640 --> 00:34:41,880
@@ -3975,8 +3924,7 @@ Terima kasih.
 
 982
 00:34:47,920 --> 00:34:49,800
-Seterusnya, silakan pembangkang pertama
-buat ucapan substantif.
+Seterusnya, silakan pembangkang pertama buat ucapan substantif.
 
 983
 00:34:52,080 --> 00:34:52,640
@@ -4008,50 +3956,47 @@ itulah yang paling penting.
 
 990
 00:35:02,760 --> 00:35:04,160
-[Pihak lawan mempunyai tiga hujah.]
+Pihak lawan mempunyai tiga hujah.
 
 991
 00:35:04,280 --> 00:35:05,440
-[Orang dewasa memerlukan autonomi.]
+Orang dewasa memerlukan autonomi.
 
 992
 00:35:05,680 --> 00:35:06,960
-[Piawaian autonomi lebih tinggi
-daripada heteronomi,]
+Piawaian autonomi lebih tinggi daripada heteronomi,
 
 993
 00:35:07,040 --> 00:35:08,160
-[oleh itu ia lebih berfaedah.]
+oleh itu ia lebih berfaedah.
 
 994
 00:35:08,320 --> 00:35:09,800
-[Lagi, akibat seseorang
-yang hilang autonomi]
+Lagi, akibat seseorang yang hilang autonomi
 
 995
 00:35:09,800 --> 00:35:10,560
-[lebih teruk.]
+lebih teruk.
 
 996
 00:35:11,080 --> 00:35:11,720
-[Hujah yang jelas.]
+Hujah yang jelas.
 
 997
 00:35:12,360 --> 00:35:14,400
-[Semoga kamu berjaya mempertahankannya.]
+Semoga kamu berjaya mempertahankannya.
 
 998
 00:35:15,520 --> 00:35:16,760
-[Kita kalah sedikit dalam
-ucapan substantif.]
+Kita kalah sedikit dalam ucapan substantif.
 
 999
 00:35:17,240 --> 00:35:19,560
-[Saya harap soalan daripada Nan Bei]
+Saya harap soalan daripada Nan Bei
 
 1000
 00:35:19,760 --> 00:35:21,080
-[boleh menyelamatkan situasi ini.]
+boleh menyelamatkan situasi ini.
 
 1001
 00:35:22,760 --> 00:35:24,240
@@ -4179,23 +4124,23 @@ Misalnya, sifat kemalasan.
 
 1032
 00:35:59,440 --> 00:35:59,720
-[Tak guna.]
+Tak guna.
 
 1033
 00:36:00,360 --> 00:36:01,040
-[Nan Bei tidak dapat]
+Nan Bei tidak dapat
 
 1034
 00:36:01,040 --> 00:36:01,840
-[membuat serangan yang efektif]
+membuat serangan yang efektif
 
 1035
 00:36:01,840 --> 00:36:02,600
-[kepada Liu Yanze.]
+kepada Liu Yanze.
 
 1036
 00:36:03,120 --> 00:36:03,760
-[Langkauilah dia.]
+Langkauilah dia.
 
 1037
 00:36:04,040 --> 00:36:05,040
@@ -4203,8 +4148,7 @@ Namun, kalau kita
 
 1038
 00:36:05,040 --> 00:36:06,040
-bergantung pada orang lain untuk
-disiplin diri,
+bergantung pada orang lain untuk disiplin diri,
 
 1039
 00:36:06,040 --> 00:36:07,360
@@ -4244,8 +4188,7 @@ adalah
 
 1048
 00:36:15,440 --> 00:36:16,920
-daya produktif utama yang
-mendorong kemajuan.
+daya produktif utama yang mendorong kemajuan.
 
 1049
 00:36:17,200 --> 00:36:18,560
@@ -4265,20 +4208,19 @@ Pembangkang ketiga.
 
 1053
 00:36:22,400 --> 00:36:23,440
-Soalan itu tidak bertentang
-dengan pendebatan hari ini...
+Soalan itu tidak bertentang dengan pendebatan hari ini...
 
 1054
 00:36:23,480 --> 00:36:24,640
-[Hujah licik.]
+Hujah licik.
 
 1055
 00:36:25,040 --> 00:36:26,200
-[Jika tidak guna logik yang normal,]
+Jika tidak guna logik yang normal,
 
 1056
 00:36:26,640 --> 00:36:27,800
-[pihak lawan akan gagal bertindak balas.]
+pihak lawan akan gagal bertindak balas.
 
 1057
 00:36:28,080 --> 00:36:28,960
@@ -4302,8 +4244,7 @@ kalau ayah awak asyik membantu awak,
 
 1062
 00:36:32,600 --> 00:36:33,560
-awak takkan berjaya
-mengayuh basikal, betul?
+awak takkan berjaya mengayuh basikal, betul?
 
 1063
 00:36:33,720 --> 00:36:33,960
@@ -4367,8 +4308,7 @@ Kalau macam itu,
 
 1078
 00:36:50,560 --> 00:36:51,320
-walaupun heteronomi bagaikan
-ayah autonomi,
+walaupun heteronomi bagaikan ayah autonomi,
 
 1079
 00:36:51,560 --> 00:36:52,360
@@ -4380,23 +4320,23 @@ lebih penting?
 
 1081
 00:37:02,760 --> 00:37:03,320
-[Tengok sambutan,]
+Tengok sambutan,
 
 1082
 00:37:03,920 --> 00:37:05,000
-[kita berjaya menang pusingan ini.]
+kita berjaya menang pusingan ini.
 
 1083
 00:37:06,200 --> 00:37:07,400
-[Jika kita boleh tahankan]
+Jika kita boleh tahankan
 
 1084
 00:37:07,520 --> 00:37:08,640
-[pemeriksaan balas mereka,]
+pemeriksaan balas mereka,
 
 1085
 00:37:09,040 --> 00:37:10,240
-[kita akan seri.]
+kita akan seri.
 
 1086
 00:37:12,000 --> 00:37:12,480
@@ -4556,8 +4496,7 @@ Kenapa? Pencadang pertama.
 
 1125
 00:37:56,880 --> 00:37:58,080
-Kerana biasanya,
-heteronomi adalah garis dasar.
+Kerana biasanya, heteronomi adalah garis dasar.
 
 1126
 00:37:58,440 --> 00:37:59,040
@@ -4565,8 +4504,7 @@ Misalnya, peraturan sekolah
 
 1127
 00:37:59,040 --> 00:37:59,800
-menetapkan bahawa saya harus
-hadir ke kelas pada pukul lapan pagi.
+menetapkan bahawa saya harus hadir ke kelas pada pukul lapan pagi.
 
 1128
 00:37:59,800 --> 00:38:00,360
@@ -4614,8 +4552,7 @@ Contohnya,
 
 1139
 00:38:08,120 --> 00:38:08,920
-ketegasan undang-undang yang
-awak ungkit tadi.
+ketegasan undang-undang yang awak ungkit tadi.
 
 1140
 00:38:09,040 --> 00:38:09,640
@@ -4651,8 +4588,7 @@ adakah piawaian autonomi
 
 1148
 00:38:17,160 --> 00:38:18,480
-lebih rendah daripada heteronomi?
-Pencadang ketiga.
+lebih rendah daripada heteronomi? Pencadang ketiga.
 
 1149
 00:38:18,600 --> 00:38:20,000
@@ -4704,16 +4640,15 @@ lebih penting daripada
 
 1161
 00:38:28,880 --> 00:38:29,640
-piawaian autonomi yang
-tidak munasabah. Betul?
+piawaian autonomi yang tidak munasabah. Betul?
 
 1162
 00:38:29,920 --> 00:38:30,880
-[Dia tahu Xiaoyu suka serang balas.]
+Dia tahu Xiaoyu suka serang balas.
 
 1163
 00:38:31,320 --> 00:38:32,280
-[Dia memperdaya Xiaoyu langgar peraturan.]
+Dia memperdaya Xiaoyu langgar peraturan.
 
 1164
 00:38:32,600 --> 00:38:33,920
@@ -4745,8 +4680,7 @@ Inilah peringatan.
 
 1171
 00:38:42,600 --> 00:38:44,000
-Pihak yang disoal tidak boleh
-membalas dengan soalan.
+Pihak yang disoal tidak boleh membalas dengan soalan.
 
 1172
 00:38:47,840 --> 00:38:48,080
@@ -4754,47 +4688,47 @@ Terima kasih.
 
 1173
 00:38:52,480 --> 00:38:53,760
-[Saya bodoh sangat!]
+Saya bodoh sangat!
 
 1174
 00:38:53,840 --> 00:38:55,160
-[Kenapa dipotong markah teknikal?]
+Kenapa dipotong markah teknikal?
 
 1175
 00:38:55,520 --> 00:38:57,080
-[Yin Nan terlalu licik!]
+Yin Nan terlalu licik!
 
 1176
 00:38:57,560 --> 00:38:58,560
-[Dua hujah utama kita]
+Dua hujah utama kita
 
 1177
 00:38:58,560 --> 00:38:59,360
-[telah hancur.]
+telah hancur.
 
 1178
 00:38:59,880 --> 00:39:00,560
-[Alamak!]
+Alamak!
 
 1179
 00:39:01,120 --> 00:39:01,600
-[Pusingan ini,]
+Pusingan ini,
 
 1180
 00:39:02,040 --> 00:39:02,400
-[kami menang.]
+kami menang.
 
 1181
 00:39:03,160 --> 00:39:03,720
-[Kalau pusingan seterusnya,]
+Kalau pusingan seterusnya,
 
 1182
 00:39:03,720 --> 00:39:05,040
-[Nan Bei gagal lagi melancarkan serangan,]
+Nan Bei gagal lagi melancarkan serangan,
 
 1183
 00:39:05,840 --> 00:39:06,920
-[habislah peluang kami.]
+habislah peluang kami.
 
 1184
 00:39:22,080 --> 00:39:23,480

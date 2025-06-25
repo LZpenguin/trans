@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:10,000
-[Sari kata bahasa Melayu disediakan]
+Sari kata bahasa Melayu disediakan
 
 2
 00:01:53,540 --> 00:02:00,240
-[Apa Khabar, Perbahasan Lawan 2]
-[EP29]
+Apa Khabar, Perbahasan Lawan 2 EP29
 
 3
 00:02:14,600 --> 00:02:15,160
@@ -17,8 +16,7 @@ Awak
 
 5
 00:02:17,080 --> 00:02:18,560
-bercakap dengan baik.
-Jangan terbawa emosi.
+bercakap dengan baik. Jangan terbawa emosi.
 
 6
 00:02:19,600 --> 00:02:20,880
@@ -26,8 +24,7 @@ Sebagai teman wanita awak,
 
 7
 00:02:20,880 --> 00:02:22,160
-saya tak perasan ada yang tak kena
-dengan awak.
+saya tak perasan ada yang tak kena dengan awak.
 
 8
 00:02:22,160 --> 00:02:23,440
@@ -259,18 +256,15 @@ Tolong bantu dia.
 
 65
 00:04:39,880 --> 00:04:43,320
-Apa kata saya minta Yanze
-menunjukkan belas kasihan?
+Apa kata saya minta Yanze menunjukkan belas kasihan?
 
 66
 00:04:44,320 --> 00:04:46,280
-Apa kata awak pergi jumpa
-dengan doktor psikologi?
+Apa kata awak pergi jumpa dengan doktor psikologi?
 
 67
 00:04:46,320 --> 00:04:48,560
-Awak juga boleh makan sedikit croton
-dan keluar dari pertandingan.
+Awak juga boleh makan sedikit croton dan keluar dari pertandingan.
 
 68
 00:04:49,360 --> 00:04:49,960
@@ -326,8 +320,7 @@ Mereka hanya mengambil berat akan awak.
 
 81
 00:05:22,400 --> 00:05:24,840
-Adakah awak juga rasa
-semasa pertandingan sedang hampir,
+Adakah awak juga rasa semasa pertandingan sedang hampir,
 
 82
 00:05:25,520 --> 00:05:26,360
@@ -343,8 +336,7 @@ Benarkah?
 
 85
 00:05:32,400 --> 00:05:33,880
-Universiti kita
-ada satu kumpulan muzik lagi.
+Universiti kita ada satu kumpulan muzik lagi.
 
 86
 00:05:34,000 --> 00:05:34,760
@@ -356,8 +348,7 @@ Tahu.
 
 88
 00:05:36,520 --> 00:05:37,640
-Rasanya, mereka ada persembahan
-setiap tahun.
+Rasanya, mereka ada persembahan setiap tahun.
 
 89
 00:05:38,160 --> 00:05:39,560
@@ -373,8 +364,7 @@ Sebab, malam gala universiti setiap tahun
 
 92
 00:05:42,880 --> 00:05:44,280
-hanya perlukan satu kumpulan muzik
-untuk membuat persembahan.
+hanya perlukan satu kumpulan muzik untuk membuat persembahan.
 
 93
 00:05:44,800 --> 00:05:45,880
@@ -394,8 +384,7 @@ Taklah.
 
 97
 00:05:52,200 --> 00:05:53,440
-Sebelum ini, awak makan cili,
-awak tewaskan dia.
+Sebelum ini, awak makan cili, awak tewaskan dia.
 
 98
 00:05:53,680 --> 00:05:54,640
@@ -463,8 +452,7 @@ Ini perkara biasa.
 
 114
 00:06:25,480 --> 00:06:27,160
-Namun, jika kita lihat dari sudut
-yang berbeza,
+Namun, jika kita lihat dari sudut yang berbeza,
 
 115
 00:06:27,160 --> 00:06:27,800
@@ -500,8 +488,7 @@ Kami juga ada tabiat baru.
 
 123
 00:06:45,040 --> 00:06:46,680
-Apabila tak gembira,
-kami ingin dengar orang menyanyi.
+Apabila tak gembira, kami ingin dengar orang menyanyi.
 
 124
 00:06:59,200 --> 00:07:00,120
@@ -525,8 +512,7 @@ Jadi, saya rasa kali ini
 
 129
 00:07:08,560 --> 00:07:10,000
-saya mungkin tak dapat
-mengalahkan Liu Yanze.
+saya mungkin tak dapat mengalahkan Liu Yanze.
 
 130
 00:07:11,200 --> 00:07:12,200
@@ -642,8 +628,7 @@ tak perlu keajaiban.
 
 158
 00:08:15,240 --> 00:08:16,760
-Kawan-kawan saya,
-saya benar-benar menghadapi masalah.
+Kawan-kawan saya, saya benar-benar menghadapi masalah.
 
 159
 00:08:17,360 --> 00:08:18,240
@@ -683,8 +668,7 @@ Tolong saya.
 
 168
 00:08:26,880 --> 00:08:28,040
-Saya dah mendaftarkan awak
-kelas pengurangan tekanan.
+Saya dah mendaftarkan awak kelas pengurangan tekanan.
 
 169
 00:08:28,080 --> 00:08:29,080
@@ -752,8 +736,7 @@ pil Enam Perisa Dihuang
 
 185
 00:09:28,240 --> 00:09:29,240
-dan pil kuatkan pinggang
-serta buah pinggang.
+dan pil kuatkan pinggang serta buah pinggang.
 
 186
 00:09:30,480 --> 00:09:31,600
@@ -765,13 +748,11 @@ Bukankah awak doktor barat?
 
 188
 00:09:34,600 --> 00:09:36,040
-Gabungan perubatan Cina dan Barat
-berkesan dengan cepat.
+Gabungan perubatan Cina dan Barat berkesan dengan cepat.
 
 189
 00:09:36,480 --> 00:09:38,160
-Namun, ubat ini tak berguna
-untuk buah pinggang.
+Namun, ubat ini tak berguna untuk buah pinggang.
 
 190
 00:09:39,240 --> 00:09:40,720
@@ -847,8 +828,7 @@ dan tunjukkannya di laman kampus.
 
 208
 00:10:38,280 --> 00:10:39,840
-Sebenarnya, saya hanya lukis
-secara sembarangan.
+Sebenarnya, saya hanya lukis secara sembarangan.
 
 209
 00:10:39,920 --> 00:10:41,440
@@ -872,18 +852,15 @@ ke dalam kumpulan peminat mereka.
 
 214
 00:10:47,160 --> 00:10:47,960
-Di dalam kumpulan itu,
-sentiasa ada orang cakap
+Di dalam kumpulan itu, sentiasa ada orang cakap
 
 215
 00:10:47,960 --> 00:10:49,480
-mereka harap
-kumpulan muzik itu tak dibubarkan.
+mereka harap kumpulan muzik itu tak dibubarkan.
 
 216
 00:10:49,840 --> 00:10:51,400
-Ramai peminat masih ingin dengar mereka
-menyanyi sekali lagi.
+Ramai peminat masih ingin dengar mereka menyanyi sekali lagi.
 
 217
 00:10:51,880 --> 00:10:52,760
@@ -911,8 +888,7 @@ berkomen bahawa
 
 223
 00:11:01,720 --> 00:11:03,080
-mereka ingin dengar kamu
-menyanyi sekali lagi.
+mereka ingin dengar kamu menyanyi sekali lagi.
 
 224
 00:11:03,200 --> 00:11:03,760
@@ -920,8 +896,7 @@ Betul.
 
 225
 00:11:04,160 --> 00:11:05,240
-Rupanya ada begitu ramai orang
-di universiti
+Rupanya ada begitu ramai orang di universiti
 
 226
 00:11:05,240 --> 00:11:06,320
@@ -1045,8 +1020,7 @@ Bagaimana jika kamu berjaya?
 
 256
 00:12:33,000 --> 00:12:34,480
-Sokongan juga tak dapat
-mengubah keputusan.
+Sokongan juga tak dapat mengubah keputusan.
 
 257
 00:12:37,920 --> 00:12:39,160
@@ -1070,8 +1044,7 @@ Pembangkang Pasukan Debat 235
 
 262
 00:14:01,800 --> 00:14:03,800
-menjadi juara pertandingan
-peringkat wilayah kali ini.
+menjadi juara pertandingan peringkat wilayah kali ini.
 
 263
 00:14:03,800 --> 00:14:04,360
@@ -1131,8 +1104,7 @@ dah mencapai
 
 277
 00:14:35,440 --> 00:14:37,960
-keadaan baik yang belum
-pernah terjadi sebelumnya.
+keadaan baik yang belum pernah terjadi sebelumnya.
 
 278
 00:14:44,040 --> 00:14:44,560
@@ -1140,7 +1112,7 @@ Helo?
 
 279
 00:14:44,960 --> 00:14:45,960
-[Jurulatih hilang.]
+Jurulatih hilang.
 
 280
 00:14:46,800 --> 00:14:47,560
@@ -1248,8 +1220,7 @@ kami boleh pergi ke Katedral Notre-Dame.
 
 306
 00:16:21,000 --> 00:16:22,600
-Pada masa itu, kami tak dapat pergi
-ke luar negara.
+Pada masa itu, kami tak dapat pergi ke luar negara.
 
 307
 00:16:25,320 --> 00:16:26,400
@@ -1257,8 +1228,7 @@ Apabila kami dah boleh pergi,
 
 308
 00:16:27,360 --> 00:16:29,640
-saya memberitahunya,
-tunggu saya bersara dulu.
+saya memberitahunya, tunggu saya bersara dulu.
 
 309
 00:16:30,840 --> 00:16:32,160
@@ -1266,8 +1236,7 @@ Selepas saya bersara,
 
 310
 00:16:32,400 --> 00:16:34,880
-saya akan menemaninya
-ke Katedral Notre-Dame.
+saya akan menemaninya ke Katedral Notre-Dame.
 
 311
 00:16:38,160 --> 00:16:38,880
@@ -1275,8 +1244,7 @@ Namun, saya sakit.
 
 312
 00:16:40,080 --> 00:16:42,040
-Saya dah berbincang
-tentang penyakit ini dengan doktor.
+Saya dah berbincang tentang penyakit ini dengan doktor.
 
 313
 00:16:42,640 --> 00:16:43,760
@@ -1288,23 +1256,19 @@ kadar kejayaan hanya 5%.
 
 315
 00:16:48,160 --> 00:16:49,280
-Kalau begitu, saya takkan dapat
-pergi dengannya lagi.
+Kalau begitu, saya takkan dapat pergi dengannya lagi.
 
 316
 00:16:50,440 --> 00:16:52,240
-Jika tak menjalani pembedahan,
-saya boleh pergi.
+Jika tak menjalani pembedahan, saya boleh pergi.
 
 317
 00:16:53,160 --> 00:16:55,760
-Namun, saya tak boleh duduk
-dan harus berbaring.
+Namun, saya tak boleh duduk dan harus berbaring.
 
 318
 00:16:56,560 --> 00:16:59,040
-Beli tiket kelas pertama
-dan berbaring ke Paris.
+Beli tiket kelas pertama dan berbaring ke Paris.
 
 319
 00:16:59,400 --> 00:17:00,520
@@ -1348,8 +1312,7 @@ Saya faham, jurulatih.
 
 329
 00:17:27,240 --> 00:17:28,480
-Semakin mudah sesuatu,
-semakin sukar sebenarnya.
+Semakin mudah sesuatu, semakin sukar sebenarnya.
 
 330
 00:17:28,880 --> 00:17:29,640
@@ -1553,8 +1516,7 @@ Baik.
 
 380
 00:19:54,280 --> 00:19:55,480
-Saya pasti akan buat awak bangga,
-Cikgu Li.
+Saya pasti akan buat awak bangga, Cikgu Li.
 
 381
 00:19:58,200 --> 00:19:58,840
@@ -1566,8 +1528,7 @@ Bersemangat.
 
 383
 00:19:59,960 --> 00:20:01,640
-Akhirnya, giliran saya
-untuk mengatakan kalimat ini.
+Akhirnya, giliran saya untuk mengatakan kalimat ini.
 
 384
 00:20:02,880 --> 00:20:04,280
@@ -1599,8 +1560,7 @@ Berhentilah cakap tentang kami.
 
 391
 00:20:14,080 --> 00:20:15,360
-Adakah awak dah sedia
-untuk pembentangan sendiri?
+Adakah awak dah sedia untuk pembentangan sendiri?
 
 392
 00:20:16,240 --> 00:20:16,880
@@ -1616,8 +1576,7 @@ Semasa juri-juri lihat saya,
 
 395
 00:20:21,400 --> 00:20:23,160
-mereka pasti rasa saya
-lebih menarik daripada awak.
+mereka pasti rasa saya lebih menarik daripada awak.
 
 396
 00:20:25,920 --> 00:20:26,720
@@ -1649,8 +1608,7 @@ Selepas saya selesai dengan pembentangan,
 
 403
 00:20:34,720 --> 00:20:36,160
-saya masih dapat hadiri
-majlis penyampaian anugerah.
+saya masih dapat hadiri majlis penyampaian anugerah.
 
 404
 00:20:36,160 --> 00:20:37,160
@@ -1826,8 +1784,7 @@ Cium saya sekali.
 
 447
 00:22:18,280 --> 00:22:19,880
-Cium saya sekali
-dan saya takkan marah lagi.
+Cium saya sekali dan saya takkan marah lagi.
 
 448
 00:22:22,400 --> 00:22:24,920
@@ -1851,8 +1808,7 @@ Sebenarnya,
 
 453
 00:22:40,360 --> 00:22:41,880
-buku nota yang diedarkan
-oleh jawatankuasa penganjur
+buku nota yang diedarkan oleh jawatankuasa penganjur
 
 454
 00:22:41,880 --> 00:22:43,120
@@ -1908,8 +1864,7 @@ Tanya yang boleh ditanya.
 
 467
 00:23:31,280 --> 00:23:33,240
-Ada tak hujah
-yang kita tak pernah fikirkan?
+Ada tak hujah yang kita tak pernah fikirkan?
 
 468
 00:23:34,520 --> 00:23:34,960
@@ -2037,8 +1992,7 @@ Nanti,
 
 499
 00:25:20,640 --> 00:25:22,160
-dia mungkin akan mengadu
-bahawa kita menipu.
+dia mungkin akan mengadu bahawa kita menipu.
 
 500
 00:25:22,240 --> 00:25:23,320
@@ -2098,8 +2052,7 @@ tak dapat bertanding,
 
 514
 00:25:56,200 --> 00:25:57,240
-kita tak payah bertanding lagi.
-Tiada orang lain.
+kita tak payah bertanding lagi. Tiada orang lain.
 
 515
 00:25:59,000 --> 00:25:59,960
@@ -2131,8 +2084,7 @@ Mana-mana perkara yang
 
 522
 00:26:15,320 --> 00:26:16,040
-berkaitan dengan kandungan
-dalam buku nota,
+berkaitan dengan kandungan dalam buku nota,
 
 523
 00:26:16,600 --> 00:26:17,400
@@ -2228,8 +2180,7 @@ Biarkan ini di sini dulu.
 
 546
 00:28:21,240 --> 00:28:24,440
-Bolehkah saya menulis cerita
-tentang awak dan Xi Wang
+Bolehkah saya menulis cerita tentang awak dan Xi Wang
 
 547
 00:28:24,440 --> 00:28:25,200
@@ -2245,8 +2196,7 @@ Bagaimana jika lagu ini menjadi terkenal?
 
 550
 00:28:28,560 --> 00:28:30,160
-Bolehkah saya dapat
-sedikit bayaran hak cipta?
+Bolehkah saya dapat sedikit bayaran hak cipta?
 
 551
 00:28:30,200 --> 00:28:31,560
@@ -2310,8 +2260,7 @@ pergi tengok keadaan Xi Wang?
 
 566
 00:29:03,720 --> 00:29:04,920
-Saya telah ajak Xiaoyu
-berjumpa di tepi tasik.
+Saya telah ajak Xiaoyu berjumpa di tepi tasik.
 
 567
 00:29:05,280 --> 00:29:05,760
@@ -2335,8 +2284,7 @@ Xiaoyu.
 
 572
 00:29:12,760 --> 00:29:14,240
-Tolong sampaikan terima kasih
-kepada Tuan Zi.
+Tolong sampaikan terima kasih kepada Tuan Zi.
 
 573
 00:29:14,600 --> 00:29:15,600
@@ -2412,8 +2360,7 @@ Ini seperti keajaiban.
 
 591
 00:29:42,600 --> 00:29:43,560
-Ini juga boleh dianggap
-sebagai satu penjelasan
+Ini juga boleh dianggap sebagai satu penjelasan
 
 592
 00:29:43,560 --> 00:29:44,120
@@ -2493,8 +2440,7 @@ kamu tulis.
 
 611
 00:30:11,600 --> 00:30:13,680
-"tidak takut diejek,
-terus mara ke hadapan."
+"tidak takut diejek, terus mara ke hadapan."
 
 612
 00:30:14,600 --> 00:30:16,040
@@ -2506,8 +2452,7 @@ terus mara ke hadapan."
 
 614
 00:30:17,320 --> 00:30:18,800
-"Walau kehilangan segalanya,
-tetap berasa bangga."
+"Walau kehilangan segalanya, tetap berasa bangga."
 
 615
 00:30:18,840 --> 00:30:20,280
@@ -2535,8 +2480,7 @@ Bagaimana kamu dapat menulis
 
 621
 00:30:26,000 --> 00:30:27,200
-lirik yang positif dan
-membangkitkan semangat ini?
+lirik yang positif dan membangkitkan semangat ini?
 
 622
 00:30:28,680 --> 00:30:29,680
@@ -2552,8 +2496,7 @@ walau sedih pun hanya untuk beberapa hari.
 
 625
 00:30:32,000 --> 00:30:33,280
-Namun, kekesalan akan
-diingati seumur hidup.
+Namun, kekesalan akan diingati seumur hidup.
 
 626
 00:30:37,360 --> 00:30:38,280
@@ -2625,8 +2568,7 @@ Saya rasa risau,
 
 643
 00:31:07,760 --> 00:31:10,600
-jadi, saya datang lihat
-pertandingan terakhir.
+jadi, saya datang lihat pertandingan terakhir.
 
 644
 00:31:10,720 --> 00:31:11,280
@@ -2646,8 +2588,7 @@ Mari kita pergi berbual.
 
 648
 00:31:20,720 --> 00:31:23,320
-Definisi, medan perang,
-titik serangan dan nilai.
+Definisi, medan perang, titik serangan dan nilai.
 
 649
 00:31:24,160 --> 00:31:26,000
@@ -2691,8 +2632,7 @@ Jika berhujah dari segi falsafah,
 
 659
 00:31:42,960 --> 00:31:45,040
-sekali lagi perlu melakukan
-banyak kerja penyuluhan.
+sekali lagi perlu melakukan banyak kerja penyuluhan.
 
 660
 00:31:45,880 --> 00:31:48,240
@@ -2716,13 +2656,11 @@ Sekarang, terdapat terlalu banyak sudut,
 
 665
 00:31:53,280 --> 00:31:54,360
-kami tidak tahu dari mana
-harus kami mulakan
+kami tidak tahu dari mana harus kami mulakan
 
 666
 00:31:54,720 --> 00:31:55,960
-supaya peluang untuk menang
-menjadi lebih besar.
+supaya peluang untuk menang menjadi lebih besar.
 
 667
 00:32:00,080 --> 00:32:01,760
@@ -2766,8 +2704,7 @@ Jadi, jika pihak lain
 
 677
 00:32:23,680 --> 00:32:25,880
-selalu mencari sudut yang
-paling mudah untuk menang?
+selalu mencari sudut yang paling mudah untuk menang?
 
 678
 00:32:25,880 --> 00:32:26,920
@@ -2803,8 +2740,7 @@ Jurulatih.
 
 686
 00:32:44,040 --> 00:32:45,600
-Sudah sepanjang hari
-isteri awak cari awak.
+Sudah sepanjang hari isteri awak cari awak.
 
 687
 00:32:45,600 --> 00:32:46,640
@@ -2828,8 +2764,7 @@ Esok, saya akan membuat
 
 692
 00:32:53,520 --> 00:32:54,400
-penstriman untuk awak
-di dewan pertandingan.
+penstriman untuk awak di dewan pertandingan.
 
 693
 00:32:54,640 --> 00:32:55,200
@@ -2853,8 +2788,7 @@ siaplah kamu nanti.
 
 698
 00:33:00,080 --> 00:33:02,680
-Jurulatih, pembedahan awak
-pada hari esok...
+Jurulatih, pembedahan awak pada hari esok...
 
 699
 00:33:03,440 --> 00:33:05,080
@@ -2922,8 +2856,7 @@ Kebanyakan pesakit yang
 
 715
 00:34:06,680 --> 00:34:08,240
-hidapi penyakit ini tidak alami
-sebarang keadaan yang memburuk
+hidapi penyakit ini tidak alami sebarang keadaan yang memburuk
 
 716
 00:34:08,240 --> 00:34:09,480
@@ -2931,13 +2864,11 @@ untuk bertahun-tahun.
 
 717
 00:34:23,880 --> 00:34:27,080
-Buku ini telah awak baca
-sepanjang hidup awak,
+Buku ini telah awak baca sepanjang hidup awak,
 
 718
 00:34:28,280 --> 00:34:29,800
-sudah hampir dapat menghafalnya
-dengan baik.
+sudah hampir dapat menghafalnya dengan baik.
 
 719
 00:34:35,160 --> 00:34:36,280
@@ -3057,8 +2988,7 @@ Mereka harap dapat lihat
 
 748
 00:36:01,200 --> 00:36:02,760
-pertunjukan kamu sekali lagi
-dalam majlis konvokesyen.
+pertunjukan kamu sekali lagi dalam majlis konvokesyen.
 
 749
 00:36:03,000 --> 00:36:03,920
@@ -3142,8 +3072,7 @@ Adakah awak tahu?
 
 769
 00:37:00,840 --> 00:37:02,960
-Pada kali pertama saya
-dengar nyanyian awak
+Pada kali pertama saya dengar nyanyian awak
 
 770
 00:37:02,960 --> 00:37:04,640
@@ -3211,13 +3140,11 @@ Kalau bukan kerana awak
 
 786
 00:37:34,920 --> 00:37:36,400
-buat 18 kerja secara sambilan
-dalam empat tahun ini
+buat 18 kerja secara sambilan dalam empat tahun ini
 
 787
 00:37:36,600 --> 00:37:38,440
-agar saya berpeluang untuk
-membuat persembahan di luar,
+agar saya berpeluang untuk membuat persembahan di luar,
 
 788
 00:37:38,760 --> 00:37:39,560
@@ -3313,8 +3240,7 @@ Tahu apa itu masa muda?
 
 811
 00:38:20,560 --> 00:38:22,480
-Menang dengan gembira
-sudah tentu melambangkan masa muda.
+Menang dengan gembira sudah tentu melambangkan masa muda.
 
 812
 00:38:23,080 --> 00:38:24,400
@@ -3390,8 +3316,7 @@ Atas nama kumpulan muzik,
 
 830
 00:40:10,400 --> 00:40:11,800
-saya mahu sertai
-pemilihan malam konvokesyen.
+saya mahu sertai pemilihan malam konvokesyen.
 
 831
 00:40:12,360 --> 00:40:12,960
@@ -3427,8 +3352,7 @@ Baik.
 
 839
 00:40:25,640 --> 00:40:27,200
-Saya paling suka menguruskan
-hal-hal seperti ini.
+Saya paling suka menguruskan hal-hal seperti ini.
 
 840
 00:40:27,320 --> 00:40:28,000
@@ -3440,8 +3364,7 @@ Kenapa? Rasa mengantuk?
 
 842
 00:40:41,480 --> 00:40:43,000
-Lagi saya tidak ingin
-memikirkan Liu Yanze,
+Lagi saya tidak ingin memikirkan Liu Yanze,
 
 843
 00:40:43,440 --> 00:40:45,040
@@ -3453,8 +3376,7 @@ Janganlah awak menyusahkan diri sendiri.
 
 845
 00:40:47,760 --> 00:40:49,280
-Memandangkan awak ingin
-mengalahkannya di universiti,
+Memandangkan awak ingin mengalahkannya di universiti,
 
 846
 00:40:49,560 --> 00:40:50,560
@@ -3506,8 +3428,7 @@ tak dedahkan saya.
 
 858
 00:41:10,880 --> 00:41:12,560
-Pertandingan debat bermula
-pada pukul sepuluh esok.
+Pertandingan debat bermula pada pukul sepuluh esok.
 
 859
 00:41:13,560 --> 00:41:15,080
@@ -3515,8 +3436,7 @@ Pembentangan bermula pada pukul 9:30.
 
 860
 00:41:15,520 --> 00:41:17,400
-Setiap orang setengah jam,
-saya berada di tempat ketiga.
+Setiap orang setengah jam, saya berada di tempat ketiga.
 
 861
 00:41:19,240 --> 00:41:19,680
@@ -3576,8 +3496,7 @@ Ma Nan.
 
 875
 00:41:40,560 --> 00:41:43,360
-Awak benar-benar
-seorang lelaki yang lembut.
+Awak benar-benar seorang lelaki yang lembut.
 
 876
 00:41:43,960 --> 00:41:45,680
@@ -3617,8 +3536,7 @@ Jangan takut.
 
 885
 00:42:49,520 --> 00:42:51,240
-Dengan awak di sisi saya,
-saya tidak takut.
+Dengan awak di sisi saya, saya tidak takut.
 
 886
 00:45:05,600 --> 00:45:06,760
@@ -3646,8 +3564,7 @@ bahawa diri saya sangat tak berguna,
 
 892
 00:45:17,240 --> 00:45:18,880
-tetapi apabila melihat kembali
-perjalanan ini,
+tetapi apabila melihat kembali perjalanan ini,
 
 893
 00:45:19,600 --> 00:45:20,680
@@ -3719,8 +3636,7 @@ Sebelum pertandingan bermula,
 
 910
 00:46:57,280 --> 00:46:59,560
-sila tetapkan telefon bimbit anda
-ke mod getaran
+sila tetapkan telefon bimbit anda ke mod getaran
 
 911
 00:46:59,560 --> 00:47:00,640
@@ -3768,13 +3684,11 @@ Selamat datang
 
 922
 00:47:13,160 --> 00:47:14,720
-ke dewan pertandingan
-akhir liga wilayah ini.
+ke dewan pertandingan akhir liga wilayah ini.
 
 923
 00:47:15,200 --> 00:47:17,440
-Liga ini dianjurkan oleh
-jawatankuasa pemuda wilayah.
+Liga ini dianjurkan oleh jawatankuasa pemuda wilayah.
 
 924
 00:47:17,440 --> 00:47:18,680
@@ -3794,8 +3708,7 @@ Wang Yini.
 
 928
 00:47:22,880 --> 00:47:24,920
-Saya sangat berbesar hati untuk
-mengacarai pertandingan hari ini.
+Saya sangat berbesar hati untuk mengacarai pertandingan hari ini.
 
 929
 00:47:25,280 --> 00:47:26,720
@@ -3815,8 +3728,7 @@ Mereka ialah
 
 933
 00:47:30,960 --> 00:47:33,080
-penyelidik dari
-Akademi Sains Sosial Dongzhou,
+penyelidik dari Akademi Sains Sosial Dongzhou,
 
 934
 00:47:33,080 --> 00:47:34,240
@@ -3856,8 +3768,7 @@ Encik Zhang Hui.
 
 943
 00:48:02,520 --> 00:48:04,560
-Rakan kongsi kanan
-Firma Guaman Chuanghua Dongzhou,
+Rakan kongsi kanan Firma Guaman Chuanghua Dongzhou,
 
 944
 00:48:04,560 --> 00:48:07,080
@@ -3865,13 +3776,11 @@ Encik Wang Renjia.
 
 945
 00:48:10,840 --> 00:48:13,080
-Encik Liu Mingyuan,
-Profesor Fakulti Undang-undang
+Encik Liu Mingyuan, Profesor Fakulti Undang-undang
 
 946
 00:48:13,280 --> 00:48:14,360
-National University
-of Business and Economics.
+National University of Business and Economics.
 
 947
 00:48:18,120 --> 00:48:19,520
@@ -3891,21 +3800,19 @@ Seterusnya, saya akan memperkenalkan
 
 951
 00:48:26,160 --> 00:48:28,000
-pendebat kedua-dua pasukan
-dalam pertandingan hari ini.
+pendebat kedua-dua pasukan dalam pertandingan hari ini.
 
 952
 00:48:28,320 --> 00:48:30,120
-[Kenapa awak tak beritahu saya
-bahawa awak akan bertanding?]
+Kenapa awak tak beritahu saya bahawa awak akan bertanding?
 
 953
 00:48:30,120 --> 00:48:31,320
-[Saya sengaja tak beritahu awak.]
+Saya sengaja tak beritahu awak.
 
 954
 00:48:31,320 --> 00:48:33,360
-[Apa-apa pun, saya senjata rahsia.]
+Apa-apa pun, saya senjata rahsia.
 
 955
 00:48:33,880 --> 00:48:35,360
@@ -3917,16 +3824,15 @@ ialah pihak pembangkang.
 
 957
 00:48:36,480 --> 00:48:37,720
-[Kali ini, saya tidak akan
-berbelas kasihan lagi.]
+Kali ini, saya tidak akan berbelas kasihan lagi.
 
 958
 00:48:39,320 --> 00:48:40,640
-[Saya akan cuba pertahankan maruah awak]
+Saya akan cuba pertahankan maruah awak
 
 959
 00:48:40,640 --> 00:48:41,320
-[apabila kalahkan awak.]
+apabila kalahkan awak.
 
 960
 00:48:41,880 --> 00:48:43,360
@@ -3938,8 +3844,7 @@ dari DUFE.
 
 962
 00:48:45,520 --> 00:48:47,520
-Tajuk perdebatan hari ini adalah
-"Kegunaan yang tidak berguna".
+Tajuk perdebatan hari ini adalah "Kegunaan yang tidak berguna".
 
 963
 00:48:47,720 --> 00:48:49,800
@@ -3963,13 +3868,11 @@ kedua-dua pendebat pertama
 
 968
 00:49:04,720 --> 00:49:06,520
-melalukan penerangan hujah
-pusingan pertama.
+melalukan penerangan hujah pusingan pertama.
 
 969
 00:49:06,720 --> 00:49:08,640
-Dipersilakan pendebat pertama
-daripada pihak pencadang.
+Dipersilakan pendebat pertama daripada pihak pencadang.
 
 970
 00:49:08,960 --> 00:49:09,640
@@ -3989,18 +3892,15 @@ Selamat sejahtera, semua.
 
 974
 00:49:15,600 --> 00:49:17,280
-berasal daripada "Dunia Manusia"
-yang ditulis Zhuangzi,
+berasal daripada "Dunia Manusia" yang ditulis Zhuangzi,
 
 975
 00:49:17,440 --> 00:49:18,600
-menceritakan sepohon pokok besar
-di dalam hutan
+menceritakan sepohon pokok besar di dalam hutan
 
 976
 00:49:18,600 --> 00:49:19,760
-yang tidak dapat dijadikan
-sebagai sebarang perkakas
+yang tidak dapat dijadikan sebagai sebarang perkakas
 
 977
 00:49:19,760 --> 00:49:21,160
@@ -4024,8 +3924,7 @@ Oleh itu, Zhuangzi berkata,
 
 982
 00:49:26,360 --> 00:49:27,880
-"tetapi tiada siapa yang tahu
-ada kegunaan yang tidak berguna."
+"tetapi tiada siapa yang tahu ada kegunaan yang tidak berguna."
 
 983
 00:49:28,240 --> 00:49:29,160
@@ -4041,8 +3940,7 @@ tidak berguna itu,
 
 986
 00:49:30,560 --> 00:49:31,760
-asalkan kita pandang dari
-sudut pandangan yang lain,
+asalkan kita pandang dari sudut pandangan yang lain,
 
 987
 00:49:31,880 --> 00:49:32,760
@@ -4050,8 +3948,7 @@ maka, keadaannya seperti menemui pokok
 
 988
 00:49:32,760 --> 00:49:34,160
-yang tidak sesuai untuk
-dijadikan perkakas itu,
+yang tidak sesuai untuk dijadikan perkakas itu,
 
 989
 00:49:34,160 --> 00:49:35,760
@@ -4095,13 +3992,11 @@ jauhi benda-benda yang tidak berguna,
 
 999
 00:49:48,600 --> 00:49:50,360
-jangan bermain sehingga
-kehilangan semangat.
+jangan bermain sehingga kehilangan semangat.
 
 1000
 00:49:51,040 --> 00:49:52,600
-Namun, adakah kenyataan
-benar-benar seperti ini?
+Namun, adakah kenyataan benar-benar seperti ini?
 
 1001
 00:49:53,080 --> 00:49:53,760
@@ -4113,8 +4008,7 @@ saya tidak boleh melihat
 
 1003
 00:49:54,640 --> 00:49:55,760
-buku yang tidak berkaitan
-dengan pembelajaran.
+buku yang tidak berkaitan dengan pembelajaran.
 
 1004
 00:49:55,760 --> 00:49:56,680
@@ -4122,13 +4016,11 @@ Sebab, ia tidak dapat menambah
 
 1005
 00:49:56,680 --> 00:49:57,920
-satu markah pun dalam
-kertas peperiksaan saya.
+satu markah pun dalam kertas peperiksaan saya.
 
 1006
 00:49:57,920 --> 00:49:59,240
-Namun, ia membuka mata saya
-terhadap pengetahuan
+Namun, ia membuka mata saya terhadap pengetahuan
 
 1007
 00:49:59,240 --> 00:50:00,560
@@ -4168,8 +4060,7 @@ Mendengar muzik dan melihat pameran seni
 
 1016
 00:50:09,840 --> 00:50:11,640
-tak dapat bantu saya
-memperoleh lebih banyak wang,
+tak dapat bantu saya memperoleh lebih banyak wang,
 
 1017
 00:50:11,680 --> 00:50:12,800
@@ -4189,8 +4080,7 @@ Jadi, rakan pendebat lawan,
 
 1021
 00:50:18,320 --> 00:50:21,360
-cubalah fikir,
-"Tidak berguna sebenarnya berguna."
+cubalah fikir, "Tidak berguna sebenarnya berguna."
 
 1022
 00:50:22,360 --> 00:50:22,880

@@ -1,7 +1,6 @@
 1
 00:01:53,600 --> 00:02:00,180
-Hello Debate Opponent 2
-EP14 
+Hello Debate Opponent 2 EP14
 
 2
 00:02:02,320 --> 00:02:03,160
@@ -1397,7 +1396,7 @@ good morning!
 
 350
 00:14:32,280 --> 00:14:33,160
-I am Ji Fanxi, 
+I am Ji Fanxi,
 
 351
 00:14:33,160 --> 00:14:34,800
@@ -2537,7 +2536,7 @@ I am Ji Fanxi,
 
 635
 00:27:11,960 --> 00:27:13,760
- a student,
+a student,
 
 636
 00:27:14,120 --> 00:27:14,800
@@ -2673,7 +2672,7 @@ one can meet a thousand people a day,
 
 669
 00:29:56,000 --> 00:29:57,480
- and 365 thousand people
+and 365 thousand people
 
 670
 00:29:57,480 --> 00:29:58,280

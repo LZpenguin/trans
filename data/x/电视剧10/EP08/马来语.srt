@@ -1,11 +1,10 @@
 1
 00:00:00,000 --> 00:00:04,800
-[Sari kata bahasa Melayu disediakan.]
+Sari kata bahasa Melayu disediakan.
 
 2
 00:00:27,100 --> 00:00:33,600
-[Berugam Buta dengan Bos]
-[EP08]
+Berugam Buta dengan Bos EP08
 
 3
 00:00:46,000 --> 00:00:47,040
@@ -277,7 +276,7 @@ Tak nak.
 
 70
 00:06:32,400 --> 00:06:33,200
-[Feng.]
+Feng.
 
 71
 00:06:41,960 --> 00:06:43,520
